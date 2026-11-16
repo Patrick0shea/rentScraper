@@ -167,6 +167,29 @@ python -m pytest --live -k live
   If your repository restricts workflow permissions, enable *Settings → Actions →
   General → Workflow permissions → Read and write*.
 
+### Daily email
+
+After the 07:17 UTC run each day, the workflow emails the summary as a formatted
+HTML email with `shortlist.csv` attached and a link to the workflow run. You can
+also tick **send_email** when running the workflow manually. The email is sent
+by `python -m rentscraper.notify` over SMTP. It needs these **repository
+secrets** (*Settings → Secrets and variables → Actions → New repository secret*):
+
+| Secret | Value |
+|---|---|
+| `SMTP_USERNAME` | The Gmail address that sends the email |
+| `SMTP_PASSWORD` | A Gmail **App password** for that account (Google Account → Security → 2-Step Verification → App passwords). Your normal password will not work. |
+| `MAIL_TO` | Where to send the results (comma separate several addresses) |
+| `SMTP_HOST` / `SMTP_PORT` | Optional. Defaults to `smtp.gmail.com` / `465`. |
+
+Addresses and passwords live only in secrets, never in the repository. If the
+secrets are missing, the email step logs a warning and the run still succeeds.
+To preview the email locally without sending it:
+
+```bash
+python -m rentscraper.notify --dry-run
+```
+
 Note: GitHub pauses scheduled workflows in repositories with no activity for 60
 days. The scraper's own commits to `scraper-data` count as activity.
 

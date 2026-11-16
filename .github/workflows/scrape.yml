@@ -17,6 +17,11 @@ on:
         description: "Cap search pages per search (blank = config default)"
         required: false
         default: ""
+      send_email:
+        description: "Email the results after this run"
+        type: boolean
+        required: false
+        default: false
   push:
     branches: [main]
     paths: ["rentscraper/**", "tests/**", "config.json", "requirements*.txt", ".github/workflows/**"]
@@ -87,6 +92,20 @@ jobs:
         if: always()
         run: |
           if [ -f output/summary.md ]; then cat output/summary.md >> "$GITHUB_STEP_SUMMARY"; fi
+
+      - name: Email results (once a day, after the morning run)
+        # Needs repository secrets SMTP_USERNAME, SMTP_PASSWORD and MAIL_TO
+        # (optional: SMTP_HOST, SMTP_PORT). Skipped with a warning if unset.
+        if: >-
+          always() && hashFiles('output/summary.md') != '' &&
+          (github.event.schedule == '17 7 * * *' || github.event.inputs.send_email == 'true')
+        env:
+          SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          MAIL_TO: ${{ secrets.MAIL_TO }}
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+        run: python -m rentscraper.notify
 
       - name: Upload results artifact
         if: always()
