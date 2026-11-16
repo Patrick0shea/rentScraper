@@ -1,0 +1,131 @@
+{
+  "_comment": "Configuration for rentscraper. Every value here can be changed without touching code. Environment variables in .env.example override a few runtime settings.",
+
+  "search": {
+    "occupants": 3,
+    "max_total_monthly_rent_eur": 3000,
+    "max_per_person_monthly_eur": 1000,
+    "rental_start": "2027-01-01",
+    "rental_end": "2027-05-31",
+    "max_distance_km": 8.0,
+    "include_one_bed_and_studios": false
+  },
+
+  "landmarks": [
+    {
+      "name": "AWS Ballsbridge",
+      "lat": 53.3296,
+      "lon": -6.2310,
+      "note": "Approximate point in Ballsbridge, Dublin 4. Adjust to the exact office entrance if you know it."
+    },
+    {
+      "name": "Dogpatch Labs",
+      "lat": 53.3486,
+      "lon": -6.2496,
+      "note": "CHQ Building, Custom House Quay, Dublin 1."
+    }
+  ],
+
+  "priority_areas": [
+    "Ballsbridge", "Donnybrook", "Sandymount", "Ringsend", "Irishtown",
+    "Grand Canal Dock", "Grand Canal Dk", "Grand Canal", "Docklands", "IFSC",
+    "North Wall", "East Wall", "Pearse Street", "Pearse St",
+    "Spencer Dock", "Barrow Street", "Hanover Quay", "Sir John Rogerson",
+    "Pembroke Road", "Haddington Road", "Lansdowne", "Herbert Park",
+    "Merrion", "Baggot", "Shelbourne Road", "Beggars Bush", "Custom House"
+  ],
+  "priority_districts": ["Dublin 1", "Dublin 2", "Dublin 4"],
+  "secondary_districts": ["Dublin 3", "Dublin 6", "Dublin 8"],
+
+  "scoring": {
+    "weights": {
+      "price": 0.35,
+      "bedrooms": 0.30,
+      "proximity": 0.25,
+      "area": 0.10
+    },
+    "proximity_full_score_km": 1.5,
+    "proximity_zero_score_km": 8.0,
+    "availability_risk_penalty": 8,
+    "shared_penalty": 0
+  },
+
+  "dedupe": {
+    "max_distance_m": 120,
+    "price_tolerance_pct": 4.0,
+    "address_similarity": 0.82
+  },
+
+  "history": {
+    "removed_after_missed_runs": 2,
+    "keep_removed_days": 120
+  },
+
+  "http": {
+    "user_agent": "rentscraper/1.0 (+https://github.com/Patrick0shea/rentScraper; personal non-commercial rental search)",
+    "timeout_seconds": 30,
+    "min_delay_seconds": 3.0,
+    "jitter_seconds": 1.5,
+    "max_retries": 3,
+    "backoff_seconds": 5.0
+  },
+
+  "sources": {
+    "myhome": {
+      "enabled": true,
+      "search_paths": [
+        "/rentals/dublin/property-to-rent-in-dublin-1",
+        "/rentals/dublin/property-to-rent-in-dublin-2",
+        "/rentals/dublin/property-to-rent-in-dublin-3",
+        "/rentals/dublin/property-to-rent-in-dublin-4"
+      ],
+      "max_pages_per_search": 8,
+      "fetch_details": true,
+      "max_detail_pages": 60
+    },
+    "spotahome": {
+      "enabled": true,
+      "search_path": "/s/dublin--ireland",
+      "max_pages": 20
+    },
+    "housinganywhere": {
+      "enabled": true,
+      "search_path": "/s/Dublin--Ireland",
+      "max_pages": 10,
+      "fetch_details": true,
+      "max_detail_pages": 40
+    },
+    "daft": {
+      "enabled": true,
+      "search_paths": [
+        "/property-for-rent/dublin-4-dublin",
+        "/property-for-rent/dublin-2-dublin",
+        "/property-for-rent/dublin-1-dublin",
+        "/sharing/dublin-4-dublin"
+      ],
+      "max_pages_per_search": 5
+    },
+    "propertyie": {
+      "enabled": true,
+      "search_paths": ["/property-to-let/dublin-4/", "/property-to-let/dublin-2/", "/property-to-let/dublin-1/"]
+    },
+    "rentie": {
+      "enabled": true,
+      "search_paths": ["/houses-to-let/renting_dublin/dublin-4/", "/houses-to-let/renting_dublin/dublin-2/"]
+    },
+    "letie": {
+      "enabled": true,
+      "search_paths": ["/"]
+    },
+    "roomsforrent": {
+      "enabled": true,
+      "search_paths": ["/"]
+    }
+  },
+
+  "output": {
+    "directory": "output",
+    "history_file": "data/history.json",
+    "summary_top_n": 10
+  }
+}

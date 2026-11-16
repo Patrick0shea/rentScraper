@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+
+# Secrets / local settings
+.env
+
+# Generated results (published by CI to the `scraper-data` branch and as artifacts)
+output/
+data/*.json
+!data/.gitkeep

@@ -1,0 +1,134 @@
+name: Rental scraper
+
+on:
+  schedule:
+    # Three times a day (UTC; Dublin is UTC+0 in winter, UTC+1 in summer).
+    # Minutes are off the hour because GitHub delays jobs queued at :00.
+    - cron: "17 7 * * *"
+    - cron: "17 13 * * *"
+    - cron: "17 19 * * *"
+  workflow_dispatch:
+    inputs:
+      sources:
+        description: "Comma separated sources to run (blank = all enabled in config.json)"
+        required: false
+        default: ""
+      max_pages:
+        description: "Cap search pages per search (blank = config default)"
+        required: false
+        default: ""
+  push:
+    branches: [main]
+    paths: ["rentscraper/**", "tests/**", "config.json", "requirements*.txt", ".github/workflows/**"]
+  pull_request:
+    paths: ["rentscraper/**", "tests/**", "config.json", "requirements*.txt", ".github/workflows/**"]
+
+permissions:
+  contents: write # only used to push results to the `scraper-data` branch
+
+concurrency:
+  group: rental-scraper-${{ github.event_name == 'pull_request' && github.ref || 'scrape' }}
+  cancel-in-progress: false
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements*.txt
+      - run: pip install -r requirements-dev.txt
+      - name: Unit and offline integration tests
+        run: python -m pytest -q
+
+  scrape:
+    needs: test
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      RENTSCRAPER_OUTPUT_DIR: output
+      RENTSCRAPER_HISTORY_FILE: data/history.json
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements*.txt
+      - run: pip install -r requirements.txt
+
+      - name: Restore listing history from the scraper-data branch
+        run: |
+          mkdir -p data
+          if git fetch --quiet --depth=1 origin scraper-data 2>/dev/null; then
+            if git show FETCH_HEAD:history.json > /tmp/history.json 2>/dev/null; then
+              mv /tmp/history.json data/history.json
+              echo "Restored history ($(wc -c < data/history.json) bytes)"
+            else
+              echo "scraper-data branch has no history.json yet"
+            fi
+          else
+            echo "No scraper-data branch yet - starting fresh history"
+          fi
+
+      - name: Run scraper
+        id: scrape
+        env:
+          RENTSCRAPER_SOURCES: ${{ github.event.inputs.sources }}
+          RENTSCRAPER_MAX_PAGES: ${{ github.event.inputs.max_pages }}
+        run: python -m rentscraper
+
+      - name: Add summary to the job page
+        if: always()
+        run: |
+          if [ -f output/summary.md ]; then cat output/summary.md >> "$GITHUB_STEP_SUMMARY"; fi
+
+      - name: Upload results artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: rental-results-${{ github.run_number }}
+          path: |
+            output/
+            data/history.json
+          if-no-files-found: warn
+          retention-days: 30
+
+      - name: Publish results and history to the scraper-data branch
+        if: always() && hashFiles('data/history.json') != ''
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          work=$(mktemp -d)
+          cp data/history.json "$work/"
+          for f in summary.md shortlist.csv shortlist.json all_listings.csv all_listings.json run_report.json; do
+            [ -f "output/$f" ] && cp "output/$f" "$work/"
+          done
+          cat > "$work/README.md" <<'EOF'
+          # Scraper data
+          Written automatically by the "Rental scraper" workflow. `summary.md` is the latest
+          readable report, `shortlist.*` the matching listings, `all_listings.*` everything
+          collected in the latest run and `history.json` the long-term listing history.
+          EOF
+          cd "$work"
+          git init --quiet -b scraper-data
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git remote add origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          if git fetch --quiet --depth=1 origin scraper-data 2>/dev/null; then
+            git reset --quiet --soft FETCH_HEAD
+          fi
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes to publish"
+            exit 0
+          fi
+          git commit --quiet -m "Scrape results $(date -u +%Y-%m-%dT%H:%MZ) (run ${GITHUB_RUN_NUMBER})"
+          git push --quiet origin HEAD:scraper-data
+          echo "Published to https://github.com/${GITHUB_REPOSITORY}/tree/scraper-data"
