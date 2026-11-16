@@ -17,6 +17,11 @@ on:
         description: "Cap search pages per search (blank = config default)"
         required: false
         default: ""
+      post_update:
+        description: "Post the daily update issue after this run"
+        type: boolean
+        required: false
+        default: false
   push:
     branches: [main]
     paths: ["rentscraper/**", "tests/**", "config.json", "requirements*.txt", ".github/workflows/**"]
@@ -24,7 +29,8 @@ on:
     paths: ["rentscraper/**", "tests/**", "config.json", "requirements*.txt", ".github/workflows/**"]
 
 permissions:
-  contents: write # only used to push results to the `scraper-data` branch
+  contents: write # push results to the `scraper-data` branch
+  issues: write # post the daily update issue
 
 concurrency:
   group: rental-scraper-${{ github.event_name == 'pull_request' && github.ref || 'scrape' }}
@@ -132,3 +138,25 @@ jobs:
           git commit --quiet -m "Scrape results $(date -u +%Y-%m-%dT%H:%MZ) (run ${GITHUB_RUN_NUMBER})"
           git push --quiet origin HEAD:scraper-data
           echo "Published to https://github.com/${GITHUB_REPOSITORY}/tree/scraper-data"
+
+      - name: Post daily update issue (morning run)
+        # Opens a new issue that @mentions the repo owner (GitHub app push /
+        # notification email) and closes the previous day's update issue.
+        if: >-
+          always() && hashFiles('output/summary.md') != '' &&
+          (github.event.schedule == '17 7 * * *' || github.event.inputs.post_update == 'true')
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+          OWNER: ${{ github.repository_owner }}
+        run: |
+          set -euo pipefail
+          base="${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}"
+          python -m rentscraper.digest --output-dir output --mention "$OWNER" \
+            --run-url "${base}/actions/runs/${GITHUB_RUN_ID}" \
+            --data-url "${base}/blob/scraper-data/summary.md"
+          gh label create rental-update --color 0E8A16 --description "Daily rental scraper update" --force
+          for n in $(gh issue list --label rental-update --state open --json number --jq '.[].number'); do
+            gh issue close "$n" --reason completed
+          done
+          gh issue create --title "$(cat output/issue_title.txt)" --body-file output/issue_body.md --label rental-update

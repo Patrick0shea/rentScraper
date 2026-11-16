@@ -167,6 +167,17 @@ python -m pytest --live -k live
   If your repository restricts workflow permissions, enable *Settings → Actions →
   General → Workflow permissions → Read and write*.
 
+### Daily update issue
+
+After the 07:17 UTC run each day, the workflow opens a GitHub Issue labelled
+`rental-update`. It contains a headline (match counts, new listings, the cheapest
+entire place) and the full summary with links to every advert. It @mentions
+the repository owner, so GitHub sends you a notification: a push notification
+in the **GitHub mobile app**, and/or an email, depending on your GitHub
+notification settings. The previous day's update issue is closed automatically.
+To post one on demand, run the workflow manually with **post_update** ticked.
+This uses only the built-in `GITHUB_TOKEN`; no setup is needed.
+
 Note: GitHub pauses scheduled workflows in repositories with no activity for 60
 days. The scraper's own commits to `scraper-data` count as activity.
 
