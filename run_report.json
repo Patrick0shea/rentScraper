@@ -1,0 +1,97 @@
+{
+  "run_at": "2026-11-16T14:07:04+00:00",
+  "sources": [
+    {
+      "source": "myhome",
+      "status": "ok",
+      "listings": 149,
+      "pages_fetched": 10,
+      "detail_pages_fetched": 51,
+      "errors": [],
+      "message": "149 listings",
+      "duration_s": 250.1
+    },
+    {
+      "source": "spotahome",
+      "status": "ok",
+      "listings": 756,
+      "pages_fetched": 16,
+      "detail_pages_fetched": 0,
+      "errors": [],
+      "message": "756 listings",
+      "duration_s": 88.2
+    },
+    {
+      "source": "housinganywhere",
+      "status": "ok",
+      "listings": 48,
+      "pages_fetched": 6,
+      "detail_pages_fetched": 31,
+      "errors": [],
+      "message": "48 listings",
+      "duration_s": 152.6
+    },
+    {
+      "source": "daft",
+      "status": "partial",
+      "listings": 0,
+      "pages_fetched": 0,
+      "detail_pages_fetched": 0,
+      "errors": [
+        "https://www.daft.ie/property-for-rent/dublin-4-dublin: __NEXT_DATA__ not found",
+        "https://www.daft.ie/property-for-rent/dublin-2-dublin: __NEXT_DATA__ not found",
+        "https://www.daft.ie/property-for-rent/dublin-1-dublin: __NEXT_DATA__ not found",
+        "https://www.daft.ie/sharing/dublin-4-dublin: __NEXT_DATA__ not found"
+      ],
+      "message": "0 listings",
+      "duration_s": 17.6
+    },
+    {
+      "source": "propertyie",
+      "status": "blocked",
+      "listings": 0,
+      "pages_fetched": 0,
+      "detail_pages_fetched": 0,
+      "errors": [],
+      "message": "https://www.property.ie/robots.txt returned a bot-protection challenge (HTTP 403)",
+      "duration_s": 0.2
+    },
+    {
+      "source": "rentie",
+      "status": "blocked",
+      "listings": 0,
+      "pages_fetched": 0,
+      "detail_pages_fetched": 0,
+      "errors": [],
+      "message": "https://www.rent.ie/robots.txt returned a bot-protection challenge (HTTP 403)",
+      "duration_s": 0.2
+    },
+    {
+      "source": "letie",
+      "status": "ok",
+      "listings": 0,
+      "pages_fetched": 1,
+      "detail_pages_fetched": 0,
+      "errors": [],
+      "message": "Let.ie redirects to Daft.ie; listings are covered by the daft source",
+      "duration_s": 0.4
+    },
+    {
+      "source": "roomsforrent",
+      "status": "unreachable",
+      "listings": 0,
+      "pages_fetched": 0,
+      "detail_pages_fetched": 0,
+      "errors": [],
+      "message": "could not fetch https://www.roomsforrent.ie/robots.txt: HTTPSConnectionPool(host='www.roomsforrent.ie', port=443): Max retries exceeded with url: /robots.txt (Caused by NameResolutionError(\"HTTPSConnection(host='www.roomsforrent.ie', port=443): Failed to resolve 'www.roomsforrent.ie' ([Errno -2] Name or service not known)\"))",
+      "duration_s": 0.1
+    }
+  ],
+  "total_listings": 953,
+  "shortlisted": 125,
+  "duplicate_groups": 106,
+  "new": 953,
+  "price_changes": 0,
+  "removed": 0,
+  "relisted": 0
+}
