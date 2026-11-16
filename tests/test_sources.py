@@ -110,6 +110,21 @@ def test_spotahome_parse_and_classify():
     assert apt.url == "https://www.spotahome.com/dublin/for-rent:apartments/101"
 
 
+def test_spotahome_residences_and_flatshares_are_shared():
+    base = "https://www.spotahome.com"
+    cards = [
+        fx.spotahome_card("201", "residence", 8, 1180, "Ensuite Rooms in Student Residence in Dublin 1", "S", "D01", -6.26, 53.35),
+        fx.spotahome_card("202", "residence", 11, 700, "Bed for rent in a residence in Dublin", "S", "D07", -6.27, 53.36),
+        fx.spotahome_card("203", "apartment", 2, 2150, "Stylish 2-bedroom flatshare in North Inner City, Dublin", "S", "D01", -6.25, 53.35),
+        fx.spotahome_card("204", "apartment", 3, 2900, "3-bedroom apartment for rent in East Wall, Dublin", "S", "D03", -6.23, 53.355),
+    ]
+    ls = {c["id"]: spotahome.listing_from_card(c, base, NOW) for c in cards}
+    assert ls["201"].accommodation == SHARED
+    assert ls["202"].accommodation == SHARED and ls["202"].extra.get("bed_in_shared_room")
+    assert ls["203"].accommodation == SHARED
+    assert ls["204"].accommodation == ENTIRE
+
+
 def test_spotahome_source_pagination():
     base = "https://www.spotahome.com"
     p1 = [fx.spotahome_card(str(1000 + i), "apartment", 2, 2000, "2-bedroom flat", "S", "D04", -6.2, 53.3) for i in range(48)]

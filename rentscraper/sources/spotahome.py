@@ -27,6 +27,10 @@ _SPECIAL = {-1: None, -2: float("nan"), -3: float("-inf"), -4: 0.0, -5: None, -6
 
 PAGE_SIZE = 48
 
+SHARED_TITLE_RE = re.compile(
+    r"\b(flat ?share|house ?share|shared|rooms? in|bed in|bed for rent|ensuite rooms?|student residence)\b", re.I
+)
+
 
 def decode_turbo_stream(arr: list) -> Any:
     """Decode a (v2) turbo-stream flat array into Python objects.
@@ -131,7 +135,9 @@ def listing_from_card(c: dict, base_url: str, now: str) -> Optional[Listing]:
     if neighbourhood and neighbourhood.lower() not in address.lower():
         address = f"{address} ({neighbourhood})" if address else neighbourhood
 
-    accommodation = SHARED if ctype.startswith("room") or "bed in" in title.lower() else ENTIRE
+    # Rooms, beds in student residences and "flatshares" are priced per person.
+    shared = ctype.startswith("room") or ctype == "residence" or SHARED_TITLE_RE.search(title)
+    accommodation = SHARED if shared else ENTIRE
     beds = c.get("numberOfBedrooms")
     beds = int(beds) if isinstance(beds, (int, float)) else None
     type_label = {
@@ -150,7 +156,7 @@ def listing_from_card(c: dict, base_url: str, now: str) -> Optional[Listing]:
     }
     if accommodation == SHARED:
         extra["flat_bedrooms"] = beds
-        if "bed in" in title.lower() or "shared room" in title.lower():
+        if re.search(r"\bbed (?:in|for rent)\b|shared room", title, re.I):
             extra["bed_in_shared_room"] = True
     return Listing(
         source="spotahome",
