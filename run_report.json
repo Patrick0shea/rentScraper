@@ -1,35 +1,35 @@
 {
-  "run_at": "2026-11-16T14:07:04+00:00",
+  "run_at": "2026-11-17T02:28:55+00:00",
   "sources": [
     {
       "source": "myhome",
       "status": "ok",
-      "listings": 149,
+      "listings": 153,
       "pages_fetched": 10,
-      "detail_pages_fetched": 51,
+      "detail_pages_fetched": 54,
       "errors": [],
-      "message": "149 listings",
-      "duration_s": 250.1
+      "message": "153 listings",
+      "duration_s": 273.9
     },
     {
       "source": "spotahome",
       "status": "ok",
-      "listings": 756,
+      "listings": 757,
       "pages_fetched": 16,
       "detail_pages_fetched": 0,
       "errors": [],
-      "message": "756 listings",
-      "duration_s": 88.2
+      "message": "757 listings",
+      "duration_s": 70.2
     },
     {
       "source": "housinganywhere",
       "status": "ok",
       "listings": 48,
       "pages_fetched": 6,
-      "detail_pages_fetched": 31,
+      "detail_pages_fetched": 32,
       "errors": [],
       "message": "48 listings",
-      "duration_s": 152.6
+      "duration_s": 160.1
     },
     {
       "source": "daft",
@@ -74,7 +74,7 @@
       "detail_pages_fetched": 0,
       "errors": [],
       "message": "Let.ie redirects to Daft.ie; listings are covered by the daft source",
-      "duration_s": 0.4
+      "duration_s": 0.5
     },
     {
       "source": "roomsforrent",
@@ -87,11 +87,11 @@
       "duration_s": 0.1
     }
   ],
-  "total_listings": 953,
-  "shortlisted": 125,
-  "duplicate_groups": 106,
-  "new": 953,
-  "price_changes": 0,
+  "total_listings": 958,
+  "shortlisted": 128,
+  "duplicate_groups": 107,
+  "new": 35,
+  "price_changes": 2,
   "removed": 0,
   "relisted": 0
 }
