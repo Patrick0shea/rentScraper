@@ -59,6 +59,7 @@ jobs:
     env:
       RENTSCRAPER_OUTPUT_DIR: output
       RENTSCRAPER_HISTORY_FILE: data/history.json
+      RENTSCRAPER_CONTACTED_FILE: data/contacted.json
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -81,6 +82,16 @@ jobs:
           else
             echo "No scraper-data branch yet - starting fresh history"
           fi
+
+      - name: Collect listings ticked as contacted in update issues
+        # Never fails the run: if issues can't be read, nothing is hidden.
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          gh issue list --label rental-update --state all --limit 1000 --json number,body > /tmp/issues.json \
+            || echo '[]' > /tmp/issues.json
+          python -m rentscraper.contacted --issues /tmp/issues.json --out data/contacted.json
 
       - name: Run scraper
         id: scrape
@@ -113,6 +124,7 @@ jobs:
           set -euo pipefail
           work=$(mktemp -d)
           cp data/history.json "$work/"
+          [ -f data/contacted.json ] && cp data/contacted.json "$work/"
           for f in summary.md shortlist.csv shortlist.json all_listings.csv all_listings.json run_report.json; do
             [ -f "output/$f" ] && cp "output/$f" "$work/"
           done
@@ -120,7 +132,8 @@ jobs:
           # Scraper data
           Written automatically by the "Rental scraper" workflow. `summary.md` is the latest
           readable report, `shortlist.*` the matching listings, `all_listings.*` everything
-          collected in the latest run and `history.json` the long-term listing history.
+          collected in the latest run, `history.json` the long-term listing history and
+          `contacted.json` the listings ticked as contacted in the update issues.
           EOF
           cd "$work"
           git init --quiet -b scraper-data

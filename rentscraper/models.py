@@ -70,6 +70,7 @@ class Listing:
     status: str = "active"
     price_change: Optional[str] = None
     is_new: bool = False
+    contacted: bool = False  # marked by the user; hidden from shortlist and updates
 
     @property
     def uid(self) -> str:

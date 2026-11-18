@@ -5,6 +5,9 @@ the workflow posts them with the GitHub CLI using the built-in token, so no
 extra credentials are needed. Mentioning the repository owner makes GitHub
 send a notification (mobile app push and/or GitHub's notification email,
 per the user's GitHub notification settings).
+
+Each listing is a checkbox. Ticking it marks the listing as contacted: the
+next run reads the ticked boxes (see ``contacted.py``) and leaves it out.
 """
 from __future__ import annotations
 
@@ -15,17 +18,32 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Optional
 
+from .contacted import marker
+
 # GitHub rejects issue bodies over 65,536 characters.
 MAX_BODY = 60000
+SECTION_LIMITS = {1: 40, 2: 30, 3: 15}
+SECTION_TITLES = {
+    1: "🏠 3+ bed entire properties",
+    2: "🛋️ 2 bed entire properties (sofa bed for the third person)",
+    3: "🚪 Shared – price is per room (last resort)",
+}
+
+
+def _load(out_dir: Path) -> tuple[dict, list[dict]]:
+    try:
+        report = json.loads((out_dir / "run_report.json").read_text(encoding="utf-8"))
+        shortlist = json.loads((out_dir / "shortlist.json").read_text(encoding="utf-8"))
+        return report, shortlist
+    except (OSError, json.JSONDecodeError):
+        return {}, []
 
 
 def headline(out_dir: Path) -> tuple[str, str]:
     """Return (issue title, one-line highlights)."""
     date = datetime.now(timezone.utc).strftime("%a %d %b %Y")
-    try:
-        report = json.loads((out_dir / "run_report.json").read_text(encoding="utf-8"))
-        shortlist = json.loads((out_dir / "shortlist.json").read_text(encoding="utf-8"))
-    except (OSError, json.JSONDecodeError):
+    report, shortlist = _load(out_dir)
+    if not report:
         return f"Dublin rentals – {date}", "Results attached below."
     three = [x for x in shortlist if x.get("tier") == 1]
     two = [x for x in shortlist if x.get("tier") == 2]
@@ -38,6 +56,8 @@ def headline(out_dir: Path) -> tuple[str, str]:
         f"**{len(new)}** new since the last run" + (f", including **{len(new3)} three-bed**" if new3 else ""),
         f"{report.get('price_changes', 0)} price changes, {report.get('removed', 0)} removed",
     ]
+    if report.get("contacted_hidden"):
+        bits.append(f"{report['contacted_hidden']} hidden as already contacted")
     priced = [x for x in shortlist if x.get("tier") in (1, 2) and x.get("cost_per_person_eur")]
     if priced:
         cheapest = min(priced, key=lambda x: x["cost_per_person_eur"])
@@ -48,24 +68,73 @@ def headline(out_dir: Path) -> tuple[str, str]:
     return title, " · ".join(bits)
 
 
+def _esc(s: Optional[str]) -> str:
+    return (s or "").replace("[", "(").replace("]", ")").replace("\n", " ").replace("<!--", "")
+
+
+def checkbox_line(x: dict) -> str:
+    """One tickable line per listing, ending with the hidden uid marker."""
+    rent = x.get("rent_monthly_eur")
+    each = x.get("cost_per_person_eur")
+    if x.get("tier") == 3:
+        price = f"**€{rent:,.0f}/room**" if rent is not None else "**price ?**"
+        size = "room"
+    else:
+        price = f"**€{rent:,.0f}/mo** (€{each:,.0f} each)" if rent is not None and each is not None else "**price ?**"
+        size = f"{x['bedrooms']} bed" if x.get("bedrooms") is not None else "? bed"
+    dists = x.get("distances_km") or {}
+    dist = " / ".join(f"{name.split()[0]} {km:.1f} km" for name, km in dists.items())
+    approx = "≈" if x.get("coords_approximate") and dist else ""
+    tags = []
+    if x.get("is_new"):
+        tags.append("🆕")
+    if x.get("price_change"):
+        tags.append(f"💶 {x['price_change']}")
+    if x.get("duplicate_urls"):
+        tags.append(f"+{len(x['duplicate_urls'])} other ad(s)")
+    parts = [price, size, _esc(x.get("area")) or None, f"{approx}{dist}" if dist else None,
+             f"[{_esc(x.get('title'))[:70]}]({x.get('url')})", f"{x.get('source')}", f"score {x.get('score')}"]
+    line = "- [ ] " + " · ".join(p for p in parts if p)
+    if tags:
+        line += " " + " ".join(tags)
+    line += " " + marker(x["uid"])
+    flags = x.get("availability_flags") or []
+    if flags:
+        line += "\n  ⚠️ " + _esc("; ".join(flags))
+    return line
+
+
 def build_body(out_dir: Path, mention: Optional[str], run_url: Optional[str], data_url: Optional[str]) -> str:
     _, highlights = headline(out_dir)
-    summary = (out_dir / "summary.md").read_text(encoding="utf-8")
+    _, shortlist = _load(out_dir)
     links = []
     if data_url:
-        links.append(f"[latest full summary]({data_url})")
+        links.append(f"[full summary – cheapest, best locations, near misses, removed]({data_url})")
     if run_url:
         links.append(f"[workflow run & downloadable CSV/JSON]({run_url})")
-    head = ""
+    out = []
     if mention:
-        head += f"@{mention.lstrip('@')} – today's rental update.\n\n"
-    head += highlights + "\n\n"
+        out.append(f"@{mention.lstrip('@')} – today's rental update.\n")
+    out.append(highlights + "\n")
+    out.append(
+        "> **Tick ☑️ a listing once you've contacted it** – it (and its duplicate ads on other sites) "
+        "will be left out of the next update. Untick it to bring it back. Ticks in older update issues count too.\n"
+    )
     if links:
-        head += " · ".join(links) + "\n\n"
-    head += "---\n\n"
-    body = head + summary
+        out.append(" · ".join(links) + "\n")
+    for tier in (1, 2, 3):
+        items = sorted([x for x in shortlist if x.get("tier") == tier], key=lambda x: -(x.get("score") or 0))
+        out.append(f"\n### {SECTION_TITLES[tier]} ({len(items)})\n")
+        if not items:
+            out.append("_None this run._\n")
+            continue
+        shown = items[: SECTION_LIMITS[tier]]
+        out.append("\n".join(checkbox_line(x) for x in shown) + "\n")
+        if len(items) > len(shown):
+            out.append(f"\n_…and {len(items) - len(shown)} more in the full summary._\n")
+    body = "\n".join(out)
     if len(body) > MAX_BODY:
-        cut = body.rfind("\n", 0, MAX_BODY - 200)
+        cut = body.rfind("\n- [ ]", 0, MAX_BODY - 200)
         body = body[:cut] + "\n\n_…truncated – see the full summary link above._\n"
     return body
 

@@ -42,6 +42,7 @@ def load_config(path: str | os.PathLike | None = None, overrides: dict | None = 
       RENTSCRAPER_SOURCES         comma separated list of sources to enable
       RENTSCRAPER_OUTPUT_DIR      output directory
       RENTSCRAPER_HISTORY_FILE    history json path
+      RENTSCRAPER_CONTACTED_FILE  JSON of uids ticked as contacted (built by the workflow)
       RENTSCRAPER_MIN_DELAY       minimum delay between requests to one host
       RENTSCRAPER_MAX_PAGES       cap on search pages per search (all sources)
       RENTSCRAPER_LOG_LEVEL       logging level (read by the CLI)
@@ -61,6 +62,8 @@ def load_config(path: str | os.PathLike | None = None, overrides: dict | None = 
         cfg["output"]["directory"] = os.environ["RENTSCRAPER_OUTPUT_DIR"]
     if os.environ.get("RENTSCRAPER_HISTORY_FILE"):
         cfg["output"]["history_file"] = os.environ["RENTSCRAPER_HISTORY_FILE"]
+    if os.environ.get("RENTSCRAPER_CONTACTED_FILE"):
+        cfg["output"]["contacted_file"] = os.environ["RENTSCRAPER_CONTACTED_FILE"]
     if os.environ.get("RENTSCRAPER_MIN_DELAY"):
         cfg["http"]["min_delay_seconds"] = float(os.environ["RENTSCRAPER_MIN_DELAY"])
     if os.environ.get("RENTSCRAPER_MAX_PAGES"):

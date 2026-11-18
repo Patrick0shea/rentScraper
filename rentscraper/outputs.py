@@ -14,7 +14,7 @@ CSV_COLUMNS = [
     "total_monthly_for_group_eur", "cost_per_person_eur", "within_budget", "bedrooms", "bathrooms",
     "property_type", "accommodation", "dist_aws_km", "dist_dogpatch_km", "avg_distance_km",
     "coords_approximate", "available_from", "availability_flags", "notes", "price_change", "is_new",
-    "status", "source", "url", "duplicate_group", "duplicate_urls", "date_found", "date_scraped",
+    "status", "contacted", "source", "url", "duplicate_group", "duplicate_urls", "date_found", "date_scraped",
     "listed_on", "latitude", "longitude", "description", "uid",
 ]
 
@@ -124,7 +124,7 @@ def build_summary(
         [
             x for x in all_listings
             if x.tier in (TIER_THREE_BED, TIER_TWO_BED) and x.status == "active"
-            and not x.extra.get("_duplicate_secondary")
+            and not x.extra.get("_duplicate_secondary") and not x.contacted
             and x.total_monthly_for_group_eur
             and s["max_total_monthly_rent_eur"] < x.total_monthly_for_group_eur <= s["max_total_monthly_rent_eur"] * 1.1
             and (avg_distance(x) or 0) <= (s.get("max_distance_km") or 99)
@@ -167,11 +167,21 @@ def build_summary(
             out.append(f"- [{_md_escape(x.title)}]({x.url}) – {x.price_change} ({x.source})\n")
     if changes.get("removed"):
         out.append("\n## Removed since last run\n\n")
+        contacted_uids = set(changes.get("contacted_uids", []))
         for r in changes["removed"][: top * 3]:
+            mark = "☑️ contacted · " if r.get("uid") in contacted_uids else ""
             out.append(
-                f"- [{_md_escape(r.get('title'))}]({r.get('url')}) – {_eur(r.get('rent_monthly_eur'))}, "
+                f"- {mark}[{_md_escape(r.get('title'))}]({r.get('url')}) – {_eur(r.get('rent_monthly_eur'))}, "
                 f"{r.get('bedrooms', '—')} bed, first seen {str(r.get('first_seen'))[:10]}, last seen {str(r.get('last_seen'))[:10]} ({r.get('source')})\n"
             )
+    contacted_now = sorted(
+        [x for x in all_listings if x.contacted and not x.extra.get("_duplicate_secondary")], key=sort_key
+    )
+    if contacted_now:
+        out.append(f"\n## Already contacted – hidden from the lists above ({len(contacted_now)})\n\n")
+        for x in contacted_now:
+            change = f", price {x.price_change}" if x.price_change else ""
+            out.append(f"- [{_md_escape(x.title)}]({x.url}) – {_eur(x.rent_monthly_eur)}{change}, still advertised ({x.source})\n")
     out.append(
         "\n## Notes\n\n"
         "- Shared listings: price shown is per room; total assumes three rooms at that price.\n"

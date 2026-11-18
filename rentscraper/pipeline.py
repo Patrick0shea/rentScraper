@@ -6,7 +6,7 @@ from datetime import date, datetime, timezone
 from pathlib import Path
 from typing import Optional
 
-from . import analysis
+from . import analysis, contacted
 from .dedupe import find_duplicates
 from .history import History
 from .http import PoliteSession
@@ -70,6 +70,12 @@ def run(
     n_groups = find_duplicates(listings, cfg.get("dedupe", {}))
     log.info("duplicate groups: %d", n_groups)
 
+    c_uids, c_urls = contacted.load(cfg["output"].get("contacted_file"), cfg["output"].get("contacted_manual_file"))
+    n_contacted = contacted.apply(listings, c_uids, c_urls)
+    if c_uids or c_urls:
+        log.info("contacted: %d marked, %d current listings hidden (incl. duplicates)", len(c_uids | c_urls), n_contacted)
+    changes["contacted_uids"] = sorted(c_uids)
+
     listings.sort(key=sort_key)
     shortlist = [l for l in listings if analysis.is_shortlisted(l, cfg)]
     landmark_names = [lm["name"] for lm in cfg.get("landmarks", [])]
@@ -92,6 +98,7 @@ def run(
         "price_changes": len(changes["price_changes"]),
         "removed": len(changes["removed"]),
         "relisted": len(changes["relisted"]),
+        "contacted_hidden": n_contacted,
     }
     write_json(out_dir / "run_report.json", report)
     history.record_run({k: v for k, v in report.items() if k != "sources"} | {

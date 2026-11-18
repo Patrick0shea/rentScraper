@@ -170,13 +170,30 @@ python -m pytest --live -k live
 ### Daily update issue
 
 After the 07:17 UTC run each day, the workflow opens a GitHub Issue labelled
-`rental-update`. It contains a headline (match counts, new listings, the cheapest
-entire place) and the full summary with links to every advert. It @mentions
-the repository owner, so GitHub sends you a notification: a push notification
-in the **GitHub mobile app**, and/or an email, depending on your GitHub
-notification settings. The previous day's update issue is closed automatically.
-To post one on demand, run the workflow manually with **post_update** ticked.
-This uses only the built-in `GITHUB_TOKEN`; no setup is needed.
+`rental-update`. It has a headline (match counts, new listings, the cheapest
+entire place), then every matching listing as a **checkbox**: price, cost
+each, bedrooms, area, distances, a link to the advert, and any availability
+warning. It @mentions the repository owner, so GitHub sends you a
+notification: a push in the **GitHub mobile app**, and/or an email, depending
+on your GitHub notification settings. The previous day's update issue is
+closed automatically. To post one on demand, run the workflow manually with
+**post_update** ticked. This uses only the built-in `GITHUB_TOKEN`; no setup is
+needed.
+
+### Marking listings as contacted
+
+**Tick the checkbox** next to a listing in any update issue (on the web or in
+the GitHub app) once you've contacted it. Before every scrape, the workflow
+reads the ticked boxes from all update issues, open or closed. Those listings
+are left out of the next update and the shortlist, along with their duplicate
+adverts on other sites. To bring one back, **untick** it.
+
+For anything you contacted that isn't in an update issue, add its advert URL
+(or its `uid` from `shortlist.csv`) to [`contacted.txt`](contacted.txt) and commit.
+
+Contacted listings are still tracked. The summary lists them under *Already
+contacted*, and if one is taken down it is marked ☑️ in *Removed since last
+run*, which is a useful hint that it has been let.
 
 Note: GitHub pauses scheduled workflows in repositories with no activity for 60
 days. The scraper's own commits to `scraper-data` count as activity.
@@ -193,12 +210,15 @@ rentscraper/
   geo.py            distances, Dublin districts, area matching
   analysis.py       classification, cost per person, budget, availability flags, scoring
   dedupe.py         duplicate detection
+  contacted.py      listings ticked as contacted (issue checkboxes, contacted.txt)
+  digest.py         daily update issue with checkboxes
   history.py        persistent history, price changes, removals
   outputs.py        CSV / JSON / Markdown summary
   pipeline.py       orchestration
   sources/          one module per website
 tests/              unit, offline integration and opt-in live tests
 config.json         all settings
+contacted.txt       listings you contacted outside the update issues
 ```
 
 ## Limitations

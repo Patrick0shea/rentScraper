@@ -126,6 +126,8 @@
   "output": {
     "directory": "output",
     "history_file": "data/history.json",
+    "contacted_file": "data/contacted.json",
+    "contacted_manual_file": "contacted.txt",
     "summary_top_n": 10
   }
 }

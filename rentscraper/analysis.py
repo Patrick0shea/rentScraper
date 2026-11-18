@@ -240,7 +240,7 @@ def avg_distance(lst: Listing) -> Optional[float]:
 def is_shortlisted(lst: Listing, cfg: dict) -> bool:
     """Matches the group's requirements: budget, size, distance."""
     s = cfg["search"]
-    if not lst.within_budget:
+    if not lst.within_budget or lst.contacted:
         return False
     if lst.tier == TIER_OTHER and not s.get("include_one_bed_and_studios", False):
         return False

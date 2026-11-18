@@ -132,6 +132,31 @@ def test_failed_site_does_not_remove_its_listings(offline_cfg):
         assert r["removed"] == 0
 
 
+def test_contacted_listings_hidden_with_their_duplicates(offline_cfg, tmp_path):
+    cfg = offline_cfg
+    issues = [{"number": 7, "body": "- [x] ticked <!-- rs:spotahome:501 -->\n- [ ] not <!-- rs:myhome:2 -->"}]
+    (tmp_path / "issues.json").write_text(json.dumps(issues))
+    from rentscraper import contacted
+
+    cfg["output"]["contacted_file"] = str(tmp_path / "contacted.json")
+    assert contacted.main(["--issues", str(tmp_path / "issues.json"), "--out", cfg["output"]["contacted_file"]]) == 0
+    manual = tmp_path / "contacted.txt"
+    manual.write_text("# contacted by phone\nhttps://www.spotahome.com/dublin/for-rent:rooms/502\n")
+    cfg["output"]["contacted_manual_file"] = str(manual)
+
+    report = pipeline.run(cfg, session=offline_session(routes()))
+    out = Path(cfg["output"]["directory"])
+    uids = {x["uid"] for x in json.loads((out / "shortlist.json").read_text())}
+    # spotahome:501 ticked -> it and its MyHome duplicate (myhome:1) are hidden; 502 hidden via contacted.txt
+    assert not uids & {"spotahome:501", "myhome:1", "spotahome:502"}
+    assert "myhome:2" in uids
+    assert report["contacted_hidden"] == 3
+    summary = (out / "summary.md").read_text()
+    assert "Already contacted – hidden from the lists above" in summary
+    all_rows = {x["uid"]: x for x in json.loads((out / "all_listings.json").read_text())}
+    assert all_rows["myhome:1"]["contacted"] is True
+
+
 def test_cli_returns_1_when_nothing_scraped(tmp_path, monkeypatch):
     monkeypatch.setenv("RENTSCRAPER_OUTPUT_DIR", str(tmp_path / "o"))
     monkeypatch.setenv("RENTSCRAPER_HISTORY_FILE", str(tmp_path / "h.json"))

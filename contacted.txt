@@ -1,0 +1,12 @@
+# Listings you've already contacted, one per line. They (and their duplicate
+# ads on other sites) are left out of the shortlist and the daily update.
+#
+# Easiest way: tick the checkbox next to a listing in the daily
+# "rental-update" GitHub issue – no need to edit this file.
+#
+# Use this file for anything you contacted that isn't in an update issue.
+# Paste the advert URL, or its uid from shortlist.csv. Lines starting with #
+# are ignored. Delete a line to bring a listing back.
+#
+# https://www.myhome.ie/rentals/brochure/example-listing/1234567
+# spotahome:123456
