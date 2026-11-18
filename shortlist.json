@@ -1,6 +1,61 @@
 [
   {
     "source": "myhome",
+    "source_id": "4468636",
+    "url": "https://www.myhome.ie/rentals/brochure/spencer-house-custom-house-square-ifsc-dublin-1/4468636",
+    "title": "2 beds Apartment – Spencer House, Custom House Square, IFSC, Dublin 1",
+    "rent_monthly_eur": 2095.0,
+    "rent_text": "€2,095 / month",
+    "address": "Spencer House, Custom House Square, IFSC, Dublin 1, DUBLIN 1",
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "property_type": "Apartment",
+    "description": "Hooke & MacDonald are delighted to present this 2 bedroom apartment located in the heart of the IFSC.\n\nParking included.\n\nThe convenience of the location cannot be overstated having every conceivable amenity within walking distance. \n\nThe apartment is served by a wide-ranging public transport network including trains and DART from Connolly Station, Dublin Bus services and the Mayor Square LUAS stop is opposite the development. \n\nThis apartment comprises entrance hall, two bedrooms, living and dining area combined, fully tiled bathroom, timber floored living room with floor to ceiling windows. The apartment complex is securely gated and tenants benefit from having a district heating system in place.\n\nPlease note the internal photos may not be of the actual apartment available but are representative of the standard of finish.\n\nBER: C1\nBER No: 106681877\nEnergy Performance Indicator: 150.49\n\nLettings Office",
+    "accommodation": "entire",
+    "latitude": 53.34981155395508,
+    "longitude": -6.244626998901367,
+    "coords_approximate": false,
+    "available_from": null,
+    "available_to": null,
+    "date_found": "2026-11-16T14:07:04+00:00",
+    "date_scraped": "2026-11-18T16:30:40+00:00",
+    "listed_on": "2020-11-19",
+    "extra": {
+      "agent": "Hooke & MacDonald (Lettings)",
+      "private_landlord": false,
+      "size_m2": 0,
+      "sale_agreed_or_let": false,
+      "eircode": "DUBLIN 1",
+      "locality": "IFSC"
+    },
+    "area": "Custom House (Dublin 1)",
+    "area_priority": 3,
+    "distances_km": {
+      "AWS Ballsbridge": 2.42,
+      "Dogpatch Labs": 0.36
+    },
+    "total_monthly_for_group_eur": 2095.0,
+    "cost_per_person_eur": 698.33,
+    "tier": 2,
+    "within_budget": true,
+    "availability_flags": [
+      "Jan–May 2027 availability not stated – most Irish lets expect 12 months; confirm with landlord"
+    ],
+    "notes": [
+      "2 bed – third person needs a sofa bed or similar; check living room suits"
+    ],
+    "score": 79.4,
+    "duplicate_group": null,
+    "duplicate_urls": [],
+    "status": "active",
+    "price_change": "€2,295 → €2,095 (−€200)",
+    "is_new": false,
+    "contacted": false,
+    "uid": "myhome:4468636",
+    "tier_label": "2 bed entire property (sofa bed needed)"
+  },
+  {
+    "source": "myhome",
     "source_id": "5038648",
     "url": "https://www.myhome.ie/rentals/brochure/the-windmill-sir-john-rogersons-quay-dublin-2/5038648",
     "title": "2 beds Apartment – The Windmill, Sir John Rogersons Quay, Dublin 2",
@@ -18,7 +73,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:36:42+00:00",
+    "date_scraped": "2026-11-18T16:30:40+00:00",
     "listed_on": "2026-10-29",
     "extra": {
       "agent": "Ray Cooke Auctioneers",
@@ -49,61 +104,8 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "myhome:5038648",
-    "tier_label": "2 bed entire property (sofa bed needed)"
-  },
-  {
-    "source": "myhome",
-    "source_id": "4468636",
-    "url": "https://www.myhome.ie/rentals/brochure/spencer-house-custom-house-square-ifsc-dublin-1/4468636",
-    "title": "2 beds Apartment – Spencer House, Custom House Square, IFSC, Dublin 1",
-    "rent_monthly_eur": 2295.0,
-    "rent_text": "€2,295 / month",
-    "address": "Spencer House, Custom House Square, IFSC, Dublin 1, DUBLIN 1",
-    "bedrooms": 2,
-    "bathrooms": 1,
-    "property_type": "Apartment",
-    "description": "Hooke & MacDonald are delighted to present this 2 bedroom apartment located in the heart of the IFSC.\n\nParking included.\n\nThe convenience of the location cannot be overstated having every conceivable amenity within walking distance. \n\nThe apartment is served by a wide-ranging public transport network including trains and DART from Connolly Station, Dublin Bus services and the Mayor Square LUAS stop is opposite the development. \n\nThis apartment comprises entrance hall, two bedrooms, living and dining area combined, fully tiled bathroom, timber floored living room with floor to ceiling windows. The apartment complex is securely gated and tenants benefit from having a district heating system in place.\n\nPlease note the internal photos may not be of the actual apartment available but are representative of the standard of finish.\n\nBER: C1\nBER No: 106681877\nEnergy Performance Indicator: 150.49\n\nLettings Office",
-    "accommodation": "entire",
-    "latitude": 53.34981155395508,
-    "longitude": -6.244626998901367,
-    "coords_approximate": false,
-    "available_from": null,
-    "available_to": null,
-    "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:36:42+00:00",
-    "listed_on": "2020-11-19",
-    "extra": {
-      "agent": "Hooke & MacDonald (Lettings)",
-      "private_landlord": false,
-      "size_m2": 0,
-      "sale_agreed_or_let": false,
-      "eircode": "DUBLIN 1",
-      "locality": "IFSC"
-    },
-    "area": "Custom House (Dublin 1)",
-    "area_priority": 3,
-    "distances_km": {
-      "AWS Ballsbridge": 2.42,
-      "Dogpatch Labs": 0.36
-    },
-    "total_monthly_for_group_eur": 2295.0,
-    "cost_per_person_eur": 765.0,
-    "tier": 2,
-    "within_budget": true,
-    "availability_flags": [
-      "Jan–May 2027 availability not stated – most Irish lets expect 12 months; confirm with landlord"
-    ],
-    "notes": [
-      "2 bed – third person needs a sofa bed or similar; check living room suits"
-    ],
-    "score": 73.6,
-    "duplicate_group": null,
-    "duplicate_urls": [],
-    "status": "active",
-    "price_change": null,
-    "is_new": false,
-    "uid": "myhome:4468636",
     "tier_label": "2 bed entire property (sofa bed needed)"
   },
   {
@@ -125,8 +127,8 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:36:42+00:00",
-    "listed_on": "2026-11-17",
+    "date_scraped": "2026-11-18T16:30:40+00:00",
+    "listed_on": "2026-11-18",
     "extra": {
       "agent": "MyHome.ie Users",
       "private_landlord": true,
@@ -157,6 +159,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "myhome:5031004",
     "tier_label": "2 bed entire property (sofa bed needed)"
   },
@@ -179,7 +182,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-17T16:55:59+00:00",
-    "date_scraped": "2026-11-18T01:36:42+00:00",
+    "date_scraped": "2026-11-18T16:30:40+00:00",
     "listed_on": "2026-11-17",
     "extra": {
       "agent": "Eoin O'Neill Property Advisers",
@@ -216,6 +219,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "myhome:5041576",
     "tier_label": "2 bed entire property (sofa bed needed)"
   },
@@ -238,7 +242,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-17T16:55:59+00:00",
-    "date_scraped": "2026-11-18T01:36:42+00:00",
+    "date_scraped": "2026-11-18T16:30:40+00:00",
     "listed_on": "2026-11-17",
     "extra": {
       "agent": "June McConnell Residential",
@@ -279,6 +283,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "myhome:5041586",
     "tier_label": "2 bed entire property (sofa bed needed)"
   },
@@ -301,8 +306,8 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:36:42+00:00",
-    "listed_on": "2026-11-17",
+    "date_scraped": "2026-11-18T16:30:40+00:00",
+    "listed_on": "2026-11-18",
     "extra": {
       "agent": "MyHome.ie Users",
       "private_landlord": true,
@@ -334,6 +339,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "myhome:5039075",
     "tier_label": "2 bed entire property (sofa bed needed)"
   },
@@ -356,7 +362,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:36:42+00:00",
+    "date_scraped": "2026-11-18T16:30:40+00:00",
     "listed_on": "2026-10-22",
     "extra": {
       "agent": "Sherry FitzGerald Lettings Sheehy",
@@ -397,6 +403,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "myhome:5037683",
     "tier_label": "2 bed entire property (sofa bed needed)"
   },
@@ -419,7 +426,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:36:42+00:00",
+    "date_scraped": "2026-11-18T16:30:40+00:00",
     "listed_on": "2026-10-30",
     "extra": {
       "agent": "Sherry FitzGerald Lettings Sheehy",
@@ -458,6 +465,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "myhome:5038985",
     "tier_label": "2 bed entire property (sofa bed needed)"
   },
@@ -480,7 +488,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:36:42+00:00",
+    "date_scraped": "2026-11-18T16:30:40+00:00",
     "listed_on": "2026-10-22",
     "extra": {
       "agent": "Herbert & Lansdowne Estate Agents",
@@ -517,6 +525,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "myhome:5037809",
     "tier_label": "3+ bed entire property"
   },
@@ -539,7 +548,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:36:42+00:00",
+    "date_scraped": "2026-11-18T16:30:40+00:00",
     "listed_on": "2026-10-19",
     "extra": {
       "agent": "Ray Cooke Auctioneers",
@@ -570,6 +579,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "myhome:5037014",
     "tier_label": "2 bed entire property (sofa bed needed)"
   },
@@ -592,7 +602,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:36:42+00:00",
+    "date_scraped": "2026-11-18T16:30:40+00:00",
     "listed_on": "2026-10-01",
     "extra": {
       "agent": "Sherry FitzGerald Lettings Sheehy",
@@ -632,63 +642,8 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "myhome:5031496",
-    "tier_label": "2 bed entire property (sofa bed needed)"
-  },
-  {
-    "source": "myhome",
-    "source_id": "5040769",
-    "url": "https://www.myhome.ie/rentals/brochure/fitzwilliam-quay-apartments-fitzwilliam-quay-ringsend-dublin-4/5040769",
-    "title": "2 beds Apartment – Fitzwilliam Quay Apartments, Fitzwilliam Quay, Ringsend, Dublin 4",
-    "rent_monthly_eur": 2600.0,
-    "rent_text": "€2,600 / month",
-    "address": "Fitzwilliam Quay Apartments, Fitzwilliam Quay, Ringsend, Dublin 4",
-    "bedrooms": 2,
-    "bathrooms": 1,
-    "property_type": "Apartment",
-    "description": "Email Enquiries Only\r\n\r\nA bright and airy two-bedroom apartment in beautiful condition, enjoying a wonderful southerly aspect in the highly sought-after Fitzwilliam Quay development, Ringsend. The apartment is furnished and benefits from a south-facing balcony with views towards the Aviva Stadium and a secure underground car space.\r\n\r\nThe apartment is elevated at ground-floor level and comprises a spacious living/dining room leading to the kitchen, two bedrooms and a bathroom. The balcony is accessed from the living room and has a southerly aspect, with sunlight pouring in throughout the day.\r\n\r\nFitzwilliam Quay is a well-regarded development on the banks of the Dodder, beside the vibrant South Docks area. The apartment has a new electric central heating system, a C BER rating and secure underground parking. Grand Canal Dock, with its wide range of shops, restaurants and cafés, is only a few minutes’ walk away, as are the city centre and a large number of global offices, including Google, Meta, Mason Hayes Curran and William Fry. The villages of Sandymount and Ballsbridge are also within walking distance. Transport links are excellent, with the DART and numerous bus services within easy reach, and the M50 and Dublin Airport are conveniently accessed via the East Link Bridge and Port Tunnel.\r\n\r\nA bright, stylish and well-located apartment in a prime riverside setting, offering exceptional convenience to the city centre and South Docks.\r\n\r\nEmail enquiries only. Please include full details with your enquiry. Due to the high level of interest, it may not be possible to respond to all enquiries.\n\nBER: C",
-    "accommodation": "entire",
-    "latitude": 53.34016036987305,
-    "longitude": -6.226994514465332,
-    "coords_approximate": false,
-    "available_from": null,
-    "available_to": null,
-    "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:36:42+00:00",
-    "listed_on": "2026-11-11",
-    "extra": {
-      "agent": "Eoin O'Neill Property Advisers",
-      "private_landlord": false,
-      "size_m2": null,
-      "sale_agreed_or_let": false,
-      "locality": "Ringsend",
-      "features": [
-        "Furnished"
-      ]
-    },
-    "area": "Ringsend (Dublin 4)",
-    "area_priority": 3,
-    "distances_km": {
-      "AWS Ballsbridge": 1.2,
-      "Dogpatch Labs": 1.77
-    },
-    "total_monthly_for_group_eur": 2600.0,
-    "cost_per_person_eur": 866.67,
-    "tier": 2,
-    "within_budget": true,
-    "availability_flags": [
-      "Jan–May 2027 availability not stated – most Irish lets expect 12 months; confirm with landlord"
-    ],
-    "notes": [
-      "2 bed – third person needs a sofa bed or similar; check living room suits"
-    ],
-    "score": 64.7,
-    "duplicate_group": null,
-    "duplicate_urls": [],
-    "status": "active",
-    "price_change": null,
-    "is_new": false,
-    "uid": "myhome:5040769",
     "tier_label": "2 bed entire property (sofa bed needed)"
   },
   {
@@ -710,7 +665,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:36:42+00:00",
+    "date_scraped": "2026-11-18T16:30:40+00:00",
     "listed_on": "2026-10-22",
     "extra": {
       "agent": "Sherry FitzGerald Lettings Sheehy",
@@ -751,7 +706,65 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "myhome:5037748",
+    "tier_label": "2 bed entire property (sofa bed needed)"
+  },
+  {
+    "source": "myhome",
+    "source_id": "5040769",
+    "url": "https://www.myhome.ie/rentals/brochure/fitzwilliam-quay-apartments-fitzwilliam-quay-ringsend-dublin-4/5040769",
+    "title": "2 beds Apartment – Fitzwilliam Quay Apartments, Fitzwilliam Quay, Ringsend, Dublin 4",
+    "rent_monthly_eur": 2600.0,
+    "rent_text": "€2,600 / month",
+    "address": "Fitzwilliam Quay Apartments, Fitzwilliam Quay, Ringsend, Dublin 4",
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "property_type": "Apartment",
+    "description": "Email Enquiries Only\r\n\r\nA bright and airy two-bedroom apartment in beautiful condition, enjoying a wonderful southerly aspect in the highly sought-after Fitzwilliam Quay development, Ringsend. The apartment is furnished and benefits from a south-facing balcony with views towards the Aviva Stadium and a secure underground car space.\r\n\r\nThe apartment is elevated at ground-floor level and comprises a spacious living/dining room leading to the kitchen, two bedrooms and a bathroom. The balcony is accessed from the living room and has a southerly aspect, with sunlight pouring in throughout the day.\r\n\r\nFitzwilliam Quay is a well-regarded development on the banks of the Dodder, beside the vibrant South Docks area. The apartment has a new electric central heating system, a C BER rating and secure underground parking. Grand Canal Dock, with its wide range of shops, restaurants and cafés, is only a few minutes’ walk away, as are the city centre and a large number of global offices, including Google, Meta, Mason Hayes Curran and William Fry. The villages of Sandymount and Ballsbridge are also within walking distance. Transport links are excellent, with the DART and numerous bus services within easy reach, and the M50 and Dublin Airport are conveniently accessed via the East Link Bridge and Port Tunnel.\r\n\r\nA bright, stylish and well-located apartment in a prime riverside setting, offering exceptional convenience to the city centre and South Docks.\r\n\r\nEmail enquiries only. Please include full details with your enquiry. Due to the high level of interest, it may not be possible to respond to all enquiries.\n\nBER: C",
+    "accommodation": "entire",
+    "latitude": 53.34016036987305,
+    "longitude": -6.226994514465332,
+    "coords_approximate": false,
+    "available_from": null,
+    "available_to": null,
+    "date_found": "2026-11-16T14:07:04+00:00",
+    "date_scraped": "2026-11-18T16:30:40+00:00",
+    "listed_on": "2026-11-11",
+    "extra": {
+      "agent": "Eoin O'Neill Property Advisers",
+      "private_landlord": false,
+      "size_m2": null,
+      "sale_agreed_or_let": false,
+      "locality": "Ringsend",
+      "features": [
+        "Furnished"
+      ]
+    },
+    "area": "Ringsend (Dublin 4)",
+    "area_priority": 3,
+    "distances_km": {
+      "AWS Ballsbridge": 1.2,
+      "Dogpatch Labs": 1.77
+    },
+    "total_monthly_for_group_eur": 2600.0,
+    "cost_per_person_eur": 866.67,
+    "tier": 2,
+    "within_budget": true,
+    "availability_flags": [
+      "Jan–May 2027 availability not stated – most Irish lets expect 12 months; confirm with landlord"
+    ],
+    "notes": [
+      "2 bed – third person needs a sofa bed or similar; check living room suits"
+    ],
+    "score": 64.7,
+    "duplicate_group": null,
+    "duplicate_urls": [],
+    "status": "active",
+    "price_change": null,
+    "is_new": false,
+    "contacted": false,
+    "uid": "myhome:5040769",
     "tier_label": "2 bed entire property (sofa bed needed)"
   },
   {
@@ -773,7 +786,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:36:42+00:00",
+    "date_scraped": "2026-11-18T16:30:40+00:00",
     "listed_on": "2021-06-15",
     "extra": {
       "agent": "Hooke & MacDonald (Lettings)",
@@ -805,6 +818,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "myhome:4508676",
     "tier_label": "2 bed entire property (sofa bed needed)"
   },
@@ -827,7 +841,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-17T02:28:55+00:00",
-    "date_scraped": "2026-11-18T01:36:42+00:00",
+    "date_scraped": "2026-11-18T16:30:40+00:00",
     "listed_on": "2026-11-16",
     "extra": {
       "agent": "Owen Reilly",
@@ -865,6 +879,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "myhome:5041466",
     "tier_label": "2 bed entire property (sofa bed needed)"
   },
@@ -887,7 +902,7 @@
     "available_from": "2026-11-28",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:41:10+00:00",
+    "date_scraped": "2026-11-18T16:35:03+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -920,6 +935,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "spotahome:1265361",
     "tier_label": "2 bed entire property (sofa bed needed)"
   },
@@ -942,7 +958,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-17T02:28:55+00:00",
-    "date_scraped": "2026-11-18T01:36:42+00:00",
+    "date_scraped": "2026-11-18T16:30:40+00:00",
     "listed_on": "2026-10-08",
     "extra": {
       "agent": "Lisney Sotheby's International Realty Ballsbridge",
@@ -974,6 +990,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "myhome:5032965",
     "tier_label": "2 bed entire property (sofa bed needed)"
   },
@@ -996,7 +1013,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:36:42+00:00",
+    "date_scraped": "2026-11-18T16:30:40+00:00",
     "listed_on": "2023-08-14",
     "extra": {
       "agent": "Get Property Estate Agents",
@@ -1027,6 +1044,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "myhome:4727914",
     "tier_label": "2 bed entire property (sofa bed needed)"
   },
@@ -1049,7 +1067,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:36:42+00:00",
+    "date_scraped": "2026-11-18T16:30:40+00:00",
     "listed_on": "2023-11-23",
     "extra": {
       "agent": "Clare Connolly Estate Agents",
@@ -1081,6 +1099,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "myhome:4761328",
     "tier_label": "2 bed entire property (sofa bed needed)"
   },
@@ -1103,7 +1122,7 @@
     "available_from": "2027-01-05",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:41:10+00:00",
+    "date_scraped": "2026-11-18T16:35:03+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -1144,6 +1163,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "spotahome:753498",
     "tier_label": "Shared accommodation"
   },
@@ -1166,7 +1186,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:36:42+00:00",
+    "date_scraped": "2026-11-18T16:30:40+00:00",
     "listed_on": "2026-10-30",
     "extra": {
       "agent": "Sherry FitzGerald Lettings Sheehy",
@@ -1204,6 +1224,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "myhome:5038891",
     "tier_label": "2 bed entire property (sofa bed needed)"
   },
@@ -1226,7 +1247,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:36:42+00:00",
+    "date_scraped": "2026-11-18T16:30:40+00:00",
     "listed_on": "2025-05-12",
     "extra": {
       "agent": "Sherry FitzGerald Lettings Sheehy",
@@ -1265,6 +1286,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "myhome:4928735",
     "tier_label": "2 bed entire property (sofa bed needed)"
   },
@@ -1287,7 +1309,7 @@
     "available_from": "2027-01-12",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:42:20+00:00",
+    "date_scraped": "2026-11-18T16:36:14+00:00",
     "listed_on": null,
     "extra": {
       "size": "12 m²",
@@ -1320,6 +1342,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "housinganywhere:ut1153001",
     "tier_label": "Shared accommodation"
   },
@@ -1342,8 +1365,8 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:36:42+00:00",
-    "listed_on": "2026-11-17",
+    "date_scraped": "2026-11-18T16:30:40+00:00",
+    "listed_on": "2026-11-18",
     "extra": {
       "agent": "MyHome.ie Users",
       "private_landlord": true,
@@ -1374,6 +1397,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "myhome:5029550",
     "tier_label": "2 bed entire property (sofa bed needed)"
   },
@@ -1396,7 +1420,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:36:42+00:00",
+    "date_scraped": "2026-11-18T16:30:40+00:00",
     "listed_on": "2026-11-09",
     "extra": {
       "agent": "Ray Cooke Auctioneers",
@@ -1427,6 +1451,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "myhome:5040326",
     "tier_label": "2 bed entire property (sofa bed needed)"
   },
@@ -1449,7 +1474,7 @@
     "available_from": "2027-01-12",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:41:10+00:00",
+    "date_scraped": "2026-11-18T16:35:03+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -1488,6 +1513,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "spotahome:609671",
     "tier_label": "Shared accommodation"
   },
@@ -1510,7 +1536,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:36:42+00:00",
+    "date_scraped": "2026-11-18T16:30:40+00:00",
     "listed_on": "2025-11-20",
     "extra": {
       "agent": "DNG Lettings",
@@ -1548,6 +1574,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "myhome:4967530",
     "tier_label": "2 bed entire property (sofa bed needed)"
   },
@@ -1570,7 +1597,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-17T16:55:59+00:00",
-    "date_scraped": "2026-11-18T01:36:42+00:00",
+    "date_scraped": "2026-11-18T16:30:40+00:00",
     "listed_on": "2026-11-17",
     "extra": {
       "agent": "Lisney Sotheby's International Realty Ballsbridge",
@@ -1602,6 +1629,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "myhome:5041525",
     "tier_label": "2 bed entire property (sofa bed needed)"
   },
@@ -1624,7 +1652,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:36:42+00:00",
+    "date_scraped": "2026-11-18T16:30:40+00:00",
     "listed_on": "2026-11-13",
     "extra": {
       "agent": "Ed Dempsey & Associates",
@@ -1656,6 +1684,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "myhome:5041315",
     "tier_label": "2 bed entire property (sofa bed needed)"
   },
@@ -1678,7 +1707,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:36:42+00:00",
+    "date_scraped": "2026-11-18T16:30:40+00:00",
     "listed_on": "2026-09-17",
     "extra": {
       "agent": "Bartholomew McElhatton",
@@ -1717,68 +1746,8 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "myhome:5028786",
-    "tier_label": "2 bed entire property (sofa bed needed)"
-  },
-  {
-    "source": "myhome",
-    "source_id": "5041063",
-    "url": "https://www.myhome.ie/rentals/brochure/the-hibernian-the-gasworks-ringsend-dublin-4/5041063",
-    "title": "2 beds Apartment – The Hibernian, The Gasworks, Ringsend, Dublin 4",
-    "rent_monthly_eur": 2800.0,
-    "rent_text": "€2,800 / month",
-    "address": "The Hibernian, The Gasworks, Ringsend, Dublin 4, D04 HN26",
-    "bedrooms": 2,
-    "bathrooms": 2,
-    "property_type": "Apartment",
-    "description": "DFM are delighted to offer to let this spacious two bedroom apartment in The Hibernian.\r\n\r\nSituated on the 2nd floor in The Gasworks development, this stylishly presented apartment comprises entrance hall with a storage room and a utility room, open plan living/dining/kitchen featuring a bay window, two spacious double bedrooms, the master bedroom is en-suite, main bathroom and a large balcony. The apartment also comes with one secure parking space.\r\n\r\nThe Hibernian is positioned just off Barrow Street, enjoying an unrivalled location close to Grand Canal Dock and situated within seconds of Google HQ and Grand Canal Dock Dart Station. Amenities in the area include excellent restaurants, bars and shops, all within easy reach and with excellent public transport links including the DART, Dublin Bus services and city bikes. \r\n\r\nViewing is recommended and strictly by appointment.\n\nBER: C2",
-    "accommodation": "entire",
-    "latitude": 53.339683532714844,
-    "longitude": -6.235208511352539,
-    "coords_approximate": false,
-    "available_from": null,
-    "available_to": null,
-    "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:36:42+00:00",
-    "listed_on": "2026-11-12",
-    "extra": {
-      "agent": "DFM",
-      "private_landlord": false,
-      "size_m2": null,
-      "sale_agreed_or_let": false,
-      "eircode": "D04 HN26",
-      "locality": "Ringsend",
-      "features": [
-        "Furnished",
-        "Parking",
-        "Central Heating",
-        "Washing Machine",
-        "Dishwasher"
-      ]
-    },
-    "area": "Ringsend (Dublin 4)",
-    "area_priority": 3,
-    "distances_km": {
-      "AWS Ballsbridge": 1.16,
-      "Dogpatch Labs": 1.38
-    },
-    "total_monthly_for_group_eur": 2800.0,
-    "cost_per_person_eur": 933.33,
-    "tier": 2,
-    "within_budget": true,
-    "availability_flags": [
-      "Jan–May 2027 availability not stated – most Irish lets expect 12 months; confirm with landlord"
-    ],
-    "notes": [
-      "2 bed – third person needs a sofa bed or similar; check living room suits"
-    ],
-    "score": 58.8,
-    "duplicate_group": null,
-    "duplicate_urls": [],
-    "status": "active",
-    "price_change": null,
-    "is_new": false,
-    "uid": "myhome:5041063",
     "tier_label": "2 bed entire property (sofa bed needed)"
   },
   {
@@ -1800,7 +1769,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:36:42+00:00",
+    "date_scraped": "2026-11-18T16:30:40+00:00",
     "listed_on": "2026-10-23",
     "extra": {
       "agent": "Sherry FitzGerald Lettings Sheehy",
@@ -1840,7 +1809,70 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "myhome:5037876",
+    "tier_label": "2 bed entire property (sofa bed needed)"
+  },
+  {
+    "source": "myhome",
+    "source_id": "5041063",
+    "url": "https://www.myhome.ie/rentals/brochure/the-hibernian-the-gasworks-ringsend-dublin-4/5041063",
+    "title": "2 beds Apartment – The Hibernian, The Gasworks, Ringsend, Dublin 4",
+    "rent_monthly_eur": 2800.0,
+    "rent_text": "€2,800 / month",
+    "address": "The Hibernian, The Gasworks, Ringsend, Dublin 4, D04 HN26",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "property_type": "Apartment",
+    "description": "DFM are delighted to offer to let this spacious two bedroom apartment in The Hibernian.\r\n\r\nSituated on the 2nd floor in The Gasworks development, this stylishly presented apartment comprises entrance hall with a storage room and a utility room, open plan living/dining/kitchen featuring a bay window, two spacious double bedrooms, the master bedroom is en-suite, main bathroom and a large balcony. The apartment also comes with one secure parking space.\r\n\r\nThe Hibernian is positioned just off Barrow Street, enjoying an unrivalled location close to Grand Canal Dock and situated within seconds of Google HQ and Grand Canal Dock Dart Station. Amenities in the area include excellent restaurants, bars and shops, all within easy reach and with excellent public transport links including the DART, Dublin Bus services and city bikes. \r\n\r\nViewing is recommended and strictly by appointment.\n\nBER: C2",
+    "accommodation": "entire",
+    "latitude": 53.339683532714844,
+    "longitude": -6.235208511352539,
+    "coords_approximate": false,
+    "available_from": null,
+    "available_to": null,
+    "date_found": "2026-11-16T14:07:04+00:00",
+    "date_scraped": "2026-11-18T16:30:40+00:00",
+    "listed_on": "2026-11-12",
+    "extra": {
+      "agent": "DFM",
+      "private_landlord": false,
+      "size_m2": null,
+      "sale_agreed_or_let": false,
+      "eircode": "D04 HN26",
+      "locality": "Ringsend",
+      "features": [
+        "Furnished",
+        "Parking",
+        "Central Heating",
+        "Washing Machine",
+        "Dishwasher"
+      ]
+    },
+    "area": "Ringsend (Dublin 4)",
+    "area_priority": 3,
+    "distances_km": {
+      "AWS Ballsbridge": 1.16,
+      "Dogpatch Labs": 1.38
+    },
+    "total_monthly_for_group_eur": 2800.0,
+    "cost_per_person_eur": 933.33,
+    "tier": 2,
+    "within_budget": true,
+    "availability_flags": [
+      "Jan–May 2027 availability not stated – most Irish lets expect 12 months; confirm with landlord"
+    ],
+    "notes": [
+      "2 bed – third person needs a sofa bed or similar; check living room suits"
+    ],
+    "score": 58.8,
+    "duplicate_group": null,
+    "duplicate_urls": [],
+    "status": "active",
+    "price_change": null,
+    "is_new": false,
+    "contacted": false,
+    "uid": "myhome:5041063",
     "tier_label": "2 bed entire property (sofa bed needed)"
   },
   {
@@ -1862,7 +1894,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:36:42+00:00",
+    "date_scraped": "2026-11-18T16:30:40+00:00",
     "listed_on": "2026-11-11",
     "extra": {
       "agent": "Ed Dempsey & Associates",
@@ -1894,70 +1926,8 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "myhome:5040834",
-    "tier_label": "2 bed entire property (sofa bed needed)"
-  },
-  {
-    "source": "myhome",
-    "source_id": "5036299",
-    "url": "https://www.myhome.ie/rentals/brochure/brooklands-nutley-lane-merrion-dublin-4/5036299",
-    "title": "2 beds Apartment – Brooklands, Nutley Lane, Merrion, Dublin 4",
-    "rent_monthly_eur": 2650.0,
-    "rent_text": "€2,650 / month",
-    "address": "Brooklands, Nutley Lane, Merrion, Dublin 4",
-    "bedrooms": 2,
-    "bathrooms": 1,
-    "property_type": "Apartment",
-    "description": "**Available Immediately** Sherry FitzGerald Lettings presents this newly refurbished two bed, one bath apartment extending to 58sqm. Accommodation consists of entrance hall leading into open plan living dining area with kitchen just off with fridge/freezer, dishwasher and washer/dryer. There are two double bedrooms both with ample built-in wardrobe space. There is a lovely bathroom just off the hallway with a walk-in shower. Viewing highly recommended of this property. One parking space available. **Professionally managed by Sherry FitzGerald Lettings**\n\nBER: D2",
-    "accommodation": "entire",
-    "latitude": 53.31639099121094,
-    "longitude": -6.217836380004883,
-    "coords_approximate": false,
-    "available_from": null,
-    "available_to": null,
-    "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:36:42+00:00",
-    "listed_on": "2026-10-15",
-    "extra": {
-      "agent": "Sherry FitzGerald Lettings Sheehy",
-      "private_landlord": false,
-      "size_m2": 58,
-      "sale_agreed_or_let": false,
-      "locality": "Merrion",
-      "features": [
-        "Furnished",
-        "Parking",
-        "Central Heating",
-        "Washing Machine",
-        "Dryer",
-        "Dishwasher",
-        "Microwave"
-      ],
-      "site_price_change": "-€150.00 10th Nov 26"
-    },
-    "area": "Merrion (Dublin 4)",
-    "area_priority": 3,
-    "distances_km": {
-      "AWS Ballsbridge": 1.71,
-      "Dogpatch Labs": 4.16
-    },
-    "total_monthly_for_group_eur": 2650.0,
-    "cost_per_person_eur": 883.33,
-    "tier": 2,
-    "within_budget": true,
-    "availability_flags": [
-      "Available now – landlord may expect rent from before January"
-    ],
-    "notes": [
-      "2 bed – third person needs a sofa bed or similar; check living room suits"
-    ],
-    "score": 57.7,
-    "duplicate_group": null,
-    "duplicate_urls": [],
-    "status": "active",
-    "price_change": null,
-    "is_new": false,
-    "uid": "myhome:5036299",
     "tier_label": "2 bed entire property (sofa bed needed)"
   },
   {
@@ -1979,7 +1949,7 @@
     "available_from": "2026-11-18",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:41:10+00:00",
+    "date_scraped": "2026-11-18T16:35:03+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "all",
@@ -2015,6 +1985,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "spotahome:1265452",
     "tier_label": "2 bed entire property (sofa bed needed)"
   },
@@ -2037,7 +2008,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:36:42+00:00",
+    "date_scraped": "2026-11-18T16:30:40+00:00",
     "listed_on": "2026-09-28",
     "extra": {
       "agent": "Sherry FitzGerald Lettings Sheehy",
@@ -2078,6 +2049,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "myhome:5030990",
     "tier_label": "2 bed entire property (sofa bed needed)"
   },
@@ -2100,7 +2072,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:36:42+00:00",
+    "date_scraped": "2026-11-18T16:30:40+00:00",
     "listed_on": "2026-10-05",
     "extra": {
       "agent": "Owen Reilly",
@@ -2133,6 +2105,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "myhome:5032212",
     "tier_label": "2 bed entire property (sofa bed needed)"
   },
@@ -2155,7 +2128,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:36:42+00:00",
+    "date_scraped": "2026-11-18T16:30:40+00:00",
     "listed_on": "2026-11-13",
     "extra": {
       "agent": "Owen Reilly",
@@ -2190,6 +2163,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "myhome:5041293",
     "tier_label": "2 bed entire property (sofa bed needed)"
   },
@@ -2212,7 +2186,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-17T02:28:55+00:00",
-    "date_scraped": "2026-11-18T01:36:42+00:00",
+    "date_scraped": "2026-11-18T16:30:40+00:00",
     "listed_on": "2026-11-16",
     "extra": {
       "agent": "Quillsen",
@@ -2244,6 +2218,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "myhome:5041510",
     "tier_label": "2 bed entire property (sofa bed needed)"
   },
@@ -2266,7 +2241,7 @@
     "available_from": "2026-11-18",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:41:10+00:00",
+    "date_scraped": "2026-11-18T16:35:03+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -2306,6 +2281,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "spotahome:401746",
     "tier_label": "Shared accommodation"
   },
@@ -2328,7 +2304,7 @@
     "available_from": "2027-01-08",
     "available_to": null,
     "date_found": "2026-11-17T02:28:55+00:00",
-    "date_scraped": "2026-11-18T01:42:20+00:00",
+    "date_scraped": "2026-11-18T16:36:14+00:00",
     "listed_on": null,
     "extra": {
       "size": "12 m²",
@@ -2377,6 +2353,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "housinganywhere:ut1158365",
     "tier_label": "Shared accommodation"
   },
@@ -2399,7 +2376,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-17T16:55:59+00:00",
-    "date_scraped": "2026-11-18T01:36:42+00:00",
+    "date_scraped": "2026-11-18T16:30:40+00:00",
     "listed_on": "2026-11-17",
     "extra": {
       "agent": "Sherry FitzGerald Lettings Sheehy",
@@ -2438,6 +2415,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "myhome:5041657",
     "tier_label": "2 bed entire property (sofa bed needed)"
   },
@@ -2460,7 +2438,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:36:42+00:00",
+    "date_scraped": "2026-11-18T16:30:40+00:00",
     "listed_on": "2020-05-20",
     "extra": {
       "agent": "Greystar Europe",
@@ -2499,6 +2477,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "myhome:4428947",
     "tier_label": "2 bed entire property (sofa bed needed)"
   },
@@ -2521,7 +2500,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:36:42+00:00",
+    "date_scraped": "2026-11-18T16:30:40+00:00",
     "listed_on": "2026-11-05",
     "extra": {
       "agent": "Sherry FitzGerald Lettings Sheehy",
@@ -2562,6 +2541,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "myhome:5039799",
     "tier_label": "2 bed entire property (sofa bed needed)"
   },
@@ -2584,7 +2564,7 @@
     "available_from": "2026-11-18",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:41:10+00:00",
+    "date_scraped": "2026-11-18T16:35:03+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -2619,13 +2599,13 @@
     "duplicate_group": "6cc2b0ec70",
     "duplicate_urls": [
       "https://housinganywhere.com/room/ut1175452/ie/Dublin/royal-canal-terrace?page=5",
-      "https://www.spotahome.com/dublin/for-rent:residences/997643",
-      "https://www.spotahome.com/dublin/for-rent:residences/997644",
-      "https://www.spotahome.com/dublin/for-rent:residences/997650",
-      "https://www.spotahome.com/dublin/for-rent:residences/997651",
       "https://www.spotahome.com/dublin/for-rent:residences/997652",
+      "https://www.spotahome.com/dublin/for-rent:residences/997643",
+      "https://www.spotahome.com/dublin/for-rent:residences/997651",
       "https://www.spotahome.com/dublin/for-rent:residences/997642",
+      "https://www.spotahome.com/dublin/for-rent:residences/997644",
       "https://www.spotahome.com/dublin/for-rent:residences/997649",
+      "https://www.spotahome.com/dublin/for-rent:residences/997650",
       "https://housinganywhere.com/room/ut1375191/ie/Dublin/royal-canal-terrace?page=5",
       "https://housinganywhere.com/room/ut1370621/ie/Dublin/royal-canal-terrace?page=5",
       "https://housinganywhere.com/room/ut1370101/ie/Dublin/royal-canal-terrace?page=5"
@@ -2633,6 +2613,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "spotahome:997645",
     "tier_label": "Shared accommodation"
   },
@@ -2655,7 +2636,7 @@
     "available_from": "2027-01-05",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:41:10+00:00",
+    "date_scraped": "2026-11-18T16:35:03+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -2698,6 +2679,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "spotahome:267501",
     "tier_label": "Shared accommodation"
   },
@@ -2720,7 +2702,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:36:42+00:00",
+    "date_scraped": "2026-11-18T16:30:40+00:00",
     "listed_on": "2026-11-02",
     "extra": {
       "agent": "Galvin Property & Finance",
@@ -2759,6 +2741,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "myhome:5039131",
     "tier_label": "2 bed entire property (sofa bed needed)"
   },
@@ -2781,7 +2764,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:36:42+00:00",
+    "date_scraped": "2026-11-18T16:30:40+00:00",
     "listed_on": "2026-10-29",
     "extra": {
       "agent": "Moovingo",
@@ -2812,6 +2795,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "myhome:5038647",
     "tier_label": "2 bed entire property (sofa bed needed)"
   },
@@ -2834,7 +2818,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:36:42+00:00",
+    "date_scraped": "2026-11-18T16:30:40+00:00",
     "listed_on": "2025-08-14",
     "extra": {
       "agent": "Dowling Property",
@@ -2878,6 +2862,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "myhome:4947007",
     "tier_label": "2 bed entire property (sofa bed needed)"
   },
@@ -2900,7 +2885,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:36:42+00:00",
+    "date_scraped": "2026-11-18T16:30:40+00:00",
     "listed_on": "2026-11-09",
     "extra": {
       "agent": "Ray Cooke Auctioneers",
@@ -2931,6 +2916,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "myhome:5040339",
     "tier_label": "2 bed entire property (sofa bed needed)"
   },
@@ -2953,7 +2939,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:36:42+00:00",
+    "date_scraped": "2026-11-18T16:30:40+00:00",
     "listed_on": "2026-07-02",
     "extra": {
       "agent": "Allen & Jacobs",
@@ -2985,6 +2971,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "myhome:5010235",
     "tier_label": "2 bed entire property (sofa bed needed)"
   },
@@ -3007,8 +2994,8 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:36:42+00:00",
-    "listed_on": "2026-11-17",
+    "date_scraped": "2026-11-18T16:30:40+00:00",
+    "listed_on": "2026-11-18",
     "extra": {
       "agent": "MyHome.ie Users",
       "private_landlord": true,
@@ -3039,6 +3026,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "myhome:5036843",
     "tier_label": "2 bed entire property (sofa bed needed)"
   },
@@ -3061,7 +3049,7 @@
     "available_from": "2026-12-04",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:41:10+00:00",
+    "date_scraped": "2026-11-18T16:35:03+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -3100,6 +3088,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "spotahome:294247",
     "tier_label": "Shared accommodation"
   },
@@ -3122,7 +3111,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:36:42+00:00",
+    "date_scraped": "2026-11-18T16:30:40+00:00",
     "listed_on": "2026-10-13",
     "extra": {
       "agent": "Sherry FitzGerald Lettings Sheehy",
@@ -3162,6 +3151,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "myhome:5035354",
     "tier_label": "2 bed entire property (sofa bed needed)"
   },
@@ -3184,7 +3174,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:36:42+00:00",
+    "date_scraped": "2026-11-18T16:30:40+00:00",
     "listed_on": "2026-11-09",
     "extra": {
       "agent": "Sherry FitzGerald Lettings Sheehy",
@@ -3224,6 +3214,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "myhome:5040393",
     "tier_label": "2 bed entire property (sofa bed needed)"
   },
@@ -3246,7 +3237,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:36:42+00:00",
+    "date_scraped": "2026-11-18T16:30:40+00:00",
     "listed_on": "2023-10-27",
     "extra": {
       "agent": "Bergins Valuers & Estate Agents Ltd",
@@ -3288,6 +3279,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "myhome:4751363",
     "tier_label": "2 bed entire property (sofa bed needed)"
   },
@@ -3310,7 +3302,7 @@
     "available_from": "2027-01-12",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:41:10+00:00",
+    "date_scraped": "2026-11-18T16:35:03+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -3351,6 +3343,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "spotahome:356649",
     "tier_label": "Shared accommodation"
   },
@@ -3373,7 +3366,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:36:42+00:00",
+    "date_scraped": "2026-11-18T16:30:40+00:00",
     "listed_on": "2026-03-30",
     "extra": {
       "agent": "Hooke & MacDonald (Lettings)",
@@ -3408,6 +3401,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "myhome:4990434",
     "tier_label": "2 bed entire property (sofa bed needed)"
   },
@@ -3430,7 +3424,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:36:42+00:00",
+    "date_scraped": "2026-11-18T16:30:40+00:00",
     "listed_on": "2026-10-29",
     "extra": {
       "agent": "Herman White Estates",
@@ -3461,6 +3455,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "myhome:5038694",
     "tier_label": "2 bed entire property (sofa bed needed)"
   },
@@ -3483,7 +3478,7 @@
     "available_from": "2026-11-18",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:41:10+00:00",
+    "date_scraped": "2026-11-18T16:35:03+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "all",
@@ -3516,6 +3511,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "spotahome:1314952",
     "tier_label": "2 bed entire property (sofa bed needed)"
   },
@@ -3538,7 +3534,7 @@
     "available_from": "2026-11-18",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:41:10+00:00",
+    "date_scraped": "2026-11-18T16:35:03+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -3577,6 +3573,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "spotahome:1709735",
     "tier_label": "Shared accommodation"
   },
@@ -3599,7 +3596,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:36:42+00:00",
+    "date_scraped": "2026-11-18T16:30:40+00:00",
     "listed_on": "2026-10-29",
     "extra": {
       "agent": "MOVEHOME ESTATE AGENTS",
@@ -3632,6 +3629,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "myhome:5038634",
     "tier_label": "2 bed entire property (sofa bed needed)"
   },
@@ -3654,7 +3652,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-17T16:55:59+00:00",
-    "date_scraped": "2026-11-18T01:36:42+00:00",
+    "date_scraped": "2026-11-18T16:30:40+00:00",
     "listed_on": "2026-11-17",
     "extra": {
       "agent": "Owen Reilly",
@@ -3686,6 +3684,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "myhome:5041647",
     "tier_label": "2 bed entire property (sofa bed needed)"
   },
@@ -3708,7 +3707,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:36:42+00:00",
+    "date_scraped": "2026-11-18T16:30:40+00:00",
     "listed_on": "2026-09-11",
     "extra": {
       "agent": "Stokes Property Consultants Ltd",
@@ -3741,7 +3740,62 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "myhome:5027772",
+    "tier_label": "2 bed entire property (sofa bed needed)"
+  },
+  {
+    "source": "myhome",
+    "source_id": "5037821",
+    "url": "https://www.myhome.ie/rentals/brochure/the-courtyard-n-great-george-s-st-parnell-square-dublin-1/5037821",
+    "title": "2 beds Apartment – The Courtyard, N Great George's St, Parnell Square, Dublin 1",
+    "rent_monthly_eur": 2980.0,
+    "rent_text": "€2,980 / month",
+    "address": "The Courtyard, N Great George's St, Parnell Square, Dublin 1",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "property_type": "Apartment",
+    "description": "**** PLEASE READ THE AD AND SEND YOUR DETAILS. WE WILL CONTACT YOU ONCE VIEWING BEGINS***\n\nWell-presented two-bedroom/ two-bathroom apartment available for rent in the heart of Dublin. \nThe apartment has just been renovated, it is presented fully furnished and enjoys a highly convenient city-centre location.\n\nThe property comprises an entrance hall, spacious open-plan living/dining room with timber flooring, and a fitted kitchen with a range of appliances. There are two well-proportioned double bedrooms, with plenty of storage, including a main bedroom en-suite with fitted wardrobes, together with a modern, tiled shower room. \n\nIt may be occupied to a maximum of four people. \n\nSituated adjacent to the iconic Parnell Street, the apartment enjoys one of Dublin 1's most convenient addresses. O'Connell Street is just a short stroll away, offering an excellent selection of shops, cafés, restaurants and bars. The location is exceptionally well served by public transport, including Dublin Bus, Connolly Station, the DART and LUAS, making travel across the city effortless. The Mater Hospital, Rotunda Hospital, IFSC and many of Dublin's major employers are all within easy walking distance.   \n\nThis is a rare opportunity to be the first to enjoy this beautiful y spacious apartment in one of Dublin's most sought-after city centre locations.",
+    "accommodation": "entire",
+    "latitude": 53.352,
+    "longitude": -6.26,
+    "coords_approximate": true,
+    "available_from": null,
+    "available_to": null,
+    "date_found": "2026-11-16T14:07:04+00:00",
+    "date_scraped": "2026-11-18T16:30:40+00:00",
+    "listed_on": "2026-11-18",
+    "extra": {
+      "agent": "MyHome.ie Users",
+      "private_landlord": true,
+      "size_m2": 80,
+      "sale_agreed_or_let": false,
+      "locality": "Parnell Square"
+    },
+    "area": "Dublin 1",
+    "area_priority": 2,
+    "distances_km": {
+      "AWS Ballsbridge": 3.15,
+      "Dogpatch Labs": 0.79
+    },
+    "total_monthly_for_group_eur": 2980.0,
+    "cost_per_person_eur": 993.33,
+    "tier": 2,
+    "within_budget": true,
+    "availability_flags": [
+      "Jan–May 2027 availability not stated – most Irish lets expect 12 months; confirm with landlord"
+    ],
+    "notes": [
+      "2 bed – third person needs a sofa bed or similar; check living room suits"
+    ],
+    "score": 47.0,
+    "duplicate_group": null,
+    "duplicate_urls": [],
+    "status": "active",
+    "price_change": "€1,490 → €2,980 (+€1,490)",
+    "is_new": false,
+    "contacted": false,
+    "uid": "myhome:5037821",
     "tier_label": "2 bed entire property (sofa bed needed)"
   },
   {
@@ -3763,7 +3817,7 @@
     "available_from": "2027-01-08",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:41:10+00:00",
+    "date_scraped": "2026-11-18T16:35:03+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -3798,17 +3852,18 @@
     "duplicate_group": "70f81d2da8",
     "duplicate_urls": [
       "https://www.spotahome.com/dublin/for-rent:rooms/227636",
+      "https://www.spotahome.com/dublin/for-rent:rooms/392301",
       "https://housinganywhere.com/room/ut1191017/ie/Dublin/the-rise?page=3",
       "https://housinganywhere.com/room/ut879941/ie/Dublin/the-rise?page=3",
-      "https://www.spotahome.com/dublin/for-rent:rooms/394336",
       "https://www.spotahome.com/dublin/for-rent:rooms/226699",
+      "https://www.spotahome.com/dublin/for-rent:rooms/394336",
       "https://www.spotahome.com/dublin/for-rent:rooms/227639",
-      "https://www.spotahome.com/dublin/for-rent:rooms/392301",
       "https://housinganywhere.com/room/ut1157935/ie/Dublin/the-rise?page=3"
     ],
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "spotahome:392302",
     "tier_label": "Shared accommodation"
   },
@@ -3831,7 +3886,7 @@
     "available_from": "2027-01-01",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:41:10+00:00",
+    "date_scraped": "2026-11-18T16:35:03+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -3868,6 +3923,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "spotahome:96447",
     "tier_label": "Shared accommodation"
   },
@@ -3890,7 +3946,7 @@
     "available_from": "2027-01-12",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:41:10+00:00",
+    "date_scraped": "2026-11-18T16:35:03+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -3929,6 +3985,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "spotahome:1427349",
     "tier_label": "Shared accommodation"
   },
@@ -3951,7 +4008,7 @@
     "available_from": "2027-01-12",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:42:20+00:00",
+    "date_scraped": "2026-11-18T16:36:14+00:00",
     "listed_on": null,
     "extra": {
       "size": "20 m²",
@@ -3980,6 +4037,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "housinganywhere:ut1255045",
     "tier_label": "Shared accommodation"
   },
@@ -4002,7 +4060,7 @@
     "available_from": "2027-01-12",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:41:10+00:00",
+    "date_scraped": "2026-11-18T16:35:03+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -4043,6 +4101,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "spotahome:931754",
     "tier_label": "Shared accommodation"
   },
@@ -4065,7 +4124,7 @@
     "available_from": "2027-02-15",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:41:10+00:00",
+    "date_scraped": "2026-11-18T16:35:03+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -4107,6 +4166,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "spotahome:931762",
     "tier_label": "Shared accommodation"
   },
@@ -4129,7 +4189,7 @@
     "available_from": "2027-05-01",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:41:10+00:00",
+    "date_scraped": "2026-11-18T16:35:03+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -4164,6 +4224,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "spotahome:603476",
     "tier_label": "2 bed entire property (sofa bed needed)"
   },
@@ -4186,7 +4247,7 @@
     "available_from": "2027-01-05",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:41:10+00:00",
+    "date_scraped": "2026-11-18T16:35:03+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -4223,6 +4284,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "spotahome:560313",
     "tier_label": "Shared accommodation"
   },
@@ -4245,7 +4307,7 @@
     "available_from": "2027-01-15",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:42:20+00:00",
+    "date_scraped": "2026-11-18T16:36:14+00:00",
     "listed_on": null,
     "extra": {
       "size": "10 m²",
@@ -4275,6 +4337,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "housinganywhere:ut798491",
     "tier_label": "Shared accommodation"
   },
@@ -4297,7 +4360,7 @@
     "available_from": "2027-01-15",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:41:10+00:00",
+    "date_scraped": "2026-11-18T16:35:03+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -4336,6 +4399,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "spotahome:1711477",
     "tier_label": "Shared accommodation"
   },
@@ -4358,7 +4422,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:36:42+00:00",
+    "date_scraped": "2026-11-18T16:30:40+00:00",
     "listed_on": "2026-11-03",
     "extra": {
       "agent": "Flynn & Associates Castleknock",
@@ -4390,6 +4454,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "myhome:5039318",
     "tier_label": "2 bed entire property (sofa bed needed)"
   },
@@ -4412,7 +4477,7 @@
     "available_from": "2027-04-05",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:42:20+00:00",
+    "date_scraped": "2026-11-18T16:36:14+00:00",
     "listed_on": null,
     "extra": {
       "size": "14 m²",
@@ -4432,17 +4497,15 @@
       "Available only from 05 Apr 2027 (after 01 Jan 2027)"
     ],
     "notes": [
-      "Price is per room – 3 rooms needed (assumes same price each)",
-      "2 near-identical adverts merged"
+      "Price is per room – 3 rooms needed (assumes same price each)"
     ],
     "score": 41.2,
-    "duplicate_group": "a7d08e689b",
-    "duplicate_urls": [
-      "https://housinganywhere.com/room/ut1145912/ie/Dublin/phibsborough-road?page=6"
-    ],
+    "duplicate_group": null,
+    "duplicate_urls": [],
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "housinganywhere:ut1480369",
     "tier_label": "Shared accommodation"
   },
@@ -4465,7 +4528,7 @@
     "available_from": "2027-02-01",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:41:10+00:00",
+    "date_scraped": "2026-11-18T16:35:03+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "all",
@@ -4500,6 +4563,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "spotahome:1074070",
     "tier_label": "2 bed entire property (sofa bed needed)"
   },
@@ -4522,7 +4586,7 @@
     "available_from": "2027-03-01",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:42:20+00:00",
+    "date_scraped": "2026-11-18T16:36:14+00:00",
     "listed_on": null,
     "extra": {
       "size": "15 m²",
@@ -4554,6 +4618,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "housinganywhere:ut1597524",
     "tier_label": "Shared accommodation"
   },
@@ -4576,7 +4641,7 @@
     "available_from": "2027-02-02",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:41:10+00:00",
+    "date_scraped": "2026-11-18T16:35:03+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -4611,6 +4676,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "spotahome:612066",
     "tier_label": "2 bed entire property (sofa bed needed)"
   },
@@ -4633,7 +4699,7 @@
     "available_from": "2027-01-01",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:41:10+00:00",
+    "date_scraped": "2026-11-18T16:35:03+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -4666,6 +4732,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "spotahome:1169596",
     "tier_label": "2 bed entire property (sofa bed needed)"
   },
@@ -4688,7 +4755,7 @@
     "available_from": "2027-01-18",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:42:20+00:00",
+    "date_scraped": "2026-11-18T16:36:14+00:00",
     "listed_on": null,
     "extra": {
       "size": "10 m²",
@@ -4716,6 +4783,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "housinganywhere:ut1155858",
     "tier_label": "Shared accommodation"
   },
@@ -4738,7 +4806,7 @@
     "available_from": "2027-03-03",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:41:10+00:00",
+    "date_scraped": "2026-11-18T16:35:03+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "all",
@@ -4778,6 +4846,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "spotahome:468304",
     "tier_label": "Shared accommodation"
   },
@@ -4800,7 +4869,7 @@
     "available_from": "2027-02-02",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:41:10+00:00",
+    "date_scraped": "2026-11-18T16:35:03+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "all",
@@ -4836,6 +4905,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "spotahome:1560276",
     "tier_label": "Shared accommodation"
   },
@@ -4858,7 +4928,7 @@
     "available_from": "2027-02-09",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:41:10+00:00",
+    "date_scraped": "2026-11-18T16:35:03+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -4896,6 +4966,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "spotahome:931752",
     "tier_label": "Shared accommodation"
   },
@@ -4918,7 +4989,7 @@
     "available_from": "2027-03-04",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:41:10+00:00",
+    "date_scraped": "2026-11-18T16:35:03+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -4956,6 +5027,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "spotahome:931753",
     "tier_label": "Shared accommodation"
   },
@@ -4978,7 +5050,7 @@
     "available_from": "2027-01-18",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:41:10+00:00",
+    "date_scraped": "2026-11-18T16:35:03+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -5016,6 +5088,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "spotahome:394339",
     "tier_label": "Shared accommodation"
   },
@@ -5038,7 +5111,7 @@
     "available_from": "2027-03-13",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:41:10+00:00",
+    "date_scraped": "2026-11-18T16:35:03+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -5080,6 +5153,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "spotahome:322552",
     "tier_label": "Shared accommodation"
   },
@@ -5102,7 +5176,7 @@
     "available_from": "2027-01-02",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:41:10+00:00",
+    "date_scraped": "2026-11-18T16:35:03+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "all",
@@ -5136,6 +5210,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "spotahome:1326621",
     "tier_label": "Shared accommodation"
   },
@@ -5158,7 +5233,7 @@
     "available_from": "2027-01-06",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:42:20+00:00",
+    "date_scraped": "2026-11-18T16:36:14+00:00",
     "listed_on": null,
     "extra": {
       "size": "100 m²",
@@ -5184,6 +5259,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "housinganywhere:ut1683631",
     "tier_label": "2 bed entire property (sofa bed needed)"
   },
@@ -5206,7 +5282,7 @@
     "available_from": "2027-01-04",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:41:10+00:00",
+    "date_scraped": "2026-11-18T16:35:03+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -5240,6 +5316,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "spotahome:267599",
     "tier_label": "Shared accommodation"
   },
@@ -5262,7 +5339,7 @@
     "available_from": "2027-02-02",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:42:20+00:00",
+    "date_scraped": "2026-11-18T16:36:14+00:00",
     "listed_on": null,
     "extra": {
       "size": "18 m²",
@@ -5294,6 +5371,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "housinganywhere:ut1745721",
     "tier_label": "Shared accommodation"
   },
@@ -5316,7 +5394,7 @@
     "available_from": "2026-12-06",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:41:10+00:00",
+    "date_scraped": "2026-11-18T16:35:03+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -5350,6 +5428,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "spotahome:958804",
     "tier_label": "Shared accommodation"
   },
@@ -5372,7 +5451,7 @@
     "available_from": "2026-11-24",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:41:10+00:00",
+    "date_scraped": "2026-11-18T16:35:03+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -5409,7 +5488,65 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "spotahome:988977",
+    "tier_label": "Shared accommodation"
+  },
+  {
+    "source": "spotahome",
+    "source_id": "603626",
+    "url": "https://www.spotahome.com/dublin/for-rent:rooms/603626",
+    "title": "Room in shared flat for rent in Ballygall, Dublin",
+    "rent_monthly_eur": 800.0,
+    "rent_text": "from €800 / month",
+    "address": "Ferndale Ave, D11 NCW4, Dublin (Ballygall)",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "property_type": "Room in shared property",
+    "description": "Looking for a space strictly for females, in a professionally-oriented community? You're in luck! This fully-furnished, exterior room in Ballygall in a shared 1-bedroom apartment is perfect if you’re student or professional. It’s equipped with modern amenities; enjoy a private washing machine and dryer, a well-equipped kitchen with a dishwasher, and a stylish balcony. Note that pets and smoking are not allowed here. Situated in Ballygall, you’ll find convenient match-to-your-needs shopping like SPAR or Tesco Glasnevin Express just steps away. Delicious dining awaits nearby, from New World to BQ Inn and more! Immerse yourself in these amenities just moments from your doorstep for a blend of convenience and cherishable moments.",
+    "accommodation": "shared",
+    "latitude": 53.38745,
+    "longitude": -6.28425,
+    "coords_approximate": false,
+    "available_from": "2027-01-01",
+    "available_to": null,
+    "date_found": "2026-11-16T14:07:04+00:00",
+    "date_scraped": "2026-11-18T16:35:03+00:00",
+    "listed_on": null,
+    "extra": {
+      "bills_included": "some",
+      "capacity": {
+        "group": 1,
+        "__typename": "HomecardCapacity"
+      },
+      "allows_permanent_contract": false,
+      "verified": true,
+      "price_is_from": true,
+      "flat_bedrooms": 1
+    },
+    "area": "Dublin 11",
+    "area_priority": 0,
+    "distances_km": {
+      "AWS Ballsbridge": 7.34,
+      "Dogpatch Labs": 4.89
+    },
+    "total_monthly_for_group_eur": 2400.0,
+    "cost_per_person_eur": 800.0,
+    "tier": 3,
+    "within_budget": true,
+    "availability_flags": [],
+    "notes": [
+      "Price is per room – 3 rooms needed (assumes same price each)",
+      "Spotahome shows a 'from' price; actual price can depend on dates"
+    ],
+    "score": 32.2,
+    "duplicate_group": null,
+    "duplicate_urls": [],
+    "status": "active",
+    "price_change": null,
+    "is_new": false,
+    "contacted": false,
+    "uid": "spotahome:603626",
     "tier_label": "Shared accommodation"
   },
   {
@@ -5431,7 +5568,7 @@
     "available_from": "2027-04-29",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:41:10+00:00",
+    "date_scraped": "2026-11-18T16:35:03+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "all",
@@ -5467,63 +5604,8 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "spotahome:137244",
-    "tier_label": "Shared accommodation"
-  },
-  {
-    "source": "spotahome",
-    "source_id": "603626",
-    "url": "https://www.spotahome.com/dublin/for-rent:rooms/603626",
-    "title": "Room in shared flat for rent in Ballygall, Dublin",
-    "rent_monthly_eur": 800.0,
-    "rent_text": "from €800 / month",
-    "address": "Ferndale Ave, D11 NCW4, Dublin (Ballygall)",
-    "bedrooms": 1,
-    "bathrooms": 1,
-    "property_type": "Room in shared property",
-    "description": "Looking for a space strictly for females, in a professionally-oriented community? You're in luck! This fully-furnished, exterior room in Ballygall in a shared 1-bedroom apartment is perfect if you’re student or professional. It’s equipped with modern amenities; enjoy a private washing machine and dryer, a well-equipped kitchen with a dishwasher, and a stylish balcony. Note that pets and smoking are not allowed here. Situated in Ballygall, you’ll find convenient match-to-your-needs shopping like SPAR or Tesco Glasnevin Express just steps away. Delicious dining awaits nearby, from New World to BQ Inn and more! Immerse yourself in these amenities just moments from your doorstep for a blend of convenience and cherishable moments.",
-    "accommodation": "shared",
-    "latitude": 53.38745,
-    "longitude": -6.28425,
-    "coords_approximate": false,
-    "available_from": "2027-01-01",
-    "available_to": null,
-    "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:41:10+00:00",
-    "listed_on": null,
-    "extra": {
-      "bills_included": "some",
-      "capacity": {
-        "group": 1,
-        "__typename": "HomecardCapacity"
-      },
-      "allows_permanent_contract": false,
-      "verified": true,
-      "price_is_from": true,
-      "flat_bedrooms": 1
-    },
-    "area": "Dublin 11",
-    "area_priority": 0,
-    "distances_km": {
-      "AWS Ballsbridge": 7.34,
-      "Dogpatch Labs": 4.89
-    },
-    "total_monthly_for_group_eur": 2400.0,
-    "cost_per_person_eur": 800.0,
-    "tier": 3,
-    "within_budget": true,
-    "availability_flags": [],
-    "notes": [
-      "Price is per room – 3 rooms needed (assumes same price each)",
-      "Spotahome shows a 'from' price; actual price can depend on dates"
-    ],
-    "score": 32.2,
-    "duplicate_group": null,
-    "duplicate_urls": [],
-    "status": "active",
-    "price_change": null,
-    "is_new": false,
-    "uid": "spotahome:603626",
     "tier_label": "Shared accommodation"
   },
   {
@@ -5545,7 +5627,7 @@
     "available_from": "2027-03-01",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:41:10+00:00",
+    "date_scraped": "2026-11-18T16:35:03+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "all",
@@ -5581,6 +5663,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "spotahome:597251",
     "tier_label": "Shared accommodation"
   },
@@ -5603,7 +5686,7 @@
     "available_from": "2027-03-01",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:41:10+00:00",
+    "date_scraped": "2026-11-18T16:35:03+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -5639,6 +5722,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "spotahome:269125",
     "tier_label": "Shared accommodation"
   },
@@ -5661,7 +5745,7 @@
     "available_from": "2027-02-14",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:41:10+00:00",
+    "date_scraped": "2026-11-18T16:35:03+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -5702,6 +5786,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "spotahome:1729677",
     "tier_label": "Shared accommodation"
   },
@@ -5724,7 +5809,7 @@
     "available_from": "2027-03-22",
     "available_to": null,
     "date_found": "2026-11-17T02:28:55+00:00",
-    "date_scraped": "2026-11-18T01:42:20+00:00",
+    "date_scraped": "2026-11-18T16:36:14+00:00",
     "listed_on": null,
     "extra": {
       "size": "5 m²",
@@ -5752,6 +5837,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "housinganywhere:ut1460397",
     "tier_label": "Shared accommodation"
   },
@@ -5774,7 +5860,7 @@
     "available_from": "2027-04-05",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:41:10+00:00",
+    "date_scraped": "2026-11-18T16:35:03+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "all",
@@ -5810,6 +5896,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "spotahome:145529",
     "tier_label": "Shared accommodation"
   },
@@ -5832,7 +5919,7 @@
     "available_from": "2027-01-01",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:41:10+00:00",
+    "date_scraped": "2026-11-18T16:35:03+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "all",
@@ -5866,6 +5953,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "spotahome:118805",
     "tier_label": "Shared accommodation"
   },
@@ -5888,7 +5976,7 @@
     "available_from": "2027-01-19",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:41:10+00:00",
+    "date_scraped": "2026-11-18T16:35:03+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -5924,6 +6012,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "spotahome:201733",
     "tier_label": "Shared accommodation"
   },
@@ -5946,7 +6035,7 @@
     "available_from": "2026-11-18",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:41:10+00:00",
+    "date_scraped": "2026-11-18T16:35:03+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -5979,6 +6068,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "spotahome:148836",
     "tier_label": "2 bed entire property (sofa bed needed)"
   },
@@ -6001,7 +6091,7 @@
     "available_from": "2027-03-29",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:42:20+00:00",
+    "date_scraped": "2026-11-18T16:36:14+00:00",
     "listed_on": null,
     "extra": {
       "size": "10 m²",
@@ -6032,6 +6122,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "housinganywhere:ut1597530",
     "tier_label": "Shared accommodation"
   },
@@ -6054,7 +6145,7 @@
     "available_from": "2027-03-22",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:41:10+00:00",
+    "date_scraped": "2026-11-18T16:35:03+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -6092,6 +6183,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "spotahome:322549",
     "tier_label": "Shared accommodation"
   },
@@ -6114,7 +6206,7 @@
     "available_from": "2027-01-06",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:41:10+00:00",
+    "date_scraped": "2026-11-18T16:35:03+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "all",
@@ -6148,6 +6240,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "spotahome:609021",
     "tier_label": "Shared accommodation"
   },
@@ -6167,10 +6260,10 @@
     "latitude": 53.34758,
     "longitude": -6.34549,
     "coords_approximate": false,
-    "available_from": "2027-02-01",
+    "available_from": "2027-05-01",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:41:10+00:00",
+    "date_scraped": "2026-11-18T16:35:03+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -6193,7 +6286,7 @@
     "tier": 2,
     "within_budget": true,
     "availability_flags": [
-      "Available only from 01 Feb 2027 (after 01 Jan 2027)"
+      "Available only from 01 May 2027 (after 01 Jan 2027)"
     ],
     "notes": [
       "2 bed – third person needs a sofa bed or similar; check living room suits",
@@ -6205,6 +6298,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "spotahome:997097",
     "tier_label": "2 bed entire property (sofa bed needed)"
   },
@@ -6227,7 +6321,7 @@
     "available_from": "2027-02-25",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:41:10+00:00",
+    "date_scraped": "2026-11-18T16:35:03+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -6263,6 +6357,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "spotahome:1711473",
     "tier_label": "Shared accommodation"
   },
@@ -6285,7 +6380,7 @@
     "available_from": "2027-03-01",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:41:10+00:00",
+    "date_scraped": "2026-11-18T16:35:03+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "all",
@@ -6321,6 +6416,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "spotahome:117779",
     "tier_label": "Shared accommodation"
   },
@@ -6343,7 +6439,7 @@
     "available_from": "2027-04-02",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:41:10+00:00",
+    "date_scraped": "2026-11-18T16:35:03+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "all",
@@ -6379,6 +6475,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "spotahome:445878",
     "tier_label": "Shared accommodation"
   },
@@ -6401,7 +6498,7 @@
     "available_from": "2027-02-02",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:41:10+00:00",
+    "date_scraped": "2026-11-18T16:35:03+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -6441,6 +6538,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "spotahome:1540122",
     "tier_label": "Shared accommodation"
   },
@@ -6463,7 +6561,7 @@
     "available_from": "2027-04-01",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:41:10+00:00",
+    "date_scraped": "2026-11-18T16:35:03+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -6503,6 +6601,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "spotahome:1540120",
     "tier_label": "Shared accommodation"
   },
@@ -6525,7 +6624,7 @@
     "available_from": "2026-12-21",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:41:10+00:00",
+    "date_scraped": "2026-11-18T16:35:03+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -6566,6 +6665,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "spotahome:1489656",
     "tier_label": "Shared accommodation"
   },
@@ -6588,7 +6688,7 @@
     "available_from": "2027-03-01",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:41:10+00:00",
+    "date_scraped": "2026-11-18T16:35:03+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -6624,13 +6724,14 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "spotahome:983947",
     "tier_label": "Shared accommodation"
   },
   {
     "source": "spotahome",
-    "source_id": "1430443",
-    "url": "https://www.spotahome.com/dublin/for-rent:rooms/1430443",
+    "source_id": "1430444",
+    "url": "https://www.spotahome.com/dublin/for-rent:rooms/1430444",
     "title": "Bed in a shared room for rent in Southside, Dublin",
     "rent_monthly_eur": 990.0,
     "rent_text": "from €990 / month",
@@ -6643,10 +6744,10 @@
     "latitude": 53.31629,
     "longitude": -6.29353,
     "coords_approximate": false,
-    "available_from": "2027-01-01",
+    "available_from": "2026-12-21",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:41:10+00:00",
+    "date_scraped": "2026-11-18T16:35:03+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "all",
@@ -6680,14 +6781,15 @@
     "score": 21.8,
     "duplicate_group": "01c7fd59bd",
     "duplicate_urls": [
-      "https://www.spotahome.com/dublin/for-rent:rooms/1430444",
+      "https://www.spotahome.com/dublin/for-rent:rooms/1430443",
       "https://www.spotahome.com/dublin/for-rent:rooms/1430445",
       "https://www.spotahome.com/dublin/for-rent:rooms/1430446"
     ],
     "status": "active",
     "price_change": null,
     "is_new": false,
-    "uid": "spotahome:1430443",
+    "contacted": false,
+    "uid": "spotahome:1430444",
     "tier_label": "Shared accommodation"
   },
   {
@@ -6709,7 +6811,7 @@
     "available_from": "2027-02-01",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:41:10+00:00",
+    "date_scraped": "2026-11-18T16:35:03+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "all",
@@ -6748,6 +6850,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "spotahome:746697",
     "tier_label": "Shared accommodation"
   },
@@ -6770,7 +6873,7 @@
     "available_from": "2027-05-01",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:41:10+00:00",
+    "date_scraped": "2026-11-18T16:35:03+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -6806,6 +6909,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "spotahome:1337404",
     "tier_label": "Shared accommodation"
   },
@@ -6828,7 +6932,7 @@
     "available_from": "2027-04-30",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:41:10+00:00",
+    "date_scraped": "2026-11-18T16:35:03+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -6864,6 +6968,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "spotahome:267500",
     "tier_label": "Shared accommodation"
   },
@@ -6886,7 +6991,7 @@
     "available_from": "2027-02-02",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:41:10+00:00",
+    "date_scraped": "2026-11-18T16:35:03+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "all",
@@ -6922,6 +7027,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "spotahome:118884",
     "tier_label": "Shared accommodation"
   },
@@ -6944,7 +7050,7 @@
     "available_from": "2027-05-01",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:41:10+00:00",
+    "date_scraped": "2026-11-18T16:35:03+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "all",
@@ -6980,6 +7086,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "spotahome:1560277",
     "tier_label": "Shared accommodation"
   },
@@ -7002,7 +7109,7 @@
     "available_from": "2027-02-02",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:41:10+00:00",
+    "date_scraped": "2026-11-18T16:35:03+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "all",
@@ -7038,6 +7145,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "spotahome:118891",
     "tier_label": "Shared accommodation"
   },
@@ -7060,7 +7168,7 @@
     "available_from": "2027-02-04",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:41:10+00:00",
+    "date_scraped": "2026-11-18T16:35:03+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -7096,6 +7204,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "spotahome:142925",
     "tier_label": "Shared accommodation"
   },
@@ -7118,7 +7227,7 @@
     "available_from": "2027-04-11",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:41:10+00:00",
+    "date_scraped": "2026-11-18T16:35:03+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "all",
@@ -7157,6 +7266,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "spotahome:297413",
     "tier_label": "Shared accommodation"
   },
@@ -7179,7 +7289,7 @@
     "available_from": "2027-04-06",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:41:10+00:00",
+    "date_scraped": "2026-11-18T16:35:03+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -7219,6 +7329,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "spotahome:983942",
     "tier_label": "Shared accommodation"
   },
@@ -7241,7 +7352,7 @@
     "available_from": "2027-04-06",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:42:20+00:00",
+    "date_scraped": "2026-11-18T16:36:14+00:00",
     "listed_on": null,
     "extra": {
       "size": "10 m²",
@@ -7269,6 +7380,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "housinganywhere:ut1347102",
     "tier_label": "Shared accommodation"
   },
@@ -7291,7 +7403,7 @@
     "available_from": "2027-04-01",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:41:10+00:00",
+    "date_scraped": "2026-11-18T16:35:03+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -7330,6 +7442,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "spotahome:988031",
     "tier_label": "Shared accommodation"
   },
@@ -7352,7 +7465,7 @@
     "available_from": "2026-11-18",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:41:10+00:00",
+    "date_scraped": "2026-11-18T16:35:03+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "all",
@@ -7386,6 +7499,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "spotahome:1750226",
     "tier_label": "Shared accommodation"
   },
@@ -7408,7 +7522,7 @@
     "available_from": "2027-02-02",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:41:10+00:00",
+    "date_scraped": "2026-11-18T16:35:03+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -7444,6 +7558,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "spotahome:983945",
     "tier_label": "Shared accommodation"
   },
@@ -7466,7 +7581,7 @@
     "available_from": "2027-04-01",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:41:10+00:00",
+    "date_scraped": "2026-11-18T16:35:03+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -7502,6 +7617,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "spotahome:200348",
     "tier_label": "Shared accommodation"
   },
@@ -7524,7 +7640,7 @@
     "available_from": "2026-12-26",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:41:10+00:00",
+    "date_scraped": "2026-11-18T16:35:03+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -7558,6 +7674,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "spotahome:1566878",
     "tier_label": "Shared accommodation"
   },
@@ -7580,7 +7697,7 @@
     "available_from": "2027-02-02",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-18T01:41:10+00:00",
+    "date_scraped": "2026-11-18T16:35:03+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -7616,6 +7733,7 @@
     "status": "active",
     "price_change": null,
     "is_new": false,
+    "contacted": false,
     "uid": "spotahome:1540124",
     "tier_label": "Shared accommodation"
   }
