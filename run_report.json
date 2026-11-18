@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-11-18T16:30:40+00:00",
+  "run_at": "2026-11-18T21:26:21+00:00",
   "sources": [
     {
       "source": "myhome",
@@ -9,17 +9,17 @@
       "detail_pages_fetched": 55,
       "errors": [],
       "message": "156 listings",
-      "duration_s": 263.0
+      "duration_s": 278.4
     },
     {
       "source": "spotahome",
       "status": "ok",
-      "listings": 757,
+      "listings": 755,
       "pages_fetched": 16,
       "detail_pages_fetched": 0,
       "errors": [],
-      "message": "757 listings",
-      "duration_s": 71.2
+      "message": "755 listings",
+      "duration_s": 71.1
     },
     {
       "source": "housinganywhere",
@@ -29,7 +29,7 @@
       "detail_pages_fetched": 31,
       "errors": [],
       "message": "48 listings",
-      "duration_s": 164.2
+      "duration_s": 165.4
     },
     {
       "source": "daft",
@@ -44,7 +44,7 @@
         "https://www.daft.ie/sharing/dublin-4-dublin: __NEXT_DATA__ not found"
       ],
       "message": "0 listings",
-      "duration_s": 18.7
+      "duration_s": 18.4
     },
     {
       "source": "propertyie",
@@ -54,7 +54,7 @@
       "detail_pages_fetched": 0,
       "errors": [],
       "message": "https://www.property.ie/robots.txt returned a bot-protection challenge (HTTP 403)",
-      "duration_s": 0.3
+      "duration_s": 0.1
     },
     {
       "source": "rentie",
@@ -64,7 +64,7 @@
       "detail_pages_fetched": 0,
       "errors": [],
       "message": "https://www.rent.ie/robots.txt returned a bot-protection challenge (HTTP 403)",
-      "duration_s": 0.5
+      "duration_s": 0.3
     },
     {
       "source": "letie",
@@ -74,7 +74,7 @@
       "detail_pages_fetched": 0,
       "errors": [],
       "message": "Let.ie redirects to Daft.ie; listings are covered by the daft source",
-      "duration_s": 0.9
+      "duration_s": 0.8
     },
     {
       "source": "roomsforrent",
@@ -84,15 +84,15 @@
       "detail_pages_fetched": 0,
       "errors": [],
       "message": "could not fetch https://www.roomsforrent.ie/robots.txt: HTTPSConnectionPool(host='www.roomsforrent.ie', port=443): Max retries exceeded with url: /robots.txt (Caused by NameResolutionError(\"HTTPSConnection(host='www.roomsforrent.ie', port=443): Failed to resolve 'www.roomsforrent.ie' ([Errno -2] Name or service not known)\"))",
-      "duration_s": 0.1
+      "duration_s": 0.2
     }
   ],
-  "total_listings": 961,
-  "shortlisted": 131,
+  "total_listings": 959,
+  "shortlisted": 130,
   "duplicate_groups": 108,
-  "new": 8,
-  "price_changes": 3,
-  "removed": 20,
-  "relisted": 1,
+  "new": 12,
+  "price_changes": 0,
+  "removed": 11,
+  "relisted": 4,
   "contacted_hidden": 0
 }
