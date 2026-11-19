@@ -18,7 +18,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:13:04+00:00",
+    "date_scraped": "2026-11-19T16:37:53+00:00",
     "listed_on": "2020-11-19",
     "extra": {
       "agent": "Hooke & MacDonald (Lettings)",
@@ -56,60 +56,6 @@
   },
   {
     "source": "myhome",
-    "source_id": "5038648",
-    "url": "https://www.myhome.ie/rentals/brochure/the-windmill-sir-john-rogersons-quay-dublin-2/5038648",
-    "title": "2 beds Apartment – The Windmill, Sir John Rogersons Quay, Dublin 2",
-    "rent_monthly_eur": 2200.0,
-    "rent_text": "€2,200 / month",
-    "address": "The Windmill, Sir John Rogersons Quay, Dublin 2",
-    "bedrooms": 2,
-    "bathrooms": 1,
-    "property_type": "Apartment",
-    "description": "RAY COOKE LETTINGS ADVERTISE PROPERTIES ON FACEBOOK & INSTAGRAM FIRST SO PLEASE MAKE SURE YOU ARE FOLLOWING US THERE VIDEO VIEWINGS AVAILABLE ON REQUEST\n\n\nRay Cooke Lettings are delighted to present this superb 2 bedroom apartment located at the Windmill lane Apartments, Windmill Lane, Dublin 2. Internal Living accommodation comprises of Entrance Hallway, 2 Double bedrooms with built in wardrobes , Lounge, fully fitted kitchen, Dining area, Spacious balcony, and a main bathroom. Thriving location is at the epicentre of all activity where you will find Google HQ, Grand Canal Dart Station, Dublin's Convention Centre all within arm's reach along with a choice of trendy cafes, bars & restaurants within a short stroll. Recreational amenities are well provided for with the Bord Gais Theatre on Grand Canal Dock, Aviva Stadium, the RDS, Herbert Park and Sandymount Strand all within easy reach. The area is well served by local bus routes and Grand Canal Dock DART station is a five minute walk away.\n\nExtra Features include:\n-2 Bed / 1 Bath Apartment\n-2 Double Bedrooms with fitted wardrobes\n-Spacious Sunny Balcony\n-Fully Fitted Kitchen with all Mod-Cons\n-Fully Tiled Bathroom\n-Double glazed windows\n-Large Living Spaces\n-Sought after development in the heart of Dublin City\n-Various Transport Links on your doorstep DART station and LUAS Stop Close by\n-Within easy reach of The M50 Motorway\n-NO PARKING\n\n\nRAY COOKE LETTINGS PREFER EMAIL ENQUIRES AS ITS EASIER TO MANAGE, PLEASE FILL IN YOUR CONTACT INFORMATION ON THE RIGHT HANDSIDE AND CLICK THE SEND MESSAGE, WE WILL CONTACT YOU WITH VIEWING DETAILS WHEN THEY ARISE\n\nLettings Team 6",
-    "accommodation": "entire",
-    "latitude": 53.34589385986328,
-    "longitude": -6.236904144287109,
-    "coords_approximate": false,
-    "available_from": null,
-    "available_to": null,
-    "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:13:04+00:00",
-    "listed_on": "2026-10-29",
-    "extra": {
-      "agent": "Ray Cooke Auctioneers",
-      "private_landlord": false,
-      "size_m2": null,
-      "sale_agreed_or_let": false,
-      "locality": "Dublin 2"
-    },
-    "area": "Dublin 2",
-    "area_priority": 2,
-    "distances_km": {
-      "AWS Ballsbridge": 1.85,
-      "Dogpatch Labs": 0.89
-    },
-    "total_monthly_for_group_eur": 2200.0,
-    "cost_per_person_eur": 733.33,
-    "tier": 2,
-    "within_budget": true,
-    "availability_flags": [
-      "Jan–May 2027 availability not stated – most Irish lets expect 12 months; confirm with landlord"
-    ],
-    "notes": [
-      "2 bed – third person needs a sofa bed or similar; check living room suits"
-    ],
-    "score": 73.8,
-    "duplicate_group": null,
-    "duplicate_urls": [],
-    "status": "active",
-    "price_change": null,
-    "is_new": false,
-    "contacted": false,
-    "uid": "myhome:5038648",
-    "tier_label": "2 bed entire property (sofa bed needed)"
-  },
-  {
-    "source": "myhome",
     "source_id": "5031004",
     "url": "https://www.myhome.ie/rentals/brochure/apartment-30-georges-quay-apartments-george-s-quay-dublin-2-south-city-centre-dublin-2-d02a266/5031004",
     "title": "2 beds Apartment – APARTMENT 30 GEORGES QUAY APARTMENTS GEORGE'S QUAY DUBLIN 2, South City Centre, Dublin 2, D02A266",
@@ -127,8 +73,8 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:13:04+00:00",
-    "listed_on": "2026-11-18",
+    "date_scraped": "2026-11-19T16:37:53+00:00",
+    "listed_on": "2026-11-19",
     "extra": {
       "agent": "MyHome.ie Users",
       "private_landlord": true,
@@ -182,7 +128,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-17T16:55:59+00:00",
-    "date_scraped": "2026-11-19T01:13:04+00:00",
+    "date_scraped": "2026-11-19T16:37:53+00:00",
     "listed_on": "2026-11-17",
     "extra": {
       "agent": "Eoin O'Neill Property Advisers",
@@ -242,7 +188,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-17T16:55:59+00:00",
-    "date_scraped": "2026-11-19T01:13:04+00:00",
+    "date_scraped": "2026-11-19T16:37:53+00:00",
     "listed_on": "2026-11-17",
     "extra": {
       "agent": "June McConnell Residential",
@@ -306,8 +252,8 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:13:04+00:00",
-    "listed_on": "2026-11-18",
+    "date_scraped": "2026-11-19T16:37:53+00:00",
+    "listed_on": "2026-11-19",
     "extra": {
       "agent": "MyHome.ie Users",
       "private_landlord": true,
@@ -362,7 +308,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:13:04+00:00",
+    "date_scraped": "2026-11-19T16:37:53+00:00",
     "listed_on": "2026-10-22",
     "extra": {
       "agent": "Sherry FitzGerald Lettings Sheehy",
@@ -426,7 +372,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:13:04+00:00",
+    "date_scraped": "2026-11-19T16:37:53+00:00",
     "listed_on": "2026-10-30",
     "extra": {
       "agent": "Sherry FitzGerald Lettings Sheehy",
@@ -488,7 +434,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:13:04+00:00",
+    "date_scraped": "2026-11-19T16:37:53+00:00",
     "listed_on": "2026-10-22",
     "extra": {
       "agent": "Herbert & Lansdowne Estate Agents",
@@ -548,7 +494,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:13:04+00:00",
+    "date_scraped": "2026-11-19T16:37:53+00:00",
     "listed_on": "2026-10-19",
     "extra": {
       "agent": "Ray Cooke Auctioneers",
@@ -602,7 +548,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:13:04+00:00",
+    "date_scraped": "2026-11-19T16:37:53+00:00",
     "listed_on": "2026-10-01",
     "extra": {
       "agent": "Sherry FitzGerald Lettings Sheehy",
@@ -665,7 +611,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:13:04+00:00",
+    "date_scraped": "2026-11-19T16:37:53+00:00",
     "listed_on": "2026-10-22",
     "extra": {
       "agent": "Sherry FitzGerald Lettings Sheehy",
@@ -729,7 +675,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:13:04+00:00",
+    "date_scraped": "2026-11-19T16:37:53+00:00",
     "listed_on": "2026-11-11",
     "extra": {
       "agent": "Eoin O'Neill Property Advisers",
@@ -786,7 +732,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:13:04+00:00",
+    "date_scraped": "2026-11-19T16:37:53+00:00",
     "listed_on": "2021-06-15",
     "extra": {
       "agent": "Hooke & MacDonald (Lettings)",
@@ -841,7 +787,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-17T02:28:55+00:00",
-    "date_scraped": "2026-11-19T01:13:04+00:00",
+    "date_scraped": "2026-11-19T16:37:53+00:00",
     "listed_on": "2026-11-16",
     "extra": {
       "agent": "Owen Reilly",
@@ -902,14 +848,11 @@
     "available_from": "2026-11-28",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:17:27+00:00",
+    "date_scraped": "2026-11-19T16:42:19+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
-      "capacity": {
-        "group": 2,
-        "__typename": "HomecardCapacity"
-      },
+      "capacity": null,
       "allows_permanent_contract": false,
       "verified": false,
       "price_is_from": true
@@ -958,7 +901,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-17T02:28:55+00:00",
-    "date_scraped": "2026-11-19T01:13:04+00:00",
+    "date_scraped": "2026-11-19T16:37:53+00:00",
     "listed_on": "2026-10-08",
     "extra": {
       "agent": "Lisney Sotheby's International Realty Ballsbridge",
@@ -1013,7 +956,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:13:04+00:00",
+    "date_scraped": "2026-11-19T16:37:53+00:00",
     "listed_on": "2023-08-14",
     "extra": {
       "agent": "Get Property Estate Agents",
@@ -1067,7 +1010,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:13:04+00:00",
+    "date_scraped": "2026-11-19T16:37:53+00:00",
     "listed_on": "2023-11-23",
     "extra": {
       "agent": "Clare Connolly Estate Agents",
@@ -1122,14 +1065,11 @@
     "available_from": "2027-01-05",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:17:27+00:00",
+    "date_scraped": "2026-11-19T16:42:19+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
-      "capacity": {
-        "group": 12,
-        "__typename": "HomecardCapacity"
-      },
+      "capacity": null,
       "allows_permanent_contract": false,
       "verified": true,
       "price_is_from": true,
@@ -1186,7 +1126,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:13:04+00:00",
+    "date_scraped": "2026-11-19T16:37:53+00:00",
     "listed_on": "2026-10-30",
     "extra": {
       "agent": "Sherry FitzGerald Lettings Sheehy",
@@ -1247,7 +1187,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:13:04+00:00",
+    "date_scraped": "2026-11-19T16:37:53+00:00",
     "listed_on": "2025-05-12",
     "extra": {
       "agent": "Sherry FitzGerald Lettings Sheehy",
@@ -1309,7 +1249,7 @@
     "available_from": "2027-01-12",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:18:43+00:00",
+    "date_scraped": "2026-11-19T16:43:32+00:00",
     "listed_on": null,
     "extra": {
       "size": "12 m²",
@@ -1335,8 +1275,8 @@
     "duplicate_urls": [
       "https://housinganywhere.com/room/ut1106519/ie/Dublin/royal-canal-terrace",
       "https://housinganywhere.com/room/ut1221652/ie/Dublin/royal-canal-terrace",
-      "https://www.spotahome.com/dublin/for-rent:residences/997646",
       "https://www.spotahome.com/dublin/for-rent:residences/997648",
+      "https://www.spotahome.com/dublin/for-rent:residences/997646",
       "https://www.spotahome.com/dublin/for-rent:residences/997647"
     ],
     "status": "active",
@@ -1365,8 +1305,8 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:13:04+00:00",
-    "listed_on": "2026-11-18",
+    "date_scraped": "2026-11-19T16:37:53+00:00",
+    "listed_on": "2026-11-19",
     "extra": {
       "agent": "MyHome.ie Users",
       "private_landlord": true,
@@ -1420,7 +1360,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:13:04+00:00",
+    "date_scraped": "2026-11-19T16:37:53+00:00",
     "listed_on": "2026-11-09",
     "extra": {
       "agent": "Ray Cooke Auctioneers",
@@ -1474,14 +1414,11 @@
     "available_from": "2027-01-12",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:17:27+00:00",
+    "date_scraped": "2026-11-19T16:42:19+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
-      "capacity": {
-        "group": 30,
-        "__typename": "HomecardCapacity"
-      },
+      "capacity": null,
       "allows_permanent_contract": false,
       "verified": true,
       "price_is_from": true,
@@ -1536,7 +1473,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:13:04+00:00",
+    "date_scraped": "2026-11-19T16:37:53+00:00",
     "listed_on": "2025-11-20",
     "extra": {
       "agent": "DNG Lettings",
@@ -1597,7 +1534,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-17T16:55:59+00:00",
-    "date_scraped": "2026-11-19T01:13:04+00:00",
+    "date_scraped": "2026-11-19T16:37:53+00:00",
     "listed_on": "2026-11-17",
     "extra": {
       "agent": "Lisney Sotheby's International Realty Ballsbridge",
@@ -1652,7 +1589,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:13:04+00:00",
+    "date_scraped": "2026-11-19T16:37:53+00:00",
     "listed_on": "2026-11-13",
     "extra": {
       "agent": "Ed Dempsey & Associates",
@@ -1707,7 +1644,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:13:04+00:00",
+    "date_scraped": "2026-11-19T16:37:53+00:00",
     "listed_on": "2026-09-17",
     "extra": {
       "agent": "Bartholomew McElhatton",
@@ -1769,7 +1706,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:13:04+00:00",
+    "date_scraped": "2026-11-19T16:37:53+00:00",
     "listed_on": "2026-10-23",
     "extra": {
       "agent": "Sherry FitzGerald Lettings Sheehy",
@@ -1832,7 +1769,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:13:04+00:00",
+    "date_scraped": "2026-11-19T16:37:53+00:00",
     "listed_on": "2026-11-12",
     "extra": {
       "agent": "DFM",
@@ -1894,7 +1831,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:13:04+00:00",
+    "date_scraped": "2026-11-19T16:37:53+00:00",
     "listed_on": "2026-11-11",
     "extra": {
       "agent": "Ed Dempsey & Associates",
@@ -1949,14 +1886,11 @@
     "available_from": "2026-11-19",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:17:27+00:00",
+    "date_scraped": "2026-11-19T16:42:19+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "all",
-      "capacity": {
-        "group": 2,
-        "__typename": "HomecardCapacity"
-      },
+      "capacity": null,
       "allows_permanent_contract": false,
       "verified": false,
       "price_is_from": true
@@ -2008,7 +1942,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:13:04+00:00",
+    "date_scraped": "2026-11-19T16:37:53+00:00",
     "listed_on": "2026-09-28",
     "extra": {
       "agent": "Sherry FitzGerald Lettings Sheehy",
@@ -2072,7 +2006,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:13:04+00:00",
+    "date_scraped": "2026-11-19T16:37:53+00:00",
     "listed_on": "2026-10-05",
     "extra": {
       "agent": "Owen Reilly",
@@ -2128,7 +2062,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:13:04+00:00",
+    "date_scraped": "2026-11-19T16:37:53+00:00",
     "listed_on": "2026-11-13",
     "extra": {
       "agent": "Owen Reilly",
@@ -2186,7 +2120,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-17T02:28:55+00:00",
-    "date_scraped": "2026-11-19T01:13:04+00:00",
+    "date_scraped": "2026-11-19T16:37:53+00:00",
     "listed_on": "2026-11-16",
     "extra": {
       "agent": "Quillsen",
@@ -2241,14 +2175,11 @@
     "available_from": "2026-11-19",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:17:27+00:00",
+    "date_scraped": "2026-11-19T16:42:19+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
-      "capacity": {
-        "group": 21,
-        "__typename": "HomecardCapacity"
-      },
+      "capacity": null,
       "allows_permanent_contract": false,
       "verified": true,
       "price_is_from": true,
@@ -2275,8 +2206,8 @@
     "score": 55.3,
     "duplicate_group": "2fabffed24",
     "duplicate_urls": [
-      "https://www.spotahome.com/dublin/for-rent:rooms/401747",
-      "https://www.spotahome.com/dublin/for-rent:rooms/322554"
+      "https://www.spotahome.com/dublin/for-rent:rooms/322554",
+      "https://www.spotahome.com/dublin/for-rent:rooms/401747"
     ],
     "status": "active",
     "price_change": null,
@@ -2304,7 +2235,7 @@
     "available_from": "2027-01-08",
     "available_to": null,
     "date_found": "2026-11-17T02:28:55+00:00",
-    "date_scraped": "2026-11-19T01:18:43+00:00",
+    "date_scraped": "2026-11-19T16:43:32+00:00",
     "listed_on": null,
     "extra": {
       "size": "12 m²",
@@ -2326,7 +2257,7 @@
       "Also advertised on: spotahome"
     ],
     "score": 55.2,
-    "duplicate_group": "179772304e",
+    "duplicate_group": "d06c869c75",
     "duplicate_urls": [
       "https://housinganywhere.com/room/ut1199468/ie/Dublin/blessington-street?page=4",
       "https://housinganywhere.com/room/ut1106702/ie/Dublin/blessington-street?page=3",
@@ -2338,18 +2269,17 @@
       "https://housinganywhere.com/room/ut1118216/ie/Dublin/blessington-street?page=3",
       "https://housinganywhere.com/room/ut1099564/ie/Dublin/blessington-street?page=5",
       "https://housinganywhere.com/room/ut1148118/ie/Dublin/blessington-street?page=5",
-      "https://www.spotahome.com/dublin/for-rent:rooms/597206",
+      "https://www.spotahome.com/dublin/for-rent:rooms/597204",
       "https://www.spotahome.com/dublin/for-rent:rooms/597207",
+      "https://www.spotahome.com/dublin/for-rent:rooms/597206",
       "https://www.spotahome.com/dublin/for-rent:rooms/597208",
       "https://www.spotahome.com/dublin/for-rent:rooms/609714",
       "https://www.spotahome.com/dublin/for-rent:rooms/609715",
       "https://www.spotahome.com/dublin/for-rent:rooms/609716",
       "https://www.spotahome.com/dublin/for-rent:rooms/609718",
       "https://www.spotahome.com/dublin/for-rent:rooms/597203",
-      "https://www.spotahome.com/dublin/for-rent:rooms/597204",
       "https://www.spotahome.com/dublin/for-rent:rooms/609717",
-      "https://www.spotahome.com/dublin/for-rent:rooms/610045",
-      "https://housinganywhere.com/room/ut1103360/ie/Dublin/blessington-street?page=5"
+      "https://www.spotahome.com/dublin/for-rent:rooms/610045"
     ],
     "status": "active",
     "price_change": null,
@@ -2377,7 +2307,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-17T16:55:59+00:00",
-    "date_scraped": "2026-11-19T01:13:04+00:00",
+    "date_scraped": "2026-11-19T16:37:53+00:00",
     "listed_on": "2026-11-17",
     "extra": {
       "agent": "Sherry FitzGerald Lettings Sheehy",
@@ -2422,6 +2352,70 @@
   },
   {
     "source": "myhome",
+    "source_id": "5041699",
+    "url": "https://www.myhome.ie/rentals/brochure/the-ailesbury-donnybrook-castle-donnybrook-dublin-4/5041699",
+    "title": "2 beds Apartment – The Ailesbury, Donnybrook Castle, Donnybrook, Dublin 4",
+    "rent_monthly_eur": 2800.0,
+    "rent_text": "€2,800 / month",
+    "address": "The Ailesbury, Donnybrook Castle, Donnybrook, Dublin 4",
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "property_type": "Apartment",
+    "description": "**Available November 30th** **Fully Furnished** Sherry FitzGerald presents this two double bedroom, one bathroom, first floor apartment with balcony and designated parking extending to approx. 62sqm. This property is situated in a great location just minutes from Dublin City Centre. The accommodation comprises of entrance hallway with two storage units. There is an open plan living/dining room with balcony leading off. There are two double bedrooms both with fitted wardrobes. There is also a main bathroom.**Professionally managed by Sherry FitzGerald Lettings**\n\nBER: D1",
+    "accommodation": "entire",
+    "latitude": 53.316898345947266,
+    "longitude": -6.230247497558594,
+    "coords_approximate": false,
+    "available_from": null,
+    "available_to": null,
+    "date_found": "2026-11-19T16:37:53+00:00",
+    "date_scraped": "2026-11-19T16:37:53+00:00",
+    "listed_on": "2026-11-17",
+    "extra": {
+      "agent": "Sherry FitzGerald Lettings Sheehy",
+      "private_landlord": false,
+      "size_m2": 62,
+      "sale_agreed_or_let": false,
+      "locality": "Donnybrook",
+      "features": [
+        "Furnished",
+        "Parking",
+        "Central Heating",
+        "Washing Machine",
+        "Dishwasher",
+        "Microwave",
+        "Internet",
+        "References Required"
+      ]
+    },
+    "area": "Donnybrook (Dublin 4)",
+    "area_priority": 3,
+    "distances_km": {
+      "AWS Ballsbridge": 1.41,
+      "Dogpatch Labs": 3.75
+    },
+    "total_monthly_for_group_eur": 2800.0,
+    "cost_per_person_eur": 933.33,
+    "tier": 2,
+    "within_budget": true,
+    "availability_flags": [
+      "Jan–May 2027 availability not stated – most Irish lets expect 12 months; confirm with landlord"
+    ],
+    "notes": [
+      "2 bed – third person needs a sofa bed or similar; check living room suits"
+    ],
+    "score": 54.7,
+    "duplicate_group": null,
+    "duplicate_urls": [],
+    "status": "active",
+    "price_change": null,
+    "is_new": true,
+    "contacted": false,
+    "uid": "myhome:5041699",
+    "tier_label": "2 bed entire property (sofa bed needed)"
+  },
+  {
+    "source": "myhome",
     "source_id": "4428947",
     "url": "https://www.myhome.ie/rentals/brochure/quayside-quarter-dublin-landings-docklands-dublin-1/4428947",
     "title": "2 beds Apartment – Quayside Quarter @ Dublin Landings, Docklands, Dublin 1",
@@ -2439,7 +2433,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:13:04+00:00",
+    "date_scraped": "2026-11-19T16:37:53+00:00",
     "listed_on": "2020-05-20",
     "extra": {
       "agent": "Greystar Europe",
@@ -2501,7 +2495,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:13:04+00:00",
+    "date_scraped": "2026-11-19T16:37:53+00:00",
     "listed_on": "2026-11-05",
     "extra": {
       "agent": "Sherry FitzGerald Lettings Sheehy",
@@ -2548,8 +2542,8 @@
   },
   {
     "source": "spotahome",
-    "source_id": "997645",
-    "url": "https://www.spotahome.com/dublin/for-rent:residences/997645",
+    "source_id": "997644",
+    "url": "https://www.spotahome.com/dublin/for-rent:residences/997644",
     "title": "Bed for rent in a residence in Dublin",
     "rent_monthly_eur": 700.0,
     "rent_text": "from €700 / month",
@@ -2565,14 +2559,11 @@
     "available_from": "2026-11-19",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:17:27+00:00",
+    "date_scraped": "2026-11-19T16:42:19+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
-      "capacity": {
-        "group": 25,
-        "__typename": "HomecardCapacity"
-      },
+      "capacity": null,
       "allows_permanent_contract": false,
       "verified": true,
       "price_is_from": true,
@@ -2599,12 +2590,12 @@
     "score": 53.3,
     "duplicate_group": "6cc2b0ec70",
     "duplicate_urls": [
+      "https://www.spotahome.com/dublin/for-rent:residences/997645",
       "https://housinganywhere.com/room/ut1175452/ie/Dublin/royal-canal-terrace?page=5",
-      "https://www.spotahome.com/dublin/for-rent:residences/997652",
       "https://www.spotahome.com/dublin/for-rent:residences/997643",
       "https://www.spotahome.com/dublin/for-rent:residences/997651",
+      "https://www.spotahome.com/dublin/for-rent:residences/997652",
       "https://www.spotahome.com/dublin/for-rent:residences/997642",
-      "https://www.spotahome.com/dublin/for-rent:residences/997644",
       "https://www.spotahome.com/dublin/for-rent:residences/997649",
       "https://www.spotahome.com/dublin/for-rent:residences/997650",
       "https://housinganywhere.com/room/ut1375191/ie/Dublin/royal-canal-terrace?page=5",
@@ -2615,7 +2606,7 @@
     "price_change": null,
     "is_new": false,
     "contacted": false,
-    "uid": "spotahome:997645",
+    "uid": "spotahome:997644",
     "tier_label": "Shared accommodation"
   },
   {
@@ -2637,14 +2628,11 @@
     "available_from": "2027-01-05",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:17:27+00:00",
+    "date_scraped": "2026-11-19T16:42:19+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
-      "capacity": {
-        "group": 30,
-        "__typename": "HomecardCapacity"
-      },
+      "capacity": null,
       "allows_permanent_contract": false,
       "verified": true,
       "price_is_from": true,
@@ -2703,7 +2691,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:13:04+00:00",
+    "date_scraped": "2026-11-19T16:37:53+00:00",
     "listed_on": "2026-11-02",
     "extra": {
       "agent": "Galvin Property & Finance",
@@ -2765,7 +2753,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:13:04+00:00",
+    "date_scraped": "2026-11-19T16:37:53+00:00",
     "listed_on": "2026-10-29",
     "extra": {
       "agent": "Moovingo",
@@ -2819,7 +2807,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:13:04+00:00",
+    "date_scraped": "2026-11-19T16:37:53+00:00",
     "listed_on": "2025-08-14",
     "extra": {
       "agent": "Dowling Property",
@@ -2886,7 +2874,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:13:04+00:00",
+    "date_scraped": "2026-11-19T16:37:53+00:00",
     "listed_on": "2026-11-09",
     "extra": {
       "agent": "Ray Cooke Auctioneers",
@@ -2940,7 +2928,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:13:04+00:00",
+    "date_scraped": "2026-11-19T16:37:53+00:00",
     "listed_on": "2026-07-02",
     "extra": {
       "agent": "Allen & Jacobs",
@@ -2995,8 +2983,8 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:13:04+00:00",
-    "listed_on": "2026-11-18",
+    "date_scraped": "2026-11-19T16:37:53+00:00",
+    "listed_on": "2026-11-19",
     "extra": {
       "agent": "MyHome.ie Users",
       "private_landlord": true,
@@ -3050,14 +3038,11 @@
     "available_from": "2026-12-04",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:17:27+00:00",
+    "date_scraped": "2026-11-19T16:42:19+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
-      "capacity": {
-        "group": 12,
-        "__typename": "HomecardCapacity"
-      },
+      "capacity": null,
       "allows_permanent_contract": false,
       "verified": true,
       "price_is_from": true,
@@ -3095,69 +3080,6 @@
   },
   {
     "source": "myhome",
-    "source_id": "5035354",
-    "url": "https://www.myhome.ie/rentals/brochure/st-davids-court-castle-avenue-clontarf-dublin-3/5035354",
-    "title": "2 beds Apartment – St. Davids Court, Castle Avenue, Clontarf, Dublin 3",
-    "rent_monthly_eur": 2600.0,
-    "rent_text": "€2,600 / month",
-    "address": "St. Davids Court, Castle Avenue, Clontarf, Dublin 3",
-    "bedrooms": 2,
-    "bathrooms": 1,
-    "property_type": "Apartment",
-    "description": "**Available Immediately** **Fully Furnished** This two double bedroom, one bathroom, third floor apartment extending to approx. 67sqm benefits from communal parking and is located on Castle Avenue, which is within walking distance to a host of local shops and amenities in Clontarf. The apartment is also within easy access to the City Centre. Accommodation in brief comprises; entrance hallway leading into large open plan living and dining room, beautifully furnished and presented throughout. Separate kitchen with full range of modern appliances including fridge/freezer, washer/dryer, oven, hob, dishwasher and microwave. There are two double bedrooms both with fitted wardrobes. Bathroom with shower and good storage. Viewing is highly recommended.\n\nBER: C2",
-    "accommodation": "entire",
-    "latitude": 53.36168670654297,
-    "longitude": -6.208220958709717,
-    "coords_approximate": false,
-    "available_from": null,
-    "available_to": null,
-    "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:13:04+00:00",
-    "listed_on": "2026-10-13",
-    "extra": {
-      "agent": "Sherry FitzGerald Lettings Sheehy",
-      "private_landlord": false,
-      "size_m2": 67,
-      "sale_agreed_or_let": false,
-      "locality": "Clontarf",
-      "features": [
-        "Furnished",
-        "Parking",
-        "Central Heating",
-        "Washing Machine",
-        "Dishwasher",
-        "Microwave",
-        "Cable TV"
-      ]
-    },
-    "area": "Dublin 3",
-    "area_priority": 1,
-    "distances_km": {
-      "AWS Ballsbridge": 3.88,
-      "Dogpatch Labs": 3.11
-    },
-    "total_monthly_for_group_eur": 2600.0,
-    "cost_per_person_eur": 866.67,
-    "tier": 2,
-    "within_budget": true,
-    "availability_flags": [
-      "Available now – landlord may expect rent from before January"
-    ],
-    "notes": [
-      "2 bed – third person needs a sofa bed or similar; check living room suits"
-    ],
-    "score": 50.5,
-    "duplicate_group": null,
-    "duplicate_urls": [],
-    "status": "active",
-    "price_change": null,
-    "is_new": false,
-    "contacted": false,
-    "uid": "myhome:5035354",
-    "tier_label": "2 bed entire property (sofa bed needed)"
-  },
-  {
-    "source": "myhome",
     "source_id": "5040393",
     "url": "https://www.myhome.ie/rentals/brochure/14-hanover-quarter-block-h-dublin-2-dublin-2-dublin/5040393",
     "title": "2 beds Apartment – 14 Hanover Quarter Block H Dublin 2 , Dublin 2, Dublin",
@@ -3175,7 +3097,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:13:04+00:00",
+    "date_scraped": "2026-11-19T16:37:53+00:00",
     "listed_on": "2026-11-09",
     "extra": {
       "agent": "Sherry FitzGerald Lettings Sheehy",
@@ -3238,7 +3160,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:13:04+00:00",
+    "date_scraped": "2026-11-19T16:37:53+00:00",
     "listed_on": "2023-10-27",
     "extra": {
       "agent": "Bergins Valuers & Estate Agents Ltd",
@@ -3303,14 +3225,11 @@
     "available_from": "2027-01-12",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:17:27+00:00",
+    "date_scraped": "2026-11-19T16:42:19+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
-      "capacity": {
-        "group": 13,
-        "__typename": "HomecardCapacity"
-      },
+      "capacity": null,
       "allows_permanent_contract": false,
       "verified": true,
       "price_is_from": true,
@@ -3367,7 +3286,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:13:04+00:00",
+    "date_scraped": "2026-11-19T16:37:53+00:00",
     "listed_on": "2026-03-30",
     "extra": {
       "agent": "Hooke & MacDonald (Lettings)",
@@ -3408,6 +3327,59 @@
   },
   {
     "source": "myhome",
+    "source_id": "5034079",
+    "url": "https://www.myhome.ie/rentals/brochure/23-knights-bridge-castle-avenue-clontarf-dublin-3/5034079",
+    "title": "3 beds – 23 Knights Bridge, Castle Avenue, Clontarf, Dublin 3",
+    "rent_monthly_eur": 3000.0,
+    "rent_text": "€3,000 / month",
+    "address": "23 Knights Bridge, Castle Avenue, Clontarf, Dublin 3, D03 F8H7",
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "property_type": null,
+    "description": "**Available Now, Furnished or Unfurnished**. \n\n**Three Bedroom, Two Bathroom, One Guest Bathroom, End of Terrace House with Ample Undesignated Car Parking** \n\nGet let is delighted to present this townhouse to the rental market. \n\nLocated in Knights bridge, a quiet, gated development just off Castle Avenue In Clontarf, it is within a few minutes` walk from the coast, the Clontarf Castle, Clontarf Hospital and the many local amenities of the Clontarf Village. \n\nThe ground floor of the property comprises of a hallway with storage and WC, kitchen / dining room and living room with access to the back garden, while upstairs finds three bedrooms, the master of which benefits from a large wardrobe an en-suite bathroom and the main bathroom. \n\nDouble bedrooms come with fitted wardrobes. There is ample undesignated parking available in the estate. \n\nThis is a very nice property in a great location and so viewing is highly recommended. \n\nTo arrange a viewing please email Carol O` Brien using the `Send message` facility and submit a detailed application. All viewings shall be private, Get Let does not do group viewings. Private viewings shall take place by appointment only. \n\nGet Let is a subsidiary of Get Property Limited, PSRA number 002324.\n\nNotice\nAll photographs are provided for guidance only.\n\n<ul><li> Gated Development </li><li> End of Terrace </li><li> Ample parking </li><li> Modern common bathroom </li><li> 17 minutes walk to Dart station</li></ul>\n\nBER: D1<br>BER No: 100210418<br>Energy Performance Indicator: 239.4 kWh/m2/yr\n\nCarol O`Brien",
+    "accommodation": "entire",
+    "latitude": 53.36371612548828,
+    "longitude": -6.206480026245117,
+    "coords_approximate": false,
+    "available_from": null,
+    "available_to": null,
+    "date_found": "2026-11-17T16:55:59+00:00",
+    "date_scraped": "2026-11-19T16:37:53+00:00",
+    "listed_on": "2026-10-09",
+    "extra": {
+      "agent": "Get Property Estate Agents",
+      "private_landlord": false,
+      "size_m2": 0,
+      "sale_agreed_or_let": false,
+      "eircode": "D03 F8H7",
+      "locality": "Clontarf"
+    },
+    "area": "Dublin 3",
+    "area_priority": 1,
+    "distances_km": {
+      "AWS Ballsbridge": 4.13,
+      "Dogpatch Labs": 3.32
+    },
+    "total_monthly_for_group_eur": 3000.0,
+    "cost_per_person_eur": 1000.0,
+    "tier": 1,
+    "within_budget": true,
+    "availability_flags": [
+      "Available now – landlord may expect rent from before January"
+    ],
+    "notes": [],
+    "score": 49.9,
+    "duplicate_group": null,
+    "duplicate_urls": [],
+    "status": "active",
+    "price_change": "€3,300 → €3,000 (−€300)",
+    "is_new": false,
+    "contacted": false,
+    "uid": "myhome:5034079",
+    "tier_label": "3+ bed entire property"
+  },
+  {
+    "source": "myhome",
     "source_id": "5038694",
     "url": "https://www.myhome.ie/rentals/brochure/apartment-1-30-essex-street-east-dublin-2-co-dublin/5038694",
     "title": "2 beds Apartment – Apartment 1, 30 Essex Street East, Dublin 2, Co. Dublin",
@@ -3425,7 +3397,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:13:04+00:00",
+    "date_scraped": "2026-11-19T16:37:53+00:00",
     "listed_on": "2026-10-29",
     "extra": {
       "agent": "Herman White Estates",
@@ -3479,14 +3451,11 @@
     "available_from": "2026-11-19",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:17:27+00:00",
+    "date_scraped": "2026-11-19T16:42:19+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "all",
-      "capacity": {
-        "group": 2,
-        "__typename": "HomecardCapacity"
-      },
+      "capacity": null,
       "allows_permanent_contract": false,
       "verified": false,
       "price_is_from": true
@@ -3535,14 +3504,11 @@
     "available_from": "2026-11-19",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:17:27+00:00",
+    "date_scraped": "2026-11-19T16:42:19+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
-      "capacity": {
-        "group": 12,
-        "__typename": "HomecardCapacity"
-      },
+      "capacity": null,
       "allows_permanent_contract": false,
       "verified": false,
       "price_is_from": true,
@@ -3597,7 +3563,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:13:04+00:00",
+    "date_scraped": "2026-11-19T16:37:53+00:00",
     "listed_on": "2026-10-29",
     "extra": {
       "agent": "MOVEHOME ESTATE AGENTS",
@@ -3653,7 +3619,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-17T16:55:59+00:00",
-    "date_scraped": "2026-11-19T01:13:04+00:00",
+    "date_scraped": "2026-11-19T16:37:53+00:00",
     "listed_on": "2026-11-17",
     "extra": {
       "agent": "Owen Reilly",
@@ -3690,57 +3656,6 @@
     "tier_label": "2 bed entire property (sofa bed needed)"
   },
   {
-    "source": "housinganywhere",
-    "source_id": "ut1734155",
-    "url": "https://housinganywhere.com/room/ut1734155/ie/Dublin/beaumont-road?page=4",
-    "title": "Shared room in Beaumont Road, Dublin",
-    "rent_monthly_eur": 660.0,
-    "rent_text": "€660 /month, incl. some utilities",
-    "address": "Beaumont Road, Dublin",
-    "bedrooms": null,
-    "bathrooms": null,
-    "property_type": "Shared room",
-    "description": "Shared room for rent for €660 per month in Dublin, Beaumont Road: 1 bedroom(s), Shared kitchen, WiFi. Suitable for null.",
-    "accommodation": "shared",
-    "latitude": 53.3850425,
-    "longitude": -6.2347214,
-    "coords_approximate": false,
-    "available_from": null,
-    "available_to": null,
-    "date_found": "2026-11-19T01:13:04+00:00",
-    "date_scraped": "2026-11-19T01:18:43+00:00",
-    "listed_on": null,
-    "extra": {
-      "size": "13 m²",
-      "availability_text": "Available now"
-    },
-    "area": null,
-    "area_priority": 0,
-    "distances_km": {
-      "AWS Ballsbridge": 6.17,
-      "Dogpatch Labs": 4.17
-    },
-    "total_monthly_for_group_eur": 1980.0,
-    "cost_per_person_eur": 660.0,
-    "tier": 3,
-    "within_budget": true,
-    "availability_flags": [
-      "Dates not stated in search data – check availability for Jan–May 2027 on the site"
-    ],
-    "notes": [
-      "Price is per room – 3 rooms needed (assumes same price each)"
-    ],
-    "score": 48.1,
-    "duplicate_group": null,
-    "duplicate_urls": [],
-    "status": "active",
-    "price_change": null,
-    "is_new": true,
-    "contacted": false,
-    "uid": "housinganywhere:ut1734155",
-    "tier_label": "Shared accommodation"
-  },
-  {
     "source": "myhome",
     "source_id": "5027772",
     "url": "https://www.myhome.ie/rentals/brochure/apartment-51-king-s-court-parnell-street-dublin-1/5027772",
@@ -3759,7 +3674,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:13:04+00:00",
+    "date_scraped": "2026-11-19T16:37:53+00:00",
     "listed_on": "2026-09-11",
     "extra": {
       "agent": "Stokes Property Consultants Ltd",
@@ -3815,8 +3730,8 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:13:04+00:00",
-    "listed_on": "2026-11-18",
+    "date_scraped": "2026-11-19T16:37:53+00:00",
+    "listed_on": "2026-11-19",
     "extra": {
       "agent": "MyHome.ie Users",
       "private_landlord": true,
@@ -3869,14 +3784,11 @@
     "available_from": "2027-01-08",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:17:27+00:00",
+    "date_scraped": "2026-11-19T16:42:19+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
-      "capacity": {
-        "group": 7,
-        "__typename": "HomecardCapacity"
-      },
+      "capacity": null,
       "allows_permanent_contract": false,
       "verified": true,
       "price_is_from": true,
@@ -3901,7 +3813,7 @@
       "Also advertised on: housinganywhere"
     ],
     "score": 46.9,
-    "duplicate_group": "e9eb31cf78",
+    "duplicate_group": "70f81d2da8",
     "duplicate_urls": [
       "https://www.spotahome.com/dublin/for-rent:rooms/227636",
       "https://www.spotahome.com/dublin/for-rent:rooms/392301",
@@ -3909,7 +3821,8 @@
       "https://housinganywhere.com/room/ut879941/ie/Dublin/the-rise?page=3",
       "https://www.spotahome.com/dublin/for-rent:rooms/226699",
       "https://www.spotahome.com/dublin/for-rent:rooms/394336",
-      "https://www.spotahome.com/dublin/for-rent:rooms/227639"
+      "https://www.spotahome.com/dublin/for-rent:rooms/227639",
+      "https://housinganywhere.com/room/ut1157935/ie/Dublin/the-rise?page=3"
     ],
     "status": "active",
     "price_change": null,
@@ -3937,14 +3850,11 @@
     "available_from": "2027-01-01",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:17:27+00:00",
+    "date_scraped": "2026-11-19T16:42:19+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
-      "capacity": {
-        "group": 2,
-        "__typename": "HomecardCapacity"
-      },
+      "capacity": null,
       "allows_permanent_contract": false,
       "verified": true,
       "price_is_from": true,
@@ -3997,14 +3907,11 @@
     "available_from": "2027-01-12",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:17:27+00:00",
+    "date_scraped": "2026-11-19T16:42:19+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
-      "capacity": {
-        "group": 9,
-        "__typename": "HomecardCapacity"
-      },
+      "capacity": null,
       "allows_permanent_contract": false,
       "verified": false,
       "price_is_from": true,
@@ -4059,7 +3966,7 @@
     "available_from": "2027-01-12",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:18:43+00:00",
+    "date_scraped": "2026-11-19T16:43:32+00:00",
     "listed_on": null,
     "extra": {
       "size": "20 m²",
@@ -4111,14 +4018,11 @@
     "available_from": "2027-01-12",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:17:27+00:00",
+    "date_scraped": "2026-11-19T16:42:19+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
-      "capacity": {
-        "group": 24,
-        "__typename": "HomecardCapacity"
-      },
+      "capacity": null,
       "allows_permanent_contract": false,
       "verified": true,
       "price_is_from": true,
@@ -4175,14 +4079,11 @@
     "available_from": "2027-02-15",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:17:27+00:00",
+    "date_scraped": "2026-11-19T16:42:19+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
-      "capacity": {
-        "group": 24,
-        "__typename": "HomecardCapacity"
-      },
+      "capacity": null,
       "allows_permanent_contract": false,
       "verified": true,
       "price_is_from": true,
@@ -4240,14 +4141,11 @@
     "available_from": "2027-05-01",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:17:27+00:00",
+    "date_scraped": "2026-11-19T16:42:19+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
-      "capacity": {
-        "group": 4,
-        "__typename": "HomecardCapacity"
-      },
+      "capacity": null,
       "allows_permanent_contract": false,
       "verified": true,
       "price_is_from": true
@@ -4298,14 +4196,11 @@
     "available_from": "2027-01-05",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:17:27+00:00",
+    "date_scraped": "2026-11-19T16:42:19+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
-      "capacity": {
-        "group": 7,
-        "__typename": "HomecardCapacity"
-      },
+      "capacity": null,
       "allows_permanent_contract": false,
       "verified": true,
       "price_is_from": true,
@@ -4358,7 +4253,7 @@
     "available_from": "2027-01-15",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:18:43+00:00",
+    "date_scraped": "2026-11-19T16:43:32+00:00",
     "listed_on": null,
     "extra": {
       "size": "10 m²",
@@ -4411,14 +4306,11 @@
     "available_from": "2027-01-15",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:17:27+00:00",
+    "date_scraped": "2026-11-19T16:42:19+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
-      "capacity": {
-        "group": 11,
-        "__typename": "HomecardCapacity"
-      },
+      "capacity": null,
       "allows_permanent_contract": false,
       "verified": false,
       "price_is_from": true,
@@ -4473,7 +4365,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:13:04+00:00",
+    "date_scraped": "2026-11-19T16:37:53+00:00",
     "listed_on": "2026-11-03",
     "extra": {
       "agent": "Flynn & Associates Castleknock",
@@ -4528,7 +4420,7 @@
     "available_from": "2027-04-05",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:18:43+00:00",
+    "date_scraped": "2026-11-19T16:43:32+00:00",
     "listed_on": null,
     "extra": {
       "size": "14 m²",
@@ -4548,14 +4440,11 @@
       "Available only from 05 Apr 2027 (after 01 Jan 2027)"
     ],
     "notes": [
-      "Price is per room – 3 rooms needed (assumes same price each)",
-      "2 near-identical adverts merged"
+      "Price is per room – 3 rooms needed (assumes same price each)"
     ],
     "score": 41.2,
-    "duplicate_group": "a7d08e689b",
-    "duplicate_urls": [
-      "https://housinganywhere.com/room/ut1145912/ie/Dublin/phibsborough-road?page=6"
-    ],
+    "duplicate_group": null,
+    "duplicate_urls": [],
     "status": "active",
     "price_change": null,
     "is_new": false,
@@ -4582,14 +4471,11 @@
     "available_from": "2027-02-01",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:17:27+00:00",
+    "date_scraped": "2026-11-19T16:42:19+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "all",
-      "capacity": {
-        "group": 2,
-        "__typename": "HomecardCapacity"
-      },
+      "capacity": null,
       "allows_permanent_contract": false,
       "verified": true,
       "price_is_from": true
@@ -4640,7 +4526,7 @@
     "available_from": "2027-03-01",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:18:43+00:00",
+    "date_scraped": "2026-11-19T16:43:32+00:00",
     "listed_on": null,
     "extra": {
       "size": "15 m²",
@@ -4695,14 +4581,11 @@
     "available_from": "2027-02-02",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:17:27+00:00",
+    "date_scraped": "2026-11-19T16:42:19+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
-      "capacity": {
-        "group": 4,
-        "__typename": "HomecardCapacity"
-      },
+      "capacity": null,
       "allows_permanent_contract": false,
       "verified": true,
       "price_is_from": true
@@ -4753,14 +4636,11 @@
     "available_from": "2027-01-01",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:17:27+00:00",
+    "date_scraped": "2026-11-19T16:42:19+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
-      "capacity": {
-        "group": 2,
-        "__typename": "HomecardCapacity"
-      },
+      "capacity": null,
       "allows_permanent_contract": false,
       "verified": true,
       "price_is_from": true
@@ -4809,14 +4689,11 @@
     "available_from": "2027-03-03",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:17:27+00:00",
+    "date_scraped": "2026-11-19T16:42:19+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "all",
-      "capacity": {
-        "group": 3,
-        "__typename": "HomecardCapacity"
-      },
+      "capacity": null,
       "allows_permanent_contract": false,
       "verified": false,
       "price_is_from": true,
@@ -4872,14 +4749,11 @@
     "available_from": "2027-02-02",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:17:27+00:00",
+    "date_scraped": "2026-11-19T16:42:19+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "all",
-      "capacity": {
-        "group": 2,
-        "__typename": "HomecardCapacity"
-      },
+      "capacity": null,
       "allows_permanent_contract": false,
       "verified": true,
       "price_is_from": true,
@@ -4931,14 +4805,11 @@
     "available_from": "2027-02-09",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:17:27+00:00",
+    "date_scraped": "2026-11-19T16:42:19+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
-      "capacity": {
-        "group": 24,
-        "__typename": "HomecardCapacity"
-      },
+      "capacity": null,
       "allows_permanent_contract": false,
       "verified": true,
       "price_is_from": true,
@@ -4992,14 +4863,11 @@
     "available_from": "2027-03-04",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:17:27+00:00",
+    "date_scraped": "2026-11-19T16:42:19+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
-      "capacity": {
-        "group": 24,
-        "__typename": "HomecardCapacity"
-      },
+      "capacity": null,
       "allows_permanent_contract": false,
       "verified": true,
       "price_is_from": true,
@@ -5053,14 +4921,11 @@
     "available_from": "2027-01-18",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:17:27+00:00",
+    "date_scraped": "2026-11-19T16:42:19+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
-      "capacity": {
-        "group": 21,
-        "__typename": "HomecardCapacity"
-      },
+      "capacity": null,
       "allows_permanent_contract": false,
       "verified": true,
       "price_is_from": true,
@@ -5114,14 +4979,11 @@
     "available_from": "2027-03-13",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:17:27+00:00",
+    "date_scraped": "2026-11-19T16:42:19+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
-      "capacity": {
-        "group": 21,
-        "__typename": "HomecardCapacity"
-      },
+      "capacity": null,
       "allows_permanent_contract": false,
       "verified": true,
       "price_is_from": true,
@@ -5179,14 +5041,11 @@
     "available_from": "2027-01-02",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:17:27+00:00",
+    "date_scraped": "2026-11-19T16:42:19+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "all",
-      "capacity": {
-        "group": 1,
-        "__typename": "HomecardCapacity"
-      },
+      "capacity": null,
       "allows_permanent_contract": false,
       "verified": false,
       "price_is_from": true,
@@ -5236,7 +5095,7 @@
     "available_from": "2027-01-06",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:18:43+00:00",
+    "date_scraped": "2026-11-19T16:43:32+00:00",
     "listed_on": null,
     "extra": {
       "size": "100 m²",
@@ -5285,14 +5144,11 @@
     "available_from": "2027-01-04",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:17:27+00:00",
+    "date_scraped": "2026-11-19T16:42:19+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
-      "capacity": {
-        "group": 2,
-        "__typename": "HomecardCapacity"
-      },
+      "capacity": null,
       "allows_permanent_contract": false,
       "verified": true,
       "price_is_from": true,
@@ -5342,7 +5198,7 @@
     "available_from": "2027-02-02",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:18:43+00:00",
+    "date_scraped": "2026-11-19T16:43:32+00:00",
     "listed_on": null,
     "extra": {
       "size": "18 m²",
@@ -5397,14 +5253,11 @@
     "available_from": "2026-12-06",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:17:27+00:00",
+    "date_scraped": "2026-11-19T16:42:19+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
-      "capacity": {
-        "group": 8,
-        "__typename": "HomecardCapacity"
-      },
+      "capacity": null,
       "allows_permanent_contract": false,
       "verified": true,
       "price_is_from": true,
@@ -5454,14 +5307,11 @@
     "available_from": "2027-01-01",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:17:27+00:00",
+    "date_scraped": "2026-11-19T16:42:19+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
-      "capacity": {
-        "group": 8,
-        "__typename": "HomecardCapacity"
-      },
+      "capacity": null,
       "allows_permanent_contract": false,
       "verified": true,
       "price_is_from": true,
@@ -5514,14 +5364,11 @@
     "available_from": "2027-01-01",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:17:27+00:00",
+    "date_scraped": "2026-11-19T16:42:19+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
-      "capacity": {
-        "group": 1,
-        "__typename": "HomecardCapacity"
-      },
+      "capacity": null,
       "allows_permanent_contract": false,
       "verified": true,
       "price_is_from": true,
@@ -5571,14 +5418,11 @@
     "available_from": "2027-04-29",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:17:27+00:00",
+    "date_scraped": "2026-11-19T16:42:19+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "all",
-      "capacity": {
-        "group": 2,
-        "__typename": "HomecardCapacity"
-      },
+      "capacity": null,
       "allows_permanent_contract": false,
       "verified": true,
       "price_is_from": true,
@@ -5630,14 +5474,11 @@
     "available_from": "2027-03-01",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:17:27+00:00",
+    "date_scraped": "2026-11-19T16:42:19+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "all",
-      "capacity": {
-        "group": 1,
-        "__typename": "HomecardCapacity"
-      },
+      "capacity": null,
       "allows_permanent_contract": false,
       "verified": false,
       "price_is_from": true,
@@ -5689,14 +5530,11 @@
     "available_from": "2027-03-01",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:17:27+00:00",
+    "date_scraped": "2026-11-19T16:42:19+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
-      "capacity": {
-        "group": 2,
-        "__typename": "HomecardCapacity"
-      },
+      "capacity": null,
       "allows_permanent_contract": false,
       "verified": true,
       "price_is_from": true,
@@ -5748,14 +5586,11 @@
     "available_from": "2027-02-14",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:17:27+00:00",
+    "date_scraped": "2026-11-19T16:42:19+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
-      "capacity": {
-        "group": 8,
-        "__typename": "HomecardCapacity"
-      },
+      "capacity": null,
       "allows_permanent_contract": false,
       "verified": false,
       "price_is_from": true,
@@ -5812,7 +5647,7 @@
     "available_from": "2027-03-22",
     "available_to": null,
     "date_found": "2026-11-17T02:28:55+00:00",
-    "date_scraped": "2026-11-19T01:18:43+00:00",
+    "date_scraped": "2026-11-19T16:43:32+00:00",
     "listed_on": null,
     "extra": {
       "size": "5 m²",
@@ -5863,14 +5698,11 @@
     "available_from": "2027-04-05",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:17:27+00:00",
+    "date_scraped": "2026-11-19T16:42:19+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "all",
-      "capacity": {
-        "group": 2,
-        "__typename": "HomecardCapacity"
-      },
+      "capacity": null,
       "allows_permanent_contract": false,
       "verified": true,
       "price_is_from": true,
@@ -5922,14 +5754,11 @@
     "available_from": "2027-01-01",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:17:27+00:00",
+    "date_scraped": "2026-11-19T16:42:19+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "all",
-      "capacity": {
-        "group": 2,
-        "__typename": "HomecardCapacity"
-      },
+      "capacity": null,
       "allows_permanent_contract": false,
       "verified": true,
       "price_is_from": true,
@@ -5979,14 +5808,11 @@
     "available_from": "2027-01-19",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:17:27+00:00",
+    "date_scraped": "2026-11-19T16:42:19+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
-      "capacity": {
-        "group": 2,
-        "__typename": "HomecardCapacity"
-      },
+      "capacity": null,
       "allows_permanent_contract": false,
       "verified": true,
       "price_is_from": true,
@@ -6038,14 +5864,11 @@
     "available_from": "2026-11-19",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:17:27+00:00",
+    "date_scraped": "2026-11-19T16:42:19+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
-      "capacity": {
-        "group": 4,
-        "__typename": "HomecardCapacity"
-      },
+      "capacity": null,
       "allows_permanent_contract": false,
       "verified": true,
       "price_is_from": true
@@ -6076,6 +5899,60 @@
     "tier_label": "2 bed entire property (sofa bed needed)"
   },
   {
+    "source": "housinganywhere",
+    "source_id": "ut1597530",
+    "url": "https://housinganywhere.com/room/ut1597530/ie/Dublin/glasnevin-hill?page=4",
+    "title": "Private room in Glasnevin Hill, Dublin",
+    "rent_monthly_eur": 860.0,
+    "rent_text": "€860 /month, incl. some utilities",
+    "address": "Glasnevin Hill, Dublin",
+    "bedrooms": null,
+    "bathrooms": null,
+    "property_type": "Private room",
+    "description": "Private room for rent for €860 per month in Dublin, Glasnevin Hill: Furnished, 1 bedroom(s), Shared bathroom , Shared kitchen, WiFi, Student and working professionals.",
+    "accommodation": "shared",
+    "latitude": 53.3742116,
+    "longitude": -6.2686417,
+    "coords_approximate": false,
+    "available_from": "2027-03-29",
+    "available_to": null,
+    "date_found": "2026-11-16T14:07:04+00:00",
+    "date_scraped": "2026-11-19T16:43:32+00:00",
+    "listed_on": null,
+    "extra": {
+      "size": "10 m²",
+      "availability_text": "Available from 29 March 2027"
+    },
+    "area": null,
+    "area_priority": 0,
+    "distances_km": {
+      "AWS Ballsbridge": 5.55,
+      "Dogpatch Labs": 3.12
+    },
+    "total_monthly_for_group_eur": 2580.0,
+    "cost_per_person_eur": 860.0,
+    "tier": 3,
+    "within_budget": true,
+    "availability_flags": [
+      "Available only from 29 Mar 2027 (after 01 Jan 2027)"
+    ],
+    "notes": [
+      "Price is per room – 3 rooms needed (assumes same price each)",
+      "Also advertised on: spotahome"
+    ],
+    "score": 25.8,
+    "duplicate_group": "f38e427def",
+    "duplicate_urls": [
+      "https://www.spotahome.com/dublin/for-rent:rooms/1350063"
+    ],
+    "status": "active",
+    "price_change": null,
+    "is_new": false,
+    "contacted": false,
+    "uid": "housinganywhere:ut1597530",
+    "tier_label": "Shared accommodation"
+  },
+  {
     "source": "spotahome",
     "source_id": "322549",
     "url": "https://www.spotahome.com/dublin/for-rent:rooms/322549",
@@ -6094,14 +5971,11 @@
     "available_from": "2027-03-22",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:17:27+00:00",
+    "date_scraped": "2026-11-19T16:42:19+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
-      "capacity": {
-        "group": 21,
-        "__typename": "HomecardCapacity"
-      },
+      "capacity": null,
       "allows_permanent_contract": false,
       "verified": true,
       "price_is_from": true,
@@ -6138,65 +6012,6 @@
   },
   {
     "source": "spotahome",
-    "source_id": "1350063",
-    "url": "https://www.spotahome.com/dublin/for-rent:rooms/1350063",
-    "title": "Room in shared 7-bedroom in Cabra-Drumcondra, Dublin",
-    "rent_monthly_eur": 860.0,
-    "rent_text": "from €860 / month",
-    "address": "Glasnevin Hill, D09 T2H2, Dublin (Cabra-Drumcondra)",
-    "bedrooms": 7,
-    "bathrooms": null,
-    "property_type": "Room in shared property",
-    "description": "Discover a cozy room available in a shared 7-bedroom apartment located in the Cabra-Drumcondra neighborhood of Dublin. The apartment is fully furnished and features essential amenities such as a washing machine, dryer, and a well-equipped kitchen with an oven. Please note, bills are not included and must be paid directly to the landlord. The property has been personally checked by Spotahome, ensuring a high standard. Cabra-Drumcondra offers a vibrant environment with convenient access to local attractions. Dublin City University is nearby, making it convenient for students and academics. For dining options, The Washerwoman, Eat-Alley, and Cafe Italya Pizzeria are located within walking distance. Explore cultural landmarks like Met Eireann Headquarters and Bushy Park in the vicinity, enriching your stay in Dublin.",
-    "accommodation": "shared",
-    "latitude": 53.37477,
-    "longitude": -6.26908,
-    "coords_approximate": false,
-    "available_from": "2027-03-29",
-    "available_to": null,
-    "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:17:27+00:00",
-    "listed_on": null,
-    "extra": {
-      "bills_included": "none",
-      "capacity": {
-        "group": 7,
-        "__typename": "HomecardCapacity"
-      },
-      "allows_permanent_contract": false,
-      "verified": true,
-      "price_is_from": true,
-      "flat_bedrooms": 7
-    },
-    "area": "Dublin 9",
-    "area_priority": 0,
-    "distances_km": {
-      "AWS Ballsbridge": 5.62,
-      "Dogpatch Labs": 3.18
-    },
-    "total_monthly_for_group_eur": 2580.0,
-    "cost_per_person_eur": 860.0,
-    "tier": 3,
-    "within_budget": true,
-    "availability_flags": [
-      "Available only from 29 Mar 2027 (after 01 Jan 2027)"
-    ],
-    "notes": [
-      "Price is per room – 3 rooms needed (assumes same price each)",
-      "Spotahome shows a 'from' price; actual price can depend on dates"
-    ],
-    "score": 25.6,
-    "duplicate_group": null,
-    "duplicate_urls": [],
-    "status": "active",
-    "price_change": null,
-    "is_new": false,
-    "contacted": false,
-    "uid": "spotahome:1350063",
-    "tier_label": "Shared accommodation"
-  },
-  {
-    "source": "spotahome",
     "source_id": "997097",
     "url": "https://www.spotahome.com/dublin/for-rent:apartments/997097",
     "title": "2-bedroom apartment for rent in Chapelizod, Dublin",
@@ -6214,14 +6029,11 @@
     "available_from": "2027-05-01",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:17:27+00:00",
+    "date_scraped": "2026-11-19T16:42:19+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
-      "capacity": {
-        "group": 6,
-        "__typename": "HomecardCapacity"
-      },
+      "capacity": null,
       "allows_permanent_contract": false,
       "verified": true,
       "price_is_from": true
@@ -6272,14 +6084,11 @@
     "available_from": "2027-02-25",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:17:27+00:00",
+    "date_scraped": "2026-11-19T16:42:19+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
-      "capacity": {
-        "group": 11,
-        "__typename": "HomecardCapacity"
-      },
+      "capacity": null,
       "allows_permanent_contract": false,
       "verified": false,
       "price_is_from": true,
@@ -6331,14 +6140,11 @@
     "available_from": "2027-03-01",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:17:27+00:00",
+    "date_scraped": "2026-11-19T16:42:19+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "all",
-      "capacity": {
-        "group": 2,
-        "__typename": "HomecardCapacity"
-      },
+      "capacity": null,
       "allows_permanent_contract": false,
       "verified": true,
       "price_is_from": true,
@@ -6390,14 +6196,11 @@
     "available_from": "2027-04-02",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:17:27+00:00",
+    "date_scraped": "2026-11-19T16:42:19+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "all",
-      "capacity": {
-        "group": 1,
-        "__typename": "HomecardCapacity"
-      },
+      "capacity": null,
       "allows_permanent_contract": false,
       "verified": true,
       "price_is_from": true,
@@ -6449,14 +6252,11 @@
     "available_from": "2027-02-02",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:17:27+00:00",
+    "date_scraped": "2026-11-19T16:42:19+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
-      "capacity": {
-        "group": 7,
-        "__typename": "HomecardCapacity"
-      },
+      "capacity": null,
       "allows_permanent_contract": false,
       "verified": true,
       "price_is_from": true,
@@ -6512,14 +6312,11 @@
     "available_from": "2027-04-01",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:17:27+00:00",
+    "date_scraped": "2026-11-19T16:42:19+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
-      "capacity": {
-        "group": 7,
-        "__typename": "HomecardCapacity"
-      },
+      "capacity": null,
       "allows_permanent_contract": false,
       "verified": true,
       "price_is_from": true,
@@ -6575,14 +6372,11 @@
     "available_from": "2026-12-21",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:17:27+00:00",
+    "date_scraped": "2026-11-19T16:42:19+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
-      "capacity": {
-        "group": 4,
-        "__typename": "HomecardCapacity"
-      },
+      "capacity": null,
       "allows_permanent_contract": false,
       "verified": true,
       "price_is_from": true,
@@ -6639,14 +6433,11 @@
     "available_from": "2027-03-01",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:17:27+00:00",
+    "date_scraped": "2026-11-19T16:42:19+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
-      "capacity": {
-        "group": 6,
-        "__typename": "HomecardCapacity"
-      },
+      "capacity": null,
       "allows_permanent_contract": false,
       "verified": true,
       "price_is_from": true,
@@ -6698,14 +6489,11 @@
     "available_from": "2026-12-21",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:17:27+00:00",
+    "date_scraped": "2026-11-19T16:42:19+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "all",
-      "capacity": {
-        "group": 34,
-        "__typename": "HomecardCapacity"
-      },
+      "capacity": null,
       "allows_permanent_contract": false,
       "verified": false,
       "price_is_from": true,
@@ -6762,14 +6550,11 @@
     "available_from": "2027-02-01",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:17:27+00:00",
+    "date_scraped": "2026-11-19T16:42:19+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "all",
-      "capacity": {
-        "group": 2,
-        "__typename": "HomecardCapacity"
-      },
+      "capacity": null,
       "allows_permanent_contract": false,
       "verified": true,
       "price_is_from": true,
@@ -6816,22 +6601,19 @@
     "bedrooms": 14,
     "bathrooms": 15,
     "property_type": "Room in shared property",
-    "description": "Step into this spacious room in a shared 14-bedroom apartment located in the vibrant area of Inns Quay, Dublin. This property comes fully furnished and includes a well-equipped kitchen fitted with essential appliances like a dishwasher, oven, and common washing machine. The living space is ideal for professionals, couples, and students alike, with a welcoming environment that fits diverse needs beautifully. Checked by Spotahome, the property guarantees quality and reliability. Inns Quay offers dynamic surroundings with an array of restaurants just steps away, including Buenos Aires Grill Restaurant, Fia Foods, and Fable & Stey. Historical landmarks such as The Black Church are also within close proximity, providing a rich cultural experience. Enjoy this lively neighborhood where convenience meets charm.",
+    "description": "Looking to live in Dublin? This furnished room in a shared 14-bedroom apartment located in Inns Quay might be perfect for you. The apartment comes fully furnished, with an equipped kitchen featuring modern appliances including a dishwasher, oven, and TV. The apartment is professionally inspected and verified by Spotahome, ensuring quality and trust. Couples and students are welcome. Note that no internet is available. Inns Quay is a vibrant neighbourhood known for its proximity to key amenities. Close by, you'll find The Black Church, Buenos Aires Grill Restaurant, and various dining establishments such as Dakbo Holdings and Fia Foods, all within walking distance. Make Inns Quay your new home today and experience Dublin's rich culture and convenience.",
     "accommodation": "shared",
-    "latitude": 53.35403,
-    "longitude": -6.2691,
+    "latitude": 53.3552,
+    "longitude": -6.26948,
     "coords_approximate": false,
     "available_from": "2027-05-01",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:17:27+00:00",
+    "date_scraped": "2026-11-19T16:42:19+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
-      "capacity": {
-        "group": 21,
-        "__typename": "HomecardCapacity"
-      },
+      "capacity": null,
       "allows_permanent_contract": false,
       "verified": true,
       "price_is_from": true,
@@ -6840,8 +6622,8 @@
     "area": "Dublin 7",
     "area_priority": 0,
     "distances_km": {
-      "AWS Ballsbridge": 3.71,
-      "Dogpatch Labs": 1.43
+      "AWS Ballsbridge": 3.82,
+      "Dogpatch Labs": 1.51
     },
     "total_monthly_for_group_eur": 2985.0,
     "cost_per_person_eur": 995.0,
@@ -6854,7 +6636,7 @@
       "Price is per room – 3 rooms needed (assumes same price each)",
       "Spotahome shows a 'from' price; actual price can depend on dates"
     ],
-    "score": 20.8,
+    "score": 20.5,
     "duplicate_group": null,
     "duplicate_urls": [],
     "status": "active",
@@ -6883,14 +6665,11 @@
     "available_from": "2027-04-30",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:17:27+00:00",
+    "date_scraped": "2026-11-19T16:42:19+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
-      "capacity": {
-        "group": 30,
-        "__typename": "HomecardCapacity"
-      },
+      "capacity": null,
       "allows_permanent_contract": false,
       "verified": true,
       "price_is_from": true,
@@ -6942,14 +6721,11 @@
     "available_from": "2027-02-02",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:17:27+00:00",
+    "date_scraped": "2026-11-19T16:42:19+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "all",
-      "capacity": {
-        "group": 1,
-        "__typename": "HomecardCapacity"
-      },
+      "capacity": null,
       "allows_permanent_contract": false,
       "verified": true,
       "price_is_from": true,
@@ -7001,14 +6777,11 @@
     "available_from": "2027-05-01",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:17:27+00:00",
+    "date_scraped": "2026-11-19T16:42:19+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "all",
-      "capacity": {
-        "group": 2,
-        "__typename": "HomecardCapacity"
-      },
+      "capacity": null,
       "allows_permanent_contract": false,
       "verified": true,
       "price_is_from": true,
@@ -7060,14 +6833,11 @@
     "available_from": "2027-02-02",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:17:27+00:00",
+    "date_scraped": "2026-11-19T16:42:19+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "all",
-      "capacity": {
-        "group": 2,
-        "__typename": "HomecardCapacity"
-      },
+      "capacity": null,
       "allows_permanent_contract": false,
       "verified": true,
       "price_is_from": true,
@@ -7119,14 +6889,11 @@
     "available_from": "2027-02-04",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:17:27+00:00",
+    "date_scraped": "2026-11-19T16:42:19+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
-      "capacity": {
-        "group": 2,
-        "__typename": "HomecardCapacity"
-      },
+      "capacity": null,
       "allows_permanent_contract": false,
       "verified": true,
       "price_is_from": true,
@@ -7178,14 +6945,11 @@
     "available_from": "2027-04-11",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:17:27+00:00",
+    "date_scraped": "2026-11-19T16:42:19+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "all",
-      "capacity": {
-        "group": 4,
-        "__typename": "HomecardCapacity"
-      },
+      "capacity": null,
       "allows_permanent_contract": false,
       "verified": true,
       "price_is_from": true,
@@ -7240,14 +7004,11 @@
     "available_from": "2027-04-06",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:17:27+00:00",
+    "date_scraped": "2026-11-19T16:42:19+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
-      "capacity": {
-        "group": 6,
-        "__typename": "HomecardCapacity"
-      },
+      "capacity": null,
       "allows_permanent_contract": false,
       "verified": true,
       "price_is_from": true,
@@ -7274,8 +7035,8 @@
     "score": 16.7,
     "duplicate_group": "c73113e03c",
     "duplicate_urls": [
-      "https://www.spotahome.com/dublin/for-rent:rooms/983943",
-      "https://www.spotahome.com/dublin/for-rent:rooms/983944"
+      "https://www.spotahome.com/dublin/for-rent:rooms/983944",
+      "https://www.spotahome.com/dublin/for-rent:rooms/983943"
     ],
     "status": "active",
     "price_change": null,
@@ -7303,7 +7064,7 @@
     "available_from": "2027-04-06",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:18:43+00:00",
+    "date_scraped": "2026-11-19T16:43:32+00:00",
     "listed_on": null,
     "extra": {
       "size": "10 m²",
@@ -7354,14 +7115,11 @@
     "available_from": "2027-04-01",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:17:27+00:00",
+    "date_scraped": "2026-11-19T16:42:19+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
-      "capacity": {
-        "group": 8,
-        "__typename": "HomecardCapacity"
-      },
+      "capacity": null,
       "allows_permanent_contract": false,
       "verified": true,
       "price_is_from": true,
@@ -7416,14 +7174,11 @@
     "available_from": "2026-11-19",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:17:27+00:00",
+    "date_scraped": "2026-11-19T16:42:19+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "all",
-      "capacity": {
-        "group": 1,
-        "__typename": "HomecardCapacity"
-      },
+      "capacity": null,
       "allows_permanent_contract": false,
       "verified": true,
       "price_is_from": true,
@@ -7473,14 +7228,11 @@
     "available_from": "2027-02-02",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:17:27+00:00",
+    "date_scraped": "2026-11-19T16:42:19+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
-      "capacity": {
-        "group": 6,
-        "__typename": "HomecardCapacity"
-      },
+      "capacity": null,
       "allows_permanent_contract": false,
       "verified": true,
       "price_is_from": true,
@@ -7532,14 +7284,11 @@
     "available_from": "2027-04-01",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:17:27+00:00",
+    "date_scraped": "2026-11-19T16:42:19+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
-      "capacity": {
-        "group": 1,
-        "__typename": "HomecardCapacity"
-      },
+      "capacity": null,
       "allows_permanent_contract": false,
       "verified": true,
       "price_is_from": true,
@@ -7591,14 +7340,11 @@
     "available_from": "2026-12-26",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:17:27+00:00",
+    "date_scraped": "2026-11-19T16:42:19+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
-      "capacity": {
-        "group": 1,
-        "__typename": "HomecardCapacity"
-      },
+      "capacity": null,
       "allows_permanent_contract": false,
       "verified": false,
       "price_is_from": true,
@@ -7648,14 +7394,11 @@
     "available_from": "2027-02-02",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-19T01:17:27+00:00",
+    "date_scraped": "2026-11-19T16:42:19+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
-      "capacity": {
-        "group": 7,
-        "__typename": "HomecardCapacity"
-      },
+      "capacity": null,
       "allows_permanent_contract": false,
       "verified": true,
       "price_is_from": true,
