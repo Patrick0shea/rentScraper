@@ -18,7 +18,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:16:14+00:00",
+    "date_scraped": "2026-11-20T16:12:59+00:00",
     "listed_on": "2020-11-19",
     "extra": {
       "agent": "Hooke & MacDonald (Lettings)",
@@ -73,8 +73,8 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:16:14+00:00",
-    "listed_on": "2026-11-19",
+    "date_scraped": "2026-11-20T16:12:59+00:00",
+    "listed_on": "2026-11-20",
     "extra": {
       "agent": "MyHome.ie Users",
       "private_landlord": true,
@@ -128,7 +128,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-17T16:55:59+00:00",
-    "date_scraped": "2026-11-20T01:16:14+00:00",
+    "date_scraped": "2026-11-20T16:12:59+00:00",
     "listed_on": "2026-11-17",
     "extra": {
       "agent": "Eoin O'Neill Property Advisers",
@@ -188,7 +188,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-17T16:55:59+00:00",
-    "date_scraped": "2026-11-20T01:16:14+00:00",
+    "date_scraped": "2026-11-20T16:12:59+00:00",
     "listed_on": "2026-11-17",
     "extra": {
       "agent": "June McConnell Residential",
@@ -252,8 +252,8 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:16:14+00:00",
-    "listed_on": "2026-11-19",
+    "date_scraped": "2026-11-20T16:12:59+00:00",
+    "listed_on": "2026-11-20",
     "extra": {
       "agent": "MyHome.ie Users",
       "private_landlord": true,
@@ -308,7 +308,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:16:14+00:00",
+    "date_scraped": "2026-11-20T16:12:59+00:00",
     "listed_on": "2026-10-22",
     "extra": {
       "agent": "Sherry FitzGerald Lettings Sheehy",
@@ -355,36 +355,38 @@
   },
   {
     "source": "myhome",
-    "source_id": "5038985",
-    "url": "https://www.myhome.ie/rentals/brochure/37-buckingham-street-lower-amiens-street-dublin-1-amiens-street-dublin-1/5038985",
-    "title": "2 beds Apartment – 37 Buckingham Street Lower Amiens Street Dublin 1, Amiens Street, Dublin 1",
+    "source_id": "5042215",
+    "url": "https://www.myhome.ie/rentals/brochure/buckingham-street-lower-amiens-street-dublin-1-dublin-1-dublin/5042215",
+    "title": "2 beds Apartment – Buckingham Street Lower Amiens Street Dublin 1 , Dublin 1, Dublin",
     "rent_monthly_eur": 2400.0,
     "rent_text": "€2,400 / month",
-    "address": "37 Buckingham Street Lower Amiens Street Dublin 1, Amiens Street, Dublin 1",
+    "address": "Buckingham Street Lower Amiens Street Dublin 1 , Dublin 1, Dublin",
     "bedrooms": 2,
     "bathrooms": 1,
     "property_type": "Apartment",
     "description": "**Available Immediately** **Fully Furnished** Nicely presented two double bedroom, one bathroom, lower ground floor apartment extending to approx 68sqm with private in very central location. Accommodation consists of; entrance hallway with washer / dryer, large living dining room, fully fitted kitchen, two double bedrooms, main bathroom and private garden. **Professionally Managed by Sherry FitzGerald Lettings**\n\nBER: E",
     "accommodation": "entire",
-    "latitude": 53.3532600402832,
-    "longitude": -6.249447345733643,
+    "latitude": 53.35369873046875,
+    "longitude": -6.249429225921631,
     "coords_approximate": false,
     "available_from": null,
     "available_to": null,
-    "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:16:14+00:00",
-    "listed_on": "2026-10-30",
+    "date_found": "2026-11-20T16:12:59+00:00",
+    "date_scraped": "2026-11-20T16:12:59+00:00",
+    "listed_on": "2026-11-20",
     "extra": {
       "agent": "Sherry FitzGerald Lettings Sheehy",
       "private_landlord": false,
       "size_m2": 68,
       "sale_agreed_or_let": false,
-      "locality": "Amiens Street",
+      "locality": "Dublin 1",
       "features": [
         "Furnished",
+        "Parking",
         "Central Heating",
         "Washing Machine",
         "Dryer",
+        "Dishwasher",
         "Microwave",
         "Cable TV"
       ]
@@ -392,8 +394,8 @@
     "area": "Dublin 1",
     "area_priority": 2,
     "distances_km": {
-      "AWS Ballsbridge": 2.9,
-      "Dogpatch Labs": 0.52
+      "AWS Ballsbridge": 2.95,
+      "Dogpatch Labs": 0.57
     },
     "total_monthly_for_group_eur": 2400.0,
     "cost_per_person_eur": 800.0,
@@ -405,14 +407,78 @@
     "notes": [
       "2 bed – third person needs a sofa bed or similar; check living room suits"
     ],
-    "score": 67.2,
+    "score": 67.0,
     "duplicate_group": null,
     "duplicate_urls": [],
     "status": "active",
     "price_change": null,
-    "is_new": false,
+    "is_new": true,
     "contacted": false,
-    "uid": "myhome:5038985",
+    "uid": "myhome:5042215",
+    "tier_label": "2 bed entire property (sofa bed needed)"
+  },
+  {
+    "source": "myhome",
+    "source_id": "5042290",
+    "url": "https://www.myhome.ie/rentals/brochure/oisin-court-sandymount-dublin-4/5042290",
+    "title": "2 beds Apartment – Oisin Court , Sandymount, Dublin 4",
+    "rent_monthly_eur": 2500.0,
+    "rent_text": "€2,500 / month",
+    "address": "Oisin Court , Sandymount, Dublin 4",
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "property_type": "Apartment",
+    "description": "**Available Immediately** Sherry FitzGerald Lettings presents this two double bedroom, one bathroom apartment, extending to 50sqm. There is communal parking to the front of the development. Accommodation consists of large entrance hall with hot press and storage cupboard, open plan living/dining room and fully fitted kitchen with fridge/freezer, dishwasher, washer/dryer, oven and hob, two double bedrooms both with fitted wardrobes and fully tiled main bathroom. Located within walking distance of Sandymount Village with its shops, bars, restaurants and the strand and just a short stroll to the City Centre.**Professionally managed by Sherry FitzGerald Lettings**\n\nBER: C2",
+    "accommodation": "entire",
+    "latitude": 53.3315544128418,
+    "longitude": -6.221767902374268,
+    "coords_approximate": false,
+    "available_from": null,
+    "available_to": null,
+    "date_found": "2026-11-20T16:12:59+00:00",
+    "date_scraped": "2026-11-20T16:12:59+00:00",
+    "listed_on": "2026-11-20",
+    "extra": {
+      "agent": "Sherry FitzGerald Lettings Sheehy",
+      "private_landlord": false,
+      "size_m2": 54,
+      "sale_agreed_or_let": false,
+      "locality": "Sandymount",
+      "features": [
+        "Furnished",
+        "Parking",
+        "Central Heating",
+        "Washing Machine",
+        "Dishwasher",
+        "Microwave",
+        "Cable TV",
+        "Internet"
+      ]
+    },
+    "area": "Sandymount (Dublin 4)",
+    "area_priority": 3,
+    "distances_km": {
+      "AWS Ballsbridge": 0.65,
+      "Dogpatch Labs": 2.65
+    },
+    "total_monthly_for_group_eur": 2500.0,
+    "cost_per_person_eur": 833.33,
+    "tier": 2,
+    "within_budget": true,
+    "availability_flags": [
+      "Available now – landlord may expect rent from before January"
+    ],
+    "notes": [
+      "2 bed – third person needs a sofa bed or similar; check living room suits"
+    ],
+    "score": 67.0,
+    "duplicate_group": null,
+    "duplicate_urls": [],
+    "status": "active",
+    "price_change": null,
+    "is_new": true,
+    "contacted": false,
+    "uid": "myhome:5042290",
     "tier_label": "2 bed entire property (sofa bed needed)"
   },
   {
@@ -434,7 +500,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:16:14+00:00",
+    "date_scraped": "2026-11-20T16:12:59+00:00",
     "listed_on": "2026-10-22",
     "extra": {
       "agent": "Herbert & Lansdowne Estate Agents",
@@ -494,7 +560,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:16:14+00:00",
+    "date_scraped": "2026-11-20T16:12:59+00:00",
     "listed_on": "2026-10-19",
     "extra": {
       "agent": "Ray Cooke Auctioneers",
@@ -548,7 +614,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:16:14+00:00",
+    "date_scraped": "2026-11-20T16:12:59+00:00",
     "listed_on": "2026-10-01",
     "extra": {
       "agent": "Sherry FitzGerald Lettings Sheehy",
@@ -611,7 +677,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:16:14+00:00",
+    "date_scraped": "2026-11-20T16:12:59+00:00",
     "listed_on": "2026-10-22",
     "extra": {
       "agent": "Sherry FitzGerald Lettings Sheehy",
@@ -675,7 +741,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:16:14+00:00",
+    "date_scraped": "2026-11-20T16:12:59+00:00",
     "listed_on": "2026-11-11",
     "extra": {
       "agent": "Eoin O'Neill Property Advisers",
@@ -732,7 +798,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:16:14+00:00",
+    "date_scraped": "2026-11-20T16:12:59+00:00",
     "listed_on": "2021-06-15",
     "extra": {
       "agent": "Hooke & MacDonald (Lettings)",
@@ -787,7 +853,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-17T02:28:55+00:00",
-    "date_scraped": "2026-11-20T01:16:14+00:00",
+    "date_scraped": "2026-11-20T16:12:59+00:00",
     "listed_on": "2026-11-16",
     "extra": {
       "agent": "Owen Reilly",
@@ -848,7 +914,7 @@
     "available_from": "2026-11-28",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:20:45+00:00",
+    "date_scraped": "2026-11-20T16:17:36+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -901,7 +967,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-17T02:28:55+00:00",
-    "date_scraped": "2026-11-20T01:16:14+00:00",
+    "date_scraped": "2026-11-20T16:12:59+00:00",
     "listed_on": "2026-10-08",
     "extra": {
       "agent": "Lisney Sotheby's International Realty Ballsbridge",
@@ -956,7 +1022,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:16:14+00:00",
+    "date_scraped": "2026-11-20T16:12:59+00:00",
     "listed_on": "2023-08-14",
     "extra": {
       "agent": "Get Property Estate Agents",
@@ -1010,7 +1076,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:16:14+00:00",
+    "date_scraped": "2026-11-20T16:12:59+00:00",
     "listed_on": "2023-11-23",
     "extra": {
       "agent": "Clare Connolly Estate Agents",
@@ -1065,7 +1131,7 @@
     "available_from": "2027-01-05",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:20:45+00:00",
+    "date_scraped": "2026-11-20T16:17:36+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -1094,11 +1160,13 @@
       "Also advertised on: housinganywhere"
     ],
     "score": 60.6,
-    "duplicate_group": "e54d7bede9",
+    "duplicate_group": "960dc40b19",
     "duplicate_urls": [
       "https://housinganywhere.com/room/ut1117402/ie/Dublin/blessington-street?page=2",
+      "https://www.spotahome.com/dublin/for-rent:rooms/294250",
       "https://www.spotahome.com/dublin/for-rent:rooms/393446",
-      "https://www.spotahome.com/dublin/for-rent:rooms/294250"
+      "https://housinganywhere.com/room/ut1181795/ie/Dublin/blessington-street?page=4",
+      "https://housinganywhere.com/room/ut1150151/ie/Dublin/blessington-street?page=4"
     ],
     "status": "active",
     "price_change": null,
@@ -1126,7 +1194,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:16:14+00:00",
+    "date_scraped": "2026-11-20T16:12:59+00:00",
     "listed_on": "2026-10-30",
     "extra": {
       "agent": "Sherry FitzGerald Lettings Sheehy",
@@ -1187,7 +1255,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:16:14+00:00",
+    "date_scraped": "2026-11-20T16:12:59+00:00",
     "listed_on": "2025-05-12",
     "extra": {
       "agent": "Sherry FitzGerald Lettings Sheehy",
@@ -1232,55 +1300,6 @@
   },
   {
     "source": "housinganywhere",
-    "source_id": "ut1496838",
-    "url": "https://housinganywhere.com/room/ut1496838/ie/Rialto/rialto-street?page=5",
-    "title": "Apartment in Rialto Street, Rialto",
-    "rent_monthly_eur": 2100.0,
-    "rent_text": "€2100 - €2900 /month, incl. utilities",
-    "address": "Rialto Street, Rialto",
-    "bedrooms": 2,
-    "bathrooms": null,
-    "property_type": "Apartment",
-    "description": "Apartment for rent for €2100 per month in Rialto, Rialto Street: Furnished, 2 bedroom(s), Private bathroom, Private kitchen, WiFi, Student and working professionals.",
-    "accommodation": "entire",
-    "latitude": 53.3368076,
-    "longitude": -6.2962967,
-    "coords_approximate": false,
-    "available_from": "2026-12-25",
-    "available_to": null,
-    "date_found": "2026-11-20T01:16:14+00:00",
-    "date_scraped": "2026-11-20T01:21:59+00:00",
-    "listed_on": null,
-    "extra": {
-      "size": "60 m²",
-      "availability_text": "Available from 25 December"
-    },
-    "area": null,
-    "area_priority": 0,
-    "distances_km": {
-      "AWS Ballsbridge": 4.41,
-      "Dogpatch Labs": 3.37
-    },
-    "total_monthly_for_group_eur": 2100.0,
-    "cost_per_person_eur": 700.0,
-    "tier": 2,
-    "within_budget": true,
-    "availability_flags": [],
-    "notes": [
-      "2 bed – third person needs a sofa bed or similar; check living room suits"
-    ],
-    "score": 60.1,
-    "duplicate_group": null,
-    "duplicate_urls": [],
-    "status": "active",
-    "price_change": null,
-    "is_new": true,
-    "contacted": false,
-    "uid": "housinganywhere:ut1496838",
-    "tier_label": "2 bed entire property (sofa bed needed)"
-  },
-  {
-    "source": "housinganywhere",
     "source_id": "ut1153001",
     "url": "https://housinganywhere.com/room/ut1153001/ie/Dublin/royal-canal-terrace?page=2",
     "title": "Shared room in Royal Canal Terrace, Dublin",
@@ -1298,7 +1317,7 @@
     "available_from": "2027-01-12",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:21:59+00:00",
+    "date_scraped": "2026-11-20T16:18:50+00:00",
     "listed_on": null,
     "extra": {
       "size": "12 m²",
@@ -1320,13 +1339,16 @@
       "Also advertised on: spotahome"
     ],
     "score": 59.6,
-    "duplicate_group": "5a1598f612",
+    "duplicate_group": "c1594851bb",
     "duplicate_urls": [
       "https://housinganywhere.com/room/ut1106519/ie/Dublin/royal-canal-terrace",
       "https://housinganywhere.com/room/ut1221652/ie/Dublin/royal-canal-terrace",
-      "https://www.spotahome.com/dublin/for-rent:residences/997648",
+      "https://housinganywhere.com/room/ut1361546/ie/Dublin/royal-canal-terrace?page=4",
       "https://www.spotahome.com/dublin/for-rent:residences/997646",
-      "https://www.spotahome.com/dublin/for-rent:residences/997647"
+      "https://www.spotahome.com/dublin/for-rent:residences/997647",
+      "https://www.spotahome.com/dublin/for-rent:residences/997648",
+      "https://housinganywhere.com/room/ut1375643/ie/Dublin/royal-canal-terrace?page=5",
+      "https://housinganywhere.com/room/ut1375638/ie/Dublin/royal-canal-terrace?page=5"
     ],
     "status": "active",
     "price_change": null,
@@ -1354,8 +1376,8 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:16:14+00:00",
-    "listed_on": "2026-11-19",
+    "date_scraped": "2026-11-20T16:12:59+00:00",
+    "listed_on": "2026-11-20",
     "extra": {
       "agent": "MyHome.ie Users",
       "private_landlord": true,
@@ -1409,7 +1431,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:16:14+00:00",
+    "date_scraped": "2026-11-20T16:12:59+00:00",
     "listed_on": "2026-11-09",
     "extra": {
       "agent": "Ray Cooke Auctioneers",
@@ -1463,7 +1485,7 @@
     "available_from": "2027-01-12",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:20:45+00:00",
+    "date_scraped": "2026-11-20T16:17:36+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -1522,7 +1544,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:16:14+00:00",
+    "date_scraped": "2026-11-20T16:12:59+00:00",
     "listed_on": "2025-11-20",
     "extra": {
       "agent": "DNG Lettings",
@@ -1583,7 +1605,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-17T16:55:59+00:00",
-    "date_scraped": "2026-11-20T01:16:14+00:00",
+    "date_scraped": "2026-11-20T16:12:59+00:00",
     "listed_on": "2026-11-17",
     "extra": {
       "agent": "Lisney Sotheby's International Realty Ballsbridge",
@@ -1638,7 +1660,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:16:14+00:00",
+    "date_scraped": "2026-11-20T16:12:59+00:00",
     "listed_on": "2026-09-17",
     "extra": {
       "agent": "Bartholomew McElhatton",
@@ -1700,7 +1722,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:16:14+00:00",
+    "date_scraped": "2026-11-20T16:12:59+00:00",
     "listed_on": "2026-10-23",
     "extra": {
       "agent": "Sherry FitzGerald Lettings Sheehy",
@@ -1763,7 +1785,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:16:14+00:00",
+    "date_scraped": "2026-11-20T16:12:59+00:00",
     "listed_on": "2026-11-12",
     "extra": {
       "agent": "DFM",
@@ -1825,7 +1847,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:16:14+00:00",
+    "date_scraped": "2026-11-20T16:12:59+00:00",
     "listed_on": "2026-11-11",
     "extra": {
       "agent": "Ed Dempsey & Associates",
@@ -1880,7 +1902,7 @@
     "available_from": "2026-11-20",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:20:45+00:00",
+    "date_scraped": "2026-11-20T16:17:36+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "all",
@@ -1936,7 +1958,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:16:14+00:00",
+    "date_scraped": "2026-11-20T16:12:59+00:00",
     "listed_on": "2026-09-28",
     "extra": {
       "agent": "Sherry FitzGerald Lettings Sheehy",
@@ -2000,7 +2022,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:16:14+00:00",
+    "date_scraped": "2026-11-20T16:12:59+00:00",
     "listed_on": "2026-10-05",
     "extra": {
       "agent": "Owen Reilly",
@@ -2056,7 +2078,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:16:14+00:00",
+    "date_scraped": "2026-11-20T16:12:59+00:00",
     "listed_on": "2026-11-13",
     "extra": {
       "agent": "Owen Reilly",
@@ -2114,7 +2136,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-17T02:28:55+00:00",
-    "date_scraped": "2026-11-20T01:16:14+00:00",
+    "date_scraped": "2026-11-20T16:12:59+00:00",
     "listed_on": "2026-11-16",
     "extra": {
       "agent": "Quillsen",
@@ -2152,8 +2174,8 @@
   },
   {
     "source": "spotahome",
-    "source_id": "401746",
-    "url": "https://www.spotahome.com/dublin/for-rent:rooms/401746",
+    "source_id": "322554",
+    "url": "https://www.spotahome.com/dublin/for-rent:rooms/322554",
     "title": "Bed for rent in 6-bedroom house in Phibsborough",
     "rent_monthly_eur": 650.0,
     "rent_text": "from €650 / month",
@@ -2169,7 +2191,7 @@
     "available_from": "2026-11-20",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:20:45+00:00",
+    "date_scraped": "2026-11-20T16:17:36+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -2200,88 +2222,14 @@
     "score": 55.3,
     "duplicate_group": "2fabffed24",
     "duplicate_urls": [
-      "https://www.spotahome.com/dublin/for-rent:rooms/322554",
+      "https://www.spotahome.com/dublin/for-rent:rooms/401746",
       "https://www.spotahome.com/dublin/for-rent:rooms/401747"
     ],
     "status": "active",
     "price_change": null,
     "is_new": false,
     "contacted": false,
-    "uid": "spotahome:401746",
-    "tier_label": "Shared accommodation"
-  },
-  {
-    "source": "housinganywhere",
-    "source_id": "ut1158365",
-    "url": "https://housinganywhere.com/room/ut1158365/ie/Dublin/blessington-street?page=4",
-    "title": "Shared room in Blessington Street, Dublin",
-    "rent_monthly_eur": 693.0,
-    "rent_text": "€693 /month, incl. some utilities",
-    "address": "Blessington Street, Dublin",
-    "bedrooms": null,
-    "bathrooms": null,
-    "property_type": "Shared room",
-    "description": "Shared room for rent for €693 per month in Dublin, Blessington Street: Furnished, 1 bedroom(s), Shared bathroom , Shared kitchen, WiFi, Student and working professionals.",
-    "accommodation": "shared",
-    "latitude": 53.35641,
-    "longitude": -6.26609,
-    "coords_approximate": false,
-    "available_from": "2027-01-08",
-    "available_to": null,
-    "date_found": "2026-11-17T02:28:55+00:00",
-    "date_scraped": "2026-11-20T01:21:59+00:00",
-    "listed_on": null,
-    "extra": {
-      "size": "12 m²",
-      "availability_text": "Available from 8 January 2027"
-    },
-    "area": null,
-    "area_priority": 0,
-    "distances_km": {
-      "AWS Ballsbridge": 3.78,
-      "Dogpatch Labs": 1.4
-    },
-    "total_monthly_for_group_eur": 2079.0,
-    "cost_per_person_eur": 693.0,
-    "tier": 3,
-    "within_budget": true,
-    "availability_flags": [],
-    "notes": [
-      "Price is per room – 3 rooms needed (assumes same price each)",
-      "Also advertised on: spotahome"
-    ],
-    "score": 55.2,
-    "duplicate_group": "2d8fbf411c",
-    "duplicate_urls": [
-      "https://housinganywhere.com/room/ut1199468/ie/Dublin/blessington-street?page=4",
-      "https://housinganywhere.com/room/ut1106702/ie/Dublin/blessington-street?page=3",
-      "https://www.spotahome.com/dublin/for-rent:rooms/597205",
-      "https://www.spotahome.com/dublin/for-rent:rooms/608344",
-      "https://www.spotahome.com/dublin/for-rent:rooms/609713",
-      "https://www.spotahome.com/dublin/for-rent:rooms/608345",
-      "https://www.spotahome.com/dublin/for-rent:rooms/610046",
-      "https://housinganywhere.com/room/ut1118216/ie/Dublin/blessington-street?page=3",
-      "https://housinganywhere.com/room/ut1099564/ie/Dublin/blessington-street?page=5",
-      "https://housinganywhere.com/room/ut1148118/ie/Dublin/blessington-street?page=5",
-      "https://housinganywhere.com/room/ut1091275/ie/Dublin/blessington-street?page=6",
-      "https://www.spotahome.com/dublin/for-rent:rooms/597204",
-      "https://www.spotahome.com/dublin/for-rent:rooms/597207",
-      "https://www.spotahome.com/dublin/for-rent:rooms/597206",
-      "https://www.spotahome.com/dublin/for-rent:rooms/597208",
-      "https://www.spotahome.com/dublin/for-rent:rooms/609714",
-      "https://www.spotahome.com/dublin/for-rent:rooms/609715",
-      "https://www.spotahome.com/dublin/for-rent:rooms/609716",
-      "https://www.spotahome.com/dublin/for-rent:rooms/609718",
-      "https://www.spotahome.com/dublin/for-rent:rooms/597203",
-      "https://www.spotahome.com/dublin/for-rent:rooms/609717",
-      "https://www.spotahome.com/dublin/for-rent:rooms/610045",
-      "https://housinganywhere.com/room/ut1103360/ie/Dublin/blessington-street?page=5"
-    ],
-    "status": "active",
-    "price_change": null,
-    "is_new": false,
-    "contacted": false,
-    "uid": "housinganywhere:ut1158365",
+    "uid": "spotahome:322554",
     "tier_label": "Shared accommodation"
   },
   {
@@ -2303,7 +2251,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-19T21:29:58+00:00",
-    "date_scraped": "2026-11-20T01:16:14+00:00",
+    "date_scraped": "2026-11-20T16:12:59+00:00",
     "listed_on": "2024-01-30",
     "extra": {
       "agent": "Quillsen",
@@ -2358,7 +2306,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-17T16:55:59+00:00",
-    "date_scraped": "2026-11-20T01:16:14+00:00",
+    "date_scraped": "2026-11-20T16:12:59+00:00",
     "listed_on": "2026-11-17",
     "extra": {
       "agent": "Sherry FitzGerald Lettings Sheehy",
@@ -2402,6 +2350,76 @@
     "tier_label": "2 bed entire property (sofa bed needed)"
   },
   {
+    "source": "housinganywhere",
+    "source_id": "ut1106702",
+    "url": "https://housinganywhere.com/room/ut1106702/ie/Dublin/blessington-street?page=3",
+    "title": "Shared room in Blessington Street, Dublin",
+    "rent_monthly_eur": 693.0,
+    "rent_text": "€693 /month, incl. some utilities",
+    "address": "Blessington Street, Dublin",
+    "bedrooms": null,
+    "bathrooms": null,
+    "property_type": "Shared room",
+    "description": "Shared room for rent for €693 per month in Dublin, Blessington Street: Furnished, 1 bedroom(s), Shared bathroom , Shared kitchen, WiFi, Student and working professionals.",
+    "accommodation": "shared",
+    "latitude": 53.3566748,
+    "longitude": -6.2676094,
+    "coords_approximate": false,
+    "available_from": null,
+    "available_to": null,
+    "date_found": "2026-11-16T14:07:04+00:00",
+    "date_scraped": "2026-11-20T16:18:50+00:00",
+    "listed_on": null,
+    "extra": {
+      "size": "12 m²",
+      "availability_text": "Available now"
+    },
+    "area": null,
+    "area_priority": 0,
+    "distances_km": {
+      "AWS Ballsbridge": 3.87,
+      "Dogpatch Labs": 1.49
+    },
+    "total_monthly_for_group_eur": 2079.0,
+    "cost_per_person_eur": 693.0,
+    "tier": 3,
+    "within_budget": true,
+    "availability_flags": [
+      "Dates not stated in search data – check availability for Jan–May 2027 on the site"
+    ],
+    "notes": [
+      "Price is per room – 3 rooms needed (assumes same price each)",
+      "Also advertised on: spotahome"
+    ],
+    "score": 54.8,
+    "duplicate_group": "91f9f61b9f",
+    "duplicate_urls": [
+      "https://www.spotahome.com/dublin/for-rent:rooms/608344",
+      "https://www.spotahome.com/dublin/for-rent:rooms/597205",
+      "https://www.spotahome.com/dublin/for-rent:rooms/608345",
+      "https://www.spotahome.com/dublin/for-rent:rooms/609713",
+      "https://www.spotahome.com/dublin/for-rent:rooms/610046",
+      "https://housinganywhere.com/room/ut1118216/ie/Dublin/blessington-street?page=3",
+      "https://www.spotahome.com/dublin/for-rent:rooms/597204",
+      "https://www.spotahome.com/dublin/for-rent:rooms/597206",
+      "https://www.spotahome.com/dublin/for-rent:rooms/597207",
+      "https://www.spotahome.com/dublin/for-rent:rooms/597208",
+      "https://www.spotahome.com/dublin/for-rent:rooms/609714",
+      "https://www.spotahome.com/dublin/for-rent:rooms/609716",
+      "https://www.spotahome.com/dublin/for-rent:rooms/609718",
+      "https://www.spotahome.com/dublin/for-rent:rooms/597203",
+      "https://www.spotahome.com/dublin/for-rent:rooms/609715",
+      "https://www.spotahome.com/dublin/for-rent:rooms/609717",
+      "https://www.spotahome.com/dublin/for-rent:rooms/610045"
+    ],
+    "status": "active",
+    "price_change": null,
+    "is_new": false,
+    "contacted": false,
+    "uid": "housinganywhere:ut1106702",
+    "tier_label": "Shared accommodation"
+  },
+  {
     "source": "myhome",
     "source_id": "5041699",
     "url": "https://www.myhome.ie/rentals/brochure/the-ailesbury-donnybrook-castle-donnybrook-dublin-4/5041699",
@@ -2420,7 +2438,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-19T16:37:53+00:00",
-    "date_scraped": "2026-11-20T01:16:14+00:00",
+    "date_scraped": "2026-11-20T16:12:59+00:00",
     "listed_on": "2026-11-17",
     "extra": {
       "agent": "Sherry FitzGerald Lettings Sheehy",
@@ -2484,7 +2502,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:16:14+00:00",
+    "date_scraped": "2026-11-20T16:12:59+00:00",
     "listed_on": "2020-05-20",
     "extra": {
       "agent": "Greystar Europe",
@@ -2546,7 +2564,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:16:14+00:00",
+    "date_scraped": "2026-11-20T16:12:59+00:00",
     "listed_on": "2026-11-05",
     "extra": {
       "agent": "Sherry FitzGerald Lettings Sheehy",
@@ -2610,7 +2628,7 @@
     "available_from": "2026-11-20",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:20:45+00:00",
+    "date_scraped": "2026-11-20T16:17:36+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -2636,21 +2654,18 @@
       "Price is per room – 3 rooms needed (assumes same price each)",
       "This is a bed in a shared bedroom",
       "Spotahome shows a 'from' price; actual price can depend on dates",
-      "Also advertised on: housinganywhere"
+      "8 near-identical adverts merged"
     ],
     "score": 53.3,
-    "duplicate_group": "25bdb852c9",
+    "duplicate_group": "4bc3141122",
     "duplicate_urls": [
       "https://www.spotahome.com/dublin/for-rent:residences/997645",
-      "https://housinganywhere.com/room/ut1175452/ie/Dublin/royal-canal-terrace?page=5",
-      "https://www.spotahome.com/dublin/for-rent:residences/997643",
       "https://www.spotahome.com/dublin/for-rent:residences/997651",
       "https://www.spotahome.com/dublin/for-rent:residences/997652",
       "https://www.spotahome.com/dublin/for-rent:residences/997642",
+      "https://www.spotahome.com/dublin/for-rent:residences/997643",
       "https://www.spotahome.com/dublin/for-rent:residences/997649",
-      "https://www.spotahome.com/dublin/for-rent:residences/997650",
-      "https://housinganywhere.com/room/ut1375191/ie/Dublin/royal-canal-terrace?page=5",
-      "https://housinganywhere.com/room/ut1370621/ie/Dublin/royal-canal-terrace?page=5"
+      "https://www.spotahome.com/dublin/for-rent:residences/997650"
     ],
     "status": "active",
     "price_change": null,
@@ -2678,7 +2693,7 @@
     "available_from": "2027-01-05",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:20:45+00:00",
+    "date_scraped": "2026-11-20T16:17:36+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -2709,11 +2724,11 @@
     "score": 53.2,
     "duplicate_group": "d3de65a6cb",
     "duplicate_urls": [
-      "https://www.spotahome.com/dublin/for-rent:rooms/267502",
       "https://www.spotahome.com/dublin/for-rent:rooms/609648",
+      "https://www.spotahome.com/dublin/for-rent:rooms/267502",
+      "https://www.spotahome.com/dublin/for-rent:rooms/267496",
       "https://www.spotahome.com/dublin/for-rent:rooms/606590",
-      "https://www.spotahome.com/dublin/for-rent:rooms/609681",
-      "https://www.spotahome.com/dublin/for-rent:rooms/267496"
+      "https://www.spotahome.com/dublin/for-rent:rooms/609681"
     ],
     "status": "active",
     "price_change": null,
@@ -2741,7 +2756,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:16:14+00:00",
+    "date_scraped": "2026-11-20T16:12:59+00:00",
     "listed_on": "2026-11-02",
     "extra": {
       "agent": "Galvin Property & Finance",
@@ -2803,7 +2818,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:16:14+00:00",
+    "date_scraped": "2026-11-20T16:12:59+00:00",
     "listed_on": "2026-10-29",
     "extra": {
       "agent": "Moovingo",
@@ -2857,7 +2872,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:16:14+00:00",
+    "date_scraped": "2026-11-20T16:12:59+00:00",
     "listed_on": "2025-08-14",
     "extra": {
       "agent": "Dowling Property",
@@ -2924,7 +2939,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:16:14+00:00",
+    "date_scraped": "2026-11-20T16:12:59+00:00",
     "listed_on": "2026-11-09",
     "extra": {
       "agent": "Ray Cooke Auctioneers",
@@ -2978,7 +2993,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:16:14+00:00",
+    "date_scraped": "2026-11-20T16:12:59+00:00",
     "listed_on": "2026-07-02",
     "extra": {
       "agent": "Allen & Jacobs",
@@ -3033,8 +3048,8 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:16:14+00:00",
-    "listed_on": "2026-11-19",
+    "date_scraped": "2026-11-20T16:12:59+00:00",
+    "listed_on": "2026-11-20",
     "extra": {
       "agent": "MyHome.ie Users",
       "private_landlord": true,
@@ -3070,6 +3085,69 @@
     "tier_label": "2 bed entire property (sofa bed needed)"
   },
   {
+    "source": "myhome",
+    "source_id": "5041300",
+    "url": "https://www.myhome.ie/rentals/brochure/11-182-clonliffe-road-dublin-3-dublin-3-dublin/5041300",
+    "title": "2 beds Apartment – 11 182 Clonliffe Road Dublin 3, Dublin 3, Dublin",
+    "rent_monthly_eur": 2650.0,
+    "rent_text": "€2,650 / month",
+    "address": "11 182 Clonliffe Road Dublin 3, Dublin 3, Dublin",
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "property_type": "Apartment",
+    "description": "*Available Immediately** **Newly Refurbished** **Fully Furnished** Well-presented, bright and spacious two double bedroom, one bathroom apartment, extending to approx. 50sqm of accommodation, located on the top floor, with parking. Accommodation comprises entrance hallway leading into an open plan, living/dining/kitchen area. All new furniture and fittings. Fully fitted kitchen with fridge/freezer, oven and hob. Two large double bedroom with fitted wardrobes and large windows. Situated on Clonliffe Road, just a short stroll to Drumcondra Village and many amenities the area has to offer. There is also easy access to the City Centre, M1, M50 and Dublin Airport. **Professionally Managed By Sherry Fitzgerald Lettings**\n\nBER: D2",
+    "accommodation": "entire",
+    "latitude": 53.36320495605469,
+    "longitude": -6.252804279327393,
+    "coords_approximate": false,
+    "available_from": null,
+    "available_to": null,
+    "date_found": "2026-11-20T16:12:59+00:00",
+    "date_scraped": "2026-11-20T16:12:59+00:00",
+    "listed_on": "2026-11-20",
+    "extra": {
+      "agent": "Sherry FitzGerald Lettings Sheehy",
+      "private_landlord": false,
+      "size_m2": 50,
+      "sale_agreed_or_let": false,
+      "locality": "Dublin 3",
+      "features": [
+        "Furnished",
+        "Parking",
+        "Central Heating",
+        "Washing Machine",
+        "Dryer",
+        "Dishwasher",
+        "Microwave"
+      ]
+    },
+    "area": "Dublin 3",
+    "area_priority": 1,
+    "distances_km": {
+      "AWS Ballsbridge": 4.01,
+      "Dogpatch Labs": 1.64
+    },
+    "total_monthly_for_group_eur": 2650.0,
+    "cost_per_person_eur": 883.33,
+    "tier": 2,
+    "within_budget": true,
+    "availability_flags": [
+      "Available now – landlord may expect rent from before January"
+    ],
+    "notes": [
+      "2 bed – third person needs a sofa bed or similar; check living room suits"
+    ],
+    "score": 51.6,
+    "duplicate_group": null,
+    "duplicate_urls": [],
+    "status": "active",
+    "price_change": null,
+    "is_new": true,
+    "contacted": false,
+    "uid": "myhome:5041300",
+    "tier_label": "2 bed entire property (sofa bed needed)"
+  },
+  {
     "source": "spotahome",
     "source_id": "294247",
     "url": "https://www.spotahome.com/dublin/for-rent:rooms/294247",
@@ -3088,7 +3166,7 @@
     "available_from": "2026-12-04",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:20:45+00:00",
+    "date_scraped": "2026-11-20T16:17:36+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -3147,7 +3225,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:16:14+00:00",
+    "date_scraped": "2026-11-20T16:12:59+00:00",
     "listed_on": "2026-11-09",
     "extra": {
       "agent": "Sherry FitzGerald Lettings Sheehy",
@@ -3210,7 +3288,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:16:14+00:00",
+    "date_scraped": "2026-11-20T16:12:59+00:00",
     "listed_on": "2023-10-27",
     "extra": {
       "agent": "Bergins Valuers & Estate Agents Ltd",
@@ -3275,7 +3353,7 @@
     "available_from": "2027-01-12",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:20:45+00:00",
+    "date_scraped": "2026-11-20T16:17:36+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -3306,8 +3384,8 @@
     "score": 50.0,
     "duplicate_group": "9660781a7d",
     "duplicate_urls": [
-      "https://www.spotahome.com/dublin/for-rent:rooms/356648",
       "https://www.spotahome.com/dublin/for-rent:rooms/609705",
+      "https://www.spotahome.com/dublin/for-rent:rooms/356648",
       "https://www.spotahome.com/dublin/for-rent:rooms/609706"
     ],
     "status": "active",
@@ -3336,7 +3414,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:16:14+00:00",
+    "date_scraped": "2026-11-20T16:12:59+00:00",
     "listed_on": "2026-03-30",
     "extra": {
       "agent": "Hooke & MacDonald (Lettings)",
@@ -3394,7 +3472,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-17T16:55:59+00:00",
-    "date_scraped": "2026-11-20T01:16:14+00:00",
+    "date_scraped": "2026-11-20T16:12:59+00:00",
     "listed_on": "2026-10-09",
     "extra": {
       "agent": "Get Property Estate Agents",
@@ -3447,7 +3525,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:16:14+00:00",
+    "date_scraped": "2026-11-20T16:12:59+00:00",
     "listed_on": "2026-10-29",
     "extra": {
       "agent": "Herman White Estates",
@@ -3501,7 +3579,7 @@
     "available_from": "2026-11-20",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:20:45+00:00",
+    "date_scraped": "2026-11-20T16:17:36+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "all",
@@ -3554,7 +3632,7 @@
     "available_from": "2026-11-20",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:20:45+00:00",
+    "date_scraped": "2026-11-20T16:17:36+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -3613,7 +3691,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:16:14+00:00",
+    "date_scraped": "2026-11-20T16:12:59+00:00",
     "listed_on": "2026-10-29",
     "extra": {
       "agent": "MOVEHOME ESTATE AGENTS",
@@ -3669,7 +3747,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-17T16:55:59+00:00",
-    "date_scraped": "2026-11-20T01:16:14+00:00",
+    "date_scraped": "2026-11-20T16:12:59+00:00",
     "listed_on": "2026-11-17",
     "extra": {
       "agent": "Owen Reilly",
@@ -3706,57 +3784,6 @@
     "tier_label": "2 bed entire property (sofa bed needed)"
   },
   {
-    "source": "housinganywhere",
-    "source_id": "ut1734155",
-    "url": "https://housinganywhere.com/room/ut1734155/ie/Dublin/beaumont-road?page=4",
-    "title": "Shared room in Beaumont Road, Dublin",
-    "rent_monthly_eur": 660.0,
-    "rent_text": "€660 /month, incl. some utilities",
-    "address": "Beaumont Road, Dublin",
-    "bedrooms": null,
-    "bathrooms": null,
-    "property_type": "Shared room",
-    "description": "Shared room for rent for €660 per month in Dublin, Beaumont Road: 1 bedroom(s), Shared kitchen, WiFi. Suitable for null.",
-    "accommodation": "shared",
-    "latitude": 53.3850425,
-    "longitude": -6.2347214,
-    "coords_approximate": false,
-    "available_from": null,
-    "available_to": null,
-    "date_found": "2026-11-19T01:13:04+00:00",
-    "date_scraped": "2026-11-20T01:21:59+00:00",
-    "listed_on": null,
-    "extra": {
-      "size": "13 m²",
-      "availability_text": "Available now"
-    },
-    "area": null,
-    "area_priority": 0,
-    "distances_km": {
-      "AWS Ballsbridge": 6.17,
-      "Dogpatch Labs": 4.17
-    },
-    "total_monthly_for_group_eur": 1980.0,
-    "cost_per_person_eur": 660.0,
-    "tier": 3,
-    "within_budget": true,
-    "availability_flags": [
-      "Dates not stated in search data – check availability for Jan–May 2027 on the site"
-    ],
-    "notes": [
-      "Price is per room – 3 rooms needed (assumes same price each)"
-    ],
-    "score": 48.1,
-    "duplicate_group": null,
-    "duplicate_urls": [],
-    "status": "active",
-    "price_change": null,
-    "is_new": false,
-    "contacted": false,
-    "uid": "housinganywhere:ut1734155",
-    "tier_label": "Shared accommodation"
-  },
-  {
     "source": "myhome",
     "source_id": "5027772",
     "url": "https://www.myhome.ie/rentals/brochure/apartment-51-king-s-court-parnell-street-dublin-1/5027772",
@@ -3775,7 +3802,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:16:14+00:00",
+    "date_scraped": "2026-11-20T16:12:59+00:00",
     "listed_on": "2026-09-11",
     "extra": {
       "agent": "Stokes Property Consultants Ltd",
@@ -3831,8 +3858,8 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:16:14+00:00",
-    "listed_on": "2026-11-19",
+    "date_scraped": "2026-11-20T16:12:59+00:00",
+    "listed_on": "2026-11-20",
     "extra": {
       "agent": "MyHome.ie Users",
       "private_landlord": true,
@@ -3885,7 +3912,7 @@
     "available_from": "2027-01-08",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:20:45+00:00",
+    "date_scraped": "2026-11-20T16:17:36+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -3950,7 +3977,7 @@
     "available_from": "2027-01-01",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:20:45+00:00",
+    "date_scraped": "2026-11-20T16:17:36+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -3989,6 +4016,118 @@
     "tier_label": "Shared accommodation"
   },
   {
+    "source": "housinganywhere",
+    "source_id": "ut1618937",
+    "url": "https://housinganywhere.com/room/ut1618937/ie/Dublin/shanard-road?page=3",
+    "title": "Shared room in Shanard Road, Dublin",
+    "rent_monthly_eur": 650.0,
+    "rent_text": "€650 /month, incl. some utilities",
+    "address": "Shanard Road, Dublin",
+    "bedrooms": null,
+    "bathrooms": null,
+    "property_type": "Shared room",
+    "description": "Shared room for rent for €650 per month in Dublin, Shanard Road: Furnished, 1 bedroom(s), Shared bathroom , Shared kitchen, WiFi, Student and working professionals.",
+    "accommodation": "shared",
+    "latitude": 53.3908289,
+    "longitude": -6.2582869,
+    "coords_approximate": false,
+    "available_from": "2027-01-12",
+    "available_to": null,
+    "date_found": "2026-11-20T16:12:59+00:00",
+    "date_scraped": "2026-11-20T16:18:50+00:00",
+    "listed_on": null,
+    "extra": {
+      "size": "13 m²",
+      "availability_text": "Available from 12 January 2027"
+    },
+    "area": null,
+    "area_priority": 0,
+    "distances_km": {
+      "AWS Ballsbridge": 7.05,
+      "Dogpatch Labs": 4.73
+    },
+    "total_monthly_for_group_eur": 1950.0,
+    "cost_per_person_eur": 650.0,
+    "tier": 3,
+    "within_budget": true,
+    "availability_flags": [],
+    "notes": [
+      "Price is per room – 3 rooms needed (assumes same price each)"
+    ],
+    "score": 46.2,
+    "duplicate_group": null,
+    "duplicate_urls": [],
+    "status": "active",
+    "price_change": null,
+    "is_new": true,
+    "contacted": false,
+    "uid": "housinganywhere:ut1618937",
+    "tier_label": "Shared accommodation"
+  },
+  {
+    "source": "myhome",
+    "source_id": "5042165",
+    "url": "https://www.myhome.ie/rentals/brochure/les-buissonnets-sweetmans-avenue-blackrock-dublin-4-dublin/5042165",
+    "title": "2 beds Apartment – Les Buissonnets Sweetmans Avenue Blackrock, Dublin 4, Dublin",
+    "rent_monthly_eur": 2600.0,
+    "rent_text": "€2,600 / month",
+    "address": "Les Buissonnets Sweetmans Avenue Blackrock, Dublin 4, Dublin",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "property_type": "Apartment",
+    "description": "**Available Immediately**Fully furnished** Lovely first floor apartment with two double bedrooms, two bathrooms, approx 74sqm with parking for one car. Les Buissonnets is located right in the heart of Blackrock, DART, Bus and Aircoach services are on your doorstop. Great shopping at Frascati and Blackrock Shopping Centres, local park at Blackrock and Carysfort. Accommodation in brief: entrance hall with guest w.c. to the right, cloaks press with shelving. Large bright open plan living room/dining with fully fitted kitchen. Appliances include electric hob and cooker, fridge/freezer, microwave, dishwasher, washing machine and dryer. Doors leading out to balcony which overlooks the grounds of the complex. Main double bedroom with fitted wardrobes, en-suite shower. Second double bedroom also with fitted wardrobes. Shower room with whb, wc, heated towel rail. One underground car space. **PROFESSIONALLY MANAGED BY SHERRY FITZGERALD LETTINGS**\n\nBER: B",
+    "accommodation": "entire",
+    "latitude": 53.299312591552734,
+    "longitude": -6.185903549194336,
+    "coords_approximate": false,
+    "available_from": null,
+    "available_to": null,
+    "date_found": "2026-11-20T16:12:59+00:00",
+    "date_scraped": "2026-11-20T16:12:59+00:00",
+    "listed_on": "2026-11-20",
+    "extra": {
+      "agent": "Sherry FitzGerald Lettings Sheehy",
+      "private_landlord": false,
+      "size_m2": 74,
+      "sale_agreed_or_let": false,
+      "locality": "Dublin 4",
+      "features": [
+        "Furnished",
+        "Parking",
+        "Central Heating",
+        "Washing Machine",
+        "Dryer",
+        "Dishwasher",
+        "Microwave"
+      ]
+    },
+    "area": "Dublin 4",
+    "area_priority": 2,
+    "distances_km": {
+      "AWS Ballsbridge": 4.51,
+      "Dogpatch Labs": 6.92
+    },
+    "total_monthly_for_group_eur": 2600.0,
+    "cost_per_person_eur": 866.67,
+    "tier": 2,
+    "within_budget": true,
+    "availability_flags": [
+      "Available now – landlord may expect rent from before January"
+    ],
+    "notes": [
+      "2 bed – third person needs a sofa bed or similar; check living room suits"
+    ],
+    "score": 46.0,
+    "duplicate_group": null,
+    "duplicate_urls": [],
+    "status": "active",
+    "price_change": null,
+    "is_new": true,
+    "contacted": false,
+    "uid": "myhome:5042165",
+    "tier_label": "2 bed entire property (sofa bed needed)"
+  },
+  {
     "source": "spotahome",
     "source_id": "1427349",
     "url": "https://www.spotahome.com/dublin/for-rent:rooms/1427349",
@@ -4007,7 +4146,7 @@
     "available_from": "2027-01-12",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:20:45+00:00",
+    "date_scraped": "2026-11-20T16:17:36+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -4066,7 +4205,7 @@
     "available_from": "2027-01-12",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:21:59+00:00",
+    "date_scraped": "2026-11-20T16:18:50+00:00",
     "listed_on": null,
     "extra": {
       "size": "20 m²",
@@ -4118,7 +4257,7 @@
     "available_from": "2027-01-12",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:20:45+00:00",
+    "date_scraped": "2026-11-20T16:17:36+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -4179,7 +4318,7 @@
     "available_from": "2027-02-08",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:20:45+00:00",
+    "date_scraped": "2026-11-20T16:17:36+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -4241,7 +4380,7 @@
     "available_from": "2027-05-01",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:20:45+00:00",
+    "date_scraped": "2026-11-20T16:17:36+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -4296,7 +4435,7 @@
     "available_from": "2027-01-05",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:20:45+00:00",
+    "date_scraped": "2026-11-20T16:17:36+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -4336,6 +4475,55 @@
   },
   {
     "source": "housinganywhere",
+    "source_id": "ut1742222",
+    "url": "https://housinganywhere.com/room/ut1742222/ie/Essex/essex-street-west?page=7",
+    "title": "Apartment in Essex Street West, Essex",
+    "rent_monthly_eur": 2900.0,
+    "rent_text": "€2900 - €5500 /month, incl. some utilities",
+    "address": "Essex Street West, Essex",
+    "bedrooms": 2,
+    "bathrooms": null,
+    "property_type": "Apartment",
+    "description": "Apartment for rent for €2900 per month in Essex, Essex Street West: Furnished, 2 bedroom(s), Private kitchen, WiFi, TV, Student and working professionals.",
+    "accommodation": "entire",
+    "latitude": 53.3446387,
+    "longitude": -6.2689603,
+    "coords_approximate": false,
+    "available_from": "2026-12-09",
+    "available_to": null,
+    "date_found": "2026-11-20T16:12:59+00:00",
+    "date_scraped": "2026-11-20T16:18:50+00:00",
+    "listed_on": null,
+    "extra": {
+      "size": "50 m²",
+      "availability_text": "Available from 9 December"
+    },
+    "area": null,
+    "area_priority": 0,
+    "distances_km": {
+      "AWS Ballsbridge": 3.02,
+      "Dogpatch Labs": 1.36
+    },
+    "total_monthly_for_group_eur": 2900.0,
+    "cost_per_person_eur": 966.67,
+    "tier": 2,
+    "within_budget": true,
+    "availability_flags": [],
+    "notes": [
+      "2 bed – third person needs a sofa bed or similar; check living room suits"
+    ],
+    "score": 43.3,
+    "duplicate_group": null,
+    "duplicate_urls": [],
+    "status": "active",
+    "price_change": null,
+    "is_new": true,
+    "contacted": false,
+    "uid": "housinganywhere:ut1742222",
+    "tier_label": "2 bed entire property (sofa bed needed)"
+  },
+  {
+    "source": "housinganywhere",
     "source_id": "ut798491",
     "url": "https://housinganywhere.com/room/ut798491/ie/Dublin/the-rise?page=2",
     "title": "Shared room in The Rise, Dublin",
@@ -4353,7 +4541,7 @@
     "available_from": "2027-01-15",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:21:59+00:00",
+    "date_scraped": "2026-11-20T16:18:50+00:00",
     "listed_on": null,
     "extra": {
       "size": "10 m²",
@@ -4406,7 +4594,7 @@
     "available_from": "2027-01-15",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:20:45+00:00",
+    "date_scraped": "2026-11-20T16:17:36+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -4465,7 +4653,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:16:14+00:00",
+    "date_scraped": "2026-11-20T16:12:59+00:00",
     "listed_on": "2026-11-03",
     "extra": {
       "agent": "Flynn & Associates Castleknock",
@@ -4502,60 +4690,6 @@
     "tier_label": "2 bed entire property (sofa bed needed)"
   },
   {
-    "source": "housinganywhere",
-    "source_id": "ut1480369",
-    "url": "https://housinganywhere.com/room/ut1480369/ie/Dublin/phibsborough-road?page=4",
-    "title": "Shared room in Phibsborough Road, Dublin",
-    "rent_monthly_eur": 737.0,
-    "rent_text": "€737 /month, incl. some utilities",
-    "address": "Phibsborough Road, Dublin",
-    "bedrooms": null,
-    "bathrooms": null,
-    "property_type": "Shared room",
-    "description": "Shared room for rent for €737 per month in Dublin, Phibsborough Road: Furnished, 1 bedroom(s), Shared bathroom , Shared kitchen, WiFi, Student and working professionals.",
-    "accommodation": "shared",
-    "latitude": 53.35942,
-    "longitude": -6.27282,
-    "coords_approximate": false,
-    "available_from": "2027-04-05",
-    "available_to": null,
-    "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:21:59+00:00",
-    "listed_on": null,
-    "extra": {
-      "size": "14 m²",
-      "availability_text": "Available from 5 April 2027"
-    },
-    "area": null,
-    "area_priority": 0,
-    "distances_km": {
-      "AWS Ballsbridge": 4.32,
-      "Dogpatch Labs": 1.96
-    },
-    "total_monthly_for_group_eur": 2211.0,
-    "cost_per_person_eur": 737.0,
-    "tier": 3,
-    "within_budget": true,
-    "availability_flags": [
-      "Available only from 05 Apr 2027 (after 01 Jan 2027)"
-    ],
-    "notes": [
-      "Price is per room – 3 rooms needed (assumes same price each)",
-      "2 near-identical adverts merged"
-    ],
-    "score": 41.2,
-    "duplicate_group": "a7d08e689b",
-    "duplicate_urls": [
-      "https://housinganywhere.com/room/ut1145912/ie/Dublin/phibsborough-road?page=6"
-    ],
-    "status": "active",
-    "price_change": null,
-    "is_new": false,
-    "contacted": false,
-    "uid": "housinganywhere:ut1480369",
-    "tier_label": "Shared accommodation"
-  },
-  {
     "source": "spotahome",
     "source_id": "1074070",
     "url": "https://www.spotahome.com/dublin/for-rent:apartments/1074070",
@@ -4574,7 +4708,7 @@
     "available_from": "2027-02-01",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:20:45+00:00",
+    "date_scraped": "2026-11-20T16:17:36+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "all",
@@ -4611,58 +4745,119 @@
     "tier_label": "2 bed entire property (sofa bed needed)"
   },
   {
-    "source": "housinganywhere",
-    "source_id": "ut1597524",
-    "url": "https://housinganywhere.com/room/ut1597524/ie/Dublin/glasnevin-hill?page=3",
-    "title": "Shared room in Glasnevin Hill, Dublin",
+    "source": "spotahome",
+    "source_id": "1350062",
+    "url": "https://www.spotahome.com/dublin/for-rent:rooms/1350062",
+    "title": "Bed for rent in shared apartment in Dublin",
     "rent_monthly_eur": 693.0,
-    "rent_text": "€693 /month, incl. some utilities",
-    "address": "Glasnevin Hill, Dublin",
-    "bedrooms": null,
+    "rent_text": "from €693 / month",
+    "address": "Glasnevin Hill, D09 T2H2, Dublin",
+    "bedrooms": 7,
     "bathrooms": null,
-    "property_type": "Shared room",
-    "description": "Shared room for rent for €693 per month in Dublin, Glasnevin Hill: Furnished, 1 bedroom(s), Shared bathroom , Shared kitchen, WiFi, Student and working professionals.",
+    "property_type": "Room in shared property",
+    "description": "Discover a cozy room available in a shared 7-bedroom apartment located in the Cabra-Drumcondra neighborhood of Dublin. The apartment is fully furnished and features essential amenities such as a washing machine, dryer, and a well-equipped kitchen with an oven. Please note, bills are not included and must be paid directly to the landlord. The property has been personally checked by Spotahome, ensuring a high standard. Cabra-Drumcondra offers a vibrant environment with convenient access to local attractions. Dublin City University is nearby, making it convenient for students and academics. For dining options, The Washerwoman, Eat-Alley, and Cafe Italya Pizzeria are located within walking distance. Explore cultural landmarks like Met Eireann Headquarters and Bushy Park in the vicinity, enriching your stay in Dublin.",
     "accommodation": "shared",
-    "latitude": 53.3742116,
-    "longitude": -6.2686417,
+    "latitude": 53.37477,
+    "longitude": -6.26908,
     "coords_approximate": false,
-    "available_from": "2027-03-01",
+    "available_from": "2027-03-08",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:21:59+00:00",
+    "date_scraped": "2026-11-20T16:17:36+00:00",
     "listed_on": null,
     "extra": {
-      "size": "15 m²",
-      "availability_text": "Available from 1 March 2027"
+      "bills_included": "none",
+      "capacity": null,
+      "allows_permanent_contract": false,
+      "verified": true,
+      "price_is_from": true,
+      "flat_bedrooms": 7,
+      "bed_in_shared_room": true
     },
-    "area": null,
+    "area": "Dublin 9",
     "area_priority": 0,
     "distances_km": {
-      "AWS Ballsbridge": 5.55,
-      "Dogpatch Labs": 3.12
+      "AWS Ballsbridge": 5.62,
+      "Dogpatch Labs": 3.18
     },
     "total_monthly_for_group_eur": 2079.0,
     "cost_per_person_eur": 693.0,
     "tier": 3,
     "within_budget": true,
     "availability_flags": [
-      "Available only from 01 Mar 2027 (after 01 Jan 2027)"
+      "Available only from 08 Mar 2027 (after 01 Jan 2027)"
     ],
     "notes": [
       "Price is per room – 3 rooms needed (assumes same price each)",
-      "Also advertised on: spotahome"
+      "This is a bed in a shared bedroom",
+      "Spotahome shows a 'from' price; actual price can depend on dates",
+      "2 near-identical adverts merged"
     ],
-    "score": 40.5,
-    "duplicate_group": "f0b009a92d",
+    "score": 40.2,
+    "duplicate_group": "e6576e3760",
     "duplicate_urls": [
-      "https://www.spotahome.com/dublin/for-rent:rooms/1350061",
-      "https://www.spotahome.com/dublin/for-rent:rooms/1350062"
+      "https://www.spotahome.com/dublin/for-rent:rooms/1350061"
     ],
     "status": "active",
     "price_change": null,
     "is_new": false,
     "contacted": false,
-    "uid": "housinganywhere:ut1597524",
+    "uid": "spotahome:1350062",
+    "tier_label": "Shared accommodation"
+  },
+  {
+    "source": "housinganywhere",
+    "source_id": "ut1754317",
+    "url": "https://housinganywhere.com/room/ut1754317/ie/Beaumont/shanowen-drive?page=4",
+    "title": "Shared room in Shanowen Drive, Beaumont",
+    "rent_monthly_eur": 740.0,
+    "rent_text": "€740 /month, incl. some utilities",
+    "address": "Shanowen Drive, Beaumont",
+    "bedrooms": null,
+    "bathrooms": null,
+    "property_type": "Shared room",
+    "description": "Shared room for rent for €740 per month in Beaumont, Shanowen Drive: Furnished, 1 bedroom(s), Private bathroom, Shared kitchen, WiFi, Student and working professionals.",
+    "accommodation": "shared",
+    "latitude": 53.3891088,
+    "longitude": -6.2477524,
+    "coords_approximate": false,
+    "available_from": "2026-12-02",
+    "available_to": null,
+    "date_found": "2026-11-20T16:12:59+00:00",
+    "date_scraped": "2026-11-20T16:18:50+00:00",
+    "listed_on": null,
+    "extra": {
+      "size": "18 m²",
+      "availability_text": "Available from 2 December"
+    },
+    "area": null,
+    "area_priority": 0,
+    "distances_km": {
+      "AWS Ballsbridge": 6.71,
+      "Dogpatch Labs": 4.51
+    },
+    "total_monthly_for_group_eur": 2220.0,
+    "cost_per_person_eur": 740.0,
+    "tier": 3,
+    "within_budget": true,
+    "availability_flags": [],
+    "notes": [
+      "Price is per room – 3 rooms needed (assumes same price each)",
+      "Also advertised on: spotahome"
+    ],
+    "score": 39.4,
+    "duplicate_group": "e6c8863734",
+    "duplicate_urls": [
+      "https://www.spotahome.com/dublin/for-rent:rooms/1757496",
+      "https://www.spotahome.com/dublin/for-rent:rooms/1757497",
+      "https://www.spotahome.com/dublin/for-rent:rooms/1757503",
+      "https://www.spotahome.com/dublin/for-rent:rooms/1757504"
+    ],
+    "status": "active",
+    "price_change": null,
+    "is_new": true,
+    "contacted": false,
+    "uid": "housinganywhere:ut1754317",
     "tier_label": "Shared accommodation"
   },
   {
@@ -4684,7 +4879,7 @@
     "available_from": "2027-02-02",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:20:45+00:00",
+    "date_scraped": "2026-11-20T16:17:36+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -4739,7 +4934,7 @@
     "available_from": "2027-01-01",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:20:45+00:00",
+    "date_scraped": "2026-11-20T16:17:36+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -4792,7 +4987,7 @@
     "available_from": "2027-03-03",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:20:45+00:00",
+    "date_scraped": "2026-11-20T16:17:36+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "all",
@@ -4852,7 +5047,7 @@
     "available_from": "2027-02-02",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:20:45+00:00",
+    "date_scraped": "2026-11-20T16:17:36+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "all",
@@ -4891,64 +5086,6 @@
   },
   {
     "source": "spotahome",
-    "source_id": "931752",
-    "url": "https://www.spotahome.com/dublin/for-rent:rooms/931752",
-    "title": "Bed for rent in 7-bedroom flat for rent in Inns Quay, Dublin",
-    "rent_monthly_eur": 790.0,
-    "rent_text": "from €790 / month",
-    "address": "Phibsborough Rd, D07 Y576, Dublin (Inns Quay)",
-    "bedrooms": 12,
-    "bathrooms": 7,
-    "property_type": "Room in shared property",
-    "description": "Rooms and beds for rent in a furnished 7-bedroom apartment on Phibsborough Rd. The property benefits of a big kitchen with plenty of sitting space to eat or relax. All bedrooms are en-suite.",
-    "accommodation": "shared",
-    "latitude": 53.36063,
-    "longitude": -6.27207,
-    "coords_approximate": false,
-    "available_from": "2027-02-09",
-    "available_to": null,
-    "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:20:45+00:00",
-    "listed_on": null,
-    "extra": {
-      "bills_included": "some",
-      "capacity": null,
-      "allows_permanent_contract": false,
-      "verified": true,
-      "price_is_from": true,
-      "flat_bedrooms": 12,
-      "bed_in_shared_room": true
-    },
-    "area": "Dublin 7",
-    "area_priority": 0,
-    "distances_km": {
-      "AWS Ballsbridge": 4.4,
-      "Dogpatch Labs": 2.0
-    },
-    "total_monthly_for_group_eur": 2370.0,
-    "cost_per_person_eur": 790.0,
-    "tier": 3,
-    "within_budget": true,
-    "availability_flags": [
-      "Available only from 09 Feb 2027 (after 01 Jan 2027)"
-    ],
-    "notes": [
-      "Price is per room – 3 rooms needed (assumes same price each)",
-      "This is a bed in a shared bedroom",
-      "Spotahome shows a 'from' price; actual price can depend on dates"
-    ],
-    "score": 36.3,
-    "duplicate_group": null,
-    "duplicate_urls": [],
-    "status": "active",
-    "price_change": null,
-    "is_new": false,
-    "contacted": false,
-    "uid": "spotahome:931752",
-    "tier_label": "Shared accommodation"
-  },
-  {
-    "source": "spotahome",
     "source_id": "931753",
     "url": "https://www.spotahome.com/dublin/for-rent:rooms/931753",
     "title": "Bed in a 7-bedroom flat for rent in Inns Quay, Dublin",
@@ -4966,7 +5103,7 @@
     "available_from": "2027-03-04",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:20:45+00:00",
+    "date_scraped": "2026-11-20T16:17:36+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -5007,6 +5144,64 @@
   },
   {
     "source": "spotahome",
+    "source_id": "931752",
+    "url": "https://www.spotahome.com/dublin/for-rent:rooms/931752",
+    "title": "Bed for rent in 7-bedroom flat for rent in Inns Quay, Dublin",
+    "rent_monthly_eur": 790.0,
+    "rent_text": "from €790 / month",
+    "address": "Phibsborough Rd, D07 Y576, Dublin (Inns Quay)",
+    "bedrooms": 12,
+    "bathrooms": 7,
+    "property_type": "Room in shared property",
+    "description": "Rooms and beds for rent in a furnished 7-bedroom apartment on Phibsborough Rd. The property benefits of a big kitchen with plenty of sitting space to eat or relax. All bedrooms are en-suite.",
+    "accommodation": "shared",
+    "latitude": 53.36063,
+    "longitude": -6.27207,
+    "coords_approximate": false,
+    "available_from": "2027-02-09",
+    "available_to": null,
+    "date_found": "2026-11-16T14:07:04+00:00",
+    "date_scraped": "2026-11-20T16:17:36+00:00",
+    "listed_on": null,
+    "extra": {
+      "bills_included": "some",
+      "capacity": null,
+      "allows_permanent_contract": false,
+      "verified": true,
+      "price_is_from": true,
+      "flat_bedrooms": 12,
+      "bed_in_shared_room": true
+    },
+    "area": "Dublin 7",
+    "area_priority": 0,
+    "distances_km": {
+      "AWS Ballsbridge": 4.4,
+      "Dogpatch Labs": 2.0
+    },
+    "total_monthly_for_group_eur": 2370.0,
+    "cost_per_person_eur": 790.0,
+    "tier": 3,
+    "within_budget": true,
+    "availability_flags": [
+      "Available only from 09 Feb 2027 (after 01 Jan 2027)"
+    ],
+    "notes": [
+      "Price is per room – 3 rooms needed (assumes same price each)",
+      "This is a bed in a shared bedroom",
+      "Spotahome shows a 'from' price; actual price can depend on dates"
+    ],
+    "score": 36.3,
+    "duplicate_group": null,
+    "duplicate_urls": [],
+    "status": "active",
+    "price_change": null,
+    "is_new": false,
+    "contacted": false,
+    "uid": "spotahome:931752",
+    "tier_label": "Shared accommodation"
+  },
+  {
+    "source": "spotahome",
     "source_id": "394339",
     "url": "https://www.spotahome.com/dublin/for-rent:rooms/394339",
     "title": "Bed for rent 6-bedroom flat for rent in Cabra East, Dublin",
@@ -5024,7 +5219,7 @@
     "available_from": "2027-01-18",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:20:45+00:00",
+    "date_scraped": "2026-11-20T16:17:36+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -5064,65 +5259,57 @@
     "tier_label": "Shared accommodation"
   },
   {
-    "source": "spotahome",
-    "source_id": "322552",
-    "url": "https://www.spotahome.com/dublin/for-rent:rooms/322552",
-    "title": "Bed for rent in 6-bedroom house in Phibsborough",
+    "source": "housinganywhere",
+    "source_id": "ut1754402",
+    "url": "https://housinganywhere.com/room/ut1754402/ie/Beaumont/shanowen-drive?page=4",
+    "title": "Shared room in Shanowen Drive, Beaumont",
     "rent_monthly_eur": 780.0,
-    "rent_text": "from €780 / month",
-    "address": "Royal Canal Ct, Phibsborough, Dublin 7, D07 P83X, Ireland, D07 P83X, Dublin",
-    "bedrooms": 11,
-    "bathrooms": 5,
-    "property_type": "Room in shared property",
-    "description": "This is a shared 11-bedroom apartment located in Cabra East, Dublin. The property comes fully furnished with amenities including a private washing machine, dryer, and an equipped kitchen with an oven. Additionally, there is a balcony or terrace available for tenants. Smoking and pets are not allowed, and the landlord does not live in the property. Couples are not permitted, and it is tailored for professionals. This apartment has been personally checked by Spotahome, ensuring a reliable renting choice. Cabra East is a well-connected area in Dublin, offering numerous points of interest nearby. For your culinary desires, restaurants such as Sky Taste, Casablanca Cuisine, Smokin Bones, and Sushi Sakai are within walking distance. For shopping, Tesco Phibsboro Metro is also close, ensuring convenience. Iconic landmarks like Dalymount Park and the Brendan Behan Sculpture provide cultural value to this neighborhood.",
+    "rent_text": "€780 /month, incl. some utilities",
+    "address": "Shanowen Drive, Beaumont",
+    "bedrooms": null,
+    "bathrooms": null,
+    "property_type": "Shared room",
+    "description": "Shared room for rent for €780 per month in Beaumont, Shanowen Drive: Furnished, 1 bedroom(s), Private bathroom, Shared kitchen, WiFi, Student and working professionals.",
     "accommodation": "shared",
-    "latitude": 53.36265,
-    "longitude": -6.27612,
+    "latitude": 53.3891088,
+    "longitude": -6.2477524,
     "coords_approximate": false,
-    "available_from": "2027-03-13",
+    "available_from": "2026-12-02",
     "available_to": null,
-    "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:20:45+00:00",
+    "date_found": "2026-11-20T16:12:59+00:00",
+    "date_scraped": "2026-11-20T16:18:50+00:00",
     "listed_on": null,
     "extra": {
-      "bills_included": "some",
-      "capacity": null,
-      "allows_permanent_contract": false,
-      "verified": true,
-      "price_is_from": true,
-      "flat_bedrooms": 11,
-      "bed_in_shared_room": true
+      "size": "26 m²",
+      "availability_text": "Available from 2 December"
     },
-    "area": "Dublin 7",
+    "area": null,
     "area_priority": 0,
     "distances_km": {
-      "AWS Ballsbridge": 4.74,
-      "Dogpatch Labs": 2.35
+      "AWS Ballsbridge": 6.71,
+      "Dogpatch Labs": 4.51
     },
     "total_monthly_for_group_eur": 2340.0,
     "cost_per_person_eur": 780.0,
     "tier": 3,
     "within_budget": true,
-    "availability_flags": [
-      "Available only from 13 Mar 2027 (after 01 Jan 2027)"
-    ],
+    "availability_flags": [],
     "notes": [
       "Price is per room – 3 rooms needed (assumes same price each)",
-      "This is a bed in a shared bedroom",
-      "Spotahome shows a 'from' price; actual price can depend on dates",
-      "3 near-identical adverts merged"
+      "Also advertised on: spotahome"
     ],
     "score": 35.9,
-    "duplicate_group": "ec734e85a5",
+    "duplicate_group": "cb0b0ba876",
     "duplicate_urls": [
-      "https://www.spotahome.com/dublin/for-rent:rooms/322550",
-      "https://www.spotahome.com/dublin/for-rent:rooms/394338"
+      "https://housinganywhere.com/room/ut1754386/ie/Beaumont/shanowen-drive?page=4",
+      "https://www.spotahome.com/dublin/for-rent:rooms/1757506",
+      "https://www.spotahome.com/dublin/for-rent:rooms/1757507"
     ],
     "status": "active",
     "price_change": null,
-    "is_new": false,
+    "is_new": true,
     "contacted": false,
-    "uid": "spotahome:322552",
+    "uid": "housinganywhere:ut1754402",
     "tier_label": "Shared accommodation"
   },
   {
@@ -5144,7 +5331,7 @@
     "available_from": "2027-01-02",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:20:45+00:00",
+    "date_scraped": "2026-11-20T16:17:36+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "all",
@@ -5198,7 +5385,7 @@
     "available_from": "2027-01-06",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:21:59+00:00",
+    "date_scraped": "2026-11-20T16:18:50+00:00",
     "listed_on": null,
     "extra": {
       "size": "100 m²",
@@ -5247,7 +5434,7 @@
     "available_from": "2027-01-04",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:20:45+00:00",
+    "date_scraped": "2026-11-20T16:17:36+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -5301,7 +5488,7 @@
     "available_from": "2027-02-02",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:21:59+00:00",
+    "date_scraped": "2026-11-20T16:18:50+00:00",
     "listed_on": null,
     "extra": {
       "size": "18 m²",
@@ -5356,7 +5543,7 @@
     "available_from": "2026-12-06",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:20:45+00:00",
+    "date_scraped": "2026-11-20T16:17:36+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -5393,8 +5580,8 @@
   },
   {
     "source": "spotahome",
-    "source_id": "988977",
-    "url": "https://www.spotahome.com/dublin/for-rent:rooms/988977",
+    "source_id": "988978",
+    "url": "https://www.spotahome.com/dublin/for-rent:rooms/988978",
     "title": "Room in shared 4-bedroom flat in Ballymun, Dublin",
     "rent_monthly_eur": 749.0,
     "rent_text": "from €749 / month",
@@ -5407,10 +5594,10 @@
     "latitude": 53.40033,
     "longitude": -6.27642,
     "coords_approximate": false,
-    "available_from": "2026-11-24",
+    "available_from": "2027-01-01",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:20:45+00:00",
+    "date_scraped": "2026-11-20T16:17:36+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -5439,13 +5626,13 @@
     "score": 32.5,
     "duplicate_group": "552598ea76",
     "duplicate_urls": [
-      "https://www.spotahome.com/dublin/for-rent:rooms/988978"
+      "https://www.spotahome.com/dublin/for-rent:rooms/988977"
     ],
     "status": "active",
     "price_change": null,
     "is_new": false,
     "contacted": false,
-    "uid": "spotahome:988977",
+    "uid": "spotahome:988978",
     "tier_label": "Shared accommodation"
   },
   {
@@ -5467,7 +5654,7 @@
     "available_from": "2027-01-01",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:20:45+00:00",
+    "date_scraped": "2026-11-20T16:17:36+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -5521,7 +5708,7 @@
     "available_from": "2027-04-29",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:20:45+00:00",
+    "date_scraped": "2026-11-20T16:17:36+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "all",
@@ -5577,7 +5764,7 @@
     "available_from": "2027-03-01",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:20:45+00:00",
+    "date_scraped": "2026-11-20T16:17:36+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "all",
@@ -5633,7 +5820,7 @@
     "available_from": "2027-03-01",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:20:45+00:00",
+    "date_scraped": "2026-11-20T16:17:36+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -5689,7 +5876,7 @@
     "available_from": "2027-02-14",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:20:45+00:00",
+    "date_scraped": "2026-11-20T16:17:36+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -5732,57 +5919,6 @@
     "tier_label": "Shared accommodation"
   },
   {
-    "source": "housinganywhere",
-    "source_id": "ut1460397",
-    "url": "https://housinganywhere.com/room/ut1460397/ie/Dublin/royal-canal-terrace?page=6",
-    "title": "Private room in Royal Canal Terrace, Dublin",
-    "rent_monthly_eur": 895.0,
-    "rent_text": "€895 /month, incl. some utilities",
-    "address": "Royal Canal Terrace, Dublin",
-    "bedrooms": null,
-    "bathrooms": null,
-    "property_type": "Private room",
-    "description": "Private room for rent for €895 per month in Dublin, Royal Canal Terrace: Furnished, 1 bedroom(s), Private bathroom, Shared kitchen, WiFi, Student and working professionals.",
-    "accommodation": "shared",
-    "latitude": 53.35582,
-    "longitude": -6.27373,
-    "coords_approximate": false,
-    "available_from": "2027-03-22",
-    "available_to": null,
-    "date_found": "2026-11-17T02:28:55+00:00",
-    "date_scraped": "2026-11-20T01:21:59+00:00",
-    "listed_on": null,
-    "extra": {
-      "size": "5 m²",
-      "availability_text": "Available from 22 March 2027"
-    },
-    "area": null,
-    "area_priority": 0,
-    "distances_km": {
-      "AWS Ballsbridge": 4.07,
-      "Dogpatch Labs": 1.79
-    },
-    "total_monthly_for_group_eur": 2685.0,
-    "cost_per_person_eur": 895.0,
-    "tier": 3,
-    "within_budget": true,
-    "availability_flags": [
-      "Available only from 22 Mar 2027 (after 01 Jan 2027)"
-    ],
-    "notes": [
-      "Price is per room – 3 rooms needed (assumes same price each)"
-    ],
-    "score": 28.2,
-    "duplicate_group": null,
-    "duplicate_urls": [],
-    "status": "active",
-    "price_change": null,
-    "is_new": false,
-    "contacted": false,
-    "uid": "housinganywhere:ut1460397",
-    "tier_label": "Shared accommodation"
-  },
-  {
     "source": "spotahome",
     "source_id": "145529",
     "url": "https://www.spotahome.com/dublin/for-rent:rooms/145529",
@@ -5801,7 +5937,7 @@
     "available_from": "2027-04-05",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:20:45+00:00",
+    "date_scraped": "2026-11-20T16:17:36+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "all",
@@ -5857,7 +5993,7 @@
     "available_from": "2027-01-01",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:20:45+00:00",
+    "date_scraped": "2026-11-20T16:17:36+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "all",
@@ -5911,7 +6047,7 @@
     "available_from": "2027-01-19",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:20:45+00:00",
+    "date_scraped": "2026-11-20T16:17:36+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -5967,7 +6103,7 @@
     "available_from": "2026-11-20",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:20:45+00:00",
+    "date_scraped": "2026-11-20T16:17:36+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -6020,7 +6156,7 @@
     "available_from": "2027-03-22",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:20:45+00:00",
+    "date_scraped": "2026-11-20T16:17:36+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -6078,7 +6214,7 @@
     "available_from": "2027-03-29",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:20:45+00:00",
+    "date_scraped": "2026-11-20T16:17:36+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "none",
@@ -6134,7 +6270,7 @@
     "available_from": "2027-05-01",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:20:45+00:00",
+    "date_scraped": "2026-11-20T16:17:36+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -6189,7 +6325,7 @@
     "available_from": "2027-02-25",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:20:45+00:00",
+    "date_scraped": "2026-11-20T16:17:36+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -6245,7 +6381,7 @@
     "available_from": "2027-03-01",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:20:45+00:00",
+    "date_scraped": "2026-11-20T16:17:36+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "all",
@@ -6301,7 +6437,7 @@
     "available_from": "2027-04-02",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:20:45+00:00",
+    "date_scraped": "2026-11-20T16:17:36+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "all",
@@ -6357,7 +6493,7 @@
     "available_from": "2027-02-02",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:20:45+00:00",
+    "date_scraped": "2026-11-20T16:17:36+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -6417,7 +6553,7 @@
     "available_from": "2027-04-01",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:20:45+00:00",
+    "date_scraped": "2026-11-20T16:17:36+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -6460,8 +6596,8 @@
   },
   {
     "source": "spotahome",
-    "source_id": "1489657",
-    "url": "https://www.spotahome.com/dublin/for-rent:rooms/1489657",
+    "source_id": "1489656",
+    "url": "https://www.spotahome.com/dublin/for-rent:rooms/1489656",
     "title": "Bed in shared room for rent in Ballymun-Whitehall, Dublin.",
     "rent_monthly_eur": 850.0,
     "rent_text": "from €850 / month",
@@ -6474,10 +6610,10 @@
     "latitude": 53.40034,
     "longitude": -6.27575,
     "coords_approximate": false,
-    "available_from": "2026-12-20",
+    "available_from": "2026-12-21",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:20:45+00:00",
+    "date_scraped": "2026-11-20T16:17:36+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -6508,15 +6644,15 @@
     "score": 23.7,
     "duplicate_group": "6822bca63c",
     "duplicate_urls": [
+      "https://www.spotahome.com/dublin/for-rent:rooms/1489657",
       "https://www.spotahome.com/dublin/for-rent:rooms/1483977",
-      "https://www.spotahome.com/dublin/for-rent:rooms/1489656",
       "https://www.spotahome.com/dublin/for-rent:rooms/1483978"
     ],
     "status": "active",
     "price_change": null,
     "is_new": false,
     "contacted": false,
-    "uid": "spotahome:1489657",
+    "uid": "spotahome:1489656",
     "tier_label": "Shared accommodation"
   },
   {
@@ -6538,7 +6674,7 @@
     "available_from": "2027-03-01",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:20:45+00:00",
+    "date_scraped": "2026-11-20T16:17:36+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -6577,6 +6713,63 @@
   },
   {
     "source": "spotahome",
+    "source_id": "1757501",
+    "url": "https://www.spotahome.com/dublin/for-rent:rooms/1757501",
+    "title": "Room for rent in Ballymun-Whitehall, Dublin",
+    "rent_monthly_eur": 920.0,
+    "rent_text": "from €920 / month",
+    "address": "Shanowen Drive, D09 XF89, Dublin 9 (Ballymun-Whitehall)",
+    "bedrooms": 12,
+    "bathrooms": 9,
+    "property_type": "Room in shared property",
+    "description": "This furnished room is in a shared 9-bedroom apartment with an equipped kitchen, oven, central heating, shared washing machine and dryer, and bed linen provided. Couples are allowed, and professionals and students are welcome. While this listing has not been personally verified by a Spotahome homechecker, all Spotahome landlords go through a complete vetting process. The property is located in Ballymun-Whitehall, on Shanowen Drive. Clonturk Community College is around 255 metres away. Nearby restaurants include The Comet, Davinci's, San Sans and Indian Spice, all within around 165 metres.",
+    "accommodation": "shared",
+    "latitude": 53.38976,
+    "longitude": -6.24826,
+    "coords_approximate": false,
+    "available_from": "2026-12-02",
+    "available_to": null,
+    "date_found": "2026-11-20T16:12:59+00:00",
+    "date_scraped": "2026-11-20T16:17:36+00:00",
+    "listed_on": null,
+    "extra": {
+      "bills_included": "some",
+      "capacity": null,
+      "allows_permanent_contract": false,
+      "verified": false,
+      "price_is_from": true,
+      "flat_bedrooms": 12
+    },
+    "area": "Dublin 9",
+    "area_priority": 0,
+    "distances_km": {
+      "AWS Ballsbridge": 6.79,
+      "Dogpatch Labs": 4.58
+    },
+    "total_monthly_for_group_eur": 2760.0,
+    "cost_per_person_eur": 920.0,
+    "tier": 3,
+    "within_budget": true,
+    "availability_flags": [],
+    "notes": [
+      "Price is per room – 3 rooms needed (assumes same price each)",
+      "Spotahome shows a 'from' price; actual price can depend on dates",
+      "2 near-identical adverts merged"
+    ],
+    "score": 23.4,
+    "duplicate_group": "1d85c05437",
+    "duplicate_urls": [
+      "https://www.spotahome.com/dublin/for-rent:rooms/1757505"
+    ],
+    "status": "active",
+    "price_change": null,
+    "is_new": true,
+    "contacted": false,
+    "uid": "spotahome:1757501",
+    "tier_label": "Shared accommodation"
+  },
+  {
+    "source": "spotahome",
     "source_id": "1430444",
     "url": "https://www.spotahome.com/dublin/for-rent:rooms/1430444",
     "title": "Bed in a shared room for rent in Southside, Dublin",
@@ -6594,7 +6787,7 @@
     "available_from": "2026-12-21",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:20:45+00:00",
+    "date_scraped": "2026-11-20T16:17:36+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "all",
@@ -6625,8 +6818,8 @@
     "score": 21.8,
     "duplicate_group": "01c7fd59bd",
     "duplicate_urls": [
-      "https://www.spotahome.com/dublin/for-rent:rooms/1430443",
       "https://www.spotahome.com/dublin/for-rent:rooms/1430445",
+      "https://www.spotahome.com/dublin/for-rent:rooms/1430443",
       "https://www.spotahome.com/dublin/for-rent:rooms/1430446"
     ],
     "status": "active",
@@ -6655,7 +6848,7 @@
     "available_from": "2027-02-01",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:20:45+00:00",
+    "date_scraped": "2026-11-20T16:17:36+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "all",
@@ -6714,7 +6907,7 @@
     "available_from": "2027-05-01",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:20:45+00:00",
+    "date_scraped": "2026-11-20T16:17:36+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -6770,7 +6963,7 @@
     "available_from": "2027-04-30",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:20:45+00:00",
+    "date_scraped": "2026-11-20T16:17:36+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -6826,7 +7019,7 @@
     "available_from": "2027-02-02",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:20:45+00:00",
+    "date_scraped": "2026-11-20T16:17:36+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "all",
@@ -6882,7 +7075,7 @@
     "available_from": "2027-05-01",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:20:45+00:00",
+    "date_scraped": "2026-11-20T16:17:36+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "all",
@@ -6938,7 +7131,7 @@
     "available_from": "2027-02-02",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:20:45+00:00",
+    "date_scraped": "2026-11-20T16:17:36+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "all",
@@ -6994,7 +7187,7 @@
     "available_from": "2027-02-04",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:20:45+00:00",
+    "date_scraped": "2026-11-20T16:17:36+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -7050,7 +7243,7 @@
     "available_from": "2027-04-11",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:20:45+00:00",
+    "date_scraped": "2026-11-20T16:17:36+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "all",
@@ -7109,7 +7302,7 @@
     "available_from": "2027-04-06",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:20:45+00:00",
+    "date_scraped": "2026-11-20T16:17:36+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -7140,65 +7333,14 @@
     "score": 16.7,
     "duplicate_group": "c73113e03c",
     "duplicate_urls": [
-      "https://www.spotahome.com/dublin/for-rent:rooms/983944",
-      "https://www.spotahome.com/dublin/for-rent:rooms/983943"
+      "https://www.spotahome.com/dublin/for-rent:rooms/983943",
+      "https://www.spotahome.com/dublin/for-rent:rooms/983944"
     ],
     "status": "active",
     "price_change": null,
     "is_new": false,
     "contacted": false,
     "uid": "spotahome:983942",
-    "tier_label": "Shared accommodation"
-  },
-  {
-    "source": "housinganywhere",
-    "source_id": "ut1347102",
-    "url": "https://housinganywhere.com/room/ut1347102/ie/Dublin/shanard-road?page=6",
-    "title": "Private room in Shanard Road, Dublin",
-    "rent_monthly_eur": 900.0,
-    "rent_text": "€900 /month, incl. some utilities",
-    "address": "Shanard Road, Dublin",
-    "bedrooms": null,
-    "bathrooms": null,
-    "property_type": "Private room",
-    "description": "Private room for rent for €900 per month in Dublin, Shanard Road: Furnished, 1 bedroom(s), Private bathroom, Shared kitchen, WiFi, Student and working professionals.",
-    "accommodation": "shared",
-    "latitude": 53.3908289,
-    "longitude": -6.2582869,
-    "coords_approximate": false,
-    "available_from": "2027-04-06",
-    "available_to": null,
-    "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:21:59+00:00",
-    "listed_on": null,
-    "extra": {
-      "size": "10 m²",
-      "availability_text": "Available from 6 April 2027"
-    },
-    "area": null,
-    "area_priority": 0,
-    "distances_km": {
-      "AWS Ballsbridge": 7.05,
-      "Dogpatch Labs": 4.73
-    },
-    "total_monthly_for_group_eur": 2700.0,
-    "cost_per_person_eur": 900.0,
-    "tier": 3,
-    "within_budget": true,
-    "availability_flags": [
-      "Available only from 06 Apr 2027 (after 01 Jan 2027)"
-    ],
-    "notes": [
-      "Price is per room – 3 rooms needed (assumes same price each)"
-    ],
-    "score": 16.4,
-    "duplicate_group": null,
-    "duplicate_urls": [],
-    "status": "active",
-    "price_change": null,
-    "is_new": false,
-    "contacted": false,
-    "uid": "housinganywhere:ut1347102",
     "tier_label": "Shared accommodation"
   },
   {
@@ -7220,7 +7362,7 @@
     "available_from": "2027-04-01",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:20:45+00:00",
+    "date_scraped": "2026-11-20T16:17:36+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -7279,7 +7421,7 @@
     "available_from": "2026-11-20",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:20:45+00:00",
+    "date_scraped": "2026-11-20T16:17:36+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "all",
@@ -7315,6 +7457,55 @@
     "tier_label": "Shared accommodation"
   },
   {
+    "source": "housinganywhere",
+    "source_id": "ut1055356",
+    "url": "https://housinganywhere.com/room/ut1055356/ie/Blackrock/highridge-green?page=7",
+    "title": "Private room in Highridge Green, Blackrock",
+    "rent_monthly_eur": 995.0,
+    "rent_text": "€995 /month, incl. some utilities",
+    "address": "Highridge Green, Blackrock",
+    "bedrooms": null,
+    "bathrooms": null,
+    "property_type": "Private room",
+    "description": "Private room for rent for €995 per month in Blackrock, Highridge Green: Furnished, 1 bedroom(s), Shared bathroom , Shared kitchen, WiFi, Student and working professionals.",
+    "accommodation": "shared",
+    "latitude": 53.28507,
+    "longitude": -6.2122,
+    "coords_approximate": false,
+    "available_from": "2026-12-28",
+    "available_to": null,
+    "date_found": "2026-11-20T16:12:59+00:00",
+    "date_scraped": "2026-11-20T16:18:50+00:00",
+    "listed_on": null,
+    "extra": {
+      "size": "18 m²",
+      "availability_text": "Available from 28 December"
+    },
+    "area": null,
+    "area_priority": 0,
+    "distances_km": {
+      "AWS Ballsbridge": 5.11,
+      "Dogpatch Labs": 7.49
+    },
+    "total_monthly_for_group_eur": 2985.0,
+    "cost_per_person_eur": 995.0,
+    "tier": 3,
+    "within_budget": true,
+    "availability_flags": [],
+    "notes": [
+      "Price is per room – 3 rooms needed (assumes same price each)"
+    ],
+    "score": 14.5,
+    "duplicate_group": null,
+    "duplicate_urls": [],
+    "status": "active",
+    "price_change": null,
+    "is_new": true,
+    "contacted": false,
+    "uid": "housinganywhere:ut1055356",
+    "tier_label": "Shared accommodation"
+  },
+  {
     "source": "spotahome",
     "source_id": "983945",
     "url": "https://www.spotahome.com/dublin/for-rent:rooms/983945",
@@ -7333,7 +7524,7 @@
     "available_from": "2027-02-02",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:20:45+00:00",
+    "date_scraped": "2026-11-20T16:17:36+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -7371,6 +7562,57 @@
     "tier_label": "Shared accommodation"
   },
   {
+    "source": "housinganywhere",
+    "source_id": "ut1349859",
+    "url": "https://housinganywhere.com/room/ut1349859/ie/Dublin/shanard-road?page=5",
+    "title": "Private room in Shanard Road, Dublin",
+    "rent_monthly_eur": 940.0,
+    "rent_text": "€940 /month, incl. some utilities",
+    "address": "Shanard Road, Dublin",
+    "bedrooms": null,
+    "bathrooms": null,
+    "property_type": "Private room",
+    "description": "Private room for rent for €940 per month in Dublin, Shanard Road: Furnished, 1 bedroom(s), Private bathroom, Shared kitchen, WiFi, Student and working professionals.",
+    "accommodation": "shared",
+    "latitude": 53.3908289,
+    "longitude": -6.2582869,
+    "coords_approximate": false,
+    "available_from": "2027-02-02",
+    "available_to": null,
+    "date_found": "2026-11-20T16:12:59+00:00",
+    "date_scraped": "2026-11-20T16:18:50+00:00",
+    "listed_on": null,
+    "extra": {
+      "size": "10 m²",
+      "availability_text": "Available from 2 February 2027"
+    },
+    "area": null,
+    "area_priority": 0,
+    "distances_km": {
+      "AWS Ballsbridge": 7.05,
+      "Dogpatch Labs": 4.73
+    },
+    "total_monthly_for_group_eur": 2820.0,
+    "cost_per_person_eur": 940.0,
+    "tier": 3,
+    "within_budget": true,
+    "availability_flags": [
+      "Available only from 02 Feb 2027 (after 01 Jan 2027)"
+    ],
+    "notes": [
+      "Price is per room – 3 rooms needed (assumes same price each)"
+    ],
+    "score": 12.9,
+    "duplicate_group": null,
+    "duplicate_urls": [],
+    "status": "active",
+    "price_change": null,
+    "is_new": true,
+    "contacted": false,
+    "uid": "housinganywhere:ut1349859",
+    "tier_label": "Shared accommodation"
+  },
+  {
     "source": "spotahome",
     "source_id": "200348",
     "url": "https://www.spotahome.com/dublin/for-rent:rooms/200348",
@@ -7389,7 +7631,7 @@
     "available_from": "2027-04-01",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:20:45+00:00",
+    "date_scraped": "2026-11-20T16:17:36+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -7445,7 +7687,7 @@
     "available_from": "2026-12-26",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:20:45+00:00",
+    "date_scraped": "2026-11-20T16:17:36+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -7499,7 +7741,7 @@
     "available_from": "2027-02-02",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-20T01:20:45+00:00",
+    "date_scraped": "2026-11-20T16:17:36+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -7534,6 +7776,57 @@
     "is_new": false,
     "contacted": false,
     "uid": "spotahome:1540124",
+    "tier_label": "Shared accommodation"
+  },
+  {
+    "source": "housinganywhere",
+    "source_id": "ut1225998",
+    "url": "https://housinganywhere.com/room/ut1225998/ie/Dublin/bracken-hill?page=7",
+    "title": "Private room in Bracken Hill, Dublin",
+    "rent_monthly_eur": 950.0,
+    "rent_text": "€950 /month, incl. utilities",
+    "address": "Bracken Hill, Dublin",
+    "bedrooms": null,
+    "bathrooms": null,
+    "property_type": "Private room",
+    "description": "Private room for rent for €950 per month in Dublin, Bracken Hill: Furnished, 1 bedroom(s), Private bathroom, Shared kitchen, WiFi, Students only.",
+    "accommodation": "shared",
+    "latitude": 53.27062,
+    "longitude": -6.23813,
+    "coords_approximate": false,
+    "available_from": "2027-03-01",
+    "available_to": null,
+    "date_found": "2026-11-20T16:12:59+00:00",
+    "date_scraped": "2026-11-20T16:18:50+00:00",
+    "listed_on": null,
+    "extra": {
+      "size": "18 m²",
+      "availability_text": "Available from 1 March 2027"
+    },
+    "area": null,
+    "area_priority": 0,
+    "distances_km": {
+      "AWS Ballsbridge": 6.58,
+      "Dogpatch Labs": 8.7
+    },
+    "total_monthly_for_group_eur": 2850.0,
+    "cost_per_person_eur": 950.0,
+    "tier": 3,
+    "within_budget": true,
+    "availability_flags": [
+      "Available only from 01 Mar 2027 (after 01 Jan 2027)"
+    ],
+    "notes": [
+      "Price is per room – 3 rooms needed (assumes same price each)"
+    ],
+    "score": 5.3,
+    "duplicate_group": null,
+    "duplicate_urls": [],
+    "status": "active",
+    "price_change": null,
+    "is_new": true,
+    "contacted": false,
+    "uid": "housinganywhere:ut1225998",
     "tier_label": "Shared accommodation"
   }
 ]
