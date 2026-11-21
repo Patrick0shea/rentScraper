@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-11-21T15:25:40+00:00",
+  "run_at": "2026-11-21T20:05:29+00:00",
   "sources": [
     {
       "source": "myhome",
@@ -9,17 +9,17 @@
       "detail_pages_fetched": 59,
       "errors": [],
       "message": "161 listings",
-      "duration_s": 280.1
+      "duration_s": 286.6
     },
     {
       "source": "spotahome",
       "status": "ok",
-      "listings": 768,
+      "listings": 770,
       "pages_fetched": 17,
       "detail_pages_fetched": 0,
       "errors": [],
-      "message": "768 listings",
-      "duration_s": 77.1
+      "message": "770 listings",
+      "duration_s": 77.0
     },
     {
       "source": "housinganywhere",
@@ -29,7 +29,7 @@
       "detail_pages_fetched": 34,
       "errors": [],
       "message": "55 listings",
-      "duration_s": 185.8
+      "duration_s": 180.7
     },
     {
       "source": "daft",
@@ -44,7 +44,7 @@
         "https://www.daft.ie/sharing/dublin-4-dublin: __NEXT_DATA__ not found"
       ],
       "message": "0 listings",
-      "duration_s": 17.2
+      "duration_s": 19.7
     },
     {
       "source": "propertyie",
@@ -64,7 +64,7 @@
       "detail_pages_fetched": 0,
       "errors": [],
       "message": "https://www.rent.ie/robots.txt returned a bot-protection challenge (HTTP 403)",
-      "duration_s": 0.1
+      "duration_s": 0.3
     },
     {
       "source": "letie",
@@ -74,7 +74,7 @@
       "detail_pages_fetched": 0,
       "errors": [],
       "message": "Let.ie redirects to Daft.ie; listings are covered by the daft source",
-      "duration_s": 1.0
+      "duration_s": 0.4
     },
     {
       "source": "roomsforrent",
@@ -84,15 +84,15 @@
       "detail_pages_fetched": 0,
       "errors": [],
       "message": "could not fetch https://www.roomsforrent.ie/robots.txt: HTTPSConnectionPool(host='www.roomsforrent.ie', port=443): Max retries exceeded with url: /robots.txt (Caused by NameResolutionError(\"HTTPSConnection(host='www.roomsforrent.ie', port=443): Failed to resolve 'www.roomsforrent.ie' ([Errno -2] Name or service not known)\"))",
-      "duration_s": 0.0
+      "duration_s": 0.1
     }
   ],
-  "total_listings": 984,
+  "total_listings": 986,
   "shortlisted": 139,
   "duplicate_groups": 111,
-  "new": 11,
-  "price_changes": 2,
-  "removed": 11,
-  "relisted": 9,
+  "new": 7,
+  "price_changes": 0,
+  "removed": 22,
+  "relisted": 12,
   "contacted_hidden": 0
 }
