@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-11-22T15:24:51+00:00",
+  "run_at": "2026-11-22T20:20:01+00:00",
   "sources": [
     {
       "source": "myhome",
@@ -9,7 +9,7 @@
       "detail_pages_fetched": 59,
       "errors": [],
       "message": "161 listings",
-      "duration_s": 283.7
+      "duration_s": 287.3
     },
     {
       "source": "spotahome",
@@ -19,7 +19,7 @@
       "detail_pages_fetched": 0,
       "errors": [],
       "message": "770 listings",
-      "duration_s": 71.2
+      "duration_s": 73.8
     },
     {
       "source": "housinganywhere",
@@ -29,7 +29,7 @@
       "detail_pages_fetched": 34,
       "errors": [],
       "message": "55 listings",
-      "duration_s": 177.5
+      "duration_s": 174.1
     },
     {
       "source": "daft",
@@ -44,7 +44,7 @@
         "https://www.daft.ie/sharing/dublin-4-dublin: __NEXT_DATA__ not found"
       ],
       "message": "0 listings",
-      "duration_s": 17.1
+      "duration_s": 17.8
     },
     {
       "source": "propertyie",
@@ -54,7 +54,7 @@
       "detail_pages_fetched": 0,
       "errors": [],
       "message": "https://www.property.ie/robots.txt returned a bot-protection challenge (HTTP 403)",
-      "duration_s": 0.1
+      "duration_s": 0.2
     },
     {
       "source": "rentie",
@@ -64,7 +64,7 @@
       "detail_pages_fetched": 0,
       "errors": [],
       "message": "https://www.rent.ie/robots.txt returned a bot-protection challenge (HTTP 403)",
-      "duration_s": 0.3
+      "duration_s": 0.2
     },
     {
       "source": "letie",
@@ -74,7 +74,7 @@
       "detail_pages_fetched": 0,
       "errors": [],
       "message": "Let.ie redirects to Daft.ie; listings are covered by the daft source",
-      "duration_s": 0.4
+      "duration_s": 0.5
     },
     {
       "source": "roomsforrent",
@@ -89,10 +89,10 @@
   ],
   "total_listings": 986,
   "shortlisted": 139,
-  "duplicate_groups": 110,
-  "new": 8,
+  "duplicate_groups": 111,
+  "new": 4,
   "price_changes": 0,
-  "removed": 15,
-  "relisted": 10,
+  "removed": 18,
+  "relisted": 13,
   "contacted_hidden": 0
 }
