@@ -1,6 +1,6 @@
 # Dublin rental search – results
 
-Run: **2026-11-22T20:20:01+00:00** · Group of 3 · Budget ≤ €3,000/month total, ≤ €1,000 per person · Period 2027-01-01 → 2027-05-31
+Run: **2026-11-23T00:18:13+00:00** · Group of 3 · Budget ≤ €3,000/month total, ≤ €1,000 per person · Period 2027-01-01 → 2027-05-31
 
 Distances are straight-line from AWS Ballsbridge and Dogpatch Labs. Scores are 0–100 (price, bedrooms, proximity, area). ≈ means the position is estimated from the area name. Every listing comes from the linked advert; nothing is invented. Always confirm details with the advertiser.
 
@@ -49,7 +49,7 @@ Total listings collected: **986** · Matching requirements (after de-duplication
 | 59.6 | [Shared room in Royal Canal Terrace, Dublin](https://housinganywhere.com/room/ut1153001/ie/Dublin/royal-canal-terrace?page=2) +8 duplicate ad(s) | — | room | €628 /room | €628 | 4.1 km | 1.8 km | — | housinganywhere |
 | 58.9 | [Bed in shared 9-bedroom flat for rent, Inns Quay.](https://www.spotahome.com/dublin/for-rent:rooms/609671) +1 duplicate ad(s) | Dublin 7 | room | €628 /room | €628 | 4.3 km | 1.9 km | — | spotahome |
 | 55.3 | [Bed for rent in 6-bedroom house in Phibsborough](https://www.spotahome.com/dublin/for-rent:rooms/322554) +2 duplicate ad(s) | Dublin 7 | room | €650 /room | €650 | 4.7 km | 2.4 km | — | spotahome |
-| 54.8 | [Shared room in Blessington Street, Dublin](https://housinganywhere.com/room/ut1106702/ie/Dublin/blessington-street?page=3) +18 duplicate ad(s) | — | room | €693 /room | €693 | 3.9 km | 1.5 km | Dates not stated in search data – check availability for Jan–May 2027 on the site | housinganywhere |
+| 54.8 | [Shared room in Blessington Street, Dublin](https://housinganywhere.com/room/ut1106702/ie/Dublin/blessington-street?page=3) +19 duplicate ad(s) | — | room | €693 /room | €693 | 3.9 km | 1.5 km | Dates not stated in search data – check availability for Jan–May 2027 on the site | housinganywhere |
 | 53.3 | [Bed for rent in a residence in Dublin](https://www.spotahome.com/dublin/for-rent:residences/997644) +7 duplicate ad(s) | Dublin 7 | room | €700 /room | €700 | 4.0 km | 1.8 km | — | spotahome |
 | 53.2 | [Bed in shared 9-bedroom flat for rent, Inns Quay.](https://www.spotahome.com/dublin/for-rent:rooms/267501) +5 duplicate ad(s) | Dublin 7 | room | €693 /room | €693 | 4.3 km | 1.9 km | — | spotahome |
 | 51.1 | [Bed in shared apartment for rent in Inns Quay, Dublin.](https://www.spotahome.com/dublin/for-rent:rooms/294247) +1 duplicate ad(s) | Dublin 7 | room | €737 /room | €737 | 3.9 km | 1.5 km | — | spotahome |
@@ -107,24 +107,26 @@ _None found this run._
 
 ## Removed since last run
 
-- [Ensuite Rooms in Student Residence in Dublin 1](https://www.spotahome.com/dublin/for-rent:residences/336028) – €1,180, 8 bed, first seen 2026-11-21, last seen 2026-11-21 (spotahome)
-- [Room to rent in Student Hall in The Liberties, Dublin](https://www.spotahome.com/dublin/for-rent:residences/395014) – €1,040, 30 bed, first seen 2026-11-21, last seen 2026-11-21 (spotahome)
-- [1-bedroom apartment for rent in Donnybrook, Dublin](https://www.spotahome.com/dublin/for-rent:apartments/406903) – €5,550, 1 bed, first seen 2026-11-18, last seen 2026-11-21 (spotahome)
-- [Studio for rent in Donnybrook, Dublin](https://www.spotahome.com/dublin/for-rent:studios/407210) – €5,100, 0 bed, first seen 2026-11-20, last seen 2026-11-21 (spotahome)
-- [Serviced 1 Bedroom Apartment to Rent in Dublin 2](https://www.spotahome.com/dublin/for-rent:apartments/410159) – €5,550, 1 bed, first seen 2026-11-21, last seen 2026-11-21 (spotahome)
-- [Serviced 2 Bedroom Apartment to Rent in Dublin 2](https://www.spotahome.com/dublin/for-rent:apartments/410187) – €7,200, 2 bed, first seen 2026-11-21, last seen 2026-11-21 (spotahome)
-- [Serviced 1 Bedroom Apartment to Rent in Dublin 18](https://www.spotahome.com/dublin/for-rent:apartments/412751) – €5,344, 1 bed, first seen 2026-11-18, last seen 2026-11-21 (spotahome)
-- [2-bedroom apartment for rent in Donnybrook, Dublin](https://www.spotahome.com/dublin/for-rent:apartments/413766) – €7,200, 2 bed, first seen 2026-11-20, last seen 2026-11-21 (spotahome)
-- [Rooms for rent in a Residence in Northside, Dublin](https://www.spotahome.com/dublin/for-rent:residences/443375) – €1,062, 1 bed, first seen 2026-11-16, last seen 2026-11-21 (spotahome)
-- [Room for rent in a Residence in Northside, Dublin](https://www.spotahome.com/dublin/for-rent:residences/443403) – €1,196, 1 bed, first seen 2026-11-16, last seen 2026-11-21 (spotahome)
-- [Ensuite Rooms in Student Residence in Dublin 1](https://www.spotahome.com/dublin/for-rent:residences/519929) – €1,180, 8 bed, first seen 2026-11-16, last seen 2026-11-21 (spotahome)
-- [Studio apartment for rent in Inchicore, Dublin](https://www.spotahome.com/dublin/for-rent:studios/623283) – €3,191, 0 bed, first seen 2026-11-21, last seen 2026-11-21 (spotahome)
-- [Studio apartment for rent in Dublin](https://www.spotahome.com/dublin/for-rent:studios/753602) – €5,460, 0 bed, first seen 2026-11-21, last seen 2026-11-21 (spotahome)
-- [Studio apartment for rent in The Liberties, Dublin](https://www.spotahome.com/dublin/for-rent:studios/753795) – €5,460, 0 bed, first seen 2026-11-16, last seen 2026-11-21 (spotahome)
-- [1-bedroom flat to rent in North Wall, Dublin](https://www.spotahome.com/dublin/for-rent:apartments/766685) – €2,950, 1 bed, first seen 2026-11-20, last seen 2026-11-21 (spotahome)
-- [Apartment for rent in Docklands North, Dublin](https://www.spotahome.com/dublin/for-rent:apartments/766692) – €3,850, 2 bed, first seen 2026-11-18, last seen 2026-11-21 (spotahome)
-- [2-bedroom apartment for rent in Docklands North, Dublin](https://www.spotahome.com/dublin/for-rent:apartments/766705) – €3,850, 2 bed, first seen 2026-11-17, last seen 2026-11-21 (spotahome)
-- [Serviced studio apartment for rent in North City, Dublin](https://www.spotahome.com/dublin/for-rent:studios/866932) – €5,763, 0 bed, first seen 2026-11-18, last seen 2026-11-21 (spotahome)
+- [Room to rent in Student Hall in The Liberties, Dublin](https://www.spotahome.com/dublin/for-rent:residences/394959) – €1,122, 30 bed, first seen 2026-11-21, last seen 2026-11-22 (spotahome)
+- [Room to rent in Student Hall in The Liberties, Dublin](https://www.spotahome.com/dublin/for-rent:residences/395114) – €1,165, 21 bed, first seen 2026-11-17, last seen 2026-11-22 (spotahome)
+- [Room to rent in Student Hall in The Liberties, Dublin](https://www.spotahome.com/dublin/for-rent:residences/395122) – €1,126, 5 bed, first seen 2026-11-17, last seen 2026-11-22 (spotahome)
+- [1-bedroom apartment for rent in Donnybrook, Dublin](https://www.spotahome.com/dublin/for-rent:apartments/406904) – €5,550, 1 bed, first seen 2026-11-20, last seen 2026-11-22 (spotahome)
+- [Studio for rent in Donnybrook, Dublin](https://www.spotahome.com/dublin/for-rent:studios/407208) – €5,100, 0 bed, first seen 2026-11-16, last seen 2026-11-22 (spotahome)
+- [2-bedroom apartment for rent in Donnybrook, Dublin](https://www.spotahome.com/dublin/for-rent:apartments/407227) – €7,200, 2 bed, first seen 2026-11-21, last seen 2026-11-22 (spotahome)
+- [Serviced 1 Bedroom Apartment to Rent in Dublin 2](https://www.spotahome.com/dublin/for-rent:apartments/410160) – €5,550, 1 bed, first seen 2026-11-21, last seen 2026-11-22 (spotahome)
+- [Serviced 2 Bedroom Apartment to Rent in Dublin 2](https://www.spotahome.com/dublin/for-rent:apartments/410189) – €7,200, 2 bed, first seen 2026-11-17, last seen 2026-11-22 (spotahome)
+- [Serviced 1 Bedroom Apartment to Rent in Dublin 18](https://www.spotahome.com/dublin/for-rent:apartments/412761) – €5,344, 1 bed, first seen 2026-11-22, last seen 2026-11-22 (spotahome)
+- [1-bedroom apartment for rent in Donnybrook, Dublin.](https://www.spotahome.com/dublin/for-rent:apartments/413756) – €5,550, 1 bed, first seen 2026-11-21, last seen 2026-11-22 (spotahome)
+- [Apartment for rent in Donnybrook, Dublin](https://www.spotahome.com/dublin/for-rent:apartments/413767) – €7,200, 2 bed, first seen 2026-11-18, last seen 2026-11-22 (spotahome)
+- [Studio apartment for rent in Inchicore, Dublin](https://www.spotahome.com/dublin/for-rent:studios/623273) – €3,191, 0 bed, first seen 2026-11-22, last seen 2026-11-22 (spotahome)
+- [4-bedroom apartment for rent in Grangegorman, Dublin](https://www.spotahome.com/dublin/for-rent:apartments/655119) – €8,060, 4 bed, first seen 2026-11-16, last seen 2026-11-22 (spotahome)
+- [6-bedroom apartment for rent in Grangegorman, Dublin](https://www.spotahome.com/dublin/for-rent:apartments/655122) – €12,090, 6 bed, first seen 2026-11-18, last seen 2026-11-22 (spotahome)
+- [Studio apartment for rent in Dublin Docklands, Dublin](https://www.spotahome.com/dublin/for-rent:studios/701040) – €2,889, 0 bed, first seen 2026-11-18, last seen 2026-11-22 (spotahome)
+- [Studio apartment for rent in Dublin](https://www.spotahome.com/dublin/for-rent:studios/753600) – €5,460, 0 bed, first seen 2026-11-18, last seen 2026-11-22 (spotahome)
+- [Studio apartment for rent in The Liberties, Dublin](https://www.spotahome.com/dublin/for-rent:studios/753796) – €5,460, 0 bed, first seen 2026-11-17, last seen 2026-11-22 (spotahome)
+- [2-bedroom apartment for rent in Docklands North, Dublin](https://www.spotahome.com/dublin/for-rent:apartments/766693) – €3,850, 2 bed, first seen 2026-11-22, last seen 2026-11-22 (spotahome)
+- [3-bedroom flat for rent in Docklands North, Dublin](https://www.spotahome.com/dublin/for-rent:apartments/766712) – €7,700, 3 bed, first seen 2026-11-22, last seen 2026-11-22 (spotahome)
+- [Serviced studio apartment for rent in North City, Dublin](https://www.spotahome.com/dublin/for-rent:studios/866934) – €5,763, 0 bed, first seen 2026-11-22, last seen 2026-11-22 (spotahome)
 
 ## Notes
 
