@@ -2,9 +2,10 @@
   "_comment": "Configuration for rentscraper. Every value here can be changed without touching code. Environment variables in .env.example override a few runtime settings.",
 
   "search": {
-    "occupants": 3,
-    "max_total_monthly_rent_eur": 3000,
+    "occupants": 4,
+    "max_total_monthly_rent_eur": 4000,
     "max_per_person_monthly_eur": 1000,
+    "budget_stretch_pct": 10,
     "rental_start": "2027-01-01",
     "rental_end": "2027-05-31",
     "max_distance_km": 8.0,

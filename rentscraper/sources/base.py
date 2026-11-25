@@ -8,7 +8,7 @@ from datetime import datetime, timezone
 from typing import Optional
 
 from ..http import BlockedError, PoliteSession, RobotsDisallowedError, ScrapeError
-from ..models import Listing
+from ..models import DEFAULT_OCCUPANTS, Listing, budget_limits
 
 # Source run statuses
 OK = "ok"  # every configured search page was fetched
@@ -81,14 +81,14 @@ class Source:
 
     def is_candidate(self, listing: Listing) -> bool:
         """Cheap pre-filter deciding whether a detail page is worth fetching."""
-        max_total = self.search_cfg.get("max_total_monthly_rent_eur", 3000)
-        max_pp = self.search_cfg.get("max_per_person_monthly_eur", 1000)
+        max_total, max_pp = budget_limits(self.search_cfg)
+        min_beds = max(1, int(self.search_cfg.get("occupants", DEFAULT_OCCUPANTS)) - 1)
         rent = listing.rent_monthly_eur
         if rent is None:
             return False
         if listing.accommodation == "shared":
             return rent <= max_pp
-        if listing.bedrooms is not None and listing.bedrooms < 2:
+        if listing.bedrooms is not None and listing.bedrooms < min_beds:
             return False
         return rent <= max_total
 

@@ -23,11 +23,19 @@ from .contacted import marker
 # GitHub rejects issue bodies over 65,536 characters.
 MAX_BODY = 60000
 SECTION_LIMITS = {1: 40, 2: 30, 3: 15}
-SECTION_TITLES = {
-    1: "🏠 3+ bed entire properties",
-    2: "🛋️ 2 bed entire properties (sofa bed for the third person)",
-    3: "🚪 Shared – price is per room (last resort)",
-}
+DEFAULT_OCCUPANTS = 4
+
+
+def section_titles(n: int) -> dict[int, str]:
+    return {
+        1: f"🏠 {n}+ bed entire properties",
+        2: f"🛋️ {n - 1} bed entire properties (one person on the sofa bed)",
+        3: "🚪 Shared – price is per room (last resort)",
+    }
+
+
+def _occupants(report: dict) -> int:
+    return int((report.get("search") or {}).get("occupants") or DEFAULT_OCCUPANTS)
 
 
 def _load(out_dir: Path) -> tuple[dict, list[dict]]:
@@ -45,15 +53,16 @@ def headline(out_dir: Path) -> tuple[str, str]:
     report, shortlist = _load(out_dir)
     if not report:
         return f"Dublin rentals – {date}", "Results attached below."
-    three = [x for x in shortlist if x.get("tier") == 1]
-    two = [x for x in shortlist if x.get("tier") == 2]
+    n = _occupants(report)
+    full = [x for x in shortlist if x.get("tier") == 1]
+    sofa = [x for x in shortlist if x.get("tier") == 2]
     shared = [x for x in shortlist if x.get("tier") == 3]
     new = [x for x in shortlist if x.get("is_new")]
-    new3 = [x for x in new if x.get("tier") == 1]
-    title = f"Dublin rentals – {date}: {len(three)}× 3-bed, {len(two)}× 2-bed, {len(new)} new"
+    new_full = [x for x in new if x.get("tier") == 1]
+    title = f"Dublin rentals – {date}: {len(full)}× {n}-bed, {len(sofa)}× {n - 1}-bed + sofa, {len(new)} new"
     bits = [
-        f"**{len(shortlist)}** matching listings ({len(three)} three-bed, {len(two)} two-bed, {len(shared)} shared)",
-        f"**{len(new)}** new since the last run" + (f", including **{len(new3)} three-bed**" if new3 else ""),
+        f"**{len(shortlist)}** matching listings ({len(full)} {n}+ bed, {len(sofa)} {n - 1}-bed + sofa, {len(shared)} shared)",
+        f"**{len(new)}** new since the last run" + (f", including **{len(new_full)} {n}+ bed**" if new_full else ""),
         f"{report.get('price_changes', 0)} price changes, {report.get('removed', 0)} removed",
     ]
     if report.get("contacted_hidden"):
@@ -92,6 +101,8 @@ def checkbox_line(x: dict) -> str:
         tags.append(f"💶 {x['price_change']}")
     if x.get("duplicate_urls"):
         tags.append(f"+{len(x['duplicate_urls'])} other ad(s)")
+    if any(str(n).startswith("Above the") for n in x.get("notes") or []):
+        tags.append("💸 above target")
     parts = [price, size, _esc(x.get("area")) or None, f"{approx}{dist}" if dist else None,
              f"[{_esc(x.get('title'))[:70]}]({x.get('url')})", f"{x.get('source')}", f"score {x.get('score')}"]
     line = "- [ ] " + " · ".join(p for p in parts if p)
@@ -106,7 +117,8 @@ def checkbox_line(x: dict) -> str:
 
 def build_body(out_dir: Path, mention: Optional[str], run_url: Optional[str], data_url: Optional[str]) -> str:
     _, highlights = headline(out_dir)
-    _, shortlist = _load(out_dir)
+    report, shortlist = _load(out_dir)
+    titles = section_titles(_occupants(report))
     links = []
     if data_url:
         links.append(f"[full summary – cheapest, best locations, near misses, removed]({data_url})")
@@ -124,7 +136,7 @@ def build_body(out_dir: Path, mention: Optional[str], run_url: Optional[str], da
         out.append(" · ".join(links) + "\n")
     for tier in (1, 2, 3):
         items = sorted([x for x in shortlist if x.get("tier") == tier], key=lambda x: -(x.get("score") or 0))
-        out.append(f"\n### {SECTION_TITLES[tier]} ({len(items)})\n")
+        out.append(f"\n### {titles[tier]} ({len(items)})\n")
         if not items:
             out.append("_None this run._\n")
             continue

@@ -7,7 +7,7 @@ from rentscraper import contacted, digest
 
 def item(uid, tier, rent, each, score, **kw):
     d = {"uid": uid, "tier": tier, "rent_monthly_eur": rent, "cost_per_person_eur": each, "score": score,
-         "url": f"https://example.test/{uid}", "title": f"Listing {uid} [Test]", "bedrooms": {1: 3, 2: 2, 3: 4}[tier],
+         "url": f"https://example.test/{uid}", "title": f"Listing {uid} [Test]", "bedrooms": {1: 4, 2: 3, 3: 5}[tier],
          "area": "Ballsbridge (Dublin 4)", "source": uid.split(":")[0], "is_new": False,
          "distances_km": {"AWS Ballsbridge": 0.6, "Dogpatch Labs": 2.2}, "availability_flags": []}
     d.update(kw)
@@ -18,21 +18,21 @@ def item(uid, tier, rent, each, score, **kw):
 def out(tmp_path):
     (tmp_path / "summary.md").write_text("# summary\n", encoding="utf-8")
     shortlist = [
-        item("myhome:1", 1, 2850, 950, 70, is_new=True, availability_flags=["Minimum lease appears to be 12 months"]),
-        item("myhome:2", 2, 2100, 700, 65, price_change="€2,200 → €2,100 (−€100)"),
+        item("myhome:1", 1, 4200, 1050, 70, is_new=True, notes=["Above the €4,000 target by about €200/month (within the stretch budget)"], availability_flags=["Minimum lease appears to be 12 months"]),
+        item("myhome:2", 2, 3200, 800, 65, price_change="€3,300 → €3,200 (−€100)"),
         item("spotahome:3", 3, 800, 800, 30, is_new=True, duplicate_urls=["https://x"]),
     ]
     (tmp_path / "shortlist.json").write_text(json.dumps(shortlist))
-    (tmp_path / "run_report.json").write_text(json.dumps({"price_changes": 2, "removed": 1, "contacted_hidden": 4}))
+    (tmp_path / "run_report.json").write_text(json.dumps({"price_changes": 2, "removed": 1, "contacted_hidden": 4, "search": {"occupants": 4}}))
     return tmp_path
 
 
 def test_title_and_highlights(out):
     title, hl = digest.headline(out)
-    assert "1× 3-bed, 1× 2-bed, 2 new" in title
-    assert "**3** matching listings" in hl and "including **1 three-bed**" in hl
+    assert "1× 4-bed, 1× 3-bed + sofa, 2 new" in title
+    assert "**3** matching listings (1 4+ bed, 1 3-bed + sofa, 1 shared)" in hl and "including **1 4+ bed**" in hl
     assert "2 price changes, 1 removed" in hl and "4 hidden as already contacted" in hl
-    assert "€2,100/month (€700 each)](https://example.test/myhome:2)" in hl
+    assert "€3,200/month (€800 each)](https://example.test/myhome:2)" in hl
 
 
 def test_body_has_checkbox_per_listing_with_marker(out):
@@ -42,7 +42,8 @@ def test_body_has_checkbox_per_listing_with_marker(out):
     assert body.count("- [ ] ") == 3
     for uid in ("myhome:1", "myhome:2", "spotahome:3"):
         assert body.count(f"<!-- rs:{uid} -->") == 1
-    assert "**€2,850/mo** (€950 each) · 3 bed" in body
+    assert "**€4,200/mo** (€1,050 each) · 4 bed" in body and "💸 above target" in body
+    assert "4+ bed entire properties" in body and "3 bed entire properties (one person on the sofa bed)" in body
     assert "**€800/room** · room" in body
     assert "⚠️ Minimum lease" in body and "🆕" in body and "💶" in body and "+1 other ad(s)" in body
     assert "[Listing myhome:1 (Test)](https://example.test/myhome:1)" in body  # brackets can't break the link
@@ -58,7 +59,7 @@ def test_ticking_a_box_in_the_body_round_trips(out):
 
 
 def test_body_truncated_under_github_limit(out):
-    many = [item(f"spotahome:{i}", 2, 2000, 667, 50, title="x" * 300) for i in range(400)]
+    many = [item(f"spotahome:{i}", 2, 3000, 750, 50, title="x" * 300) for i in range(400)]
     (out / "shortlist.json").write_text(json.dumps(many))
     digest.SECTION_LIMITS[2], old = 400, digest.SECTION_LIMITS[2]
     try:

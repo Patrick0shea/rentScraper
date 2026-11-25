@@ -10,18 +10,31 @@ ENTIRE = "entire"
 SHARED = "shared"  # a room (or bed) in a shared property
 UNKNOWN = "unknown"
 
-# Preference tiers (lower is better)
-TIER_THREE_BED = 1
-TIER_TWO_BED = 2
-TIER_SHARED = 3
+# Preference tiers (lower is better). They are relative to the group size N
+# (``search.occupants`` in config.json):
+TIER_FULL = 1  # entire property with a bedroom each (N+ beds)
+TIER_SOFA = 2  # entire property with one bedroom short (N-1 beds): one person on a sofa bed
+TIER_SHARED = 3  # rooms in a shared property, priced per room
 TIER_OTHER = 9
 
-TIER_LABELS = {
-    TIER_THREE_BED: "3+ bed entire property",
-    TIER_TWO_BED: "2 bed entire property (sofa bed needed)",
-    TIER_SHARED: "Shared accommodation",
-    TIER_OTHER: "Not suitable for 3 people",
-}
+DEFAULT_OCCUPANTS = 4
+
+
+def tier_labels(occupants: int = DEFAULT_OCCUPANTS) -> dict[int, str]:
+    return {
+        TIER_FULL: f"{occupants}+ bed entire property",
+        TIER_SOFA: f"{occupants - 1} bed entire property (sofa bed needed)",
+        TIER_SHARED: "Shared accommodation",
+        TIER_OTHER: f"Not suitable for {occupants} people",
+    }
+
+
+def budget_limits(search_cfg: dict) -> tuple[float, float]:
+    """Hard (total, per person) limits: the target budget plus the allowed stretch."""
+    stretch = 1 + float(search_cfg.get("budget_stretch_pct", 0)) / 100
+    total = float(search_cfg.get("max_total_monthly_rent_eur", 4000))
+    per_person = float(search_cfg.get("max_per_person_monthly_eur", 1000))
+    return round(total * stretch, 2), round(per_person * stretch, 2)
 
 
 @dataclass
@@ -71,6 +84,7 @@ class Listing:
     price_change: Optional[str] = None
     is_new: bool = False
     contacted: bool = False  # marked by the user; hidden from shortlist and updates
+    occupants: Optional[int] = None  # group size the tier was worked out for
 
     @property
     def uid(self) -> str:
@@ -79,7 +93,7 @@ class Listing:
 
     @property
     def tier_label(self) -> str:
-        return TIER_LABELS.get(self.tier, "")
+        return tier_labels(self.occupants or DEFAULT_OCCUPANTS).get(self.tier, "")
 
     def to_dict(self) -> dict[str, Any]:
         d = asdict(self)

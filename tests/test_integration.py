@@ -20,20 +20,20 @@ HA = "https://housinganywhere.com"
 D4 = "/rentals/dublin/property-to-rent-in-dublin-4"
 
 
-def routes(price_3bed=2900, include_2bed=True):
+def routes(price_4bed=3900, include_3bed=True):
     mh_results = [
-        fx.myhome_result(1, 3, price_3bed, "1 Test Road, Ballsbridge, Dublin 4", 53.3300, -6.2320),
-        fx.myhome_result(3, 1, 1900, "3 Test Court, Dublin 4", 53.33, -6.23),
-        fx.myhome_result(4, 4, 5200, "4 Test Park, Donnybrook, Dublin 4", 53.322, -6.237),
+        fx.myhome_result(1, 4, price_4bed, "1 Test Road, Ballsbridge, Dublin 4", 53.3300, -6.2320),
+        fx.myhome_result(3, 2, 2200, "3 Test Court, Dublin 4", 53.33, -6.23),
+        fx.myhome_result(4, 5, 5200, "4 Test Park, Donnybrook, Dublin 4", 53.322, -6.237),
     ]
-    if include_2bed:
-        mh_results.append(fx.myhome_result(2, 2, 2400, "2 Test Quay, Ringsend, Dublin 4", 53.3410, -6.2260))
+    if include_3bed:
+        mh_results.append(fx.myhome_result(2, 3, 3400, "2 Test Quay, Ringsend, Dublin 4", 53.3410, -6.2260))
     sah_cards = [
         # same flat as MyHome #1 -> duplicate
-        fx.spotahome_card("501", "apartment", 3, price_3bed, "3-bedroom apartment for rent in Ballsbridge, Dublin", "Test Road", "D04", -6.23205, 53.33005),
-        fx.spotahome_card("502", "room_shared", 3, 900, "Room in shared 3-bedroom flat in Sandymount, Dublin", "Test Lane", "D04", -6.218, 53.330),
+        fx.spotahome_card("501", "apartment", 4, price_4bed, "4-bedroom apartment for rent in Ballsbridge, Dublin", "Test Road", "D04", -6.23205, 53.33005),
+        fx.spotahome_card("502", "room_shared", 4, 900, "Room in shared 4-bedroom flat in Sandymount, Dublin", "Test Lane", "D04", -6.218, 53.330),
     ]
-    ha_cards = [fx.ha_card("ut9", "Apartment in Test Street, Dublin", 2750, "3 bedrooms", "Available from 2 March 2027")]
+    ha_cards = [fx.ha_card("ut9", "Apartment in Test Street, Dublin", 3750, "4 bedrooms", "Available from 2 March 2027")]
     return {
         MH + "/robots.txt": (200, "User-agent: *\nAllow: /rentals/*?page=\nDisallow: /rentals/*?\n"),
         MH + D4: (200, fx.myhome_search_html(mh_results)),
@@ -81,13 +81,13 @@ def test_full_pipeline_offline(offline_cfg):
     shortlist = json.loads((out / "shortlist.json").read_text())
     uids = {x["uid"] for x in shortlist}
     assert "myhome:4" not in uids  # €5,200 over budget
-    assert "myhome:3" not in uids  # 1 bed
-    assert "myhome:2" in uids  # 2-bed fallback
+    assert "myhome:3" not in uids  # 2 bed is too small for four
+    assert "myhome:2" in uids  # 3-bed + sofa fallback
     assert "spotahome:502" in uids  # shared, €900/room
     # the cross-site duplicate appears once in the shortlist
     assert len({"myhome:1", "spotahome:501"} & uids) == 1
     best = shortlist[0]
-    assert best["tier"] == 1 and best["bedrooms"] == 3
+    assert best["tier"] == 1 and best["bedrooms"] == 4
     assert best["duplicate_urls"]
     by_uid = {x["uid"]: x for x in json.loads((out / "all_listings.json").read_text())}
     assert any(f.startswith("Minimum lease appears to be 12") for f in by_uid["myhome:1"]["availability_flags"])
@@ -97,11 +97,11 @@ def test_full_pipeline_offline(offline_cfg):
         rows = list(csv.DictReader(fh))
     assert rows and {"cost_per_person_eur", "url", "source", "availability_flags", "date_found"} <= set(rows[0])
     for row in rows:
-        assert float(row["total_monthly_for_group_eur"]) <= 3000
-        assert float(row["cost_per_person_eur"]) <= 1000
+        assert float(row["total_monthly_for_group_eur"]) <= 4400
+        assert float(row["cost_per_person_eur"]) <= 1100
 
     summary = (out / "summary.md").read_text()
-    for heading in ("Best 3-bedroom", "Best 2-bedroom", "Cheapest per person", "Best locations", "Sources this run"):
+    for heading in ("Best 4+ bedroom", "Best 3-bedroom alternatives", "Cheapest per person", "Best locations", "Sources this run"):
         assert heading in summary
     assert "https://www.myhome.ie/rentals/brochure/test-1/1" in summary or "https://www.spotahome.com/dublin/for-rent:apartments/501" in summary
     assert "blocked" in summary
@@ -109,11 +109,11 @@ def test_full_pipeline_offline(offline_cfg):
 
 def test_history_across_runs_offline(offline_cfg):
     cfg = offline_cfg
-    pipeline.run(cfg, session=offline_session(routes(price_3bed=2900)))
-    r2 = pipeline.run(cfg, session=offline_session(routes(price_3bed=2800, include_2bed=False)))
+    pipeline.run(cfg, session=offline_session(routes(price_4bed=3900)))
+    r2 = pipeline.run(cfg, session=offline_session(routes(price_4bed=3800, include_3bed=False)))
     assert r2["new"] == 0
     assert r2["price_changes"] == 2  # myhome:1 and spotahome:501
-    r3 = pipeline.run(cfg, session=offline_session(routes(price_3bed=2800, include_2bed=False)))
+    r3 = pipeline.run(cfg, session=offline_session(routes(price_4bed=3800, include_3bed=False)))
     assert r3["removed"] == 1  # myhome:2 gone for 2 consecutive complete runs
     summary = (Path(cfg["output"]["directory"]) / "summary.md").read_text()
     assert "Removed since last run" in summary

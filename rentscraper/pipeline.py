@@ -90,6 +90,8 @@ def run(
 
     report = {
         "run_at": run_ts,
+        "search": {k: cfg["search"].get(k) for k in (
+            "occupants", "max_total_monthly_rent_eur", "max_per_person_monthly_eur", "budget_stretch_pct")},
         "sources": source_dicts,
         "total_listings": len(listings),
         "shortlisted": len(shortlist),

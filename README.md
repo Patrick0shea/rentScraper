@@ -1,7 +1,7 @@
-# rentScraper – Dublin rentals for three (January–May 2027)
+# rentScraper – Dublin rentals for four (January–May 2027)
 
 A polite, tested rental scraper that searches several Irish rental websites for
-accommodation for **three people in Dublin from January to May 2027**. It
+accommodation for **four people in Dublin from January to May 2027**. It
 ranks what it finds against a fixed budget and two workplaces: AWS in
 Ballsbridge and Dogpatch Labs.
 
@@ -20,11 +20,12 @@ and removed adverts.
 
 | Requirement | How it is handled |
 |---|---|
-| Budget €3,000/month total, €1,000/person | Entire property: rent ÷ 3. Shared: rent is per room, so the total assumes 3 rooms at that price. Anything over either limit is excluded from the shortlist (kept in `all_listings`). |
-| 1st choice: entire 3-bed | Tier 1, highest bedroom score |
-| 2nd choice: entire 2-bed + sofa bed | Tier 2, flagged "third person needs a sofa bed" |
+| Budget around €4,000/month total (€1,000/person), stretching to €4,400 | Entire property: rent ÷ 4. Shared: rent is per room, so the total assumes 4 rooms at that price. Listings between €4,000 and €4,400 (€1,100/person) are still shortlisted but score lower on price and are marked 💸 *above target*. Anything over the stretch limit is excluded from the shortlist (kept in `all_listings`). Set `budget_stretch_pct` to 0 in `config.json` for a hard €4,000 cap. |
+| 1st choice: entire 4+ bed | Tier 1, highest bedroom score |
+| 2nd choice: entire 3-bed + couch / sofa bed | Tier 2, flagged "one person needs the sofa bed". 2-beds and smaller are excluded. |
 | Last resort: shared | Tier 3, price per room |
 | Location | Distance to both offices (straight line), plus a bonus for the named areas (Ballsbridge, Donnybrook, Sandymount, Ringsend, Irishtown, Grand Canal Dock, Docklands, IFSC, North Wall, East Wall, Pearse Street) and for Dublin 1/2/4 |
+| Group size | `search.occupants` in `config.json` (now 4). The tiers follow it: N+ beds, then N−1 beds + sofa, then shared rooms. |
 | Score (0–100) | 35% price per person, 30% bedrooms, 25% proximity, 10% area, minus a penalty for availability risk. Weights are in `config.json`. |
 | Jan–May 2027 availability | Flags: available only after early January; available only until a date before end of May ("till Spring 2027"); minimum lease longer than 5 months ("12 month lease", "1 year lease", "long-term let"); availability not stated. Listings that only become free in May or later are excluded. |
 | Entire vs shared | From each site's property type, plus keyword detection ("room to rent", "house share", …) on general sites |
@@ -37,7 +38,7 @@ Status as observed from a cloud server on 16 November 2026.
 
 | Site | Status | How |
 |---|---|---|
-| **MyHome.ie** | ✅ Working | Server-rendered search JSON (`ng-state`) for Dublin 1, 2, 3, 4. Detail pages are fetched for in-budget 2+ bed candidates (description, Eircode). robots.txt allows the clean paths and `?page=N`. It disallows other query strings, so filtering happens locally. |
+| **MyHome.ie** | ✅ Working | Server-rendered search JSON (`ng-state`) for Dublin 1, 2, 3, 4. Detail pages are fetched for in-budget 3+ bed candidates (description, Eircode). robots.txt allows the clean paths and `?page=N`. It disallows other query strings, so filtering happens locally. |
 | **Spotahome** | ✅ Working | Mid-term platform (1–11+ months), well suited to a 5-month let. Listing data comes from the server-rendered page payload, with clean `/page:N` pagination. `?budget=` and `?move-in=` are disallowed by robots.txt, so they are not used. |
 | **HousingAnywhere** | ✅ Working | Mid-term platform. Server-rendered listing cards (about 8 per page). Detail pages give coordinates. `/api/*` is disallowed by robots.txt and is **not** used. |
 | **Daft.ie** | ⛔ Blocked | Cloudflare managed challenge (`cf-mitigated: challenge`) for automated clients, including on `robots.txt`. The scraper reports `blocked` and moves on; it does not bypass the challenge. A parser for Daft's page data is included in case access becomes possible. Daft's partner API needs a key issued by Daft and isn't used. |
@@ -51,7 +52,7 @@ Every run's status for each site is shown at the top of `summary.md` and in
 
 **Using the blocked sites yourself:** Daft.ie, Property.ie and Rent.ie all
 offer free saved-search email alerts. Set up an alert for Dublin 1/2/4,
-2+ beds, max €3,000 to cover those sites without automation.
+3+ beds, max €4,400 to cover those sites without automation.
 
 ### Why no Playwright?
 
@@ -102,7 +103,7 @@ A full run takes about 5–10 minutes because of the delays. Results go to `outp
 
 | File | Contents |
 |---|---|
-| `summary.md` | Readable report: site status, best 3-beds, best 2-beds, shared options, cheapest per person, best locations, near misses (≤10% over budget), new listings, price changes, removed listings. All entries link to the original adverts. |
+| `summary.md` | Readable report: site status, best 4+ beds, best 3-beds (+ sofa), shared options, cheapest per person, best locations, near misses (up to 10% over the €4,400 maximum), new listings, price changes, removed listings. All entries link to the original adverts. |
 | `shortlist.csv` / `.json` | Listings that meet the requirements (de-duplicated), best first |
 | `all_listings.csv` / `.json` | Everything collected this run, including over-budget and duplicates |
 | `run_report.json` | Per-site status, counts and errors |
@@ -120,7 +121,7 @@ python -m rentscraper --sources myhome,spotahome --max-pages 1 --no-details
 python -m rentscraper --help
 ```
 
-Configuration lives in `config.json`: budget, dates, landmark coordinates,
+Configuration lives in `config.json`: group size, budget and stretch, dates, landmark coordinates,
 priority areas, scoring weights, per-site search paths and page caps, and HTTP
 politeness. Some settings can also be overridden with environment variables;
 see `.env.example`. **No API keys or credentials are needed.**

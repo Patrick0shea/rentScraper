@@ -7,7 +7,7 @@ from pathlib import Path
 from typing import Any, Iterable, Optional
 
 from .analysis import avg_distance
-from .models import TIER_SHARED, TIER_THREE_BED, TIER_TWO_BED, Listing
+from .models import DEFAULT_OCCUPANTS, TIER_FULL, TIER_SHARED, TIER_SOFA, Listing, budget_limits
 
 CSV_COLUMNS = [
     "score", "tier_label", "title", "address", "area", "rent_monthly_eur", "rent_text",
@@ -112,8 +112,10 @@ def build_summary(
     s = cfg["search"]
     top = int(cfg.get("output", {}).get("summary_top_n", 10))
     names = [lm["name"] for lm in cfg.get("landmarks", [])]
-    three = sorted([x for x in shortlist if x.tier == TIER_THREE_BED], key=sort_key)
-    two = sorted([x for x in shortlist if x.tier == TIER_TWO_BED], key=sort_key)
+    n = int(s.get("occupants", DEFAULT_OCCUPANTS))
+    cap_total, cap_pp = budget_limits(s)
+    full = sorted([x for x in shortlist if x.tier == TIER_FULL], key=sort_key)
+    sofa = sorted([x for x in shortlist if x.tier == TIER_SOFA], key=sort_key)
     shared = sorted([x for x in shortlist if x.tier == TIER_SHARED], key=sort_key)
     cheapest = sorted(shortlist, key=lambda x: (x.cost_per_person_eur or 1e9, -(x.score or 0)))
     located = sorted(
@@ -123,10 +125,10 @@ def build_summary(
     near_miss = sorted(
         [
             x for x in all_listings
-            if x.tier in (TIER_THREE_BED, TIER_TWO_BED) and x.status == "active"
+            if x.tier in (TIER_FULL, TIER_SOFA) and x.status == "active"
             and not x.extra.get("_duplicate_secondary") and not x.contacted
             and x.total_monthly_for_group_eur
-            and s["max_total_monthly_rent_eur"] < x.total_monthly_for_group_eur <= s["max_total_monthly_rent_eur"] * 1.1
+            and cap_total < x.total_monthly_for_group_eur <= cap_total * 1.1
             and (avg_distance(x) or 0) <= (s.get("max_distance_km") or 99)
         ],
         key=sort_key,
@@ -135,8 +137,10 @@ def build_summary(
     out = []
     out.append("# Dublin rental search – results\n\n")
     out.append(
-        f"Run: **{run_ts}** · Group of {s['occupants']} · Budget ≤ {_eur(s['max_total_monthly_rent_eur'])}/month total, "
-        f"≤ {_eur(s['max_per_person_monthly_eur'])} per person · Period {s['rental_start']} → {s['rental_end']}\n\n"
+        f"Run: **{run_ts}** · Group of {n} · Budget around {_eur(s['max_total_monthly_rent_eur'])}/month total "
+        f"({_eur(s['max_per_person_monthly_eur'])} per person)"
+        + (f", stretching to {_eur(cap_total)} ({_eur(cap_pp)} per person)" if cap_total > s["max_total_monthly_rent_eur"] else "")
+        + f" · Period {s['rental_start']} → {s['rental_end']}\n\n"
     )
     out.append(
         f"Distances are straight-line from {' and '.join(names)}. Scores are 0–100 (price, bedrooms, proximity, area). "
@@ -149,15 +153,15 @@ def build_summary(
         out.append(f"| {r['source']} | {r['status']} | {r['listings']} | {r['pages_fetched']} | {_md_escape(r['message'])[:160]} |\n")
     out.append(
         f"\nTotal listings collected: **{len(all_listings)}** · Matching requirements (after de-duplication): **{len(shortlist)}** "
-        f"(3-bed: {len(three)}, 2-bed: {len(two)}, shared: {len(shared)})\n"
+        f"({n}+ bed: {len(full)}, {n - 1}-bed + sofa: {len(sofa)}, shared: {len(shared)})\n"
     )
-    out.append(f"\n## Best 3-bedroom properties\n\n{_table(three[:top], names)}")
-    out.append(f"\n## Best 2-bedroom alternatives (sofa bed needed)\n\n{_table(two[:top], names)}")
+    out.append(f"\n## Best {n}+ bedroom properties\n\n{_table(full[:top], names)}")
+    out.append(f"\n## Best {n - 1}-bedroom alternatives (one person on the sofa bed)\n\n{_table(sofa[:top], names)}")
     out.append(f"\n## Shared accommodation (last resort – price is per room)\n\n{_table(shared[:top], names)}")
     out.append(f"\n## Cheapest per person\n\n{_table(cheapest[:top], names)}")
     out.append(f"\n## Best locations (closest to both offices)\n\n{_table(located[:top], names)}")
     if near_miss:
-        out.append(f"\n## Near misses (up to 10% over budget – may be negotiable)\n\n{_table(near_miss[:top], names)}")
+        out.append(f"\n## Near misses (up to 10% over the maximum – may be negotiable)\n\n{_table(near_miss[:top], names)}")
     new_short = [x for x in shortlist if x.is_new]
     out.append(f"\n## New matching listings this run ({len(new_short)})\n\n{_table(sorted(new_short, key=sort_key)[:top * 2], names)}")
     if changes.get("price_changes"):
@@ -184,8 +188,9 @@ def build_summary(
             out.append(f"- [{_md_escape(x.title)}]({x.url}) – {_eur(x.rent_monthly_eur)}{change}, still advertised ({x.source})\n")
     out.append(
         "\n## Notes\n\n"
-        "- Shared listings: price shown is per room; total assumes three rooms at that price.\n"
-        "- 2-bed options assume one person uses a sofa bed or similar – check the living space.\n"
+        f"- Shared listings: price shown is per room; total assumes {n} rooms at that price.\n"
+        f"- {n - 1}-bed options assume one person uses a sofa bed / couch – check the living space.\n"
+        f"- Listings between {_eur(s['max_total_monthly_rent_eur'])} and {_eur(cap_total)} are included but score lower on price.\n"
         "- Flags highlight adverts whose stated dates or lease terms may not cover January–May 2027. "
         "Most standard Irish lettings ask for 12 months, so always confirm a 5-month term.\n"
         "- Full data: `shortlist.csv/json` (matches) and `all_listings.csv/json` (everything collected).\n"

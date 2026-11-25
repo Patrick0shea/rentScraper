@@ -28,7 +28,7 @@ def setup_logging(level: str, log_file: Path | None) -> None:
 
 
 def main(argv: list[str] | None = None) -> int:
-    p = argparse.ArgumentParser(prog="rentscraper", description="Dublin rental scraper for a group of three")
+    p = argparse.ArgumentParser(prog="rentscraper", description="Dublin rental scraper for a group (size set in config.json)")
     p.add_argument("--config", help="path to config.json")
     p.add_argument("--sources", help=f"comma separated subset of: {', '.join(SOURCES)}")
     p.add_argument("--output-dir", help="where to write results")

@@ -7,14 +7,16 @@ from typing import Optional
 
 from .geo import approximate_coords, dublin_district, haversine_km, match_area
 from .models import (
+    DEFAULT_OCCUPANTS,
     ENTIRE,
     SHARED,
+    TIER_FULL,
     TIER_OTHER,
     TIER_SHARED,
-    TIER_THREE_BED,
-    TIER_TWO_BED,
+    TIER_SOFA,
     UNKNOWN,
     Listing,
+    budget_limits,
 )
 from .parsing import parse_date
 
@@ -132,9 +134,10 @@ def availability_flags(lst: Listing, start: date, end: date, today: Optional[dat
 
 def enrich(lst: Listing, cfg: dict, today: Optional[date] = None) -> Listing:
     s = cfg["search"]
-    occupants = int(s.get("occupants", 3))
-    max_total = float(s["max_total_monthly_rent_eur"])
-    max_pp = float(s["max_per_person_monthly_eur"])
+    occupants = int(s.get("occupants", DEFAULT_OCCUPANTS))
+    target_total = float(s["max_total_monthly_rent_eur"])
+    target_pp = float(s["max_per_person_monthly_eur"])
+    max_total, max_pp = budget_limits(s)
     start = date.fromisoformat(s["rental_start"])
     end = date.fromisoformat(s["rental_end"])
 
@@ -168,7 +171,7 @@ def enrich(lst: Listing, cfg: dict, today: Optional[date] = None) -> Listing:
     rent = lst.rent_monthly_eur
     if rent is not None:
         if lst.accommodation == SHARED:
-            # Price is per room/bed: three people need three of them.
+            # Price is per room/bed: the group needs one each.
             lst.cost_per_person_eur = round(rent, 2)
             lst.total_monthly_for_group_eur = round(rent * occupants, 2)
             lst.notes.append(f"Price is per room – {occupants} rooms needed (assumes same price each)")
@@ -178,17 +181,23 @@ def enrich(lst: Listing, cfg: dict, today: Optional[date] = None) -> Listing:
             lst.total_monthly_for_group_eur = round(rent, 2)
             lst.cost_per_person_eur = round(rent / occupants, 2)
         lst.within_budget = lst.total_monthly_for_group_eur <= max_total and lst.cost_per_person_eur <= max_pp
+        if lst.within_budget and (lst.total_monthly_for_group_eur > target_total or lst.cost_per_person_eur > target_pp):
+            over = max(lst.total_monthly_for_group_eur - target_total, (lst.cost_per_person_eur - target_pp) * occupants)
+            lst.notes.append(f"Above the €{target_total:,.0f} target by about €{over:,.0f}/month (within the stretch budget)")
     else:
         lst.within_budget = None
         lst.notes.append("No price stated")
 
+    lst.occupants = occupants
     if lst.accommodation == SHARED:
         lst.tier = TIER_SHARED
-    elif lst.accommodation == ENTIRE and lst.bedrooms is not None and lst.bedrooms >= 3:
-        lst.tier = TIER_THREE_BED
-    elif lst.accommodation == ENTIRE and lst.bedrooms == 2:
-        lst.tier = TIER_TWO_BED
-        lst.notes.append("2 bed – third person needs a sofa bed or similar; check living room suits")
+    elif lst.accommodation == ENTIRE and lst.bedrooms is not None and lst.bedrooms >= occupants:
+        lst.tier = TIER_FULL
+    elif lst.accommodation == ENTIRE and lst.bedrooms is not None and occupants > 1 and lst.bedrooms == occupants - 1:
+        lst.tier = TIER_SOFA
+        lst.notes.append(
+            f"{lst.bedrooms} bed – one person needs the sofa bed / couch; check the living room suits"
+        )
     else:
         lst.tier = TIER_OTHER
 
@@ -212,9 +221,11 @@ def score(lst: Listing, cfg: dict) -> Optional[float]:
         return None
     sc = cfg.get("scoring", {})
     w = sc.get("weights", {"price": 0.35, "bedrooms": 0.3, "proximity": 0.25, "area": 0.1})
-    max_pp = float(cfg["search"]["max_per_person_monthly_eur"])
-    price_s = _lin(lst.cost_per_person_eur, max_pp * 0.6, max_pp) if lst.cost_per_person_eur <= max_pp else 0.0
-    bed_s = {TIER_THREE_BED: 1.0, TIER_TWO_BED: 0.6, TIER_SHARED: 0.25}.get(lst.tier, 0.0)
+    # Full price marks at 60% of the per-person target, falling to zero at the stretch limit.
+    target_pp = float(cfg["search"]["max_per_person_monthly_eur"])
+    _, max_pp = budget_limits(cfg["search"])
+    price_s = _lin(lst.cost_per_person_eur, target_pp * 0.6, max_pp) if lst.cost_per_person_eur <= max_pp else 0.0
+    bed_s = {TIER_FULL: 1.0, TIER_SOFA: 0.6, TIER_SHARED: 0.25}.get(lst.tier, 0.0)
     if lst.distances_km:
         avg = sum(lst.distances_km.values()) / len(lst.distances_km)
         prox_s = _lin(avg, sc.get("proximity_full_score_km", 1.5), sc.get("proximity_zero_score_km", 8.0))
