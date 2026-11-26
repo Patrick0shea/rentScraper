@@ -18,7 +18,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-26T17:46:30+00:00",
+    "date_scraped": "2026-11-26T22:20:18+00:00",
     "listed_on": "2026-10-22",
     "extra": {
       "agent": "Herbert & Lansdowne Estate Agents",
@@ -81,7 +81,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-20T16:12:59+00:00",
-    "date_scraped": "2026-11-26T17:46:30+00:00",
+    "date_scraped": "2026-11-26T22:20:18+00:00",
     "listed_on": "2026-11-20",
     "extra": {
       "agent": "Ray Cooke Auctioneers",
@@ -134,7 +134,7 @@
     "available_from": "2026-11-26",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-26T17:48:03+00:00",
+    "date_scraped": "2026-11-26T22:21:52+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -188,7 +188,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-24T18:56:12+00:00",
-    "date_scraped": "2026-11-26T17:46:30+00:00",
+    "date_scraped": "2026-11-26T22:20:18+00:00",
     "listed_on": "2026-11-24",
     "extra": {
       "agent": "Owen Reilly",
@@ -243,7 +243,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-17T16:55:59+00:00",
-    "date_scraped": "2026-11-26T17:46:30+00:00",
+    "date_scraped": "2026-11-26T22:20:18+00:00",
     "listed_on": "2021-01-26",
     "extra": {
       "agent": "Hooke & MacDonald (Lettings)",
@@ -299,7 +299,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-17T16:55:59+00:00",
-    "date_scraped": "2026-11-26T17:46:30+00:00",
+    "date_scraped": "2026-11-26T22:20:18+00:00",
     "listed_on": "2026-10-09",
     "extra": {
       "agent": "Get Property Estate Agents",
@@ -355,7 +355,7 @@
     "available_from": "2027-01-05",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-26T17:48:03+00:00",
+    "date_scraped": "2026-11-26T22:21:52+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -419,7 +419,7 @@
     "available_from": "2027-01-12",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-26T17:49:25+00:00",
+    "date_scraped": "2026-11-26T22:23:03+00:00",
     "listed_on": null,
     "extra": {
       "size": "12 m²",
@@ -446,8 +446,8 @@
       "https://housinganywhere.com/room/ut1106519/ie/Dublin/royal-canal-terrace",
       "https://housinganywhere.com/room/ut1361546/ie/Dublin/royal-canal-terrace?page=4",
       "https://www.spotahome.com/dublin/for-rent:residences/997647",
-      "https://www.spotahome.com/dublin/for-rent:residences/997646",
       "https://www.spotahome.com/dublin/for-rent:residences/997648",
+      "https://www.spotahome.com/dublin/for-rent:residences/997646",
       "https://housinganywhere.com/room/ut1375643/ie/Dublin/royal-canal-terrace?page=5",
       "https://housinganywhere.com/room/ut1375638/ie/Dublin/royal-canal-terrace?page=5"
     ],
@@ -478,7 +478,7 @@
     "available_from": "2027-01-12",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-26T17:48:03+00:00",
+    "date_scraped": "2026-11-26T22:21:52+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -538,7 +538,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-26T17:46:30+00:00",
+    "date_scraped": "2026-11-26T22:20:18+00:00",
     "listed_on": "2026-08-10",
     "extra": {
       "agent": "Compass Rock",
@@ -579,8 +579,8 @@
   },
   {
     "source": "spotahome",
-    "source_id": "608344",
-    "url": "https://www.spotahome.com/dublin/for-rent:rooms/608344",
+    "source_id": "597205",
+    "url": "https://www.spotahome.com/dublin/for-rent:rooms/597205",
     "title": "Bed in a shared room for rent in Phibsborough, Dublin",
     "rent_monthly_eur": 693.0,
     "rent_text": "from €693 / month",
@@ -596,7 +596,7 @@
     "available_from": "2027-01-08",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-26T17:48:03+00:00",
+    "date_scraped": "2026-11-26T22:21:52+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -627,9 +627,9 @@
     "score": 56.4,
     "duplicate_group": "8854f4b778",
     "duplicate_urls": [
-      "https://www.spotahome.com/dublin/for-rent:rooms/609713",
-      "https://www.spotahome.com/dublin/for-rent:rooms/597205",
+      "https://www.spotahome.com/dublin/for-rent:rooms/608344",
       "https://www.spotahome.com/dublin/for-rent:rooms/608345",
+      "https://www.spotahome.com/dublin/for-rent:rooms/609713",
       "https://www.spotahome.com/dublin/for-rent:rooms/610046",
       "https://housinganywhere.com/room/ut1118216/ie/Dublin/blessington-street?page=3",
       "https://housinganywhere.com/room/ut1185375/ie/Dublin/blessington-street?page=6",
@@ -651,7 +651,7 @@
     "is_new": false,
     "contacted": false,
     "occupants": 4,
-    "uid": "spotahome:608344",
+    "uid": "spotahome:597205",
     "tier_label": "Shared accommodation"
   },
   {
@@ -673,7 +673,7 @@
     "available_from": "2026-11-26",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-26T17:48:03+00:00",
+    "date_scraped": "2026-11-26T22:21:52+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -734,7 +734,7 @@
     "available_from": "2026-11-26",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-26T17:48:03+00:00",
+    "date_scraped": "2026-11-26T22:21:52+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "all",
@@ -788,7 +788,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-17T02:28:55+00:00",
-    "date_scraped": "2026-11-26T17:46:30+00:00",
+    "date_scraped": "2026-11-26T22:20:18+00:00",
     "listed_on": "2026-11-16",
     "extra": {
       "agent": "Sherry FitzGerald Lettings Sheehy",
@@ -850,7 +850,7 @@
     "available_from": "2026-11-30",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-26T17:48:03+00:00",
+    "date_scraped": "2026-11-26T22:21:52+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -881,8 +881,8 @@
     "score": 54.8,
     "duplicate_group": "d3de65a6cb",
     "duplicate_urls": [
-      "https://www.spotahome.com/dublin/for-rent:rooms/606590",
       "https://www.spotahome.com/dublin/for-rent:rooms/267496",
+      "https://www.spotahome.com/dublin/for-rent:rooms/606590",
       "https://www.spotahome.com/dublin/for-rent:rooms/609681",
       "https://www.spotahome.com/dublin/for-rent:rooms/267501",
       "https://www.spotahome.com/dublin/for-rent:rooms/609648"
@@ -914,7 +914,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-26T17:46:30+00:00",
+    "date_scraped": "2026-11-26T22:20:18+00:00",
     "listed_on": "2026-10-30",
     "extra": {
       "agent": "Owen Reilly",
@@ -971,7 +971,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-26T17:46:30+00:00",
+    "date_scraped": "2026-11-26T22:20:18+00:00",
     "listed_on": "2025-11-14",
     "extra": {
       "agent": "Compass Rock",
@@ -1029,7 +1029,7 @@
     "available_from": "2026-12-04",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-26T17:48:03+00:00",
+    "date_scraped": "2026-11-26T22:21:52+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -1089,7 +1089,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-26T17:46:30+00:00",
+    "date_scraped": "2026-11-26T22:20:18+00:00",
     "listed_on": "2026-10-15",
     "extra": {
       "agent": "Sherry FitzGerald Lettings Sheehy",
@@ -1157,7 +1157,7 @@
     "available_from": "2027-01-12",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-26T17:48:03+00:00",
+    "date_scraped": "2026-11-26T22:21:52+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -1219,7 +1219,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-26T17:46:30+00:00",
+    "date_scraped": "2026-11-26T22:20:18+00:00",
     "listed_on": "2026-10-15",
     "extra": {
       "agent": "MOVEHOME ESTATE AGENTS",
@@ -1276,7 +1276,7 @@
     "available_from": "2026-11-26",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-26T17:48:03+00:00",
+    "date_scraped": "2026-11-26T22:21:52+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -1336,7 +1336,7 @@
     "available_from": "2026-12-01",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-26T17:49:25+00:00",
+    "date_scraped": "2026-11-26T22:23:03+00:00",
     "listed_on": null,
     "extra": {
       "size": "10 m²",
@@ -1386,7 +1386,7 @@
     "available_from": "2027-01-01",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-26T17:48:03+00:00",
+    "date_scraped": "2026-11-26T22:21:52+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -1427,8 +1427,8 @@
   },
   {
     "source": "spotahome",
-    "source_id": "227636",
-    "url": "https://www.spotahome.com/dublin/for-rent:rooms/227636",
+    "source_id": "392302",
+    "url": "https://www.spotahome.com/dublin/for-rent:rooms/392302",
     "title": "Bed in shared 4-bedroom flat for rent in Whitehall, Dublin",
     "rent_monthly_eur": 693.0,
     "rent_text": "from €693 / month",
@@ -1444,7 +1444,7 @@
     "available_from": "2027-01-08",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-26T17:48:03+00:00",
+    "date_scraped": "2026-11-26T22:21:52+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -1475,7 +1475,7 @@
     "score": 48.6,
     "duplicate_group": "70f81d2da8",
     "duplicate_urls": [
-      "https://www.spotahome.com/dublin/for-rent:rooms/392302",
+      "https://www.spotahome.com/dublin/for-rent:rooms/227636",
       "https://www.spotahome.com/dublin/for-rent:rooms/392301",
       "https://housinganywhere.com/room/ut1191017/ie/Dublin/the-rise?page=3",
       "https://housinganywhere.com/room/ut879941/ie/Dublin/the-rise?page=3",
@@ -1489,7 +1489,7 @@
     "is_new": false,
     "contacted": false,
     "occupants": 4,
-    "uid": "spotahome:227636",
+    "uid": "spotahome:392302",
     "tier_label": "Shared accommodation"
   },
   {
@@ -1511,7 +1511,7 @@
     "available_from": "2027-01-05",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-26T17:48:03+00:00",
+    "date_scraped": "2026-11-26T22:21:52+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -1569,7 +1569,7 @@
     "available_from": "2027-03-01",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-26T17:48:03+00:00",
+    "date_scraped": "2026-11-26T22:21:52+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -1625,7 +1625,7 @@
     "available_from": "2027-01-12",
     "available_to": null,
     "date_found": "2026-11-26T02:12:39+00:00",
-    "date_scraped": "2026-11-26T17:49:25+00:00",
+    "date_scraped": "2026-11-26T22:23:03+00:00",
     "listed_on": null,
     "extra": {
       "size": "13 m²",
@@ -1675,7 +1675,7 @@
     "available_from": "2027-04-30",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-26T17:48:03+00:00",
+    "date_scraped": "2026-11-26T22:21:52+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -1708,13 +1708,13 @@
     "score": 47.1,
     "duplicate_group": "4bc3141122",
     "duplicate_urls": [
-      "https://www.spotahome.com/dublin/for-rent:residences/997650",
       "https://www.spotahome.com/dublin/for-rent:residences/997652",
+      "https://www.spotahome.com/dublin/for-rent:residences/997651",
       "https://www.spotahome.com/dublin/for-rent:residences/997642",
       "https://www.spotahome.com/dublin/for-rent:residences/997643",
       "https://www.spotahome.com/dublin/for-rent:residences/997644",
       "https://www.spotahome.com/dublin/for-rent:residences/997645",
-      "https://www.spotahome.com/dublin/for-rent:residences/997651"
+      "https://www.spotahome.com/dublin/for-rent:residences/997650"
     ],
     "status": "active",
     "price_change": null,
@@ -1743,7 +1743,7 @@
     "available_from": "2026-12-01",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-26T17:48:03+00:00",
+    "date_scraped": "2026-11-26T22:21:52+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -1800,7 +1800,7 @@
     "available_from": "2027-01-12",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-26T17:48:03+00:00",
+    "date_scraped": "2026-11-26T22:21:52+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -1860,7 +1860,7 @@
     "available_from": "2027-03-29",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-26T17:48:03+00:00",
+    "date_scraped": "2026-11-26T22:21:52+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "none",
@@ -1923,7 +1923,7 @@
     "available_from": "2027-02-08",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-26T17:48:03+00:00",
+    "date_scraped": "2026-11-26T22:21:52+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -1986,7 +1986,7 @@
     "available_from": "2026-12-12",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-26T17:48:03+00:00",
+    "date_scraped": "2026-11-26T22:21:52+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "all",
@@ -2047,7 +2047,7 @@
     "available_from": "2027-01-15",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-26T17:48:03+00:00",
+    "date_scraped": "2026-11-26T22:21:52+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -2107,7 +2107,7 @@
     "available_from": "2027-01-15",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-26T17:49:25+00:00",
+    "date_scraped": "2026-11-26T22:23:03+00:00",
     "listed_on": null,
     "extra": {
       "size": "10 m²",
@@ -2158,10 +2158,10 @@
     "latitude": 53.33207,
     "longitude": -6.32408,
     "coords_approximate": false,
-    "available_from": "2026-11-26",
+    "available_from": "2026-11-27",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-26T17:48:03+00:00",
+    "date_scraped": "2026-11-26T22:21:52+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "none",
@@ -2215,7 +2215,7 @@
     "available_from": "2027-03-01",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-26T17:48:03+00:00",
+    "date_scraped": "2026-11-26T22:21:52+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -2271,7 +2271,7 @@
     "available_from": "2027-03-01",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-26T17:49:25+00:00",
+    "date_scraped": "2026-11-26T22:23:03+00:00",
     "listed_on": null,
     "extra": {
       "size": "15 m²",
@@ -2292,7 +2292,6 @@
     ],
     "notes": [
       "Price is per room – 4 rooms needed (assumes same price each)",
-      "Relisted (was removed 2026-11-20)",
       "Also advertised on: spotahome"
     ],
     "score": 42.1,
@@ -2328,7 +2327,7 @@
     "available_from": "2026-12-02",
     "available_to": null,
     "date_found": "2026-11-20T16:12:59+00:00",
-    "date_scraped": "2026-11-26T17:49:25+00:00",
+    "date_scraped": "2026-11-26T22:23:03+00:00",
     "listed_on": null,
     "extra": {
       "size": "18 m²",
@@ -2384,7 +2383,7 @@
     "available_from": "2027-02-02",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-26T17:48:03+00:00",
+    "date_scraped": "2026-11-26T22:21:52+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "all",
@@ -2441,7 +2440,7 @@
     "available_from": "2027-01-29",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-26T17:49:25+00:00",
+    "date_scraped": "2026-11-26T22:23:03+00:00",
     "listed_on": null,
     "extra": {
       "size": "15 m²",
@@ -2493,7 +2492,7 @@
     "available_from": "2027-03-04",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-26T17:48:03+00:00",
+    "date_scraped": "2026-11-26T22:21:52+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -2552,7 +2551,7 @@
     "available_from": "2027-02-09",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-26T17:48:03+00:00",
+    "date_scraped": "2026-11-26T22:21:52+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -2611,7 +2610,7 @@
     "available_from": "2027-03-03",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-26T17:48:03+00:00",
+    "date_scraped": "2026-11-26T22:21:52+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "all",
@@ -2672,7 +2671,7 @@
     "available_from": "2026-12-02",
     "available_to": null,
     "date_found": "2026-11-20T16:12:59+00:00",
-    "date_scraped": "2026-11-26T17:49:25+00:00",
+    "date_scraped": "2026-11-26T22:23:03+00:00",
     "listed_on": null,
     "extra": {
       "size": "26 m²",
@@ -2727,7 +2726,7 @@
     "available_from": "2027-01-02",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-26T17:48:03+00:00",
+    "date_scraped": "2026-11-26T22:21:52+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "all",
@@ -2782,7 +2781,7 @@
     "available_from": "2027-01-04",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-26T17:48:03+00:00",
+    "date_scraped": "2026-11-26T22:21:52+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -2837,7 +2836,7 @@
     "available_from": "2027-01-01",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-26T17:48:03+00:00",
+    "date_scraped": "2026-11-26T22:21:52+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -2892,7 +2891,7 @@
     "available_from": "2027-04-29",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-26T17:48:03+00:00",
+    "date_scraped": "2026-11-26T22:21:52+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "all",
@@ -2949,7 +2948,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-26T17:46:30+00:00",
+    "date_scraped": "2026-11-26T22:20:18+00:00",
     "listed_on": "2021-10-16",
     "extra": {
       "agent": "Greystar Europe",
@@ -3007,7 +3006,7 @@
     "available_from": "2027-02-02",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-26T17:49:25+00:00",
+    "date_scraped": "2026-11-26T22:23:03+00:00",
     "listed_on": null,
     "extra": {
       "size": "18 m²",
@@ -3063,7 +3062,7 @@
     "available_from": "2027-01-03",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-26T17:48:03+00:00",
+    "date_scraped": "2026-11-26T22:21:52+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -3125,7 +3124,7 @@
     "available_from": "2026-12-21",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-26T17:48:03+00:00",
+    "date_scraped": "2026-11-26T22:21:52+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -3164,62 +3163,6 @@
   },
   {
     "source": "spotahome",
-    "source_id": "1172830",
-    "url": "https://www.spotahome.com/dublin/for-rent:rooms/1172830",
-    "title": "Room for rent in 5-bedroom house in Ballybough, Dublin",
-    "rent_monthly_eur": 1100.0,
-    "rent_text": "from €1100 / month",
-    "address": "Ballybough Rd, D03 PP22, Dublin",
-    "bedrooms": 5,
-    "bathrooms": 2,
-    "property_type": "Room in shared property",
-    "description": "Rooms for rent in a furnished 5-bedroom house on Bllybough Road. The house is a very short walk to Croke Park and 10 minutes walking distance to the city centre.",
-    "accommodation": "shared",
-    "latitude": 53.35853,
-    "longitude": -6.24566,
-    "coords_approximate": false,
-    "available_from": "2027-01-01",
-    "available_to": null,
-    "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-26T17:48:03+00:00",
-    "listed_on": null,
-    "extra": {
-      "bills_included": "some",
-      "capacity": null,
-      "allows_permanent_contract": false,
-      "verified": true,
-      "price_is_from": true,
-      "flat_bedrooms": 5
-    },
-    "area": "Dublin 3",
-    "area_priority": 1,
-    "distances_km": {
-      "AWS Ballsbridge": 3.36,
-      "Dogpatch Labs": 1.13
-    },
-    "total_monthly_for_group_eur": 4400.0,
-    "cost_per_person_eur": 1100.0,
-    "tier": 3,
-    "within_budget": true,
-    "availability_flags": [],
-    "notes": [
-      "Price is per room – 4 rooms needed (assumes same price each)",
-      "Above the €4,000 target by about €400/month (within the stretch budget)",
-      "Spotahome shows a 'from' price; actual price can depend on dates"
-    ],
-    "score": 33.1,
-    "duplicate_group": null,
-    "duplicate_urls": [],
-    "status": "active",
-    "price_change": null,
-    "is_new": false,
-    "contacted": false,
-    "occupants": 4,
-    "uid": "spotahome:1172830",
-    "tier_label": "Shared accommodation"
-  },
-  {
-    "source": "spotahome",
     "source_id": "145529",
     "url": "https://www.spotahome.com/dublin/for-rent:rooms/145529",
     "title": "Light room in 4-bedroom apartment in Terenure, Dublin",
@@ -3237,7 +3180,7 @@
     "available_from": "2027-04-05",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-26T17:48:03+00:00",
+    "date_scraped": "2026-11-26T22:21:52+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "all",
@@ -3294,7 +3237,7 @@
     "available_from": "2027-01-01",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-26T17:48:03+00:00",
+    "date_scraped": "2026-11-26T22:21:52+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "all",
@@ -3349,7 +3292,7 @@
     "available_from": "2027-03-01",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-26T17:48:03+00:00",
+    "date_scraped": "2026-11-26T22:21:52+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -3389,8 +3332,8 @@
   },
   {
     "source": "spotahome",
-    "source_id": "1729677",
-    "url": "https://www.spotahome.com/dublin/for-rent:rooms/1729677",
+    "source_id": "1729676",
+    "url": "https://www.spotahome.com/dublin/for-rent:rooms/1729676",
     "title": "Bed in a room in a flat for rent, Cabra-Drumcondra, Dublin",
     "rent_monthly_eur": 693.0,
     "rent_text": "from €693 / month",
@@ -3403,10 +3346,10 @@
     "latitude": 53.37134,
     "longitude": -6.33157,
     "coords_approximate": false,
-    "available_from": "2027-02-14",
+    "available_from": "2027-02-02",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-26T17:48:03+00:00",
+    "date_scraped": "2026-11-26T22:21:52+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -3428,7 +3371,7 @@
     "tier": 3,
     "within_budget": true,
     "availability_flags": [
-      "Available only from 14 Feb 2027 (after 01 Jan 2027)"
+      "Available only from 02 Feb 2027 (after 01 Jan 2027)"
     ],
     "notes": [
       "Price is per room – 4 rooms needed (assumes same price each)",
@@ -3439,14 +3382,14 @@
     "score": 31.6,
     "duplicate_group": "62833b2510",
     "duplicate_urls": [
-      "https://www.spotahome.com/dublin/for-rent:rooms/1729676"
+      "https://www.spotahome.com/dublin/for-rent:rooms/1729677"
     ],
     "status": "active",
     "price_change": null,
     "is_new": false,
     "contacted": false,
     "occupants": 4,
-    "uid": "spotahome:1729677",
+    "uid": "spotahome:1729676",
     "tier_label": "Shared accommodation"
   },
   {
@@ -3468,7 +3411,7 @@
     "available_from": "2026-12-20",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-26T17:48:03+00:00",
+    "date_scraped": "2026-11-26T22:21:52+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -3528,7 +3471,7 @@
     "available_from": "2027-04-02",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-26T17:48:03+00:00",
+    "date_scraped": "2026-11-26T22:21:52+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "all",
@@ -3585,7 +3528,7 @@
     "available_from": "2027-01-19",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-26T17:48:03+00:00",
+    "date_scraped": "2026-11-26T22:21:52+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -3642,7 +3585,7 @@
     "available_from": "2027-03-01",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-26T17:48:03+00:00",
+    "date_scraped": "2026-11-26T22:21:52+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "all",
@@ -3699,7 +3642,7 @@
     "available_from": "2027-03-22",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-26T17:48:03+00:00",
+    "date_scraped": "2026-11-26T22:21:52+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -3758,7 +3701,7 @@
     "available_from": "2027-03-29",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-26T17:48:03+00:00",
+    "date_scraped": "2026-11-26T22:21:52+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "none",
@@ -3815,7 +3758,7 @@
     "available_from": "2027-02-25",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-26T17:48:03+00:00",
+    "date_scraped": "2026-11-26T22:21:52+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -3875,7 +3818,7 @@
     "available_from": "2026-12-02",
     "available_to": null,
     "date_found": "2026-11-20T16:12:59+00:00",
-    "date_scraped": "2026-11-26T17:48:03+00:00",
+    "date_scraped": "2026-11-26T22:21:52+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -3917,8 +3860,8 @@
   },
   {
     "source": "spotahome",
-    "source_id": "1430445",
-    "url": "https://www.spotahome.com/dublin/for-rent:rooms/1430445",
+    "source_id": "1430444",
+    "url": "https://www.spotahome.com/dublin/for-rent:rooms/1430444",
     "title": "Bed in a shared room for rent in Southside, Dublin",
     "rent_monthly_eur": 990.0,
     "rent_text": "from €990 / month",
@@ -3931,10 +3874,10 @@
     "latitude": 53.31629,
     "longitude": -6.29353,
     "coords_approximate": false,
-    "available_from": "2026-12-24",
+    "available_from": "2026-12-21",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-26T17:48:03+00:00",
+    "date_scraped": "2026-11-26T22:21:52+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "all",
@@ -3965,8 +3908,8 @@
     "score": 28.6,
     "duplicate_group": "01c7fd59bd",
     "duplicate_urls": [
+      "https://www.spotahome.com/dublin/for-rent:rooms/1430445",
       "https://www.spotahome.com/dublin/for-rent:rooms/1430443",
-      "https://www.spotahome.com/dublin/for-rent:rooms/1430444",
       "https://www.spotahome.com/dublin/for-rent:rooms/1430446"
     ],
     "status": "active",
@@ -3974,7 +3917,7 @@
     "is_new": false,
     "contacted": false,
     "occupants": 4,
-    "uid": "spotahome:1430445",
+    "uid": "spotahome:1430444",
     "tier_label": "Shared accommodation"
   },
   {
@@ -3996,7 +3939,7 @@
     "available_from": "2027-03-01",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-26T17:48:03+00:00",
+    "date_scraped": "2026-11-26T22:21:52+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "all",
@@ -4053,7 +3996,7 @@
     "available_from": "2027-04-11",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-26T17:48:03+00:00",
+    "date_scraped": "2026-11-26T22:21:52+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -4101,6 +4044,61 @@
   },
   {
     "source": "spotahome",
+    "source_id": "988977",
+    "url": "https://www.spotahome.com/dublin/for-rent:rooms/988977",
+    "title": "Room for rent in Ballymun-Whitehall, Dublin",
+    "rent_monthly_eur": 849.0,
+    "rent_text": "from €849 / month",
+    "address": "Carrig Rd, D11 EY8E, Dublin (Ballymun-Whitehall)",
+    "bedrooms": 4,
+    "bathrooms": 1,
+    "property_type": "Room in shared property",
+    "description": "Furnished room in a shared 4-bedroom apartment, suitable for professionals and students. Couples are allowed. The property has an equipped kitchen, a balcony or terrace, private washing machine and dryer, an oven, natural gas heating and parking. Smoking, pets and overnight guests are not allowed. The property has been checked by Spotahome. Located on Carrig Road in Ballymun-Whitehall, the property is close to restaurants including Caphe, Angelo's Takeaway and Jayan Management.",
+    "accommodation": "shared",
+    "latitude": 53.40033,
+    "longitude": -6.27642,
+    "coords_approximate": false,
+    "available_from": "2026-11-26",
+    "available_to": null,
+    "date_found": "2026-11-16T14:07:04+00:00",
+    "date_scraped": "2026-11-26T22:21:52+00:00",
+    "listed_on": null,
+    "extra": {
+      "bills_included": "some",
+      "capacity": null,
+      "allows_permanent_contract": false,
+      "verified": true,
+      "price_is_from": true,
+      "flat_bedrooms": 4
+    },
+    "area": "Dublin 11",
+    "area_priority": 0,
+    "distances_km": {
+      "AWS Ballsbridge": 8.42,
+      "Dogpatch Labs": 6.02
+    },
+    "total_monthly_for_group_eur": 3396.0,
+    "cost_per_person_eur": 849.0,
+    "tier": 3,
+    "within_budget": true,
+    "availability_flags": [],
+    "notes": [
+      "Price is per room – 4 rooms needed (assumes same price each)",
+      "Spotahome shows a 'from' price; actual price can depend on dates"
+    ],
+    "score": 28.1,
+    "duplicate_group": null,
+    "duplicate_urls": [],
+    "status": "active",
+    "price_change": null,
+    "is_new": false,
+    "contacted": false,
+    "occupants": 4,
+    "uid": "spotahome:988977",
+    "tier_label": "Shared accommodation"
+  },
+  {
+    "source": "spotahome",
     "source_id": "1489656",
     "url": "https://www.spotahome.com/dublin/for-rent:rooms/1489656",
     "title": "Bed in shared room for rent in Ballymun-Whitehall, Dublin.",
@@ -4118,7 +4116,7 @@
     "available_from": "2026-12-21",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-26T17:48:03+00:00",
+    "date_scraped": "2026-11-26T22:21:52+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -4158,63 +4156,6 @@
   },
   {
     "source": "spotahome",
-    "source_id": "988977",
-    "url": "https://www.spotahome.com/dublin/for-rent:rooms/988977",
-    "title": "Shared room for rent in Ballymun, Dublin (4 bedrooms)",
-    "rent_monthly_eur": 849.0,
-    "rent_text": "from €849 / month",
-    "address": "Carrig Rd, D11 EY8E, Dublin (Ballymun)",
-    "bedrooms": 4,
-    "bathrooms": 1,
-    "property_type": "Room in shared property",
-    "description": "This furnished room is in a shared 4-bedroom apartment with an equipped kitchen, oven, terrace, parking and a private washing machine. Natural gas heating is available. Couples are welcome, and the property is suitable for professionals and students. Pets and smoking are not allowed. This property has been checked by Spotahome.",
-    "accommodation": "shared",
-    "latitude": 53.40033,
-    "longitude": -6.27642,
-    "coords_approximate": false,
-    "available_from": "2026-11-26",
-    "available_to": null,
-    "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-26T17:48:03+00:00",
-    "listed_on": null,
-    "extra": {
-      "bills_included": "some",
-      "capacity": null,
-      "allows_permanent_contract": false,
-      "verified": true,
-      "price_is_from": true,
-      "flat_bedrooms": 4,
-      "bed_in_shared_room": true
-    },
-    "area": "Dublin 11",
-    "area_priority": 0,
-    "distances_km": {
-      "AWS Ballsbridge": 8.42,
-      "Dogpatch Labs": 6.02
-    },
-    "total_monthly_for_group_eur": 3396.0,
-    "cost_per_person_eur": 849.0,
-    "tier": 3,
-    "within_budget": true,
-    "availability_flags": [],
-    "notes": [
-      "Price is per room – 4 rooms needed (assumes same price each)",
-      "This is a bed in a shared bedroom",
-      "Spotahome shows a 'from' price; actual price can depend on dates"
-    ],
-    "score": 28.1,
-    "duplicate_group": null,
-    "duplicate_urls": [],
-    "status": "active",
-    "price_change": null,
-    "is_new": false,
-    "contacted": false,
-    "occupants": 4,
-    "uid": "spotahome:988977",
-    "tier_label": "Shared accommodation"
-  },
-  {
-    "source": "spotahome",
     "source_id": "746697",
     "url": "https://www.spotahome.com/dublin/for-rent:rooms/746697",
     "title": "Room in shared 5-bed apartment in Southside, Dublin",
@@ -4232,7 +4173,7 @@
     "available_from": "2027-02-01",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-26T17:48:03+00:00",
+    "date_scraped": "2026-11-26T22:21:52+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "all",
@@ -4292,7 +4233,7 @@
     "available_from": "2027-04-30",
     "available_to": null,
     "date_found": "2026-11-21T20:05:29+00:00",
-    "date_scraped": "2026-11-26T17:48:03+00:00",
+    "date_scraped": "2026-11-26T22:21:52+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -4357,7 +4298,7 @@
     "available_from": "2027-01-04",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-26T17:48:03+00:00",
+    "date_scraped": "2026-11-26T22:21:52+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "all",
@@ -4413,7 +4354,7 @@
     "available_from": "2027-03-01",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-26T17:48:03+00:00",
+    "date_scraped": "2026-11-26T22:21:52+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -4470,7 +4411,7 @@
     "available_from": "2027-05-01",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-26T17:48:03+00:00",
+    "date_scraped": "2026-11-26T22:21:52+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -4527,7 +4468,7 @@
     "available_from": "2027-04-30",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-26T17:48:03+00:00",
+    "date_scraped": "2026-11-26T22:21:52+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -4584,7 +4525,7 @@
     "available_from": "2027-04-01",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-26T17:48:03+00:00",
+    "date_scraped": "2026-11-26T22:21:52+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -4629,6 +4570,64 @@
   },
   {
     "source": "spotahome",
+    "source_id": "1172830",
+    "url": "https://www.spotahome.com/dublin/for-rent:rooms/1172830",
+    "title": "Room for rent in 5-bedroom house in Ballybough, Dublin",
+    "rent_monthly_eur": 1100.0,
+    "rent_text": "from €1100 / month",
+    "address": "Ballybough Rd, D03 PP22, Dublin",
+    "bedrooms": 5,
+    "bathrooms": 2,
+    "property_type": "Room in shared property",
+    "description": "Rooms for rent in a furnished 5-bedroom house on Bllybough Road. The house is a very short walk to Croke Park and 10 minutes walking distance to the city centre.",
+    "accommodation": "shared",
+    "latitude": 53.35853,
+    "longitude": -6.24566,
+    "coords_approximate": false,
+    "available_from": "2027-04-16",
+    "available_to": null,
+    "date_found": "2026-11-16T14:07:04+00:00",
+    "date_scraped": "2026-11-26T22:21:52+00:00",
+    "listed_on": null,
+    "extra": {
+      "bills_included": "some",
+      "capacity": null,
+      "allows_permanent_contract": false,
+      "verified": true,
+      "price_is_from": true,
+      "flat_bedrooms": 5
+    },
+    "area": "Dublin 3",
+    "area_priority": 1,
+    "distances_km": {
+      "AWS Ballsbridge": 3.36,
+      "Dogpatch Labs": 1.13
+    },
+    "total_monthly_for_group_eur": 4400.0,
+    "cost_per_person_eur": 1100.0,
+    "tier": 3,
+    "within_budget": true,
+    "availability_flags": [
+      "Available only from 16 Apr 2027 (after 01 Jan 2027)"
+    ],
+    "notes": [
+      "Price is per room – 4 rooms needed (assumes same price each)",
+      "Above the €4,000 target by about €400/month (within the stretch budget)",
+      "Spotahome shows a 'from' price; actual price can depend on dates"
+    ],
+    "score": 25.1,
+    "duplicate_group": null,
+    "duplicate_urls": [],
+    "status": "active",
+    "price_change": null,
+    "is_new": false,
+    "contacted": false,
+    "occupants": 4,
+    "uid": "spotahome:1172830",
+    "tier_label": "Shared accommodation"
+  },
+  {
+    "source": "spotahome",
     "source_id": "958802",
     "url": "https://www.spotahome.com/dublin/for-rent:residences/958802",
     "title": "Residence for rent in Phibsborough, Dublin",
@@ -4646,7 +4645,7 @@
     "available_from": "2027-04-01",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-26T17:48:03+00:00",
+    "date_scraped": "2026-11-26T22:21:52+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -4707,7 +4706,7 @@
     "available_from": "2027-02-02",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-26T17:48:03+00:00",
+    "date_scraped": "2026-11-26T22:21:52+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "all",
@@ -4764,7 +4763,7 @@
     "available_from": "2027-02-04",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-26T17:48:03+00:00",
+    "date_scraped": "2026-11-26T22:21:52+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -4821,7 +4820,7 @@
     "available_from": "2026-11-26",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-26T17:48:03+00:00",
+    "date_scraped": "2026-11-26T22:21:52+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "all",
@@ -4876,7 +4875,7 @@
     "available_from": "2027-04-11",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-26T17:48:03+00:00",
+    "date_scraped": "2026-11-26T22:21:52+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "all",
@@ -4936,7 +4935,7 @@
     "available_from": "2027-04-06",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-26T17:48:03+00:00",
+    "date_scraped": "2026-11-26T22:21:52+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -4997,7 +4996,7 @@
     "available_from": "2026-12-28",
     "available_to": null,
     "date_found": "2026-11-20T16:12:59+00:00",
-    "date_scraped": "2026-11-26T17:49:25+00:00",
+    "date_scraped": "2026-11-26T22:23:03+00:00",
     "listed_on": null,
     "extra": {
       "size": "18 m²",
@@ -5047,7 +5046,7 @@
     "available_from": "2027-05-01",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-26T17:48:03+00:00",
+    "date_scraped": "2026-11-26T22:21:52+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -5090,14 +5089,14 @@
     "source": "spotahome",
     "source_id": "988031",
     "url": "https://www.spotahome.com/dublin/for-rent:rooms/988031",
-    "title": "Shared room for rent in Ballymun, Dublin (4 bedrooms)",
+    "title": "Room for rent in Ballymun-Whitehall, Dublin",
     "rent_monthly_eur": 850.0,
     "rent_text": "from €850 / month",
-    "address": "Carrig Rd, D11 EY8E, Dublin (Ballymun)",
+    "address": "Carrig Rd, D11 EY8E, Dublin (Ballymun-Whitehall)",
     "bedrooms": 4,
     "bathrooms": 1,
     "property_type": "Room in shared property",
-    "description": "This furnished room is in a shared 4-bedroom apartment with an equipped kitchen, oven, terrace, parking and a private washing machine. Natural gas heating is available. Couples are welcome, and the property is suitable for professionals and students. Pets and smoking are not allowed. This property has been checked by Spotahome.",
+    "description": "Furnished room in a shared 4-bedroom apartment, suitable for professionals and students. Couples are allowed. The property has an equipped kitchen, a balcony or terrace, private washing machine and dryer, an oven, natural gas heating and parking. Smoking, pets and overnight guests are not allowed. The property has been checked by Spotahome. Located on Carrig Road in Ballymun-Whitehall, the property is close to restaurants including Caphe, Angelo's Takeaway and Jayan Management.",
     "accommodation": "shared",
     "latitude": 53.40033,
     "longitude": -6.27642,
@@ -5105,7 +5104,7 @@
     "available_from": "2027-04-01",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-26T17:48:03+00:00",
+    "date_scraped": "2026-11-26T22:21:52+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -5113,8 +5112,7 @@
       "allows_permanent_contract": false,
       "verified": true,
       "price_is_from": true,
-      "flat_bedrooms": 4,
-      "bed_in_shared_room": true
+      "flat_bedrooms": 4
     },
     "area": "Dublin 11",
     "area_priority": 0,
@@ -5131,7 +5129,6 @@
     ],
     "notes": [
       "Price is per room – 4 rooms needed (assumes same price each)",
-      "This is a bed in a shared bedroom",
       "Spotahome shows a 'from' price; actual price can depend on dates",
       "2 near-identical adverts merged"
     ],
@@ -5167,7 +5164,7 @@
     "available_from": "2027-04-01",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-26T17:48:03+00:00",
+    "date_scraped": "2026-11-26T22:21:52+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -5226,7 +5223,7 @@
     "available_from": "2027-04-09",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-26T17:48:03+00:00",
+    "date_scraped": "2026-11-26T22:21:52+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -5292,7 +5289,7 @@
     "available_from": "2026-12-26",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-26T17:48:03+00:00",
+    "date_scraped": "2026-11-26T22:21:52+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -5347,7 +5344,7 @@
     "available_from": "2027-04-01",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-26T17:48:03+00:00",
+    "date_scraped": "2026-11-26T22:21:52+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -5404,7 +5401,7 @@
     "available_from": "2026-12-04",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-26T17:48:03+00:00",
+    "date_scraped": "2026-11-26T22:21:52+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "none",
@@ -5460,7 +5457,7 @@
     "available_from": "2027-02-02",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-26T17:48:03+00:00",
+    "date_scraped": "2026-11-26T22:21:52+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -5519,7 +5516,7 @@
     "available_from": "2027-03-01",
     "available_to": null,
     "date_found": "2026-11-20T16:12:59+00:00",
-    "date_scraped": "2026-11-26T17:49:25+00:00",
+    "date_scraped": "2026-11-26T22:23:03+00:00",
     "listed_on": null,
     "extra": {
       "size": "18 m²",
