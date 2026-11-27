@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-11-27T02:10:26+00:00",
+  "run_at": "2026-11-27T21:57:41+00:00",
   "search": {
     "occupants": 4,
     "max_total_monthly_rent_eur": 4000,
@@ -10,32 +10,32 @@
     {
       "source": "myhome",
       "status": "ok",
-      "listings": 163,
+      "listings": 161,
       "pages_fetched": 11,
       "detail_pages_fetched": 12,
       "errors": [],
-      "message": "163 listings",
-      "duration_s": 98.5
+      "message": "161 listings",
+      "duration_s": 94.4
     },
     {
       "source": "spotahome",
       "status": "ok",
-      "listings": 771,
+      "listings": 774,
       "pages_fetched": 17,
       "detail_pages_fetched": 0,
       "errors": [],
-      "message": "771 listings",
-      "duration_s": 75.6
+      "message": "774 listings",
+      "duration_s": 76.6
     },
     {
       "source": "housinganywhere",
       "status": "ok",
-      "listings": 56,
+      "listings": 54,
       "pages_fetched": 7,
-      "detail_pages_fetched": 33,
+      "detail_pages_fetched": 35,
       "errors": [],
-      "message": "56 listings",
-      "duration_s": 168.1
+      "message": "54 listings",
+      "duration_s": 175.3
     },
     {
       "source": "daft",
@@ -50,7 +50,7 @@
         "https://www.daft.ie/sharing/dublin-4-dublin: __NEXT_DATA__ not found"
       ],
       "message": "0 listings",
-      "duration_s": 18.3
+      "duration_s": 17.3
     },
     {
       "source": "propertyie",
@@ -60,7 +60,7 @@
       "detail_pages_fetched": 0,
       "errors": [],
       "message": "https://www.property.ie/robots.txt returned a bot-protection challenge (HTTP 403)",
-      "duration_s": 0.1
+      "duration_s": 0.2
     },
     {
       "source": "rentie",
@@ -80,7 +80,7 @@
       "detail_pages_fetched": 0,
       "errors": [],
       "message": "Let.ie redirects to Daft.ie; listings are covered by the daft source",
-      "duration_s": 0.3
+      "duration_s": 0.5
     },
     {
       "source": "roomsforrent",
@@ -93,12 +93,12 @@
       "duration_s": 0.1
     }
   ],
-  "total_listings": 990,
+  "total_listings": 989,
   "shortlisted": 95,
-  "duplicate_groups": 109,
-  "new": 5,
-  "price_changes": 0,
-  "removed": 20,
-  "relisted": 12,
+  "duplicate_groups": 110,
+  "new": 14,
+  "price_changes": 1,
+  "removed": 16,
+  "relisted": 19,
   "contacted_hidden": 0
 }
