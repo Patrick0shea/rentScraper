@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-11-28T01:58:02+00:00",
+  "run_at": "2026-11-28T16:14:01+00:00",
   "search": {
     "occupants": 4,
     "max_total_monthly_rent_eur": 4000,
@@ -15,7 +15,7 @@
       "detail_pages_fetched": 12,
       "errors": [],
       "message": "161 listings",
-      "duration_s": 92.2
+      "duration_s": 93.4
     },
     {
       "source": "spotahome",
@@ -25,17 +25,17 @@
       "detail_pages_fetched": 0,
       "errors": [],
       "message": "773 listings",
-      "duration_s": 78.1
+      "duration_s": 69.6
     },
     {
       "source": "housinganywhere",
       "status": "ok",
       "listings": 54,
       "pages_fetched": 7,
-      "detail_pages_fetched": 35,
+      "detail_pages_fetched": 36,
       "errors": [],
       "message": "54 listings",
-      "duration_s": 168.4
+      "duration_s": 179.2
     },
     {
       "source": "daft",
@@ -50,7 +50,7 @@
         "https://www.daft.ie/sharing/dublin-4-dublin: __NEXT_DATA__ not found"
       ],
       "message": "0 listings",
-      "duration_s": 16.2
+      "duration_s": 15.9
     },
     {
       "source": "propertyie",
@@ -80,7 +80,7 @@
       "detail_pages_fetched": 0,
       "errors": [],
       "message": "Let.ie redirects to Daft.ie; listings are covered by the daft source",
-      "duration_s": 0.4
+      "duration_s": 0.6
     },
     {
       "source": "roomsforrent",
@@ -94,11 +94,11 @@
     }
   ],
   "total_listings": 988,
-  "shortlisted": 95,
-  "duplicate_groups": 109,
-  "new": 6,
+  "shortlisted": 96,
+  "duplicate_groups": 110,
+  "new": 4,
   "price_changes": 0,
-  "removed": 26,
-  "relisted": 6,
+  "removed": 21,
+  "relisted": 13,
   "contacted_hidden": 0
 }
