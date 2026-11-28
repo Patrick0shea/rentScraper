@@ -18,7 +18,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-27T21:57:41+00:00",
+    "date_scraped": "2026-11-28T01:58:02+00:00",
     "listed_on": "2026-10-22",
     "extra": {
       "agent": "Herbert & Lansdowne Estate Agents",
@@ -81,7 +81,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-20T16:12:59+00:00",
-    "date_scraped": "2026-11-27T21:57:41+00:00",
+    "date_scraped": "2026-11-28T01:58:02+00:00",
     "listed_on": "2026-11-20",
     "extra": {
       "agent": "Ray Cooke Auctioneers",
@@ -131,10 +131,10 @@
     "latitude": 53.3514,
     "longitude": -6.23581,
     "coords_approximate": false,
-    "available_from": "2026-11-27",
+    "available_from": "2026-11-28",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-27T21:59:16+00:00",
+    "date_scraped": "2026-11-28T01:59:35+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -188,7 +188,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-24T18:56:12+00:00",
-    "date_scraped": "2026-11-27T21:57:41+00:00",
+    "date_scraped": "2026-11-28T01:58:02+00:00",
     "listed_on": "2026-11-24",
     "extra": {
       "agent": "Owen Reilly",
@@ -243,7 +243,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-17T16:55:59+00:00",
-    "date_scraped": "2026-11-27T21:57:41+00:00",
+    "date_scraped": "2026-11-28T01:58:02+00:00",
     "listed_on": "2021-01-26",
     "extra": {
       "agent": "Hooke & MacDonald (Lettings)",
@@ -299,7 +299,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-17T16:55:59+00:00",
-    "date_scraped": "2026-11-27T21:57:41+00:00",
+    "date_scraped": "2026-11-28T01:58:02+00:00",
     "listed_on": "2026-10-09",
     "extra": {
       "agent": "Get Property Estate Agents",
@@ -355,7 +355,7 @@
     "available_from": "2027-01-05",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-27T21:59:16+00:00",
+    "date_scraped": "2026-11-28T01:59:35+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -418,7 +418,7 @@
     "available_from": "2027-01-12",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-27T22:00:32+00:00",
+    "date_scraped": "2026-11-28T02:00:53+00:00",
     "listed_on": null,
     "extra": {
       "size": "12 m²",
@@ -444,9 +444,9 @@
     "duplicate_urls": [
       "https://housinganywhere.com/room/ut1106519/ie/Dublin/royal-canal-terrace",
       "https://housinganywhere.com/room/ut1361546/ie/Dublin/royal-canal-terrace?page=4",
-      "https://www.spotahome.com/dublin/for-rent:residences/997647",
       "https://www.spotahome.com/dublin/for-rent:residences/997648",
-      "https://www.spotahome.com/dublin/for-rent:residences/997646"
+      "https://www.spotahome.com/dublin/for-rent:residences/997646",
+      "https://www.spotahome.com/dublin/for-rent:residences/997647"
     ],
     "status": "active",
     "price_change": null,
@@ -475,7 +475,7 @@
     "available_from": "2027-01-12",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-27T21:59:16+00:00",
+    "date_scraped": "2026-11-28T01:59:35+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -535,7 +535,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-27T21:57:41+00:00",
+    "date_scraped": "2026-11-28T01:58:02+00:00",
     "listed_on": "2026-08-10",
     "extra": {
       "agent": "Compass Rock",
@@ -593,7 +593,7 @@
     "available_from": "2027-01-08",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-27T21:59:16+00:00",
+    "date_scraped": "2026-11-28T01:59:35+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -624,21 +624,21 @@
     "score": 56.4,
     "duplicate_group": "4320365a4c",
     "duplicate_urls": [
-      "https://www.spotahome.com/dublin/for-rent:rooms/608344",
       "https://www.spotahome.com/dublin/for-rent:rooms/608345",
+      "https://www.spotahome.com/dublin/for-rent:rooms/608344",
       "https://www.spotahome.com/dublin/for-rent:rooms/609713",
       "https://www.spotahome.com/dublin/for-rent:rooms/610046",
       "https://housinganywhere.com/room/ut1118216/ie/Dublin/blessington-street?page=3",
       "https://housinganywhere.com/room/ut1185375/ie/Dublin/blessington-street?page=6",
       "https://housinganywhere.com/room/ut1091275/ie/Dublin/blessington-street?page=6",
       "https://www.spotahome.com/dublin/for-rent:rooms/597204",
+      "https://www.spotahome.com/dublin/for-rent:rooms/610045",
       "https://www.spotahome.com/dublin/for-rent:rooms/609716",
-      "https://www.spotahome.com/dublin/for-rent:rooms/597206",
       "https://www.spotahome.com/dublin/for-rent:rooms/597207",
       "https://www.spotahome.com/dublin/for-rent:rooms/597208",
       "https://www.spotahome.com/dublin/for-rent:rooms/609714",
       "https://www.spotahome.com/dublin/for-rent:rooms/609718",
-      "https://www.spotahome.com/dublin/for-rent:rooms/610045",
+      "https://www.spotahome.com/dublin/for-rent:rooms/597206",
       "https://www.spotahome.com/dublin/for-rent:rooms/597203",
       "https://www.spotahome.com/dublin/for-rent:rooms/609715",
       "https://www.spotahome.com/dublin/for-rent:rooms/609717",
@@ -668,10 +668,10 @@
     "latitude": 53.36265,
     "longitude": -6.27612,
     "coords_approximate": false,
-    "available_from": "2026-11-27",
+    "available_from": "2026-11-28",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-27T21:59:16+00:00",
+    "date_scraped": "2026-11-28T01:59:35+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -729,10 +729,10 @@
     "latitude": 53.34094,
     "longitude": -6.26497,
     "coords_approximate": false,
-    "available_from": "2026-11-27",
+    "available_from": "2026-11-28",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-27T21:59:16+00:00",
+    "date_scraped": "2026-11-28T01:59:35+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "all",
@@ -786,7 +786,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-17T02:28:55+00:00",
-    "date_scraped": "2026-11-27T21:57:41+00:00",
+    "date_scraped": "2026-11-28T01:58:02+00:00",
     "listed_on": "2026-11-16",
     "extra": {
       "agent": "Sherry FitzGerald Lettings Sheehy",
@@ -848,7 +848,7 @@
     "available_from": "2026-11-30",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-27T21:59:16+00:00",
+    "date_scraped": "2026-11-28T01:59:35+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -879,8 +879,8 @@
     "score": 54.8,
     "duplicate_group": "d3de65a6cb",
     "duplicate_urls": [
-      "https://www.spotahome.com/dublin/for-rent:rooms/606590",
       "https://www.spotahome.com/dublin/for-rent:rooms/267496",
+      "https://www.spotahome.com/dublin/for-rent:rooms/606590",
       "https://www.spotahome.com/dublin/for-rent:rooms/609681",
       "https://www.spotahome.com/dublin/for-rent:rooms/267501",
       "https://www.spotahome.com/dublin/for-rent:rooms/609648"
@@ -912,7 +912,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-27T21:57:41+00:00",
+    "date_scraped": "2026-11-28T01:58:02+00:00",
     "listed_on": "2026-10-30",
     "extra": {
       "agent": "Owen Reilly",
@@ -969,7 +969,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-27T21:57:41+00:00",
+    "date_scraped": "2026-11-28T01:58:02+00:00",
     "listed_on": "2025-11-14",
     "extra": {
       "agent": "Compass Rock",
@@ -1027,7 +1027,7 @@
     "available_from": "2026-12-04",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-27T21:59:16+00:00",
+    "date_scraped": "2026-11-28T01:59:35+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -1087,7 +1087,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-27T21:57:41+00:00",
+    "date_scraped": "2026-11-28T01:58:02+00:00",
     "listed_on": "2026-10-15",
     "extra": {
       "agent": "Sherry FitzGerald Lettings Sheehy",
@@ -1155,7 +1155,7 @@
     "available_from": "2027-01-12",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-27T21:59:16+00:00",
+    "date_scraped": "2026-11-28T01:59:35+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -1217,7 +1217,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-27T21:57:41+00:00",
+    "date_scraped": "2026-11-28T01:58:02+00:00",
     "listed_on": "2026-10-15",
     "extra": {
       "agent": "MOVEHOME ESTATE AGENTS",
@@ -1271,10 +1271,10 @@
     "latitude": 53.38403,
     "longitude": -6.23068,
     "coords_approximate": false,
-    "available_from": "2026-11-27",
+    "available_from": "2026-11-28",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-27T21:59:16+00:00",
+    "date_scraped": "2026-11-28T01:59:35+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -1334,7 +1334,7 @@
     "available_from": "2026-12-01",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-27T22:00:32+00:00",
+    "date_scraped": "2026-11-28T02:00:53+00:00",
     "listed_on": null,
     "extra": {
       "size": "10 m²",
@@ -1389,7 +1389,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-19T01:13:04+00:00",
-    "date_scraped": "2026-11-27T22:00:32+00:00",
+    "date_scraped": "2026-11-28T02:00:53+00:00",
     "listed_on": null,
     "extra": {
       "size": "13 m²",
@@ -1409,8 +1409,7 @@
       "Dates not stated in search data – check availability for Jan–May 2027 on the site"
     ],
     "notes": [
-      "Price is per room – 4 rooms needed (assumes same price each)",
-      "Relisted (was removed 2026-11-20)"
+      "Price is per room – 4 rooms needed (assumes same price each)"
     ],
     "score": 49.2,
     "duplicate_group": null,
@@ -1442,7 +1441,7 @@
     "available_from": "2027-01-01",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-27T21:59:16+00:00",
+    "date_scraped": "2026-11-28T01:59:35+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -1500,7 +1499,7 @@
     "available_from": "2027-01-08",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-27T21:59:16+00:00",
+    "date_scraped": "2026-11-28T01:59:35+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -1535,8 +1534,8 @@
       "https://www.spotahome.com/dublin/for-rent:rooms/392301",
       "https://housinganywhere.com/room/ut1191017/ie/Dublin/the-rise?page=3",
       "https://housinganywhere.com/room/ut879941/ie/Dublin/the-rise?page=3",
-      "https://www.spotahome.com/dublin/for-rent:rooms/226699",
       "https://www.spotahome.com/dublin/for-rent:rooms/227639",
+      "https://www.spotahome.com/dublin/for-rent:rooms/226699",
       "https://www.spotahome.com/dublin/for-rent:rooms/394336",
       "https://housinganywhere.com/room/ut1157935/ie/Dublin/the-rise?page=3"
     ],
@@ -1567,7 +1566,7 @@
     "available_from": "2027-01-05",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-27T21:59:16+00:00",
+    "date_scraped": "2026-11-28T01:59:35+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -1625,7 +1624,7 @@
     "available_from": "2027-03-01",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-27T21:59:16+00:00",
+    "date_scraped": "2026-11-28T01:59:35+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -1681,7 +1680,7 @@
     "available_from": "2027-01-12",
     "available_to": null,
     "date_found": "2026-11-26T02:12:39+00:00",
-    "date_scraped": "2026-11-27T22:00:32+00:00",
+    "date_scraped": "2026-11-28T02:00:53+00:00",
     "listed_on": null,
     "extra": {
       "size": "13 m²",
@@ -1731,7 +1730,7 @@
     "available_from": "2026-12-01",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-27T21:59:16+00:00",
+    "date_scraped": "2026-11-28T01:59:35+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -1788,7 +1787,7 @@
     "available_from": "2027-01-12",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-27T21:59:16+00:00",
+    "date_scraped": "2026-11-28T01:59:35+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -1848,7 +1847,7 @@
     "available_from": "2027-03-29",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-27T21:59:16+00:00",
+    "date_scraped": "2026-11-28T01:59:35+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "none",
@@ -1911,7 +1910,7 @@
     "available_from": "2027-02-08",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-27T21:59:16+00:00",
+    "date_scraped": "2026-11-28T01:59:35+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -1974,7 +1973,7 @@
     "available_from": "2026-12-12",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-27T21:59:16+00:00",
+    "date_scraped": "2026-11-28T01:59:35+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "all",
@@ -2035,7 +2034,7 @@
     "available_from": "2027-01-15",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-27T21:59:16+00:00",
+    "date_scraped": "2026-11-28T01:59:35+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -2095,7 +2094,7 @@
     "available_from": "2027-01-15",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-27T22:00:32+00:00",
+    "date_scraped": "2026-11-28T02:00:53+00:00",
     "listed_on": null,
     "extra": {
       "size": "10 m²",
@@ -2146,10 +2145,10 @@
     "latitude": 53.33207,
     "longitude": -6.32408,
     "coords_approximate": false,
-    "available_from": "2026-11-27",
+    "available_from": "2026-11-28",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-27T21:59:16+00:00",
+    "date_scraped": "2026-11-28T01:59:35+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "none",
@@ -2203,7 +2202,7 @@
     "available_from": "2027-03-01",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-27T21:59:16+00:00",
+    "date_scraped": "2026-11-28T01:59:35+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -2259,7 +2258,7 @@
     "available_from": "2027-03-25",
     "available_to": null,
     "date_found": "2026-11-18T01:36:42+00:00",
-    "date_scraped": "2026-11-27T22:00:32+00:00",
+    "date_scraped": "2026-11-28T02:00:53+00:00",
     "listed_on": null,
     "extra": {
       "size": "14 m²",
@@ -2279,8 +2278,7 @@
       "Available only from 25 Mar 2027 (after 01 Jan 2027)"
     ],
     "notes": [
-      "Price is per room – 4 rooms needed (assumes same price each)",
-      "Relisted (was removed 2026-11-20)"
+      "Price is per room – 4 rooms needed (assumes same price each)"
     ],
     "score": 43.4,
     "duplicate_group": null,
@@ -2312,7 +2310,7 @@
     "available_from": "2027-03-01",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-27T22:00:32+00:00",
+    "date_scraped": "2026-11-28T02:00:53+00:00",
     "listed_on": null,
     "extra": {
       "size": "15 m²",
@@ -2369,7 +2367,7 @@
     "available_from": "2026-12-02",
     "available_to": null,
     "date_found": "2026-11-27T21:57:41+00:00",
-    "date_scraped": "2026-11-27T22:00:32+00:00",
+    "date_scraped": "2026-11-28T02:00:53+00:00",
     "listed_on": null,
     "extra": {
       "size": "14 m²",
@@ -2401,7 +2399,7 @@
     ],
     "status": "active",
     "price_change": null,
-    "is_new": true,
+    "is_new": false,
     "contacted": false,
     "occupants": 4,
     "uid": "housinganywhere:ut1756160",
@@ -2426,7 +2424,7 @@
     "available_from": "2027-02-02",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-27T21:59:16+00:00",
+    "date_scraped": "2026-11-28T01:59:35+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "all",
@@ -2483,7 +2481,7 @@
     "available_from": "2027-01-29",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-27T22:00:32+00:00",
+    "date_scraped": "2026-11-28T02:00:53+00:00",
     "listed_on": null,
     "extra": {
       "size": "15 m²",
@@ -2535,7 +2533,7 @@
     "available_from": "2027-03-04",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-27T21:59:16+00:00",
+    "date_scraped": "2026-11-28T01:59:35+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -2594,7 +2592,7 @@
     "available_from": "2027-02-09",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-27T21:59:16+00:00",
+    "date_scraped": "2026-11-28T01:59:35+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -2653,7 +2651,7 @@
     "available_from": "2027-03-03",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-27T21:59:16+00:00",
+    "date_scraped": "2026-11-28T01:59:35+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "all",
@@ -2714,7 +2712,7 @@
     "available_from": "2026-12-02",
     "available_to": null,
     "date_found": "2026-11-20T16:12:59+00:00",
-    "date_scraped": "2026-11-27T22:00:32+00:00",
+    "date_scraped": "2026-11-28T02:00:53+00:00",
     "listed_on": null,
     "extra": {
       "size": "26 m²",
@@ -2769,7 +2767,7 @@
     "available_from": "2027-01-02",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-27T21:59:16+00:00",
+    "date_scraped": "2026-11-28T01:59:35+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "all",
@@ -2824,7 +2822,7 @@
     "available_from": "2027-01-04",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-27T21:59:16+00:00",
+    "date_scraped": "2026-11-28T01:59:35+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -2876,10 +2874,10 @@
     "latitude": 53.40033,
     "longitude": -6.27642,
     "coords_approximate": false,
-    "available_from": "2026-11-27",
+    "available_from": "2026-11-28",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-27T21:59:16+00:00",
+    "date_scraped": "2026-11-28T01:59:35+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -2908,7 +2906,7 @@
     "duplicate_group": null,
     "duplicate_urls": [],
     "status": "active",
-    "price_change": "€849 → €739 (−€110)",
+    "price_change": null,
     "is_new": false,
     "contacted": false,
     "occupants": 4,
@@ -2934,7 +2932,7 @@
     "available_from": "2027-01-01",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-27T21:59:16+00:00",
+    "date_scraped": "2026-11-28T01:59:35+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -2989,7 +2987,7 @@
     "available_from": "2027-04-29",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-27T21:59:16+00:00",
+    "date_scraped": "2026-11-28T01:59:35+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "all",
@@ -3046,7 +3044,7 @@
     "available_from": null,
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-27T21:57:41+00:00",
+    "date_scraped": "2026-11-28T01:58:02+00:00",
     "listed_on": "2021-10-16",
     "extra": {
       "agent": "Greystar Europe",
@@ -3104,7 +3102,7 @@
     "available_from": "2027-02-02",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-27T22:00:32+00:00",
+    "date_scraped": "2026-11-28T02:00:53+00:00",
     "listed_on": null,
     "extra": {
       "size": "18 m²",
@@ -3160,7 +3158,7 @@
     "available_from": "2027-01-03",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-27T21:59:16+00:00",
+    "date_scraped": "2026-11-28T01:59:35+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -3222,7 +3220,7 @@
     "available_from": "2026-12-21",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-27T21:59:16+00:00",
+    "date_scraped": "2026-11-28T01:59:35+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -3278,7 +3276,7 @@
     "available_from": "2027-01-01",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-27T21:59:16+00:00",
+    "date_scraped": "2026-11-28T01:59:35+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -3334,7 +3332,7 @@
     "available_from": "2027-04-05",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-27T21:59:16+00:00",
+    "date_scraped": "2026-11-28T01:59:35+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "all",
@@ -3391,7 +3389,7 @@
     "available_from": "2027-01-01",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-27T21:59:16+00:00",
+    "date_scraped": "2026-11-28T01:59:35+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "all",
@@ -3446,7 +3444,7 @@
     "available_from": "2027-03-01",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-27T21:59:16+00:00",
+    "date_scraped": "2026-11-28T01:59:35+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -3503,7 +3501,7 @@
     "available_from": "2027-02-02",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-27T21:59:16+00:00",
+    "date_scraped": "2026-11-28T01:59:35+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -3565,7 +3563,7 @@
     "available_from": "2026-12-20",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-27T21:59:16+00:00",
+    "date_scraped": "2026-11-28T01:59:35+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -3625,7 +3623,7 @@
     "available_from": "2027-04-02",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-27T21:59:16+00:00",
+    "date_scraped": "2026-11-28T01:59:35+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "all",
@@ -3682,7 +3680,7 @@
     "available_from": "2027-01-19",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-27T21:59:16+00:00",
+    "date_scraped": "2026-11-28T01:59:35+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -3739,7 +3737,7 @@
     "available_from": "2027-03-01",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-27T21:59:16+00:00",
+    "date_scraped": "2026-11-28T01:59:35+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "all",
@@ -3796,7 +3794,7 @@
     "available_from": "2027-03-22",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-27T21:59:16+00:00",
+    "date_scraped": "2026-11-28T01:59:35+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -3855,7 +3853,7 @@
     "available_from": "2027-03-29",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-27T21:59:16+00:00",
+    "date_scraped": "2026-11-28T01:59:35+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "none",
@@ -3912,7 +3910,7 @@
     "available_from": "2027-02-25",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-27T21:59:16+00:00",
+    "date_scraped": "2026-11-28T01:59:35+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -3969,7 +3967,7 @@
     "available_from": "2026-12-02",
     "available_to": null,
     "date_found": "2026-11-20T16:12:59+00:00",
-    "date_scraped": "2026-11-27T21:59:16+00:00",
+    "date_scraped": "2026-11-28T01:59:35+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -4027,7 +4025,7 @@
     "available_from": "2026-12-21",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-27T21:59:16+00:00",
+    "date_scraped": "2026-11-28T01:59:35+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "all",
@@ -4089,7 +4087,7 @@
     "available_from": "2027-03-01",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-27T21:59:16+00:00",
+    "date_scraped": "2026-11-28T01:59:35+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "all",
@@ -4146,7 +4144,7 @@
     "available_from": "2027-04-11",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-27T21:59:16+00:00",
+    "date_scraped": "2026-11-28T01:59:35+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -4180,9 +4178,9 @@
     "duplicate_urls": [
       "https://www.spotahome.com/dublin/for-rent:rooms/1538193",
       "https://www.spotahome.com/dublin/for-rent:rooms/1538196",
-      "https://www.spotahome.com/dublin/for-rent:rooms/1538197",
       "https://www.spotahome.com/dublin/for-rent:rooms/1538198",
-      "https://www.spotahome.com/dublin/for-rent:rooms/1538194"
+      "https://www.spotahome.com/dublin/for-rent:rooms/1538194",
+      "https://www.spotahome.com/dublin/for-rent:rooms/1538197"
     ],
     "status": "active",
     "price_change": null,
@@ -4211,7 +4209,7 @@
     "available_from": "2026-12-21",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-27T21:59:16+00:00",
+    "date_scraped": "2026-11-28T01:59:35+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -4268,7 +4266,7 @@
     "available_from": "2027-02-01",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-27T21:59:16+00:00",
+    "date_scraped": "2026-11-28T01:59:35+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "all",
@@ -4328,7 +4326,7 @@
     "available_from": "2027-04-29",
     "available_to": null,
     "date_found": "2026-11-21T20:05:29+00:00",
-    "date_scraped": "2026-11-27T21:59:16+00:00",
+    "date_scraped": "2026-11-28T01:59:35+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -4393,7 +4391,7 @@
     "available_from": "2027-01-04",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-27T21:59:16+00:00",
+    "date_scraped": "2026-11-28T01:59:35+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "all",
@@ -4449,7 +4447,7 @@
     "available_from": "2027-03-01",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-27T21:59:16+00:00",
+    "date_scraped": "2026-11-28T01:59:35+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -4506,7 +4504,7 @@
     "available_from": "2027-05-01",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-27T21:59:16+00:00",
+    "date_scraped": "2026-11-28T01:59:35+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -4563,7 +4561,7 @@
     "available_from": "2027-04-30",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-27T21:59:16+00:00",
+    "date_scraped": "2026-11-28T01:59:35+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -4620,7 +4618,7 @@
     "available_from": "2027-04-01",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-27T21:59:16+00:00",
+    "date_scraped": "2026-11-28T01:59:35+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -4682,7 +4680,7 @@
     "available_from": "2027-02-02",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-27T21:59:16+00:00",
+    "date_scraped": "2026-11-28T01:59:35+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "all",
@@ -4739,7 +4737,7 @@
     "available_from": "2027-04-01",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-27T21:59:16+00:00",
+    "date_scraped": "2026-11-28T01:59:35+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -4800,7 +4798,7 @@
     "available_from": "2027-02-02",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-27T21:59:16+00:00",
+    "date_scraped": "2026-11-28T01:59:35+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "all",
@@ -4857,7 +4855,7 @@
     "available_from": "2027-02-04",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-27T21:59:16+00:00",
+    "date_scraped": "2026-11-28T01:59:35+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -4911,10 +4909,10 @@
     "latitude": 53.36989,
     "longitude": -6.31402,
     "coords_approximate": false,
-    "available_from": "2026-11-27",
+    "available_from": "2026-11-28",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-27T21:59:16+00:00",
+    "date_scraped": "2026-11-28T01:59:35+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "all",
@@ -4969,7 +4967,7 @@
     "available_from": "2027-04-06",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-27T21:59:16+00:00",
+    "date_scraped": "2026-11-28T01:59:35+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -5030,7 +5028,7 @@
     "available_from": "2026-12-28",
     "available_to": null,
     "date_found": "2026-11-20T16:12:59+00:00",
-    "date_scraped": "2026-11-27T22:00:32+00:00",
+    "date_scraped": "2026-11-28T02:00:53+00:00",
     "listed_on": null,
     "extra": {
       "size": "18 m²",
@@ -5080,7 +5078,7 @@
     "available_from": "2027-05-01",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-27T21:59:16+00:00",
+    "date_scraped": "2026-11-28T01:59:35+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -5138,7 +5136,7 @@
     "available_from": "2027-04-01",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-27T21:59:16+00:00",
+    "date_scraped": "2026-11-28T01:59:35+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -5198,7 +5196,7 @@
     "available_from": "2027-04-01",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-27T21:59:16+00:00",
+    "date_scraped": "2026-11-28T01:59:35+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -5257,7 +5255,7 @@
     "available_from": "2026-12-26",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-27T21:59:16+00:00",
+    "date_scraped": "2026-11-28T01:59:35+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -5312,7 +5310,7 @@
     "available_from": "2027-04-01",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-27T21:59:16+00:00",
+    "date_scraped": "2026-11-28T01:59:35+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -5369,7 +5367,7 @@
     "available_from": "2026-12-04",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-27T21:59:16+00:00",
+    "date_scraped": "2026-11-28T01:59:35+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "none",
@@ -5425,7 +5423,7 @@
     "available_from": "2027-02-02",
     "available_to": null,
     "date_found": "2026-11-16T14:07:04+00:00",
-    "date_scraped": "2026-11-27T21:59:16+00:00",
+    "date_scraped": "2026-11-28T01:59:35+00:00",
     "listed_on": null,
     "extra": {
       "bills_included": "some",
@@ -5484,7 +5482,7 @@
     "available_from": "2027-03-01",
     "available_to": null,
     "date_found": "2026-11-20T16:12:59+00:00",
-    "date_scraped": "2026-11-27T22:00:32+00:00",
+    "date_scraped": "2026-11-28T02:00:53+00:00",
     "listed_on": null,
     "extra": {
       "size": "18 m²",
